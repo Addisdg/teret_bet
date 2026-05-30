@@ -2,24 +2,40 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
+import 'package:hive/hive.dart';
 
 import '../models/story_model.dart';
 import '../models/story_page_model.dart';
 
 class StoryService {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
+  final Box _cache = Hive.box('story_cache');
 
   Future<List<Story>> fetchStories() async {
     try {
       final snapshot = await _db.collection('stories').get();
 
       if (snapshot.docs.isNotEmpty) {
-        return snapshot.docs.map((doc) {
-          return Story.fromFirestore(doc.data(), doc.id);
+        final storyMaps = snapshot.docs.map((doc) {
+          return {'id': doc.id, ...doc.data()};
         }).toList();
+
+        await _cache.put('stories', jsonEncode(storyMaps));
+
+        return storyMaps.map(Story.fromJson).toList();
       }
     } catch (_) {
-      // If Firestore fails, fall back to local JSON assets.
+      // Firestore failed, try cache next.
+    }
+
+    final cachedStories = _cache.get('stories');
+
+    if (cachedStories != null) {
+      final decoded = jsonDecode(cachedStories as String) as List;
+
+      return decoded
+          .map((item) => Story.fromJson(Map<String, dynamic>.from(item)))
+          .toList();
     }
 
     return _fetchStoriesFromAssets();
@@ -35,12 +51,25 @@ class StoryService {
           .get();
 
       if (snapshot.docs.isNotEmpty) {
-        return snapshot.docs.map((doc) {
-          return StoryPage.fromMap(doc.data());
-        }).toList();
+        final pageMaps = snapshot.docs.map((doc) => doc.data()).toList();
+
+        await _cache.put('pages_$storyId', jsonEncode(pageMaps));
+
+        return pageMaps.map(StoryPage.fromMap).toList();
       }
     } catch (_) {
-      // If Firestore fails, fall back to local JSON assets.
+      // Firestore failed, try cache next.
+    }
+
+    final cachedPages = _cache.get('pages_$storyId');
+
+    if (cachedPages != null) {
+      final decoded = jsonDecode(cachedPages as String) as List;
+
+      return decoded
+          .map((item) => StoryPage.fromMap(Map<String, dynamic>.from(item)))
+          .toList()
+        ..sort((a, b) => a.pageNumber.compareTo(b.pageNumber));
     }
 
     return _fetchStoryPagesFromAssets(storyId);
