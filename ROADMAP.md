@@ -8,15 +8,18 @@
 * Local JSON fallback
 * Hive caching
 * First story
+* Multiple local JSON stories
+* Reading progress persistence
+* Settings screen with font size control
+* StoryRepository, FirestoreStoryService, and LocalStoryService split
 
 ## Next
 
 ### Phase 1
 
-* Multiple stories
 * Better illustrations
-* Reading progress persistence
-* Settings screen
+* More polished reader controls
+* More local story content
 
 ### Phase 2
 

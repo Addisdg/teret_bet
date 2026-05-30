@@ -40,14 +40,18 @@ Implemented:
 * Firestore story loading
 * Local JSON fallback
 * Hive caching
+* Multiple local JSON story assets
 * Story library screen
 * Story details screen
 * Page-based story reader
 * Reading progress UI
+* Reading progress persistence
+* Settings screen with font size control
 
 Current sample story:
 
 * little_rabbit
+* brave_tortoise
 
 Story content is stored in:
 
@@ -66,6 +70,18 @@ stories/{storyId}/pages/{pageId}
 * Illustration-first experience
 * Offline-first architecture
 * Easy content management
+
+## Current Content Pipeline
+
+Story loading keeps this priority order:
+
+1. Firestore
+2. Hive cache
+3. Local JSON assets
+
+`StoryRepository` owns the fallback chain. `FirestoreStoryService` reads cloud
+content, and `LocalStoryService` reads every JSON file in `assets/stories/` so
+new local fallback stories appear in the library automatically.
 
 ## Long-Term Goals
 

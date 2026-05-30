@@ -10,7 +10,9 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Amharic-first UI
 - Firebase Firestore integration
 - Cached network images
-- Prepared for offline support with Hive
+- Hive story cache and reading progress
+- Local JSON fallback with multiple story assets
+- Settings screen with reader font size control
 
 ## Tech Stack
 
@@ -18,7 +20,7 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Firebase Firestore
 - Provider for state management
 - Cached Network Image
-- Hive planned for full offline story caching
+- Hive for offline story caching, reading progress, and settings
 
 ## Project Structure
 
@@ -34,14 +36,40 @@ lib/
         │   ├── models/
         │   │   ├── story_model.dart
         │   │   └── story_page_model.dart
+        │   ├── repositories/
+        │   │   └── story_repository.dart
         │   └── services/
-        │       └── story_service.dart
+        │       ├── firestore_story_service.dart
+        │       └── local_story_service.dart
         └── presentation/
             ├── providers/
+            │   ├── settings_provider.dart
             │   └── story_provider.dart
             ├── screens/
             │   ├── home_screen.dart
+            │   ├── settings_screen.dart
             │   ├── story_details_screen.dart
             │   └── story_reader_screen.dart
             └── widgets/
                 └── story_card.dart
+```
+
+## Story Loading
+
+The app keeps the MVP fallback order simple:
+
+1. Load stories from Firestore.
+2. If Firestore is unavailable, load the last Hive cache.
+3. If no cache exists, load every JSON file in `assets/stories/`.
+
+To add a local fallback story, add a new `.json` file to `assets/stories/`.
+`LocalStoryService` reads the asset manifest, so the library discovers the file
+automatically.
+
+## Reading Progress And Settings
+
+The reader saves the last opened page for each story in Hive. When the story is
+opened again, it starts from that saved page.
+
+Reader font size is also stored in Hive from the Settings screen. The language
+toggle is shown as a disabled placeholder for a future multilingual release.

@@ -1,0 +1,47 @@
+{
+  "id": "brave_tortoise",
+  "titleAm": "ደፋሯ ኤሊ",
+  "titleEn": "The Brave Tortoise",
+  "summaryAm": "ስለ ትዕግሥት፣ ድፍረት እና ጓደኞችን መርዳት የሚናገር ቀላል ታሪክ።",
+  "coverImage": "https://placehold.co/800x600/png?text=Brave+Tortoise",
+  "ageMin": 3,
+  "ageMax": 6,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንዲት ትንሽ ኤሊ በወንዝ አጠገብ በቀስታ ትጓዝ ነበር። እሷ ቀስ ብላ ብትጓዝም ሁልጊዜ በደስታ ትሞላ ነበር።",
+      "textEn": "A little tortoise walked slowly near the river.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+1"
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ቀን ትንሽ ዝንጀሮ ከዛፍ ላይ ወርዶ ወደ ወንዙ በፍጥነት ሮጠ። ነገር ግን የእርሱ ኳስ ወደ ውሃ ወደቀ።",
+      "textEn": "One day, a little monkey dropped his ball into the river.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+2"
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ዝንጀሮው “ኳሴን አጣሁ!” ብሎ አለቀሰ። ኤሊዋ ግን በርኅራኄ “አትፍራ፣ እኔ እረዳሃለሁ” አለችው።",
+      "textEn": "Do not be afraid, said the tortoise. I will help you.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+3"
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ኤሊዋ በቀስታ ወደ ውሃው ገባች። እጅግ ብትቀርብም አልተጣደፈችም፤ በትዕግሥት ኳሱን ፈለገች።",
+      "textEn": "The tortoise went into the water and patiently looked for the ball.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+4"
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ብዙም ሳይቆይ ኳሱን አገኘችው። ዝንጀሮው በደስታ ዘለለና “አመሰግናለሁ፣ ደፋር ጓደኛዬ!” አለ።",
+      "textEn": "Soon she found the ball, and the monkey thanked his brave friend.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+5"
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከዚያ ቀን በኋላ ሁሉም እንስሳት ኤሊዋን አከበሩ። እሷም ትንሽ ብትሆንም ደፋር ልብ እንዳላት አወቀች።",
+      "textEn": "After that day, everyone knew the little tortoise had a brave heart.",
+      "imageUrl": "https://placehold.co/800x600/png?text=Tortoise+Page+6"
+    }
+  ]
+}

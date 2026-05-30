@@ -1,9 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../../data/repositories/story_repository.dart';
 import '../../data/models/story_model.dart';
 import '../../data/models/story_page_model.dart';
-import '../../data/services/story_service.dart';
+import '../providers/settings_provider.dart';
 
 class StoryReaderScreen extends StatefulWidget {
   final Story story;
@@ -18,9 +20,9 @@ class StoryReaderScreen extends StatefulWidget {
 }
 
 class _StoryReaderScreenState extends State<StoryReaderScreen> {
-  final StoryService _storyService = StoryService();
-  final PageController _pageController = PageController();
+  final StoryRepository _storyRepository = StoryRepository();
 
+  PageController? _pageController;
   List<StoryPage> _pages = [];
   bool _isLoading = true;
   int _currentPageIndex = 0;
@@ -32,17 +34,28 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   }
 
   Future<void> _loadPages() async {
-    final pages = await _storyService.fetchStoryPages(widget.story.id);
+    final pages = await _storyRepository.fetchStoryPages(widget.story.id);
+    final savedPageIndex = await _storyRepository.getLastReadPageIndex(
+      widget.story.id,
+    );
+    final safePageIndex =
+        pages.isEmpty ? 0 : savedPageIndex.clamp(0, pages.length - 1).toInt();
+
+    if (!mounted) {
+      return;
+    }
 
     setState(() {
       _pages = pages;
+      _currentPageIndex = safePageIndex;
+      _pageController = PageController(initialPage: safePageIndex);
       _isLoading = false;
     });
   }
 
   void _goNext() {
     if (_currentPageIndex < _pages.length - 1) {
-      _pageController.nextPage(
+      _pageController?.nextPage(
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
       );
@@ -51,7 +64,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
 
   void _goBack() {
     if (_currentPageIndex > 0) {
-      _pageController.previousPage(
+      _pageController?.previousPage(
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
       );
@@ -59,7 +72,15 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   }
 
   @override
+  void dispose() {
+    _pageController?.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final settings = Provider.of<SettingsProvider>(context);
+
     if (_isLoading) {
       return const Scaffold(
         body: Center(child: CircularProgressIndicator()),
@@ -95,6 +116,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                 setState(() {
                   _currentPageIndex = index;
                 });
+                _storyRepository.saveLastReadPageIndex(widget.story.id, index);
               },
               itemBuilder: (context, index) {
                 final page = _pages[index];
@@ -123,8 +145,8 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                           child: Text(
                             page.textAm,
                             textAlign: TextAlign.center,
-                            style: const TextStyle(
-                              fontSize: 25,
+                            style: TextStyle(
+                              fontSize: settings.fontSize,
                               height: 1.7,
                               fontWeight: FontWeight.w500,
                             ),

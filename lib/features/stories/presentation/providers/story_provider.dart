@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../data/models/story_model.dart';
-import '../../data/services/story_service.dart';
+import '../../data/repositories/story_repository.dart';
 
 class StoryProvider with ChangeNotifier {
-  final StoryService _service = StoryService();
+  final StoryRepository _repository = StoryRepository();
 
   List<Story> _stories = [];
   bool _isLoading = false;
@@ -17,7 +17,7 @@ class StoryProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      _stories = await _service.fetchStories();
+      _stories = await _repository.fetchStories();
     } finally {
       _isLoading = false;
       notifyListeners();

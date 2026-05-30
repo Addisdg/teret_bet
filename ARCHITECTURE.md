@@ -8,6 +8,7 @@ features/
 └── stories/
 ├── data/
 │   ├── models/
+│   ├── repositories/
 │   └── services/
 ├── presentation/
 │   ├── providers/
@@ -22,7 +23,20 @@ Priority order:
 2. Hive cache
 3. Local JSON assets
 
-StoryService implements this fallback chain.
+StoryRepository implements this fallback chain.
+
+Source-specific services stay small:
+
+* FirestoreStoryService reads Firestore stories and pages.
+* LocalStoryService reads JSON files from assets/stories/.
+
+Hive is used by StoryRepository for:
+
+* Cached story lists
+* Cached story pages
+* Last read page per story
+
+The SettingsProvider uses a separate Hive settings box for reader preferences.
 
 ## Story Data Model
 
@@ -45,9 +59,8 @@ StoryPage:
 
 ## Future Additions
 
-* Repository layer
 * Audio service
 * Download manager
 * Story categories
 * Favorites
-* Reading progress persistence
+* Full language switching

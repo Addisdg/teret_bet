@@ -1,30 +1,27 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:teret_bet_app/main.dart';
+import 'package:teret_bet_app/features/stories/data/services/local_story_service.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  TestWidgetsFlutterBinding.ensureInitialized();
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  test('local story service discovers every JSON story asset', () async {
+    final service = LocalStoryService();
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    final stories = await service.fetchStories();
+    final storyIds = stories.map((story) => story.id).toSet();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    expect(storyIds, contains('little_rabbit'));
+    expect(storyIds, contains('brave_tortoise'));
+    expect(stories.length, greaterThanOrEqualTo(2));
+  });
+
+  test('local story service loads pages for a story asset', () async {
+    final service = LocalStoryService();
+
+    final pages = await service.fetchStoryPages('little_rabbit');
+
+    expect(pages, isNotEmpty);
+    expect(pages.first.pageNumber, 1);
+    expect(pages.first.textAm, isNotEmpty);
   });
 }
