@@ -28,4 +28,16 @@ class Story {
       ageMax: data['ageMax'] ?? 6,
     );
   }
+
+  factory Story.fromJson(Map<String, dynamic> data) {
+    return Story(
+      id: data['id'] ?? '',
+      titleAm: data['titleAm'] ?? '',
+      titleEn: data['titleEn'] ?? '',
+      coverImage: data['coverImage'] ?? '',
+      summaryAm: data['summaryAm'] ?? '',
+      ageMin: data['ageMin'] ?? 3,
+      ageMax: data['ageMax'] ?? 6,
+    );
+  }
 }
