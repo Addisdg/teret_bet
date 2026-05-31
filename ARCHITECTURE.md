@@ -57,6 +57,10 @@ StoryPage:
 * textEn
 * imageUrl
 
+Local story images live in assets/images/stories/. The UI accepts both local
+asset paths and hosted image URLs, so Firestore can keep using remote images
+while the bundled JSON fallback works offline.
+
 ## Future Additions
 
 * Audio service

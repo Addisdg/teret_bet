@@ -39,6 +39,13 @@ class SettingsScreen extends StatelessWidget {
             label: settings.fontSize.round().toString(),
             onChanged: settings.updateFontSize,
           ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: TextButton(
+              onPressed: settings.resetFontSize,
+              child: const Text('ወደ መደበኛ መልስ'),
+            ),
+          ),
           const Divider(height: 36),
           SwitchListTile(
             value: false,

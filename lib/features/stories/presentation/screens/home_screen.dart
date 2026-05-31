@@ -51,20 +51,88 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: provider.isLoading
           ? const Center(child: CircularProgressIndicator())
-          : GridView.builder(
-              padding: const EdgeInsets.all(12),
-              itemCount: provider.stories.length,
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                childAspectRatio: 0.75,
-                crossAxisSpacing: 12,
-                mainAxisSpacing: 12,
+          : _StoryLibraryBody(provider: provider),
+    );
+  }
+}
+
+class _StoryLibraryBody extends StatelessWidget {
+  final StoryProvider provider;
+
+  const _StoryLibraryBody({
+    required this.provider,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (provider.errorMessage != null) {
+      return _LibraryMessage(
+        message: provider.errorMessage!,
+        actionText: 'እንደገና ሞክር',
+        onPressed: provider.loadStories,
+      );
+    }
+
+    if (provider.stories.isEmpty) {
+      return const _LibraryMessage(
+        message: 'እስካሁን ታሪኮች አልተገኙም።',
+      );
+    }
+
+    return GridView.builder(
+      padding: const EdgeInsets.all(12),
+      itemCount: provider.stories.length,
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        childAspectRatio: 0.75,
+        crossAxisSpacing: 12,
+        mainAxisSpacing: 12,
+      ),
+      itemBuilder: (context, index) {
+        final story = provider.stories[index];
+        return StoryCard(story: story);
+      },
+    );
+  }
+}
+
+class _LibraryMessage extends StatelessWidget {
+  final String message;
+  final String? actionText;
+  final VoidCallback? onPressed;
+
+  const _LibraryMessage({
+    required this.message,
+    this.actionText,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 20,
+                height: 1.5,
               ),
-              itemBuilder: (context, index) {
-                final story = provider.stories[index];
-                return StoryCard(story: story);
-              },
             ),
+            if (actionText != null && onPressed != null) ...[
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: onPressed,
+                child: Text(actionText!),
+              ),
+            ],
+          ],
+        ),
+      ),
     );
   }
 }

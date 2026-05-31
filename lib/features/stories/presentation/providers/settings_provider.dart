@@ -29,4 +29,9 @@ class SettingsProvider with ChangeNotifier {
     await _settingsBox.put('reader_font_size', value);
     notifyListeners();
   }
+
+  Future<void> resetFontSize() async {
+    await _settingsBox.put('reader_font_size', defaultFontSize);
+    notifyListeners();
+  }
 }

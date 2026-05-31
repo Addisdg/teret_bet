@@ -66,6 +66,9 @@ To add a local fallback story, add a new `.json` file to `assets/stories/`.
 `LocalStoryService` reads the asset manifest, so the library discovers the file
 automatically.
 
+Story JSON and Firestore fields are documented in
+[`docs/story_content_schema.md`](docs/story_content_schema.md).
+
 ## Reading Progress And Settings
 
 The reader saves the last opened page for each story in Hive. When the story is

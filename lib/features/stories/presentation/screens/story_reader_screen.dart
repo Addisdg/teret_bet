@@ -1,11 +1,11 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../data/repositories/story_repository.dart';
 import '../../data/models/story_model.dart';
 import '../../data/models/story_page_model.dart';
+import '../../data/repositories/story_repository.dart';
 import '../providers/settings_provider.dart';
+import '../widgets/story_image.dart';
 
 class StoryReaderScreen extends StatefulWidget {
   final Story story;
@@ -25,6 +25,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   PageController? _pageController;
   List<StoryPage> _pages = [];
   bool _isLoading = true;
+  String? _errorMessage;
   int _currentPageIndex = 0;
 
   @override
@@ -34,23 +35,41 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   }
 
   Future<void> _loadPages() async {
-    final pages = await _storyRepository.fetchStoryPages(widget.story.id);
-    final savedPageIndex = await _storyRepository.getLastReadPageIndex(
-      widget.story.id,
-    );
-    final safePageIndex =
-        pages.isEmpty ? 0 : savedPageIndex.clamp(0, pages.length - 1).toInt();
-
-    if (!mounted) {
-      return;
-    }
-
     setState(() {
-      _pages = pages;
-      _currentPageIndex = safePageIndex;
-      _pageController = PageController(initialPage: safePageIndex);
-      _isLoading = false;
+      _isLoading = true;
+      _errorMessage = null;
     });
+
+    try {
+      final pages = await _storyRepository.fetchStoryPages(widget.story.id);
+      final savedPageIndex = await _storyRepository.getLastReadPageIndex(
+        widget.story.id,
+      );
+      final safePageIndex =
+          pages.isEmpty ? 0 : savedPageIndex.clamp(0, pages.length - 1).toInt();
+
+      if (!mounted) {
+        return;
+      }
+
+      _pageController?.dispose();
+
+      setState(() {
+        _pages = pages;
+        _currentPageIndex = safePageIndex;
+        _pageController = PageController(initialPage: safePageIndex);
+        _isLoading = false;
+      });
+    } catch (_) {
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _isLoading = false;
+        _errorMessage = 'ታሪኩን መክፈት አልተቻለም። እባክዎ እንደገና ይሞክሩ።';
+      });
+    }
   }
 
   void _goNext() {
@@ -87,11 +106,22 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
       );
     }
 
+    if (_errorMessage != null) {
+      return Scaffold(
+        appBar: AppBar(title: Text(widget.story.titleAm)),
+        body: _ReaderMessage(
+          message: _errorMessage!,
+          actionText: 'እንደገና ሞክር',
+          onPressed: _loadPages,
+        ),
+      );
+    }
+
     if (_pages.isEmpty) {
       return Scaffold(
         appBar: AppBar(title: Text(widget.story.titleAm)),
-        body: const Center(
-          child: Text('No pages found for this story.'),
+        body: const _ReaderMessage(
+          message: 'ለዚህ ታሪክ ገጾች አልተገኙም።',
         ),
       );
     }
@@ -129,12 +159,10 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                         flex: 5,
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(24),
-                          child: CachedNetworkImage(
-                            imageUrl: page.imageUrl,
+                          child: StoryImage(
+                            imagePath: page.imageUrl,
                             width: double.infinity,
                             fit: BoxFit.cover,
-                            errorWidget: (_, __, ___) =>
-                                const Icon(Icons.image, size: 80),
                           ),
                         ),
                       ),
@@ -187,6 +215,47 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ReaderMessage extends StatelessWidget {
+  final String message;
+  final String? actionText;
+  final VoidCallback? onPressed;
+
+  const _ReaderMessage({
+    required this.message,
+    this.actionText,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 20,
+                height: 1.5,
+              ),
+            ),
+            if (actionText != null && onPressed != null) ...[
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: onPressed,
+                child: Text(actionText!),
+              ),
+            ],
+          ],
+        ),
       ),
     );
   }

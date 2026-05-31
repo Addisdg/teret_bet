@@ -4,14 +4,14 @@ import '../models/story_model.dart';
 import '../models/story_page_model.dart';
 
 class FirestoreStoryService {
-  final FirebaseFirestore _db;
+  final FirebaseFirestore? _db;
 
   FirestoreStoryService({
     FirebaseFirestore? db,
-  }) : _db = db ?? FirebaseFirestore.instance;
+  }) : _db = db;
 
   Future<List<Story>> fetchStories() async {
-    final snapshot = await _db.collection('stories').get();
+    final snapshot = await _database.collection('stories').get();
 
     return snapshot.docs.map((doc) {
       return Story.fromFirestore(doc.data(), doc.id);
@@ -19,7 +19,7 @@ class FirestoreStoryService {
   }
 
   Future<List<StoryPage>> fetchStoryPages(String storyId) async {
-    final snapshot = await _db
+    final snapshot = await _database
         .collection('stories')
         .doc(storyId)
         .collection('pages')
@@ -29,5 +29,9 @@ class FirestoreStoryService {
     return snapshot.docs.map((doc) {
       return StoryPage.fromMap(doc.data());
     }).toList();
+  }
+
+  FirebaseFirestore get _database {
+    return _db ?? FirebaseFirestore.instance;
   }
 }

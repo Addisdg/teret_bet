@@ -47,6 +47,8 @@ Implemented:
 * Reading progress UI
 * Reading progress persistence
 * Settings screen with font size control
+* Local cover illustrations
+* Story content schema documentation
 
 Current sample story:
 
@@ -56,6 +58,10 @@ Current sample story:
 Story content is stored in:
 
 assets/stories/
+
+Local story images are stored in:
+
+assets/images/stories/
 
 Firestore structure:
 

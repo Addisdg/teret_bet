@@ -1,7 +1,7 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../data/models/story_model.dart';
+import '../widgets/story_image.dart';
 import 'story_reader_screen.dart';
 
 class StoryDetailsScreen extends StatelessWidget {
@@ -25,12 +25,11 @@ class StoryDetailsScreen extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(24),
-              child: CachedNetworkImage(
-                imageUrl: story.coverImage,
+              child: StoryImage(
+                imagePath: story.coverImage,
                 height: 260,
                 width: double.infinity,
                 fit: BoxFit.cover,
-                errorWidget: (_, __, ___) => const Icon(Icons.image, size: 80),
               ),
             ),
             const SizedBox(height: 24),

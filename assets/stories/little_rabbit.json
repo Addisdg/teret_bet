@@ -3,7 +3,7 @@
   "titleAm": "ትንሿ ጥንቸል",
   "titleEn": "The Little Rabbit",
   "summaryAm": "ስለ ጓደኝነት፣ ደግነት እና መርዳት የሚናገር ቀላል የልጆች ታሪክ።",
-  "coverImage": "https://placehold.co/800x600/png?text=Little+Rabbit",
+  "coverImage": "assets/images/stories/little_rabbit_cover.png",
   "ageMin": 3,
   "ageMax": 6,
   "pages": [
@@ -11,37 +11,37 @@
       "pageNumber": 1,
       "textAm": "አንድ ቀን ትንሿ ጥንቸል በአረንጓዴ ሜዳ ውስጥ ትጫወት ነበር። ፀሐይ በቀስታ ትበራ ነበር፣ አበቦችም በነፋስ ይወዛወዙ ነበር።",
       "textEn": "One day, the little rabbit was playing in a green field.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+1"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     },
     {
       "pageNumber": 2,
       "textAm": "በድንገት ጥንቸሏ ትንሽ ወፍ በመሬት ላይ ተቀምጣ አየች። ወፏ ክንፏን በቀስታ ትንቀሳቀስ ነበር።",
       "textEn": "Suddenly, the rabbit saw a little bird sitting on the ground.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+2"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     },
     {
       "pageNumber": 3,
       "textAm": "“ምን ሆንሽ?” ብላ ጥንቸሏ በርኅራኄ ጠየቀች። ወፏም “ወደ ጎጆዬ መመለስ አልቻልኩም” አለች።",
       "textEn": "What happened? asked the rabbit kindly.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+3"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     },
     {
       "pageNumber": 4,
       "textAm": "ጥንቸሏ ወፏን ብቻዋን አልተወችም። ከሌሎች እንስሳት ጋር በመሆን የወፏን እናት መፈለግ ጀመሩ።",
       "textEn": "The rabbit did not leave the bird alone.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+4"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     },
     {
       "pageNumber": 5,
       "textAm": "ብዙም ሳይቆይ የወፏ እናት መጣች። ወፏን በደስታ አቀፈች እና ጥንቸሏን አመሰገነቻት።",
       "textEn": "Soon, the bird's mother arrived and thanked the rabbit.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+5"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     },
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን ጀምሮ ጥንቸሏ እና ወፏ ጥሩ ጓደኞች ሆኑ። ጥንቸሏም ደግነት ትልቅ ደስታ እንደሚያመጣ ተማረች።",
       "textEn": "From that day on, the rabbit and the bird became good friends.",
-      "imageUrl": "https://placehold.co/800x600/png?text=Rabbit+Page+6"
+      "imageUrl": "assets/images/stories/little_rabbit_cover.png"
     }
   ]
 }
