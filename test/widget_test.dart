@@ -42,11 +42,34 @@ void main() {
     final service = LocalStoryService();
 
     final pages = await service.fetchStoryPages('little_rabbit');
+    final imagePaths = pages.map((page) => page.imageUrl).toSet();
 
     expect(pages, isNotEmpty);
     expect(pages.first.pageNumber, 1);
     expect(pages.first.textAm, isNotEmpty);
-    expect(pages.first.imageUrl, startsWith('assets/'));
+    expect(pages.first.imageUrl,
+        'assets/images/stories/little_rabbit_page_01.png');
+    expect(imagePaths.length, pages.length);
+    expect(
+      imagePaths.every((path) => File(path).existsSync()),
+      isTrue,
+    );
+  });
+
+  test('brave tortoise also uses unique bundled page art', () async {
+    final service = LocalStoryService();
+
+    final pages = await service.fetchStoryPages('brave_tortoise');
+    final imagePaths = pages.map((page) => page.imageUrl).toSet();
+
+    expect(pages, hasLength(6));
+    expect(pages.last.imageUrl,
+        'assets/images/stories/brave_tortoise_page_06.png');
+    expect(imagePaths.length, pages.length);
+    expect(
+      imagePaths.every((path) => File(path).existsSync()),
+      isTrue,
+    );
   });
 
   test('repository falls back to local stories when Firestore and cache fail',

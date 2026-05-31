@@ -48,6 +48,7 @@ Implemented:
 * Reading progress persistence
 * Settings screen with font size control
 * Local cover illustrations
+* Local per-page illustrations
 * Story content schema documentation
 
 Current sample story:

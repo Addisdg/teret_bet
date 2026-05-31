@@ -13,6 +13,7 @@
 * Settings screen with font size control
 * StoryRepository, FirestoreStoryService, and LocalStoryService split
 * Local story cover illustrations
+* Local per-page story illustrations
 * Story content schema documentation
 
 ## Next
@@ -22,7 +23,7 @@
 * Better illustrations
 * More polished reader controls
 * More local story content
-* Per-page illustrations
+* Illustration style consistency pass
 
 ### Phase 2
 

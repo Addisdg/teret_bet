@@ -12,6 +12,7 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Cached network images
 - Hive story cache and reading progress
 - Local JSON fallback with multiple story assets
+- Bundled cover and page illustrations for offline reading
 - Settings screen with reader font size control
 
 ## Tech Stack

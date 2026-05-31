@@ -189,27 +189,43 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
-            child: Row(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
               children: [
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed: _currentPageIndex == 0 ? null : _goBack,
-                    child: const Text(
-                      'ተመለስ',
-                      style: TextStyle(fontSize: 20),
-                    ),
+                Text(
+                  'ገጽ ${_currentPageIndex + 1} / ${_pages.length}',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed:
-                        _currentPageIndex == _pages.length - 1 ? null : _goNext,
-                    child: const Text(
-                      'ቀጣይ',
-                      style: TextStyle(fontSize: 20),
+                const SizedBox(height: 8),
+                Row(
+                  children: [
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: _currentPageIndex == 0 ? null : _goBack,
+                        icon: const Icon(Icons.arrow_back),
+                        label: const Text(
+                          'ተመለስ',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(width: 16),
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: _currentPageIndex == _pages.length - 1
+                            ? null
+                            : _goNext,
+                        icon: const Icon(Icons.arrow_forward),
+                        label: const Text(
+                          'ቀጣይ',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
