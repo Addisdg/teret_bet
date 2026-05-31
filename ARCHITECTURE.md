@@ -62,10 +62,10 @@ StoryPage:
 * textEn
 * imageUrl
 
-Local story images live in assets/images/stories/. Bundled stories use one cover
-image and one image per story page. The UI accepts both local asset paths and
-hosted image URLs, so Firestore can keep using remote images while the bundled
-JSON fallback works offline.
+Local story images live in assets/images/stories/. Bundled stories use optimized
+WebP assets: one cover image and one image per story page. The UI accepts both
+local asset paths and hosted image URLs, so Firestore can keep using remote
+images while the bundled JSON fallback works offline.
 
 ## Future Additions
 

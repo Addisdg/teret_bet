@@ -14,6 +14,7 @@
 * StoryRepository, FirestoreStoryService, and LocalStoryService split
 * Local story cover illustrations
 * Local per-page story illustrations
+* Optimized bundled WebP story assets
 * Story content schema documentation
 
 ## Next

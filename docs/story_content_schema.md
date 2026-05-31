@@ -22,7 +22,7 @@ Required story fields:
   "titleAm": "Amharic title",
   "titleEn": "English title",
   "summaryAm": "Short Amharic summary",
-  "coverImage": "assets/images/stories/story_id_cover.png",
+  "coverImage": "assets/images/stories/story_id_cover.webp",
   "ageMin": 3,
   "ageMax": 6,
   "pages": []
@@ -36,18 +36,19 @@ Required page fields:
   "pageNumber": 1,
   "textAm": "Amharic page text",
   "textEn": "Optional English helper text",
-  "imageUrl": "assets/images/stories/story_id_cover.png"
+  "imageUrl": "assets/images/stories/story_id_cover.webp"
 }
 ```
 
 `coverImage` and `imageUrl` may be local asset paths or hosted image URLs. Local
 paths should start with `assets/` so the app can load them offline. For bundled
-stories, prefer one cover image plus one unique image per story page:
+stories, prefer optimized WebP assets with one cover image plus one unique image
+per story page:
 
 ```text
-assets/images/stories/story_id_cover.png
-assets/images/stories/story_id_page_01.png
-assets/images/stories/story_id_page_02.png
+assets/images/stories/story_id_cover.webp
+assets/images/stories/story_id_page_01.webp
+assets/images/stories/story_id_page_02.webp
 ```
 
 When a story ID exists in both Firestore/Hive and local JSON, the app keeps the

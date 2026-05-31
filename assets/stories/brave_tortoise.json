@@ -3,7 +3,7 @@
   "titleAm": "ደፋሯ ኤሊ",
   "titleEn": "The Brave Tortoise",
   "summaryAm": "ስለ ትዕግሥት፣ ድፍረት እና ጓደኞችን መርዳት የሚናገር ቀላል ታሪክ።",
-  "coverImage": "assets/images/stories/brave_tortoise_cover.png",
+  "coverImage": "assets/images/stories/brave_tortoise_cover.webp",
   "ageMin": 3,
   "ageMax": 6,
   "pages": [
@@ -11,37 +11,37 @@
       "pageNumber": 1,
       "textAm": "አንዲት ትንሽ ኤሊ በወንዝ አጠገብ በቀስታ ትጓዝ ነበር። እሷ ቀስ ብላ ብትጓዝም ሁልጊዜ በደስታ ትሞላ ነበር።",
       "textEn": "A little tortoise walked slowly near the river.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_01.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_01.webp"
     },
     {
       "pageNumber": 2,
       "textAm": "አንድ ቀን ትንሽ ዝንጀሮ ከዛፍ ላይ ወርዶ ወደ ወንዙ በፍጥነት ሮጠ። ነገር ግን የእርሱ ኳስ ወደ ውሃ ወደቀ።",
       "textEn": "One day, a little monkey dropped his ball into the river.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_02.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_02.webp"
     },
     {
       "pageNumber": 3,
       "textAm": "ዝንጀሮው “ኳሴን አጣሁ!” ብሎ አለቀሰ። ኤሊዋ ግን በርኅራኄ “አትፍራ፣ እኔ እረዳሃለሁ” አለችው።",
       "textEn": "Do not be afraid, said the tortoise. I will help you.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_03.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_03.webp"
     },
     {
       "pageNumber": 4,
       "textAm": "ኤሊዋ በቀስታ ወደ ውሃው ገባች። እጅግ ብትቀርብም አልተጣደፈችም፤ በትዕግሥት ኳሱን ፈለገች።",
       "textEn": "The tortoise went into the water and patiently looked for the ball.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_04.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_04.webp"
     },
     {
       "pageNumber": 5,
       "textAm": "ብዙም ሳይቆይ ኳሱን አገኘችው። ዝንጀሮው በደስታ ዘለለና “አመሰግናለሁ፣ ደፋር ጓደኛዬ!” አለ።",
       "textEn": "Soon she found the ball, and the monkey thanked his brave friend.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_05.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_05.webp"
     },
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን በኋላ ሁሉም እንስሳት ኤሊዋን አከበሩ። እሷም ትንሽ ብትሆንም ደፋር ልብ እንዳላት አወቀች።",
       "textEn": "After that day, everyone knew the little tortoise had a brave heart.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_06.png"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_06.webp"
     }
   ]
 }

@@ -49,6 +49,7 @@ Implemented:
 * Settings screen with font size control
 * Local cover illustrations
 * Local per-page illustrations
+* Optimized WebP story assets
 * Story content schema documentation
 
 Current sample story:

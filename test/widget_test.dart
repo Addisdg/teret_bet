@@ -48,7 +48,7 @@ void main() {
     expect(pages.first.pageNumber, 1);
     expect(pages.first.textAm, isNotEmpty);
     expect(pages.first.imageUrl,
-        'assets/images/stories/little_rabbit_page_01.png');
+        'assets/images/stories/little_rabbit_page_01.webp');
     expect(imagePaths.length, pages.length);
     expect(
       imagePaths.every((path) => File(path).existsSync()),
@@ -64,7 +64,7 @@ void main() {
 
     expect(pages, hasLength(6));
     expect(pages.last.imageUrl,
-        'assets/images/stories/brave_tortoise_page_06.png');
+        'assets/images/stories/brave_tortoise_page_06.webp');
     expect(imagePaths.length, pages.length);
     expect(
       imagePaths.every((path) => File(path).existsSync()),
@@ -102,8 +102,8 @@ void main() {
     final stories = await repository.fetchStories();
     final pages = await repository.fetchStoryPages('local_story');
 
-    expect(stories.single.coverImage, 'assets/images/stories/test.png');
-    expect(pages.single.imageUrl, 'assets/images/stories/test_page_01.png');
+    expect(stories.single.coverImage, 'assets/images/stories/test.webp');
+    expect(pages.single.imageUrl, 'assets/images/stories/test_page_01.webp');
 
     await cache.deleteFromDisk();
   });
@@ -188,7 +188,7 @@ class _FakeLocalStoryService extends LocalStoryService {
         id: 'local_story',
         titleAm: 'የሙከራ ታሪክ',
         titleEn: 'Test Story',
-        coverImage: 'assets/images/stories/test.png',
+        coverImage: 'assets/images/stories/test.webp',
         summaryAm: 'የሙከራ ማጠቃለያ',
         ageMin: 3,
         ageMax: 6,
@@ -202,7 +202,7 @@ class _FakeLocalStoryService extends LocalStoryService {
       StoryPage(
         pageNumber: 1,
         textAm: 'የሙከራ ገጽ',
-        imageUrl: 'assets/images/stories/test_page_01.png',
+        imageUrl: 'assets/images/stories/test_page_01.webp',
       ),
     ];
   }
