@@ -77,3 +77,22 @@ opened again, it starts from that saved page.
 
 Reader font size is also stored in Hive from the Settings screen. The language
 toggle is shown as a disabled placeholder for a future multilingual release.
+
+## Local Testing
+
+Linux desktop can run without Firebase configuration and will use Hive/local JSON
+assets:
+
+```bash
+flutter run -d linux
+```
+
+Hive stores local desktop test data in an app-specific `teret_bet` folder so
+Linux/WSL runs do not compete for box locks in the home directory.
+
+For mobile testing, connect an Android device or emulator and run:
+
+```bash
+flutter devices
+flutter run -d <device-id>
+```

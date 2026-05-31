@@ -11,11 +11,11 @@ import 'features/stories/presentation/providers/story_provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Hive.initFlutter();
+  await Hive.initFlutter('teret_bet');
   await Hive.openBox('story_cache');
   await Hive.openBox('settings');
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await _initializeFirebase();
 
   runApp(
     MultiProvider(
@@ -26,4 +26,15 @@ void main() async {
       child: const TeretBetApp(),
     ),
   );
+}
+
+Future<void> _initializeFirebase() async {
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (error) {
+    // Linux/desktop can still run the MVP from Hive/local JSON assets.
+    debugPrint('Firebase unavailable on this platform: $error');
+  }
 }
