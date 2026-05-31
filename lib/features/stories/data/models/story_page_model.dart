@@ -19,4 +19,15 @@ class StoryPage {
       imageUrl: data['imageUrl'] ?? '',
     );
   }
+
+  StoryPage copyWith({
+    String? imageUrl,
+  }) {
+    return StoryPage(
+      pageNumber: pageNumber,
+      textAm: textAm,
+      textEn: textEn,
+      imageUrl: imageUrl ?? this.imageUrl,
+    );
+  }
 }

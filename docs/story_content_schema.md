@@ -50,6 +50,10 @@ assets/images/stories/story_id_page_01.png
 assets/images/stories/story_id_page_02.png
 ```
 
+When a story ID exists in both Firestore/Hive and local JSON, the app keeps the
+Firestore/Hive text data but uses the bundled local image paths. This prevents
+stale cached placeholder URLs from hiding packaged artwork during MVP testing.
+
 ## Firestore Shape
 
 Story document:

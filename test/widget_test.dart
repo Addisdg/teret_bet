@@ -90,6 +90,24 @@ void main() {
     await cache.deleteFromDisk();
   });
 
+  test('repository uses bundled images for stories that exist locally',
+      () async {
+    final cache = await Hive.openBox('bundled_image_override_test');
+    final repository = StoryRepository(
+      firestoreService: _StaleImageFirestoreStoryService(),
+      localStoryService: _FakeLocalStoryService(),
+      cache: cache,
+    );
+
+    final stories = await repository.fetchStories();
+    final pages = await repository.fetchStoryPages('local_story');
+
+    expect(stories.single.coverImage, 'assets/images/stories/test.png');
+    expect(pages.single.imageUrl, 'assets/images/stories/test_page_01.png');
+
+    await cache.deleteFromDisk();
+  });
+
   test('repository saves and restores reading progress', () async {
     final cache = await Hive.openBox('reading_progress_test');
     final repository = StoryRepository(
@@ -134,6 +152,34 @@ class _ThrowingFirestoreStoryService extends FirestoreStoryService {
   }
 }
 
+class _StaleImageFirestoreStoryService extends FirestoreStoryService {
+  @override
+  Future<List<Story>> fetchStories() async {
+    return [
+      Story(
+        id: 'local_story',
+        titleAm: 'የሙከራ ታሪክ',
+        titleEn: 'Test Story',
+        coverImage: 'https://placehold.co/800x600/png?text=Old+Cover',
+        summaryAm: 'የሙከራ ማጠቃለያ',
+        ageMin: 3,
+        ageMax: 6,
+      ),
+    ];
+  }
+
+  @override
+  Future<List<StoryPage>> fetchStoryPages(String storyId) async {
+    return [
+      StoryPage(
+        pageNumber: 1,
+        textAm: 'የሙከራ ገጽ',
+        imageUrl: 'https://placehold.co/800x600/png?text=Old+Page',
+      ),
+    ];
+  }
+}
+
 class _FakeLocalStoryService extends LocalStoryService {
   @override
   Future<List<Story>> fetchStories() async {
@@ -156,7 +202,7 @@ class _FakeLocalStoryService extends LocalStoryService {
       StoryPage(
         pageNumber: 1,
         textAm: 'የሙከራ ገጽ',
-        imageUrl: 'assets/images/stories/test.png',
+        imageUrl: 'assets/images/stories/test_page_01.png',
       ),
     ];
   }

@@ -25,8 +25,9 @@ class StoryRepository {
       final stories = await _firestoreService.fetchStories();
 
       if (stories.isNotEmpty) {
-        await _cacheStories(stories);
-        return stories;
+        final storiesWithLocalImages = await _useBundledStoryImages(stories);
+        await _cacheStories(storiesWithLocalImages);
+        return storiesWithLocalImages;
       }
     } catch (_) {
       // Firestore is the first choice, but the app still works offline.
@@ -35,7 +36,7 @@ class StoryRepository {
     final cachedStories = _readCachedStories();
 
     if (cachedStories.isNotEmpty) {
-      return cachedStories;
+      return _useBundledStoryImages(cachedStories);
     }
 
     return _localStoryService.fetchStories();
@@ -46,8 +47,12 @@ class StoryRepository {
       final pages = await _firestoreService.fetchStoryPages(storyId);
 
       if (pages.isNotEmpty) {
-        await _cacheStoryPages(storyId, pages);
-        return pages;
+        final pagesWithLocalImages = await _useBundledPageImages(
+          storyId,
+          pages,
+        );
+        await _cacheStoryPages(storyId, pagesWithLocalImages);
+        return pagesWithLocalImages;
       }
     } catch (_) {
       // If Firestore cannot load pages, try the saved pages next.
@@ -56,7 +61,7 @@ class StoryRepository {
     final cachedPages = _readCachedStoryPages(storyId);
 
     if (cachedPages.isNotEmpty) {
-      return cachedPages;
+      return _useBundledPageImages(storyId, cachedPages);
     }
 
     return _localStoryService.fetchStoryPages(storyId);
@@ -74,6 +79,53 @@ class StoryRepository {
 
   Future<void> saveLastReadPageIndex(String storyId, int pageIndex) async {
     await _cache.put(_progressKey(storyId), pageIndex);
+  }
+
+  Future<List<Story>> _useBundledStoryImages(List<Story> stories) async {
+    try {
+      final localStories = await _localStoryService.fetchStories();
+      final localStoryById = {
+        for (final story in localStories) story.id: story,
+      };
+
+      return stories.map((story) {
+        final localStory = localStoryById[story.id];
+
+        if (localStory == null || !_isLocalAsset(localStory.coverImage)) {
+          return story;
+        }
+
+        return story.copyWith(coverImage: localStory.coverImage);
+      }).toList();
+    } catch (_) {
+      // If local assets cannot be read, keep the Firestore or cache data.
+      return stories;
+    }
+  }
+
+  Future<List<StoryPage>> _useBundledPageImages(
+    String storyId,
+    List<StoryPage> pages,
+  ) async {
+    try {
+      final localPages = await _localStoryService.fetchStoryPages(storyId);
+      final localPageByNumber = {
+        for (final page in localPages) page.pageNumber: page,
+      };
+
+      return pages.map((page) {
+        final localPage = localPageByNumber[page.pageNumber];
+
+        if (localPage == null || !_isLocalAsset(localPage.imageUrl)) {
+          return page;
+        }
+
+        return page.copyWith(imageUrl: localPage.imageUrl);
+      }).toList();
+    } catch (_) {
+      // Remote-only stories will not have bundled pages, and that is fine.
+      return pages;
+    }
   }
 
   Future<void> _cacheStories(List<Story> stories) async {
@@ -139,5 +191,9 @@ class StoryRepository {
 
   String _progressKey(String storyId) {
     return 'progress_$storyId';
+  }
+
+  bool _isLocalAsset(String path) {
+    return path.startsWith('assets/');
   }
 }

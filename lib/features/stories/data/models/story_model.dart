@@ -40,4 +40,18 @@ class Story {
       ageMax: data['ageMax'] ?? 6,
     );
   }
+
+  Story copyWith({
+    String? coverImage,
+  }) {
+    return Story(
+      id: id,
+      titleAm: titleAm,
+      titleEn: titleEn,
+      coverImage: coverImage ?? this.coverImage,
+      summaryAm: summaryAm,
+      ageMin: ageMin,
+      ageMax: ageMax,
+    );
+  }
 }

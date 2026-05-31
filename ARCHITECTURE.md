@@ -25,6 +25,11 @@ Priority order:
 
 StoryRepository implements this fallback chain.
 
+For bundled stories that also exist in Firestore or Hive, StoryRepository keeps
+the Firestore/Hive text data but uses the bundled local image paths. This keeps
+local artwork updates visible even when a browser or device still has older
+cached image URLs.
+
 Source-specific services stay small:
 
 * FirestoreStoryService reads Firestore stories and pages.
