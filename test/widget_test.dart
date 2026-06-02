@@ -36,6 +36,14 @@ void main() {
       stories.every((story) => story.coverImage.startsWith('assets/')),
       isTrue,
     );
+    expect(
+      stories.every((story) => File(story.coverImage).existsSync()),
+      isTrue,
+    );
+    expect(
+      stories.every((story) => File(story.coverImage).lengthSync() < 500000),
+      isTrue,
+    );
   });
 
   test('local story service loads pages for a story asset', () async {

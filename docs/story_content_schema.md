@@ -55,6 +55,20 @@ When a story ID exists in both Firestore/Hive and local JSON, the app keeps the
 Firestore/Hive text data but uses the bundled local image paths. This prevents
 stale cached placeholder URLs from hiding packaged artwork during MVP testing.
 
+## Illustration Style
+
+Bundled story covers should be readable in the library grid, where they appear
+as small thumbnails. Prefer:
+
+* Large, friendly main characters
+* Clear story action in the center of the image
+* Warm natural colors and soft children's-book lighting
+* No text inside the image, because titles are rendered by Flutter
+* Optimized WebP files under about 500 KB each
+
+The current cover set uses 1200 x 900 WebP images so the same asset works well
+on mobile, desktop, and web during MVP testing.
+
 ## Firestore Shape
 
 Story document:

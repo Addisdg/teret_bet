@@ -17,12 +17,12 @@
 * Optimized bundled WebP story assets
 * Story content schema documentation
 * More polished reader controls
+* Better illustrations
 
 ## Next
 
 ### Phase 1
 
-* Better illustrations
 * More local story content
 * Illustration style consistency pass
 
