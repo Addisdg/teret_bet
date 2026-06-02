@@ -11,7 +11,7 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Firebase Firestore integration
 - Cached network images
 - Hive story cache and reading progress
-- Local JSON fallback with multiple story assets
+- Local JSON fallback with three bundled story assets
 - Optimized bundled WebP cover and page illustrations for offline reading
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
@@ -68,6 +68,12 @@ The app keeps the MVP fallback order simple:
 To add a local fallback story, add a new `.json` file to `assets/stories/`.
 `LocalStoryService` reads the asset manifest, so the library discovers the file
 automatically.
+
+Bundled MVP stories:
+
+- `little_rabbit`
+- `brave_tortoise`
+- `little_seed`
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

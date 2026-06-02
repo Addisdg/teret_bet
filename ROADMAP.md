@@ -18,12 +18,12 @@
 * Story content schema documentation
 * More polished reader controls
 * Better illustrations
+* More local story content
 
 ## Next
 
 ### Phase 1
 
-* More local story content
 * Illustration style consistency pass
 
 ### Phase 2

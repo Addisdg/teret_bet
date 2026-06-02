@@ -31,7 +31,8 @@ void main() {
 
     expect(storyIds, contains('little_rabbit'));
     expect(storyIds, contains('brave_tortoise'));
-    expect(stories.length, greaterThanOrEqualTo(2));
+    expect(storyIds, contains('little_seed'));
+    expect(stories.length, greaterThanOrEqualTo(3));
     expect(
       stories.every((story) => story.coverImage.startsWith('assets/')),
       isTrue,
@@ -73,6 +74,23 @@ void main() {
     expect(pages, hasLength(6));
     expect(pages.last.imageUrl,
         'assets/images/stories/brave_tortoise_page_06.webp');
+    expect(imagePaths.length, pages.length);
+    expect(
+      imagePaths.every((path) => File(path).existsSync()),
+      isTrue,
+    );
+  });
+
+  test('little seed story includes a complete bundled page set', () async {
+    final service = LocalStoryService();
+
+    final pages = await service.fetchStoryPages('little_seed');
+    final imagePaths = pages.map((page) => page.imageUrl).toSet();
+
+    expect(pages, hasLength(6));
+    expect(pages.first.textAm, contains('ዘር'));
+    expect(
+        pages.last.imageUrl, 'assets/images/stories/little_seed_page_06.webp');
     expect(imagePaths.length, pages.length);
     expect(
       imagePaths.every((path) => File(path).existsSync()),

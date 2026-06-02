@@ -51,11 +51,13 @@ Implemented:
 * Local per-page illustrations
 * Optimized WebP story assets
 * Story content schema documentation
+* Three bundled local stories
 
-Current sample story:
+Current sample stories:
 
 * little_rabbit
 * brave_tortoise
+* little_seed
 
 Story content is stored in:
 

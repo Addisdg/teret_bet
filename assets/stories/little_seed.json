@@ -1,0 +1,47 @@
+{
+  "id": "little_seed",
+  "titleAm": "ትንሿ ዘር",
+  "titleEn": "The Little Seed",
+  "summaryAm": "ስለ ትዕግሥት፣ እንክብካቤ እና ትንሽ ነገር በፍቅር ሲያድግ የሚያሳይ ቀላል ታሪክ።",
+  "coverImage": "assets/images/stories/little_seed_cover.webp",
+  "ageMin": 3,
+  "ageMax": 6,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ ጠዋት ልጁ በአትክልት ቦታ ሲረዳ ትንሽ ዘር አገኘ። ዘሩ ትንሽ ቢሆንም ልጁ በደስታ ተመለከተው።",
+      "textEn": "One morning, the child found a tiny seed in the garden.",
+      "imageUrl": "assets/images/stories/little_seed_page_01.webp"
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ልጁ ዘሩን በለስላሳ አፈር ውስጥ በጥንቃቄ ተከለ። “በፍቅር እንከባከብሃለሁ” ብሎ በቀስታ ተናገረ።",
+      "textEn": "The child carefully planted the seed in soft soil.",
+      "imageUrl": "assets/images/stories/little_seed_page_02.webp"
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "በየጠዋቱ ልጁ ውሃ ይሰጠው ነበር። ግን ምንም አልታየም፤ ልጁም በትዕግሥት መጠበቅን ተማረ።",
+      "textEn": "Every morning, the child watered the seed and waited patiently.",
+      "imageUrl": "assets/images/stories/little_seed_page_03.webp"
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "አንድ ቀን ዝናብ ዘነበ፣ ፀሐይም በሙቀት በራች። ከአፈሩ ውስጥ ትንሽ አረንጓዴ ቡቃያ ወጣ።",
+      "textEn": "After rain and sunshine, a tiny green sprout came out.",
+      "imageUrl": "assets/images/stories/little_seed_page_04.webp"
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ነፋስ ሲነፍስ ልጁ ቡቃያውን በትንንሽ ድንጋዮች ጠበቀው። ቡቃያውም በቀስታ ጠነከረ።",
+      "textEn": "When the wind blew, the child protected the sprout with small stones.",
+      "imageUrl": "assets/images/stories/little_seed_page_05.webp"
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከብዙ ቀናት በኋላ ቡቃያው ትልቅ ቢጫ አበባ ሆነ። ልጁም ትንሽ ዘር በፍቅር ትልቅ ደስታ እንደሚሆን ተማረ።",
+      "textEn": "After many days, the sprout became a bright flower.",
+      "imageUrl": "assets/images/stories/little_seed_page_06.webp"
+    }
+  ]
+}
