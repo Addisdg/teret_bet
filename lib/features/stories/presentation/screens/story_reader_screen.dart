@@ -27,6 +27,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   bool _isLoading = true;
   String? _errorMessage;
   int _currentPageIndex = 0;
+  bool _showControls = true;
 
   @override
   void initState() {
@@ -74,20 +75,34 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
 
   void _goNext() {
     if (_currentPageIndex < _pages.length - 1) {
-      _pageController?.nextPage(
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeOut,
-      );
+      _goToPage(_currentPageIndex + 1);
     }
   }
 
   void _goBack() {
     if (_currentPageIndex > 0) {
-      _pageController?.previousPage(
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeOut,
-      );
+      _goToPage(_currentPageIndex - 1);
     }
+  }
+
+  void _goToPage(int index) {
+    if (_pages.isEmpty) {
+      return;
+    }
+
+    final safeIndex = index.clamp(0, _pages.length - 1).toInt();
+
+    _pageController?.animateToPage(
+      safeIndex,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeOut,
+    );
+  }
+
+  void _toggleControls() {
+    setState(() {
+      _showControls = !_showControls;
+    });
   }
 
   @override
@@ -151,86 +166,181 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
               itemBuilder: (context, index) {
                 final page = _pages[index];
 
-                return Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: Column(
-                    children: [
-                      Expanded(
-                        flex: 5,
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(24),
-                          child: StoryImage(
-                            imagePath: page.imageUrl,
-                            width: double.infinity,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 24),
-                      Expanded(
-                        flex: 3,
-                        child: SingleChildScrollView(
-                          child: Text(
-                            page.textAm,
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: settings.fontSize,
-                              height: 1.7,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
+                return GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _toggleControls,
+                  child: _ReaderPage(
+                    page: page,
+                    fontSize: settings.fontSize,
                   ),
                 );
               },
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  'ገጽ ${_currentPageIndex + 1} / ${_pages.length}',
-                  style: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                  ),
+          AnimatedSize(
+            duration: const Duration(milliseconds: 180),
+            curve: Curves.easeOut,
+            child: _showControls
+                ? _ReaderControls(
+                    currentPageIndex: _currentPageIndex,
+                    pageCount: _pages.length,
+                    fontSize: settings.fontSize,
+                    onBack: _goBack,
+                    onNext: _goNext,
+                    onPageSelected: _goToPage,
+                    onDecreaseFontSize: settings.decreaseFontSize,
+                    onIncreaseFontSize: settings.increaseFontSize,
+                  )
+                : const SizedBox.shrink(),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ReaderPage extends StatelessWidget {
+  final StoryPage page;
+  final double fontSize;
+
+  const _ReaderPage({
+    required this.page,
+    required this.fontSize,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        children: [
+          Expanded(
+            flex: 5,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(24),
+              child: StoryImage(
+                imagePath: page.imageUrl,
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          const SizedBox(height: 24),
+          Expanded(
+            flex: 3,
+            child: SingleChildScrollView(
+              child: Text(
+                page.textAm,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: fontSize,
+                  height: 1.7,
+                  fontWeight: FontWeight.w500,
                 ),
-                const SizedBox(height: 8),
-                Row(
-                  children: [
-                    Expanded(
-                      child: ElevatedButton.icon(
-                        onPressed: _currentPageIndex == 0 ? null : _goBack,
-                        icon: const Icon(Icons.arrow_back),
-                        label: const Text(
-                          'ተመለስ',
-                          style: TextStyle(fontSize: 20),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 16),
-                    Expanded(
-                      child: ElevatedButton.icon(
-                        onPressed: _currentPageIndex == _pages.length - 1
-                            ? null
-                            : _goNext,
-                        icon: const Icon(Icons.arrow_forward),
-                        label: const Text(
-                          'ቀጣይ',
-                          style: TextStyle(fontSize: 20),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+              ),
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ReaderControls extends StatelessWidget {
+  final int currentPageIndex;
+  final int pageCount;
+  final double fontSize;
+  final VoidCallback onBack;
+  final VoidCallback onNext;
+  final ValueChanged<int> onPageSelected;
+  final VoidCallback onDecreaseFontSize;
+  final VoidCallback onIncreaseFontSize;
+
+  const _ReaderControls({
+    required this.currentPageIndex,
+    required this.pageCount,
+    required this.fontSize,
+    required this.onBack,
+    required this.onNext,
+    required this.onPageSelected,
+    required this.onDecreaseFontSize,
+    required this.onIncreaseFontSize,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final canGoBack = currentPageIndex > 0;
+    final canGoNext = currentPageIndex < pageCount - 1;
+    final canDecreaseFontSize = fontSize > SettingsProvider.minFontSize;
+    final canIncreaseFontSize = fontSize < SettingsProvider.maxFontSize;
+
+    return SafeArea(
+      top: false,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(20, 8, 20, 16),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Row(
+              children: [
+                IconButton.filledTonal(
+                  tooltip: 'ጽሑፍ አሳንስ',
+                  onPressed: canDecreaseFontSize ? onDecreaseFontSize : null,
+                  icon: const Icon(Icons.text_decrease),
+                ),
+                const SizedBox(width: 8),
+                IconButton.filledTonal(
+                  tooltip: 'ጽሑፍ አሳድግ',
+                  onPressed: canIncreaseFontSize ? onIncreaseFontSize : null,
+                  icon: const Icon(Icons.text_increase),
+                ),
+                const Spacer(),
+                Text(
+                  'ገጽ ${currentPageIndex + 1} / $pageCount',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ],
+            ),
+            Slider(
+              min: 0,
+              max: (pageCount - 1).toDouble(),
+              divisions: pageCount > 1 ? pageCount - 1 : null,
+              value: currentPageIndex.toDouble(),
+              label: '${currentPageIndex + 1}',
+              onChanged: pageCount > 1
+                  ? (value) => onPageSelected(value.round())
+                  : null,
+            ),
+            Row(
+              children: [
+                Expanded(
+                  child: ElevatedButton.icon(
+                    onPressed: canGoBack ? onBack : null,
+                    icon: const Icon(Icons.arrow_back),
+                    label: const Text(
+                      'ተመለስ',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: ElevatedButton.icon(
+                    onPressed: canGoNext ? onNext : null,
+                    icon: const Icon(Icons.arrow_forward),
+                    label: const Text(
+                      'ቀጣይ',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

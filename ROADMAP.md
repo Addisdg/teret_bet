@@ -16,13 +16,13 @@
 * Local per-page story illustrations
 * Optimized bundled WebP story assets
 * Story content schema documentation
+* More polished reader controls
 
 ## Next
 
 ### Phase 1
 
 * Better illustrations
-* More polished reader controls
 * More local story content
 * Illustration style consistency pass
 

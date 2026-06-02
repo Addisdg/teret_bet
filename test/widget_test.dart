@@ -138,6 +138,28 @@ void main() {
 
     await box.deleteFromDisk();
   });
+
+  test('settings provider changes reader font size in safe steps', () async {
+    final box = await Hive.openBox('settings_step_test');
+    final settings = SettingsProvider(settingsBox: box);
+
+    await settings.increaseFontSize();
+
+    expect(
+      settings.fontSize,
+      SettingsProvider.defaultFontSize + SettingsProvider.fontSizeStep,
+    );
+
+    await settings.updateFontSize(100);
+
+    expect(settings.fontSize, SettingsProvider.maxFontSize);
+
+    await settings.updateFontSize(1);
+
+    expect(settings.fontSize, SettingsProvider.minFontSize);
+
+    await box.deleteFromDisk();
+  });
 }
 
 class _ThrowingFirestoreStoryService extends FirestoreStoryService {

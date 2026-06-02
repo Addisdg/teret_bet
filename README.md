@@ -14,6 +14,8 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Local JSON fallback with multiple story assets
 - Optimized bundled WebP cover and page illustrations for offline reading
 - Settings screen with reader font size control
+- Reader controls for page jumping, text-size changes, and distraction-light
+  reading
 
 ## Tech Stack
 
@@ -73,10 +75,13 @@ Story JSON and Firestore fields are documented in
 ## Reading Progress And Settings
 
 The reader saves the last opened page for each story in Hive. When the story is
-opened again, it starts from that saved page.
+opened again, it starts from that saved page. Readers can move with swipes,
+previous/next buttons, or the page slider.
 
 Reader font size is also stored in Hive from the Settings screen. The language
 toggle is shown as a disabled placeholder for a future multilingual release.
+The reader also includes text-size buttons so parents can adjust the story while
+reading.
 
 ## Local Testing
 
