@@ -19,11 +19,16 @@
 * More polished reader controls
 * Better illustrations
 * More local story content
+* 50-story foundation documentation
+* Story schema upgrade for content roadmap
+* Manifest-based Batch 1 story placeholders
+* Audio-ready UI placeholders
 
 ## Next
 
 ### Phase 1
 
+* Replace Batch 1 placeholders with full reviewed adaptations
 * Illustration style consistency pass
 
 ### Phase 2

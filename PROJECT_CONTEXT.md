@@ -52,6 +52,8 @@ Implemented:
 * Optimized WebP story assets
 * Story content schema documentation
 * Batch 1 local story manifest and placeholders
+* Audio-ready metadata and UI placeholders
+* 50-story foundation documentation
 
 Current local library manifest:
 
@@ -65,6 +67,12 @@ Current local library manifest:
 * north_wind_and_sun
 * dog_and_reflection
 * goose_golden_eggs
+
+Additional finished local stories currently kept as assets but not listed in
+the Batch 1 manifest:
+
+* brave_tortoise
+* little_seed
 
 Story content is stored in:
 
