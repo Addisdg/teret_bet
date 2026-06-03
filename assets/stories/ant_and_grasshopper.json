@@ -1,21 +1,21 @@
 {
   "id": "ant_and_grasshopper",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 4,
   "titleAm": "ጉንዳኑ እና አንበጣው",
   "titleEn": "The Ant and the Grasshopper",
-  "summaryAm": "መዘጋጀት፣ መሥራት እና ጓደኛን በርኅራኄ መመልከት የሚያሳይ ታሪክ።",
-  "moralAm": "ጊዜውን ጠብቆ መዘጋጀት ጥሩ ነው።",
+  "summaryAm": "ጉንዳኑ ለነገ ሲዘጋጅ አንበጣው ዛሬን በደስታ ይዘፍናል፤ በመጨረሻም መዘጋጀትና መረዳዳት እንደሚጠቅም የሚያሳይ ታሪክ።",
+  "moralAm": "መዘጋጀት ጥሩ ነው፤ ያለንን በርኅራኄ መካፈልም ደግነት ነው።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with a compassionate ending."
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["planning", "work", "responsibility"],
+  "themes": ["planning", "work", "responsibility", "sharing"],
   "coverImage": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper",
   "audio": {
     "storyAudioUrl": null,
@@ -25,26 +25,66 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የጉንዳኑ እና የአንበጣው ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The Ant and the Grasshopper story is coming soon.",
+      "textAm": "በሞቃት ቀን አንድ ጉንዳን ትንንሽ ዘሮችን ወደ ቤቱ ይወስድ ነበር። በቀስታ ይሄድ፣ በደስታም ይሠራ ነበር።",
+      "textEn": "On a warm day, an ant carried tiny seeds home and worked happily.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+1",
-      "illustrationPrompt": "A hardworking ant gathers seeds while a cheerful grasshopper watches.",
+      "illustrationPrompt": "A cheerful ant carrying tiny seeds through a warm sunny garden path.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ መዘጋጀትን እና መጫወትን በቀላሉ ይዘጋጃል።",
-      "textEn": "This page will prepare the planning and playing moment.",
+      "textAm": "አንበጣው በአበቦች መካከል ተቀምጦ ይዘፍን ነበር። “ጉንዳን ሆይ፣ ና ትንሽ ተጫወት!” አለው።",
+      "textEn": "The grasshopper sang among the flowers and invited the ant to play.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+2",
-      "illustrationPrompt": "The ant stores food in a cozy home while the grasshopper sings outside.",
+      "illustrationPrompt": "A friendly grasshopper singing among flowers while inviting the ant to play.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ በመማር እና በርኅራኄ ይጨርሳል።",
-      "textEn": "The story will end with learning and kindness.",
+      "textAm": "ጉንዳኑ ፈገግ አለ። “መጫወት ደስ ይላል፣ ግን ነገ ሲቀዘቅዝ ምግብ እንዲኖረኝ እዘጋጃለሁ” አለ።",
+      "textEn": "The ant smiled and said he was preparing food for colder days.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+3",
-      "illustrationPrompt": "The ant and grasshopper share a warm lesson about preparing ahead.",
+      "illustrationPrompt": "The ant smiling kindly while explaining preparation to the grasshopper.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ቀናት አለፉ። ጉንዳኑ ትንሽ ትንሽ ሰብስቦ ቤቱን ሞላ። አንበጣውም ዘፈኑን ቀጠለ።",
+      "textEn": "Days passed. The ant gathered little by little, and the grasshopper kept singing.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+4",
+      "illustrationPrompt": "The ant storing seeds in a cozy home while the grasshopper sings outside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "አንድ ጠዋት ነፋስ ቀዝቃዛ ሆነ። አንበጣው ምግብ ፈለገ፣ ግን ያዘጋጀው አልነበረም።",
+      "textEn": "One morning the wind became cold. The grasshopper looked for food but had not prepared any.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+5",
+      "illustrationPrompt": "The grasshopper looking concerned on a cool morning, with gentle non-scary weather.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "አንበጣው ወደ ጉንዳኑ ቤት ሄደ። “እባክህ ትንሽ ልትረዳኝ ትችላለህ?” ብሎ በትህትና ጠየቀ።",
+      "textEn": "The grasshopper went to the ant's home and politely asked for help.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+6",
+      "illustrationPrompt": "The grasshopper politely asking the ant for help at a small cozy doorway.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ጉንዳኑ በርኅራኄ ተመለከተው። “እካፈልሃለሁ፣ ነገ ግን አብረን እንዘጋጅ” አለው።",
+      "textEn": "The ant looked kindly at him and said they could share and prepare together next time.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+7",
+      "illustrationPrompt": "The ant kindly sharing seeds with the grasshopper inside a warm cozy home.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ከዚያ ቀን በኋላ አንበጣው ዘፈኑን አልተወም፣ ግን መዘጋጀትንም ተማረ። ጉንዳኑም መካፈል ደስታ እንደሚያመጣ አወቀ።",
+      "textEn": "After that day, the grasshopper still sang, but he also learned to prepare.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+8",
+      "illustrationPrompt": "The ant and grasshopper working and singing together in a warm garden.",
       "audioUrl": null
     }
   ]

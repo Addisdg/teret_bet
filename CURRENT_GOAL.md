@@ -18,6 +18,7 @@
 * First full Batch 1 adaptation: `lion_and_mouse`
 * Second full Batch 1 adaptation: `tortoise_and_hare`
 * Third full Batch 1 adaptation: `fox_and_grapes`
+* Fourth full Batch 1 adaptation: `ant_and_grasshopper`
 
 ## Next Recommended Goal
 
