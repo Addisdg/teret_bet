@@ -1,17 +1,17 @@
 {
   "id": "boy_who_cried_wolf",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 6,
   "titleAm": "ተኩላ መጣ ያለው ልጅ",
   "titleEn": "The Boy Who Cried Wolf",
-  "summaryAm": "እውነትን መናገር ለመተማመን እንደሚረዳ የሚያሳይ ታሪክ።",
+  "summaryAm": "አንድ ትንሽ እረኛ ቀልድ ሲያበዛ ጓደኞቹ መተማመን እንደሚቸገር የሚማርበት ለልጆች የተለሳለሰ ታሪክ።",
   "moralAm": "እውነት መናገር መተማመንን ይገነባል።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation with softened scary elements."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened scary elements."
   },
   "ageMin": 4,
   "ageMax": 6,
@@ -25,26 +25,66 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ተኩላ መጣ ያለው ልጅ ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The Boy Who Cried Wolf story is coming soon.",
+      "textAm": "በአረንጓዴ ኮረብታ ላይ አንድ ትንሽ እረኛ በጎቹን ይጠብቅ ነበር። በጎቹ በሰላም ሣር ይበሉ ነበር።",
+      "textEn": "On a green hill, a young shepherd watched sheep grazing peacefully.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+1",
-      "illustrationPrompt": "A young shepherd watches sheep on a sunny hillside, with no scary imagery.",
+      "illustrationPrompt": "A young shepherd watching sheep on a sunny green hillside, peaceful and safe.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ እውነትን እና መተማመንን ይዘጋጃል።",
-      "textEn": "This page will prepare the truth and trust moment.",
+      "textAm": "አንድ ቀን ልጁ ብቻውን ተሰማው። “ጓደኞቼ ቢመጡ ደስ ይለኛል” ብሎ አሰበ።",
+      "textEn": "One day, the child felt lonely and wished his friends would come.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+2",
-      "illustrationPrompt": "Villagers kindly listen to the child in a safe pastoral scene.",
+      "illustrationPrompt": "The young shepherd sitting thoughtfully beside calm sheep on a hillside.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ በትምህርት እና በአዲስ መጀመሪያ ይጨርሳል።",
-      "textEn": "The story will end with learning and a new beginning.",
+      "textAm": "ከዚያ “ተኩላ መጣ!” ብሎ ጮኸ። ከመንደሩ ሰዎች በፍጥነት መጡ፣ ግን ተኩላ አልነበረም።",
+      "textEn": "Then he called, Wolf is coming! People came quickly, but there was no wolf.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+3",
-      "illustrationPrompt": "The child learns about honesty while caring for sheep peacefully.",
+      "illustrationPrompt": "Kind villagers arriving on a sunny hill while the sheep remain safe.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ልጁ ትንሽ ሳቀ። ሰዎቹ ግን “እባክህ እውነት ሲሆን ብቻ ጥራን” ብለው በርኅራኄ ነገሩት።",
+      "textEn": "The child laughed a little, but the people kindly asked him to call only when it was true.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+4",
+      "illustrationPrompt": "Villagers kindly speaking with the child about telling the truth.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በሌላ ቀን ልጁ እንደገና ተጫወተ። “ተኩላ መጣ!” ብሎ ጮኸ። ሰዎቹ መጡ፣ ግን ደግሞ ተኩላ አልነበረም።",
+      "textEn": "Another day, the child called again as a joke, and again there was no wolf.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+5",
+      "illustrationPrompt": "The child calling from the hillside while villagers look concerned but gentle.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከጥቂት ቀናት በኋላ በጫካ ጫፍ አንድ ተኩላ ታየ። ተኩላው ሩቅ ነበር፣ በጎቹም ከልጁ አጠገብ ነበሩ።",
+      "textEn": "A few days later, a wolf appeared far away near the forest edge.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+6",
+      "illustrationPrompt": "A distant wolf at the forest edge, very small and non-scary, with sheep safe nearby.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ልጁ “እባካችሁ እርዱኝ፣ ይህ ጊዜ እውነት ነው!” ብሎ ጮኸ። ሰዎቹ ትንሽ ዘገዩ፣ ምክንያቱም ቀድሞ ቀልድ ነበር።",
+      "textEn": "The child called for real help, but the people paused because the earlier calls were jokes.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+7",
+      "illustrationPrompt": "The child calling sincerely while villagers listen from a safe distance.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ሰዎቹ መጡና በጎቹን በሰላም ወደ ቤት አመጡ። ልጁም “እውነት መናገር መተማመንን ይገነባል” ብሎ ተማረ።",
+      "textEn": "The people came and brought the sheep home safely. The child learned that truth builds trust.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Boy+Who+Cried+Wolf+Page+8",
+      "illustrationPrompt": "Villagers, the child, and sheep walking home safely in warm evening light.",
       "audioUrl": null
     }
   ]

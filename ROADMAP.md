@@ -28,6 +28,7 @@
 * Third Batch 1 story adaptation: fox_and_grapes
 * Fourth Batch 1 story adaptation: ant_and_grasshopper
 * Fifth Batch 1 story adaptation: crow_and_pitcher
+* Sixth Batch 1 story adaptation: boy_who_cried_wolf
 
 ## Next
 

@@ -20,6 +20,7 @@
 * Third full Batch 1 adaptation: `fox_and_grapes`
 * Fourth full Batch 1 adaptation: `ant_and_grasshopper`
 * Fifth full Batch 1 adaptation: `crow_and_pitcher`
+* Sixth full Batch 1 adaptation: `boy_who_cried_wolf`
 
 ## Next Recommended Goal
 
