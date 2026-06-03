@@ -1,0 +1,51 @@
+{
+  "id": "north_wind_and_sun",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 7,
+  "titleAm": "የሰሜን ነፋስ እና ፀሐይ",
+  "titleEn": "The North Wind and the Sun",
+  "summaryAm": "ርኅራኄ ከኃይል በላይ መሆኑን የሚያሳይ ታሪክ።",
+  "moralAm": "በቀስታ እና በደግነት ብዙ ነገር ይቻላል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["gentleness", "kindness", "wisdom"],
+  "coverImage": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የሰሜን ነፋስ እና የፀሐይ ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The North Wind and the Sun story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+1",
+      "illustrationPrompt": "A friendly sun and soft north wind look over a traveler on a path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ኃይልን እና ቀስተኛ ርኅራኄን ይዘጋጃል።",
+      "textEn": "This page will prepare the force and gentleness moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+2",
+      "illustrationPrompt": "The wind blows leaves gently while the traveler holds a coat.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በሙቀት እና በሰላም ይጨርሳል።",
+      "textEn": "The story will end with warmth and peace.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+3",
+      "illustrationPrompt": "The warm sun shines softly as the traveler smiles on the path.",
+      "audioUrl": null
+    }
+  ]
+}

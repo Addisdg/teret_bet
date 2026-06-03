@@ -7,17 +7,18 @@ import '../models/story_page_model.dart';
 
 class LocalStoryService {
   static const String _storyAssetFolder = 'assets/stories/';
+  static const String _storyManifestPath =
+      '${_storyAssetFolder}story_manifest.json';
 
   Future<List<Story>> fetchStories() async {
-    final storyFiles = await _findStoryAssetFiles();
+    final storyIds = await _loadStoryIds();
     final stories = <Story>[];
 
-    for (final path in storyFiles) {
-      final storyJson = await _loadStoryJsonFromPath(path);
+    for (final storyId in storyIds) {
+      final storyJson = await _loadStoryJson(storyId);
       stories.add(Story.fromJson(storyJson));
     }
 
-    stories.sort((a, b) => a.titleAm.compareTo(b.titleAm));
     return stories;
   }
 
@@ -33,15 +34,31 @@ class LocalStoryService {
     return pages;
   }
 
-  Future<List<String>> _findStoryAssetFiles() async {
+  Future<List<String>> _loadStoryIds() async {
+    try {
+      final jsonString = await rootBundle.loadString(_storyManifestPath);
+      final decoded = jsonDecode(jsonString) as List;
+
+      return decoded.whereType<String>().toList();
+    } catch (_) {
+      // Keep local fallback resilient if the manifest is missing in old builds.
+      return _discoverStoryIdsFromAssets();
+    }
+  }
+
+  Future<List<String>> _discoverStoryIdsFromAssets() async {
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
 
-    final storyFiles = manifest.listAssets().where((path) {
-      return path.startsWith(_storyAssetFolder) && path.endsWith('.json');
+    final storyIds = manifest.listAssets().where((path) {
+      return path.startsWith(_storyAssetFolder) &&
+          path.endsWith('.json') &&
+          path != _storyManifestPath;
+    }).map((path) {
+      return path.replaceFirst(_storyAssetFolder, '').replaceFirst('.json', '');
     }).toList();
 
-    storyFiles.sort();
-    return storyFiles;
+    storyIds.sort();
+    return storyIds;
   }
 
   Future<Map<String, dynamic>> _loadStoryJson(String storyId) {

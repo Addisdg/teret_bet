@@ -1,0 +1,51 @@
+{
+  "id": "ant_and_grasshopper",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 4,
+  "titleAm": "ጉንዳኑ እና አንበጣው",
+  "titleEn": "The Ant and the Grasshopper",
+  "summaryAm": "መዘጋጀት፣ መሥራት እና ጓደኛን በርኅራኄ መመልከት የሚያሳይ ታሪክ።",
+  "moralAm": "ጊዜውን ጠብቆ መዘጋጀት ጥሩ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["planning", "work", "responsibility"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የጉንዳኑ እና የአንበጣው ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Ant and the Grasshopper story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+1",
+      "illustrationPrompt": "A hardworking ant gathers seeds while a cheerful grasshopper watches.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ መዘጋጀትን እና መጫወትን በቀላሉ ይዘጋጃል።",
+      "textEn": "This page will prepare the planning and playing moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+2",
+      "illustrationPrompt": "The ant stores food in a cozy home while the grasshopper sings outside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በመማር እና በርኅራኄ ይጨርሳል።",
+      "textEn": "The story will end with learning and kindness.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Ant+and+Grasshopper+Page+3",
+      "illustrationPrompt": "The ant and grasshopper share a warm lesson about preparing ahead.",
+      "audioUrl": null
+    }
+  ]
+}

@@ -40,7 +40,7 @@ Implemented:
 * Firestore story loading
 * Local JSON fallback
 * Hive caching
-* Multiple local JSON story assets
+* Manifest-based local JSON story assets
 * Story library screen
 * Story details screen
 * Page-based story reader
@@ -51,13 +51,20 @@ Implemented:
 * Local per-page illustrations
 * Optimized WebP story assets
 * Story content schema documentation
-* Three bundled local stories
+* Batch 1 local story manifest and placeholders
 
-Current sample stories:
+Current local library manifest:
 
 * little_rabbit
-* brave_tortoise
-* little_seed
+* lion_and_mouse
+* tortoise_and_hare
+* fox_and_grapes
+* ant_and_grasshopper
+* crow_and_pitcher
+* boy_who_cried_wolf
+* north_wind_and_sun
+* dog_and_reflection
+* goose_golden_eggs
 
 Story content is stored in:
 
@@ -90,8 +97,8 @@ Story loading keeps this priority order:
 3. Local JSON assets
 
 `StoryRepository` owns the fallback chain. `FirestoreStoryService` reads cloud
-content, and `LocalStoryService` reads every JSON file in `assets/stories/` so
-new local fallback stories appear in the library automatically.
+content, and `LocalStoryService` reads story IDs from
+`assets/stories/story_manifest.json` before loading each local JSON story.
 
 ## Long-Term Goals
 

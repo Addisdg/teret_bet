@@ -1,0 +1,51 @@
+{
+  "id": "goose_golden_eggs",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 9,
+  "titleAm": "ወርቃማ እንቁላል የምትጥለው ዝይ",
+  "titleEn": "The Goose That Laid the Golden Eggs",
+  "summaryAm": "ትዕግሥትን፣ ምስጋናን እና በቂ መሆንን የሚያሳይ ታሪክ።",
+  "moralAm": "በምስጋና መኖር ከስግብግብነት ይሻላል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation with softened conflict."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["gratitude", "patience", "contentment"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Golden+Eggs",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የወርቃማ እንቁላል ዝይ ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Goose That Laid the Golden Eggs story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+1",
+      "illustrationPrompt": "A gentle goose sits near a small golden egg in a warm farmyard.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ምስጋናን እና ትዕግሥትን ይዘጋጃል።",
+      "textEn": "This page will prepare the gratitude and patience moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+2",
+      "illustrationPrompt": "A family looks at the golden egg with wonder and gratitude.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በበቂ መሆንን በመማር ይጨርሳል።",
+      "textEn": "The story will end by learning contentment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+3",
+      "illustrationPrompt": "The family cares for the goose kindly in a peaceful ending.",
+      "audioUrl": null
+    }
+  ]
+}

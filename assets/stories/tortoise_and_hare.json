@@ -1,0 +1,51 @@
+{
+  "id": "tortoise_and_hare",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 2,
+  "titleAm": "ኤሊው እና ጥንቸሉ",
+  "titleEn": "The Tortoise and the Hare",
+  "summaryAm": "በቀስታ እና በትዕግሥት መጓዝ ወደ መድረሻ እንደሚያደርስ የሚያሳይ ታሪክ።",
+  "moralAm": "ትዕግሥት እና ጽናት ውጤት ያመጣሉ።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["patience", "persistence", "humility"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የኤሊው እና የጥንቸሉ ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Tortoise and the Hare story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+1",
+      "illustrationPrompt": "A calm tortoise and lively hare meet near a sunny path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ትዕግሥትን እና ጽናትን ይዘጋጃል።",
+      "textEn": "This page will prepare the patience and persistence moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+2",
+      "illustrationPrompt": "The tortoise keeps walking slowly while the hare rests nearby.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በደስታ እና በመማር ይጨርሳል።",
+      "textEn": "The story will end with joy and learning.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+3",
+      "illustrationPrompt": "The tortoise reaches the finish while the hare learns kindly.",
+      "audioUrl": null
+    }
+  ]
+}

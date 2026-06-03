@@ -1,0 +1,51 @@
+{
+  "id": "dog_and_reflection",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 8,
+  "titleAm": "ውሻው እና ጥላው",
+  "titleEn": "The Dog and His Reflection",
+  "summaryAm": "ያለንን መውደድ እና በሌላ ነገር አለመስማማት የሚያሳይ ታሪክ።",
+  "moralAm": "ያለንን ማወቅ እና ማመስገን ጥሩ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["contentment", "gratitude", "choices"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Dog+and+Reflection",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የውሻው እና የጥላው ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Dog and His Reflection story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+1",
+      "illustrationPrompt": "A friendly dog walks near calm water with a small treat.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ጥላን ማየትን እና መምረጥን ይዘጋጃል።",
+      "textEn": "This page will prepare the reflection and choice moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+2",
+      "illustrationPrompt": "The dog sees its reflection in a peaceful stream.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በማመስገን እና በመማር ይጨርሳል።",
+      "textEn": "The story will end with gratitude and learning.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+3",
+      "illustrationPrompt": "The dog walks home peacefully after learning about contentment.",
+      "audioUrl": null
+    }
+  ]
+}

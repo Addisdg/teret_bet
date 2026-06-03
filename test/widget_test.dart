@@ -23,26 +23,35 @@ void main() {
     tempDir.deleteSync(recursive: true);
   });
 
-  test('local story service discovers every JSON story asset', () async {
+  test('local story service loads stories from the story manifest', () async {
     final service = LocalStoryService();
 
     final stories = await service.fetchStories();
     final storyIds = stories.map((story) => story.id).toSet();
 
+    expect(stories.first.id, 'little_rabbit');
     expect(storyIds, contains('little_rabbit'));
-    expect(storyIds, contains('brave_tortoise'));
-    expect(storyIds, contains('little_seed'));
-    expect(stories.length, greaterThanOrEqualTo(3));
+    expect(storyIds, contains('lion_and_mouse'));
+    expect(storyIds, contains('goose_golden_eggs'));
+    expect(storyIds, isNot(contains('story_manifest')));
+    expect(stories.length, 10);
     expect(
-      stories.every((story) => story.coverImage.startsWith('assets/')),
+      stories.where((story) => story.status == 'draft').length,
+      9,
+    );
+
+    final localCoverStories = stories.where(
+      (story) => story.coverImage.startsWith('assets/'),
+    );
+
+    expect(
+      localCoverStories.every((story) => File(story.coverImage).existsSync()),
       isTrue,
     );
     expect(
-      stories.every((story) => File(story.coverImage).existsSync()),
-      isTrue,
-    );
-    expect(
-      stories.every((story) => File(story.coverImage).lengthSync() < 500000),
+      localCoverStories.every(
+        (story) => File(story.coverImage).lengthSync() < 500000,
+      ),
       isTrue,
     );
   });
@@ -52,15 +61,16 @@ void main() {
     final service = LocalStoryService();
 
     final stories = await service.fetchStories();
-    final littleSeed = stories.firstWhere((story) => story.id == 'little_seed');
+    final littleRabbit =
+        stories.firstWhere((story) => story.id == 'little_rabbit');
 
-    expect(littleSeed.collection, 'original');
-    expect(littleSeed.status, 'published');
-    expect(littleSeed.priority, 103);
-    expect(littleSeed.moralAm, contains('ትዕግሥት'));
-    expect(littleSeed.source.type, 'original');
-    expect(littleSeed.themes, contains('growth'));
-    expect(littleSeed.audio.storyAudioUrl, isNull);
+    expect(littleRabbit.collection, 'original');
+    expect(littleRabbit.status, 'published');
+    expect(littleRabbit.priority, 101);
+    expect(littleRabbit.moralAm, contains('ደግነት'));
+    expect(littleRabbit.source.type, 'original');
+    expect(littleRabbit.themes, contains('friendship'));
+    expect(littleRabbit.audio.storyAudioUrl, isNull);
   });
 
   test('story model keeps old Firestore data backward compatible', () {
@@ -140,6 +150,24 @@ void main() {
       imagePaths.every((path) => File(path).existsSync()),
       isTrue,
     );
+  });
+
+  test('batch 1 placeholder stories include draft metadata and pages',
+      () async {
+    final service = LocalStoryService();
+
+    final stories = await service.fetchStories();
+    final lionAndMouse =
+        stories.firstWhere((story) => story.id == 'lion_and_mouse');
+    final pages = await service.fetchStoryPages('lion_and_mouse');
+
+    expect(lionAndMouse.collection, 'aesop');
+    expect(lionAndMouse.status, 'draft');
+    expect(lionAndMouse.source.type, 'public_domain');
+    expect(lionAndMouse.audio.storyAudioUrl, isNull);
+    expect(pages, hasLength(3));
+    expect(pages.first.illustrationPrompt, isNotEmpty);
+    expect(pages.first.audioUrl, isNull);
   });
 
   test('repository falls back to local stories when Firestore and cache fail',

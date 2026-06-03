@@ -1,0 +1,51 @@
+{
+  "id": "fox_and_grapes",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 3,
+  "titleAm": "ቀበሮው እና ወይኑ",
+  "titleEn": "The Fox and the Grapes",
+  "summaryAm": "ሰው ያልደረሰበትን ነገር መናቅ እንዳይሆን የሚያስታውስ ታሪክ።",
+  "moralAm": "እውነተኛ ስሜታችንን መቀበል ጥሩ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["honesty", "contentment", "feelings"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Fox+and+Grapes",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የቀበሮው እና የወይኑ ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Fox and the Grapes story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+1",
+      "illustrationPrompt": "A friendly fox sees grapes hanging from a leafy vine.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ሙከራን እና ትንሽ ብስጭትን ይዘጋጃል።",
+      "textEn": "This page will prepare the trying and disappointment moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+2",
+      "illustrationPrompt": "The fox tries to reach grapes in a gentle, non-frightening scene.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ ስሜትን በትክክል መግለጽን ያሳያል።",
+      "textEn": "The story will show how to speak honestly about feelings.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+3",
+      "illustrationPrompt": "The fox walks away thoughtfully through a warm vineyard path.",
+      "audioUrl": null
+    }
+  ]
+}

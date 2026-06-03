@@ -63,17 +63,17 @@ The app keeps the MVP fallback order simple:
 
 1. Load stories from Firestore.
 2. If Firestore is unavailable, load the last Hive cache.
-3. If no cache exists, load every JSON file in `assets/stories/`.
+3. If no cache exists, load local story IDs from
+   `assets/stories/story_manifest.json`.
 
 To add a local fallback story, add a new `.json` file to `assets/stories/`.
-`LocalStoryService` reads the asset manifest, so the library discovers the file
-automatically.
+Then add the story ID to `assets/stories/story_manifest.json` so the library can
+show it.
 
 Bundled MVP stories:
 
 - `little_rabbit`
-- `brave_tortoise`
-- `little_seed`
+- Batch 1 draft placeholders from `story_manifest.json`
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

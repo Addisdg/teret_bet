@@ -14,6 +14,21 @@ File name:
 assets/stories/story_id.json
 ```
 
+Add the story ID to the local manifest so it appears in the library:
+
+```text
+assets/stories/story_manifest.json
+```
+
+The manifest is an ordered JSON list of story IDs:
+
+```json
+[
+  "little_rabbit",
+  "lion_and_mouse"
+]
+```
+
 Required story fields:
 
 ```json
@@ -138,9 +153,10 @@ audioUrl: string | null
 ## Publishing Checklist
 
 1. Add or update the story JSON file in `assets/stories/`.
-2. Add local cover and page images in `assets/images/stories/` or confirm hosted URLs are valid.
-3. Run `flutter test` to confirm local stories can be discovered and loaded.
-4. Copy the story-level fields into `stories/{storyId}` in Firestore.
-5. Copy each page into `stories/{storyId}/pages/{pageId}`.
-6. Confirm Firestore page documents have increasing `pageNumber` values.
-7. Run the app and open the story from the library.
+2. Add the story ID to `assets/stories/story_manifest.json`.
+3. Add local cover and page images in `assets/images/stories/` or confirm hosted URLs are valid.
+4. Run `flutter test` to confirm local stories can be discovered and loaded.
+5. Copy the story-level fields into `stories/{storyId}` in Firestore.
+6. Copy each page into `stories/{storyId}/pages/{pageId}`.
+7. Confirm Firestore page documents have increasing `pageNumber` values.
+8. Run the app and open the story from the library.

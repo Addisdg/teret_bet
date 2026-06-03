@@ -1,0 +1,51 @@
+{
+  "id": "crow_and_pitcher",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 5,
+  "titleAm": "ቁራው እና የውሃ ማሰሮው",
+  "titleEn": "The Crow and the Pitcher",
+  "summaryAm": "ችግኝን በብልሃት መፍታት የሚያሳይ አጭር ታሪክ።",
+  "moralAm": "በትንሽ ትንሽ ሀሳብ ትልቅ ችግኝ ይፈታል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["problem solving", "patience", "creativity"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የቁራው እና የውሃ ማሰሮው ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Crow and the Pitcher story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+1",
+      "illustrationPrompt": "A curious crow finds a pitcher with a little water inside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ ብልሃትን እና ሙከራን ይዘጋጃል።",
+      "textEn": "This page will prepare the clever problem-solving moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+2",
+      "illustrationPrompt": "The crow drops small pebbles into the pitcher one by one.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በደስታ እና በመፍትሔ ይጨርሳል።",
+      "textEn": "The story will end with joy and a solution.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+3",
+      "illustrationPrompt": "The crow happily drinks water after solving the problem.",
+      "audioUrl": null
+    }
+  ]
+}

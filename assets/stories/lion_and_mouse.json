@@ -1,0 +1,51 @@
+{
+  "id": "lion_and_mouse",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 1,
+  "titleAm": "አንበሳው እና አይጡ",
+  "titleEn": "The Lion and the Mouse",
+  "summaryAm": "ትንሽ ጓደኛ እንኳን ትልቅ እርዳታ ሊያደርግ እንደሚችል የሚያሳይ ታሪክ።",
+  "moralAm": "ደግነት በትንሽም በትልቅም ልብ ውስጥ ይኖራል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Aesop's Fables",
+    "sourceUrl": "",
+    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["kindness", "helping", "friendship"],
+  "coverImage": "https://placehold.co/1200x900/png?text=Lion+and+Mouse",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የአንበሳው እና የአይጡ ታሪክ በቅርቡ ይመጣል።",
+      "textEn": "The Lion and the Mouse story is coming soon.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+1",
+      "illustrationPrompt": "A gentle lion resting under an acacia tree while a tiny mouse approaches kindly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ይህ ገጽ የደግነትን እና የመርዳትን ሀሳብ ይዘጋጃል።",
+      "textEn": "This page will prepare the kindness and helping moment.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+2",
+      "illustrationPrompt": "The tiny mouse helping the lion with a calm, child-friendly expression.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ታሪኩ በጓደኝነት እና በምስጋና ይጨርሳል።",
+      "textEn": "The story will end with friendship and gratitude.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+3",
+      "illustrationPrompt": "The lion and mouse smiling together as friends in warm storybook light.",
+      "audioUrl": null
+    }
+  ]
+}
