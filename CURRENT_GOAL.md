@@ -15,11 +15,13 @@
 * Manifest-based local story loading
 * Batch 1 draft placeholder stories
 * Audio-ready UI placeholders
+* First full Batch 1 adaptation: `lion_and_mouse`
 
 ## Next Recommended Goal
 
 Reading progress persistence + Settings screen.
 
 Note: the MVP already includes reading progress persistence and reader font-size
-settings. The next practical continuation is to turn Batch 1 placeholders into
-reviewed full Amharic adaptations with final illustrations and later narration.
+settings. The next practical continuation is to turn the remaining Batch 1
+placeholders into reviewed full Amharic adaptations with final illustrations and
+later narration.
