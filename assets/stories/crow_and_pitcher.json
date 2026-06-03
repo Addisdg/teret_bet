@@ -1,17 +1,17 @@
 {
   "id": "crow_and_pitcher",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 5,
   "titleAm": "ቁራው እና የውሃ ማሰሮው",
   "titleEn": "The Crow and the Pitcher",
-  "summaryAm": "ችግኝን በብልሃት መፍታት የሚያሳይ አጭር ታሪክ።",
-  "moralAm": "በትንሽ ትንሽ ሀሳብ ትልቅ ችግኝ ይፈታል።",
+  "summaryAm": "ቁራው ትንሽ ውሃ በማሰሮ ውስጥ ሲያገኝ በትዕግሥትና በብልሃት መፍትሔ የሚያገኝበት ታሪክ።",
+  "moralAm": "ችግኝ ሲመጣ በትዕግሥት ካሰብን መፍትሔ እናገኛለን።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation focused on patient problem solving."
   },
   "ageMin": 3,
   "ageMax": 6,
@@ -25,26 +25,66 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የቁራው እና የውሃ ማሰሮው ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The Crow and the Pitcher story is coming soon.",
+      "textAm": "በሞቃት ቀን አንድ ቁራ በሜዳ ላይ ይበር ነበር። ቁራው ውሃ ፈለገ፣ ነገር ግን ወንዝ በአቅራቢያ አልነበረም።",
+      "textEn": "On a warm day, a crow flew over a field looking for water.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+1",
-      "illustrationPrompt": "A curious crow finds a pitcher with a little water inside.",
+      "illustrationPrompt": "A curious crow flying over a warm meadow while looking for water.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ ብልሃትን እና ሙከራን ይዘጋጃል።",
-      "textEn": "This page will prepare the clever problem-solving moment.",
+      "textAm": "ቁራው በዛፍ አጠገብ አንድ ማሰሮ አየ። በውስጡ ትንሽ ውሃ ነበር፣ ግን ውሃው በጣም ዝቅ ብሎ ነበር።",
+      "textEn": "The crow saw a pitcher near a tree, but the water inside was very low.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+2",
-      "illustrationPrompt": "The crow drops small pebbles into the pitcher one by one.",
+      "illustrationPrompt": "The crow finding a clay pitcher with a little water low inside.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ በደስታ እና በመፍትሔ ይጨርሳል።",
-      "textEn": "The story will end with joy and a solution.",
+      "textAm": "ቁራው ምንቃሩን ወደ ማሰሮው አስገባ። ግን ውሃውን መድረስ አልቻለም።",
+      "textEn": "The crow put his beak into the pitcher, but he could not reach the water.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+3",
-      "illustrationPrompt": "The crow happily drinks water after solving the problem.",
+      "illustrationPrompt": "The crow gently trying to reach water inside the pitcher but not reaching it.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ቁራው ተቀመጠና በቀስታ አሰበ። “አልቸኩልም። መፍትሔ እፈልጋለሁ” አለ።",
+      "textEn": "The crow sat down and thought slowly. I will look for a solution, he said.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+4",
+      "illustrationPrompt": "The crow sitting thoughtfully beside the pitcher in warm storybook light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ከዚያ ትንሽ ድንጋይ አየ። ድንጋዩን አንስቶ ወደ ማሰሮው ጣለው። አንድ ድንጋይ፣ ትንሽ ውሃ ወጣ።",
+      "textEn": "Then he saw a small pebble and dropped it into the pitcher.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+5",
+      "illustrationPrompt": "The crow dropping one small pebble into the pitcher with careful focus.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ቁራው ሌላ ድንጋይ አመጣ። አንድ ድንጋይ፣ ሌላ ድንጋይ፣ ውሃው በቀስታ ከፍ አለ።",
+      "textEn": "The crow brought another pebble, then another, and the water slowly rose.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+6",
+      "illustrationPrompt": "The crow adding pebbles one by one as the water rises in the pitcher.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ብዙም ሳይቆይ ውሃው ወደ ላይ ደረሰ። ቁራው በደስታ ጠጣ፣ ልቡም ተረጋጋ።",
+      "textEn": "Soon the water rose high enough, and the crow drank happily.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+7",
+      "illustrationPrompt": "The crow happily drinking water from the pitcher after solving the problem.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ቁራው “በትንሽ ትንሽ ሙከራ ትልቅ ችግኝ ይፈታል” ብሎ ተማረ። ከዚያም በደስታ በሰማይ በረረ።",
+      "textEn": "The crow learned that small patient steps can solve a big problem.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Crow+and+Pitcher+Page+8",
+      "illustrationPrompt": "The crow flying happily over the meadow after learning a clever lesson.",
       "audioUrl": null
     }
   ]

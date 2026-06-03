@@ -39,7 +39,7 @@ void main() {
     expect(stories.length, 10);
     expect(
       stories.where((story) => story.status == 'draft').length,
-      5,
+      4,
     );
 
     final localCoverStories = stories.where(
@@ -231,7 +231,7 @@ void main() {
     expect(pages.first.audioUrl, isNull);
   });
 
-  test('batch 1 placeholder stories include draft metadata and pages',
+  test('crow and pitcher includes a full adaptation ready for review',
       () async {
     final service = LocalStoryService();
 
@@ -241,9 +241,29 @@ void main() {
     final pages = await service.fetchStoryPages('crow_and_pitcher');
 
     expect(crowAndPitcher.collection, 'aesop');
-    expect(crowAndPitcher.status, 'draft');
+    expect(crowAndPitcher.status, 'ready_for_review');
     expect(crowAndPitcher.source.type, 'public_domain');
     expect(crowAndPitcher.audio.storyAudioUrl, isNull);
+    expect(pages, hasLength(8));
+    expect(pages.first.textAm, isNot(contains('በቅርቡ')));
+    expect(pages.map((page) => page.textAm).join(' '), contains('አንድ ድንጋይ'));
+    expect(pages.first.illustrationPrompt, isNotEmpty);
+    expect(pages.first.audioUrl, isNull);
+  });
+
+  test('batch 1 placeholder stories include draft metadata and pages',
+      () async {
+    final service = LocalStoryService();
+
+    final stories = await service.fetchStories();
+    final boyWhoCriedWolf =
+        stories.firstWhere((story) => story.id == 'boy_who_cried_wolf');
+    final pages = await service.fetchStoryPages('boy_who_cried_wolf');
+
+    expect(boyWhoCriedWolf.collection, 'aesop');
+    expect(boyWhoCriedWolf.status, 'draft');
+    expect(boyWhoCriedWolf.source.type, 'public_domain');
+    expect(boyWhoCriedWolf.audio.storyAudioUrl, isNull);
     expect(pages, hasLength(3));
     expect(pages.first.illustrationPrompt, isNotEmpty);
     expect(pages.first.audioUrl, isNull);

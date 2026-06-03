@@ -27,6 +27,7 @@
 * Second Batch 1 story adaptation: tortoise_and_hare
 * Third Batch 1 story adaptation: fox_and_grapes
 * Fourth Batch 1 story adaptation: ant_and_grasshopper
+* Fifth Batch 1 story adaptation: crow_and_pitcher
 
 ## Next
 
