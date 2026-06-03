@@ -294,6 +294,12 @@ class _ReaderControls extends StatelessWidget {
                   onPressed: canIncreaseFontSize ? onIncreaseFontSize : null,
                   icon: const Icon(Icons.text_increase),
                 ),
+                const SizedBox(width: 8),
+                const IconButton.filledTonal(
+                  tooltip: 'ድምፅ በቅርቡ',
+                  onPressed: null,
+                  icon: Icon(Icons.headphones),
+                ),
                 const Spacer(),
                 Text(
                   'ገጽ ${currentPageIndex + 1} / $pageCount',

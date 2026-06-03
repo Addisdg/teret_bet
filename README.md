@@ -16,6 +16,7 @@ A cross-platform Flutter app for illustrated Amharic children's stories.
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
+- Audio-ready metadata and placeholder UI
 
 ## Tech Stack
 
@@ -88,6 +89,9 @@ Reader font size is also stored in Hive from the Settings screen. The language
 toggle is shown as a disabled placeholder for a future multilingual release.
 The reader also includes text-size buttons so parents can adjust the story while
 reading.
+
+Stories now include nullable audio metadata. The details and reader screens show
+audio placeholders, but playback packages are intentionally deferred.
 
 ## Local Testing
 

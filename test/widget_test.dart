@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 import 'package:teret_bet_app/features/stories/data/models/story_model.dart';
@@ -8,6 +9,7 @@ import 'package:teret_bet_app/features/stories/data/repositories/story_repositor
 import 'package:teret_bet_app/features/stories/data/services/firestore_story_service.dart';
 import 'package:teret_bet_app/features/stories/data/services/local_story_service.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
+import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -257,6 +259,28 @@ void main() {
     expect(settings.fontSize, SettingsProvider.minFontSize);
 
     await box.deleteFromDisk();
+  });
+
+  testWidgets('story details shows audio coming soon when audio is missing',
+      (tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: StoryDetailsScreen(
+          story: Story(
+            id: 'audio_placeholder_test',
+            titleAm: 'የድምፅ ሙከራ',
+            titleEn: 'Audio Placeholder Test',
+            coverImage: '',
+            summaryAm: 'የሙከራ ማጠቃለያ',
+            ageMin: 3,
+            ageMax: 6,
+          ),
+        ),
+      ),
+    );
+
+    expect(find.text('ድምፅ በቅርቡ'), findsOneWidget);
+    expect(find.byIcon(Icons.headphones), findsOneWidget);
   });
 }
 
