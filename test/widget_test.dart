@@ -39,7 +39,7 @@ void main() {
     expect(stories.length, 10);
     expect(
       stories.where((story) => story.status == 'draft').length,
-      7,
+      6,
     );
 
     final localCoverStories = stories.where(
@@ -192,8 +192,7 @@ void main() {
     expect(pages.first.audioUrl, isNull);
   });
 
-  test('batch 1 placeholder stories include draft metadata and pages',
-      () async {
+  test('fox and grapes includes a full adaptation ready for review', () async {
     final service = LocalStoryService();
 
     final stories = await service.fetchStories();
@@ -202,9 +201,29 @@ void main() {
     final pages = await service.fetchStoryPages('fox_and_grapes');
 
     expect(foxAndGrapes.collection, 'aesop');
-    expect(foxAndGrapes.status, 'draft');
+    expect(foxAndGrapes.status, 'ready_for_review');
     expect(foxAndGrapes.source.type, 'public_domain');
     expect(foxAndGrapes.audio.storyAudioUrl, isNull);
+    expect(pages, hasLength(7));
+    expect(pages.first.textAm, isNot(contains('በቅርቡ')));
+    expect(pages.map((page) => page.textAm).join(' '), contains('እውነተኛ'));
+    expect(pages.first.illustrationPrompt, isNotEmpty);
+    expect(pages.first.audioUrl, isNull);
+  });
+
+  test('batch 1 placeholder stories include draft metadata and pages',
+      () async {
+    final service = LocalStoryService();
+
+    final stories = await service.fetchStories();
+    final antAndGrasshopper =
+        stories.firstWhere((story) => story.id == 'ant_and_grasshopper');
+    final pages = await service.fetchStoryPages('ant_and_grasshopper');
+
+    expect(antAndGrasshopper.collection, 'aesop');
+    expect(antAndGrasshopper.status, 'draft');
+    expect(antAndGrasshopper.source.type, 'public_domain');
+    expect(antAndGrasshopper.audio.storyAudioUrl, isNull);
     expect(pages, hasLength(3));
     expect(pages.first.illustrationPrompt, isNotEmpty);
     expect(pages.first.audioUrl, isNull);

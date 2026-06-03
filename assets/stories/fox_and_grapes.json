@@ -1,17 +1,17 @@
 {
   "id": "fox_and_grapes",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 3,
   "titleAm": "ቀበሮው እና ወይኑ",
   "titleEn": "The Fox and the Grapes",
-  "summaryAm": "ሰው ያልደረሰበትን ነገር መናቅ እንዳይሆን የሚያስታውስ ታሪክ።",
-  "moralAm": "እውነተኛ ስሜታችንን መቀበል ጥሩ ነው።",
+  "summaryAm": "ቀበሮው የሚፈልገውን ወይን ሳይደርስበት ሲቀር ስሜቱን በእውነት መቀበልን የሚማርበት ቀላል ታሪክ።",
+  "moralAm": "ያልደረስንበትን ነገር መናቅ ሳይሆን ስሜታችንን በእውነት መቀበል ይሻላል።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation focused on honest feelings."
   },
   "ageMin": 3,
   "ageMax": 6,
@@ -25,26 +25,58 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የቀበሮው እና የወይኑ ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The Fox and the Grapes story is coming soon.",
+      "textAm": "አንድ ቀን ቀበሮው በፀሐይ የተሞላ የወይን አትክልት ውስጥ ይጓዝ ነበር። ሆዱም ትንሽ ተርቦ ነበር።",
+      "textEn": "One day, the fox walked through a sunny grape garden and felt a little hungry.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+1",
-      "illustrationPrompt": "A friendly fox sees grapes hanging from a leafy vine.",
+      "illustrationPrompt": "A friendly fox walking through a sunny vineyard with warm storybook colors.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ ሙከራን እና ትንሽ ብስጭትን ይዘጋጃል።",
-      "textEn": "This page will prepare the trying and disappointment moment.",
+      "textAm": "በዛፍ ላይ የተንጠለጠለ ጣፋጭ ወይን አየ። “እንዴት ጥሩ ይመስላል!” ብሎ በደስታ ተመለከተው።",
+      "textEn": "He saw sweet grapes hanging high and looked at them happily.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+2",
-      "illustrationPrompt": "The fox tries to reach grapes in a gentle, non-frightening scene.",
+      "illustrationPrompt": "The fox looking up happily at sweet grapes hanging high on leafy vines.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ ስሜትን በትክክል መግለጽን ያሳያል።",
-      "textEn": "The story will show how to speak honestly about feelings.",
+      "textAm": "ቀበሮው በቀስታ ዘለለ። ግን ወይኑ ከእጁ ትንሽ ርቆ ነበር።",
+      "textEn": "The fox jumped gently, but the grapes were just out of reach.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+3",
-      "illustrationPrompt": "The fox walks away thoughtfully through a warm vineyard path.",
+      "illustrationPrompt": "The fox making a gentle jump toward grapes that are just out of reach.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "እንደገና ሞከረ። እንደገናም ሞከረ። ነገር ግን ወይኑ አሁንም ከፍ ብሎ ነበር።",
+      "textEn": "He tried again and again, but the grapes were still too high.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+4",
+      "illustrationPrompt": "The fox trying again with effort, still safe and playful, under high grape vines.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ቀበሮው ትንሽ ተበሳጨ። “ምናልባት ወይኑ አይጣፍጥም” ብሎ ለራሱ ተናገረ።",
+      "textEn": "The fox felt a little upset and said maybe the grapes were not sweet.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+5",
+      "illustrationPrompt": "The fox looking a little disappointed but not angry under the grape vine.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከዚያ ቆም ብሎ አሰበ። “እውነቱ ግን ወይኑን ፈልጌ ነበር። ስላልደረስኩበት ብቻ ተበሳጨሁ” አለ።",
+      "textEn": "Then he stopped and admitted he wanted the grapes but felt disappointed.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+6",
+      "illustrationPrompt": "The fox pausing thoughtfully on a warm vineyard path, learning about honest feelings.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ቀበሮው በቀስታ ተመለሰ። “ዛሬ አልደረስኩበትም፣ ግን እውነተኛ መሆንን ተማርኩ” ብሎ ፈገግ አለ።",
+      "textEn": "The fox walked away gently, knowing he had learned to be honest.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Fox+and+Grapes+Page+7",
+      "illustrationPrompt": "The fox walking away peacefully through the vineyard with a small thoughtful smile.",
       "audioUrl": null
     }
   ]

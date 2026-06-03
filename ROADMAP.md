@@ -25,6 +25,7 @@
 * Audio-ready UI placeholders
 * First Batch 1 story adaptation: lion_and_mouse
 * Second Batch 1 story adaptation: tortoise_and_hare
+* Third Batch 1 story adaptation: fox_and_grapes
 
 ## Next
 
