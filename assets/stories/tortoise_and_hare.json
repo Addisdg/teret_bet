@@ -1,17 +1,17 @@
 {
   "id": "tortoise_and_hare",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 2,
   "titleAm": "ኤሊው እና ጥንቸሉ",
   "titleEn": "The Tortoise and the Hare",
-  "summaryAm": "በቀስታ እና በትዕግሥት መጓዝ ወደ መድረሻ እንደሚያደርስ የሚያሳይ ታሪክ።",
-  "moralAm": "ትዕግሥት እና ጽናት ውጤት ያመጣሉ።",
+  "summaryAm": "በቀስታ እና በጽናት መጓዝ ወደ መድረሻ እንደሚያደርስ የሚያሳይ ለልጆች የተለሳለሰ ታሪክ።",
+  "moralAm": "በቀስታ ብንሄድም በጽናት ከቀጠልን መድረስ እንችላለን።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with a gentle ending."
   },
   "ageMin": 3,
   "ageMax": 6,
@@ -25,26 +25,66 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የኤሊው እና የጥንቸሉ ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The Tortoise and the Hare story is coming soon.",
+      "textAm": "በአንድ ፀሐያማ ጠዋት ኤሊው በአረንጓዴ መንገድ ላይ በቀስታ ይጓዝ ነበር። እሱ ቀስ ቢልም ሁልጊዜ ይቀጥል ነበር።",
+      "textEn": "One sunny morning, the tortoise walked slowly along a green path.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+1",
-      "illustrationPrompt": "A calm tortoise and lively hare meet near a sunny path.",
+      "illustrationPrompt": "A calm tortoise walking slowly on a green sunny path with warm storybook light.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ ትዕግሥትን እና ጽናትን ይዘጋጃል።",
-      "textEn": "This page will prepare the patience and persistence moment.",
+      "textAm": "ጥንቸሉ በፍጥነት እየዘለለ መጣ። “ኤሊ ሆይ፣ እኔ ፈጣን ነኝ፤ አንተ ግን በጣም ቀስ ትሄዳለህ!” አለ።",
+      "textEn": "The hare came hopping quickly and said he was very fast.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+2",
-      "illustrationPrompt": "The tortoise keeps walking slowly while the hare rests nearby.",
+      "illustrationPrompt": "A lively hare hopping near the calm tortoise, playful but not mean.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ በደስታ እና በመማር ይጨርሳል።",
-      "textEn": "The story will end with joy and learning.",
+      "textAm": "ኤሊው ፈገግ አለ። “እኔ ቀስ እሄዳለሁ፣ ግን አልቆምም። እስከ ዛፉ ድረስ እንወዳደር?” ብሎ ጠየቀ።",
+      "textEn": "The tortoise smiled and asked if they could race to the tree.",
       "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+3",
-      "illustrationPrompt": "The tortoise reaches the finish while the hare learns kindly.",
+      "illustrationPrompt": "The tortoise smiling calmly while pointing toward a far tree finish line.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ጓደኞቻቸው “ጀምሩ!” አሉ። ጥንቸሉ ፈጥኖ ሮጠ፣ ኤሊው ግን በቀስታ በቀስታ መጓዝ ጀመረ።",
+      "textEn": "Their friends said, Start! The hare ran fast, and the tortoise began slowly.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+4",
+      "illustrationPrompt": "Animal friends cheer as the hare runs quickly and the tortoise starts steadily.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ጥንቸሉ በጣም ፈጥኖ ስለሄደ ኤሊውን ከኋላ አላየውም። “ትንሽ እረፍታለሁ” ብሎ በአበቦች አጠገብ ተቀመጠ።",
+      "textEn": "The hare ran far ahead and sat near the flowers to rest.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+5",
+      "illustrationPrompt": "The hare resting beside flowers on the path while the finish tree is far away.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ኤሊው ግን አልቆመም። “በቀስታ በቀስታ፣ እቀጥላለሁ” እያለ መንገዱን ቀጠለ።",
+      "textEn": "The tortoise did not stop. Slowly and steadily, he kept going.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+6",
+      "illustrationPrompt": "The tortoise steadily walking past flowers with a peaceful determined expression.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ጥንቸሉ ሲነቃ ኤሊው ወደ መድረሻው ተቃርቦ ነበር። ጥንቸሉ ፈጥኖ ሮጠ፣ ግን ኤሊው መጀመሪያ ደረሰ።",
+      "textEn": "When the hare woke up, the tortoise was already near the finish.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+7",
+      "illustrationPrompt": "The tortoise reaching the tree finish line as the hare runs kindly behind.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ጥንቸሉ “አሁን ተማርኩ፤ ፍጥነት ብቻ አይበቃም” አለ። ኤሊውም “በጽናት መቀጠል ያሸንፋል” ብሎ ፈገግ አለ።",
+      "textEn": "The hare learned that speed alone is not enough, and the tortoise smiled.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=Tortoise+and+Hare+Page+8",
+      "illustrationPrompt": "The tortoise and hare smiling together as friends after the race.",
       "audioUrl": null
     }
   ]

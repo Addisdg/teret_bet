@@ -39,7 +39,7 @@ void main() {
     expect(stories.length, 10);
     expect(
       stories.where((story) => story.status == 'draft').length,
-      8,
+      7,
     );
 
     final localCoverStories = stories.where(
@@ -168,6 +168,26 @@ void main() {
     expect(lionAndMouse.audio.storyAudioUrl, isNull);
     expect(pages, hasLength(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
+    expect(pages.first.illustrationPrompt, isNotEmpty);
+    expect(pages.first.audioUrl, isNull);
+  });
+
+  test('tortoise and hare includes a full adaptation ready for review',
+      () async {
+    final service = LocalStoryService();
+
+    final stories = await service.fetchStories();
+    final tortoiseAndHare =
+        stories.firstWhere((story) => story.id == 'tortoise_and_hare');
+    final pages = await service.fetchStoryPages('tortoise_and_hare');
+
+    expect(tortoiseAndHare.collection, 'aesop');
+    expect(tortoiseAndHare.status, 'ready_for_review');
+    expect(tortoiseAndHare.source.type, 'public_domain');
+    expect(tortoiseAndHare.audio.storyAudioUrl, isNull);
+    expect(pages, hasLength(8));
+    expect(pages.first.textAm, isNot(contains('በቅርቡ')));
+    expect(pages.map((page) => page.textAm).join(' '), contains('በቀስታ በቀስታ'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
     expect(pages.first.audioUrl, isNull);
   });

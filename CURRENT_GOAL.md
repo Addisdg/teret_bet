@@ -16,6 +16,7 @@
 * Batch 1 draft placeholder stories
 * Audio-ready UI placeholders
 * First full Batch 1 adaptation: `lion_and_mouse`
+* Second full Batch 1 adaptation: `tortoise_and_hare`
 
 ## Next Recommended Goal
 
