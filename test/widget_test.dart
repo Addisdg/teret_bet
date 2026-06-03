@@ -47,6 +47,48 @@ void main() {
     );
   });
 
+  test('story model reads upgraded metadata without breaking old fields',
+      () async {
+    final service = LocalStoryService();
+
+    final stories = await service.fetchStories();
+    final littleSeed = stories.firstWhere((story) => story.id == 'little_seed');
+
+    expect(littleSeed.collection, 'original');
+    expect(littleSeed.status, 'published');
+    expect(littleSeed.priority, 103);
+    expect(littleSeed.moralAm, contains('ትዕግሥት'));
+    expect(littleSeed.source.type, 'original');
+    expect(littleSeed.themes, contains('growth'));
+    expect(littleSeed.audio.storyAudioUrl, isNull);
+  });
+
+  test('story model keeps old Firestore data backward compatible', () {
+    final story = Story.fromFirestore(
+      {
+        'titleAm': 'የቆየ ታሪክ',
+        'titleEn': 'Old Story',
+        'summary': 'Old summary field',
+        'coverImage': 'https://example.com/cover.png',
+      },
+      'old_story',
+    );
+    final page = StoryPage.fromMap({
+      'pageNumber': 1,
+      'textAm': 'የቆየ ገጽ',
+      'imageUrl': 'https://example.com/page.png',
+    });
+
+    expect(story.id, 'old_story');
+    expect(story.summaryAm, 'Old summary field');
+    expect(story.collection, '');
+    expect(story.status, 'published');
+    expect(story.ageMin, 3);
+    expect(story.audio.durationSeconds, isNull);
+    expect(page.illustrationPrompt, '');
+    expect(page.audioUrl, isNull);
+  });
+
   test('local story service loads pages for a story asset', () async {
     final service = LocalStoryService();
 
@@ -91,6 +133,8 @@ void main() {
     expect(pages.first.textAm, contains('ዘር'));
     expect(
         pages.last.imageUrl, 'assets/images/stories/little_seed_page_06.webp');
+    expect(pages.first.illustrationPrompt, isNotEmpty);
+    expect(pages.first.audioUrl, isNull);
     expect(imagePaths.length, pages.length);
     expect(
       imagePaths.every((path) => File(path).existsSync()),

@@ -19,12 +19,28 @@ Required story fields:
 ```json
 {
   "id": "story_id",
+  "collection": "aesop",
+  "status": "draft",
+  "priority": 1,
   "titleAm": "Amharic title",
   "titleEn": "English title",
   "summaryAm": "Short Amharic summary",
-  "coverImage": "assets/images/stories/story_id_cover.webp",
+  "moralAm": "Short Amharic moral",
+  "source": {
+    "type": "public_domain",
+    "name": "Source collection",
+    "sourceUrl": "",
+    "notes": "Create original Amharic adaptation."
+  },
   "ageMin": 3,
   "ageMax": 6,
+  "themes": ["kindness", "helping"],
+  "coverImage": "assets/images/stories/story_id_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
   "pages": []
 }
 ```
@@ -36,9 +52,16 @@ Required page fields:
   "pageNumber": 1,
   "textAm": "Amharic page text",
   "textEn": "Optional English helper text",
-  "imageUrl": "assets/images/stories/story_id_cover.webp"
+  "imageUrl": "assets/images/stories/story_id_page_01.webp",
+  "illustrationPrompt": "Short prompt for future image generation",
+  "audioUrl": null
 }
 ```
+
+New metadata fields are optional in Dart parsing so older Firestore documents,
+Hive cache entries, and local JSON files continue to load. New content should
+include the full schema so future audio, review, and collection workflows have
+the data they need.
 
 `coverImage` and `imageUrl` may be local asset paths or hosted image URLs. Local
 paths should start with `assets/` so the app can load them offline. For bundled
@@ -83,9 +106,16 @@ Fields:
 titleAm: string
 titleEn: string
 summaryAm: string
+moralAm: string
+collection: string
+status: string
+priority: number
+source: map
+themes: array
 coverImage: string
 ageMin: number
 ageMax: number
+audio: map
 ```
 
 Page documents:
@@ -101,6 +131,8 @@ pageNumber: number
 textAm: string
 textEn: string
 imageUrl: string
+illustrationPrompt: string
+audioUrl: string | null
 ```
 
 ## Publishing Checklist

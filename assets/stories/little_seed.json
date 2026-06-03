@@ -1,47 +1,75 @@
 {
   "id": "little_seed",
+  "collection": "original",
+  "status": "published",
+  "priority": 103,
   "titleAm": "ትንሿ ዘር",
   "titleEn": "The Little Seed",
   "summaryAm": "ስለ ትዕግሥት፣ እንክብካቤ እና ትንሽ ነገር በፍቅር ሲያድግ የሚያሳይ ቀላል ታሪክ።",
-  "coverImage": "assets/images/stories/little_seed_cover.webp",
+  "moralAm": "ትንሽ ነገር በትዕግሥትና በፍቅር ትልቅ ደስታ ይሆናል።",
+  "source": {
+    "type": "original",
+    "name": "Teret Bet original",
+    "sourceUrl": "",
+    "notes": "Original child-friendly Amharic MVP story."
+  },
   "ageMin": 3,
   "ageMax": 6,
+  "themes": ["patience", "care", "growth"],
+  "coverImage": "assets/images/stories/little_seed_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
   "pages": [
     {
       "pageNumber": 1,
       "textAm": "አንድ ጠዋት ልጁ በአትክልት ቦታ ሲረዳ ትንሽ ዘር አገኘ። ዘሩ ትንሽ ቢሆንም ልጁ በደስታ ተመለከተው።",
       "textEn": "One morning, the child found a tiny seed in the garden.",
-      "imageUrl": "assets/images/stories/little_seed_page_01.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_01.webp",
+      "illustrationPrompt": "A young child finds a tiny seed while helping in a sunny family garden.",
+      "audioUrl": null
     },
     {
       "pageNumber": 2,
       "textAm": "ልጁ ዘሩን በለስላሳ አፈር ውስጥ በጥንቃቄ ተከለ። “በፍቅር እንከባከብሃለሁ” ብሎ በቀስታ ተናገረ።",
       "textEn": "The child carefully planted the seed in soft soil.",
-      "imageUrl": "assets/images/stories/little_seed_page_02.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_02.webp",
+      "illustrationPrompt": "The child carefully plants the tiny seed in soft soil in a warm garden.",
+      "audioUrl": null
     },
     {
       "pageNumber": 3,
       "textAm": "በየጠዋቱ ልጁ ውሃ ይሰጠው ነበር። ግን ምንም አልታየም፤ ልጁም በትዕግሥት መጠበቅን ተማረ።",
       "textEn": "Every morning, the child watered the seed and waited patiently.",
-      "imageUrl": "assets/images/stories/little_seed_page_03.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_03.webp",
+      "illustrationPrompt": "The child waters a bare patch of soil every morning and waits patiently.",
+      "audioUrl": null
     },
     {
       "pageNumber": 4,
       "textAm": "አንድ ቀን ዝናብ ዘነበ፣ ፀሐይም በሙቀት በራች። ከአፈሩ ውስጥ ትንሽ አረንጓዴ ቡቃያ ወጣ።",
       "textEn": "After rain and sunshine, a tiny green sprout came out.",
-      "imageUrl": "assets/images/stories/little_seed_page_04.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_04.webp",
+      "illustrationPrompt": "After rain and sunshine, a tiny green sprout appears from the soil.",
+      "audioUrl": null
     },
     {
       "pageNumber": 5,
       "textAm": "ነፋስ ሲነፍስ ልጁ ቡቃያውን በትንንሽ ድንጋዮች ጠበቀው። ቡቃያውም በቀስታ ጠነከረ።",
       "textEn": "When the wind blew, the child protected the sprout with small stones.",
-      "imageUrl": "assets/images/stories/little_seed_page_05.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_05.webp",
+      "illustrationPrompt": "The child protects a young plant from wind by placing small stones around it.",
+      "audioUrl": null
     },
     {
       "pageNumber": 6,
       "textAm": "ከብዙ ቀናት በኋላ ቡቃያው ትልቅ ቢጫ አበባ ሆነ። ልጁም ትንሽ ዘር በፍቅር ትልቅ ደስታ እንደሚሆን ተማረ።",
       "textEn": "After many days, the sprout became a bright flower.",
-      "imageUrl": "assets/images/stories/little_seed_page_06.webp"
+      "imageUrl": "assets/images/stories/little_seed_page_06.webp",
+      "illustrationPrompt": "The plant blooms into a bright yellow flower while the child shares the joy with family.",
+      "audioUrl": null
     }
   ]
 }

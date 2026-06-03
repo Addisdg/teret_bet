@@ -1,47 +1,75 @@
 {
   "id": "brave_tortoise",
+  "collection": "original",
+  "status": "published",
+  "priority": 102,
   "titleAm": "ደፋሯ ኤሊ",
   "titleEn": "The Brave Tortoise",
   "summaryAm": "ስለ ትዕግሥት፣ ድፍረት እና ጓደኞችን መርዳት የሚናገር ቀላል ታሪክ።",
-  "coverImage": "assets/images/stories/brave_tortoise_cover.webp",
+  "moralAm": "ትዕግሥት እና ደግ ልብ ትልቅ እርዳታ ያመጣሉ።",
+  "source": {
+    "type": "original",
+    "name": "Teret Bet original",
+    "sourceUrl": "",
+    "notes": "Original child-friendly Amharic MVP story."
+  },
   "ageMin": 3,
   "ageMax": 6,
+  "themes": ["patience", "bravery", "helping"],
+  "coverImage": "assets/images/stories/brave_tortoise_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
   "pages": [
     {
       "pageNumber": 1,
       "textAm": "አንዲት ትንሽ ኤሊ በወንዝ አጠገብ በቀስታ ትጓዝ ነበር። እሷ ቀስ ብላ ብትጓዝም ሁልጊዜ በደስታ ትሞላ ነበር።",
       "textEn": "A little tortoise walked slowly near the river.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_01.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_01.webp",
+      "illustrationPrompt": "A small cheerful tortoise walks slowly beside a bright riverside garden.",
+      "audioUrl": null
     },
     {
       "pageNumber": 2,
       "textAm": "አንድ ቀን ትንሽ ዝንጀሮ ከዛፍ ላይ ወርዶ ወደ ወንዙ በፍጥነት ሮጠ። ነገር ግን የእርሱ ኳስ ወደ ውሃ ወደቀ።",
       "textEn": "One day, a little monkey dropped his ball into the river.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_02.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_02.webp",
+      "illustrationPrompt": "A playful young monkey runs near the river as a colorful ball drops into the water.",
+      "audioUrl": null
     },
     {
       "pageNumber": 3,
       "textAm": "ዝንጀሮው “ኳሴን አጣሁ!” ብሎ አለቀሰ። ኤሊዋ ግን በርኅራኄ “አትፍራ፣ እኔ እረዳሃለሁ” አለችው።",
       "textEn": "Do not be afraid, said the tortoise. I will help you.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_03.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_03.webp",
+      "illustrationPrompt": "The tortoise kindly comforts the worried monkey beside the river.",
+      "audioUrl": null
     },
     {
       "pageNumber": 4,
       "textAm": "ኤሊዋ በቀስታ ወደ ውሃው ገባች። እጅግ ብትቀርብም አልተጣደፈችም፤ በትዕግሥት ኳሱን ፈለገች።",
       "textEn": "The tortoise went into the water and patiently looked for the ball.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_04.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_04.webp",
+      "illustrationPrompt": "The brave tortoise slowly enters calm river water and searches patiently for the ball.",
+      "audioUrl": null
     },
     {
       "pageNumber": 5,
       "textAm": "ብዙም ሳይቆይ ኳሱን አገኘችው። ዝንጀሮው በደስታ ዘለለና “አመሰግናለሁ፣ ደፋር ጓደኛዬ!” አለ።",
       "textEn": "Soon she found the ball, and the monkey thanked his brave friend.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_05.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_05.webp",
+      "illustrationPrompt": "The tortoise brings back the colorful ball while the monkey jumps with joy.",
+      "audioUrl": null
     },
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን በኋላ ሁሉም እንስሳት ኤሊዋን አከበሩ። እሷም ትንሽ ብትሆንም ደፋር ልብ እንዳላት አወቀች።",
       "textEn": "After that day, everyone knew the little tortoise had a brave heart.",
-      "imageUrl": "assets/images/stories/brave_tortoise_page_06.webp"
+      "imageUrl": "assets/images/stories/brave_tortoise_page_06.webp",
+      "illustrationPrompt": "Friendly animals gather by the river to celebrate the brave little tortoise.",
+      "audioUrl": null
     }
   ]
 }

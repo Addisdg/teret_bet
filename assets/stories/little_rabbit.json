@@ -1,47 +1,75 @@
 {
   "id": "little_rabbit",
+  "collection": "original",
+  "status": "published",
+  "priority": 101,
   "titleAm": "ትንሿ ጥንቸል",
   "titleEn": "The Little Rabbit",
   "summaryAm": "ስለ ጓደኝነት፣ ደግነት እና መርዳት የሚናገር ቀላል የልጆች ታሪክ።",
-  "coverImage": "assets/images/stories/little_rabbit_cover.webp",
+  "moralAm": "ደግነት ጓደኝነትን ያበረታታል።",
+  "source": {
+    "type": "original",
+    "name": "Teret Bet original",
+    "sourceUrl": "",
+    "notes": "Original child-friendly Amharic MVP story."
+  },
   "ageMin": 3,
   "ageMax": 6,
+  "themes": ["kindness", "helping", "friendship"],
+  "coverImage": "assets/images/stories/little_rabbit_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
   "pages": [
     {
       "pageNumber": 1,
       "textAm": "አንድ ቀን ትንሿ ጥንቸል በአረንጓዴ ሜዳ ውስጥ ትጫወት ነበር። ፀሐይ በቀስታ ትበራ ነበር፣ አበቦችም በነፋስ ይወዛወዙ ነበር።",
       "textEn": "One day, the little rabbit was playing in a green field.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_01.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_01.webp",
+      "illustrationPrompt": "A little rabbit playing in a sunny green meadow with flowers moving gently in the breeze.",
+      "audioUrl": null
     },
     {
       "pageNumber": 2,
       "textAm": "በድንገት ጥንቸሏ ትንሽ ወፍ በመሬት ላይ ተቀምጣ አየች። ወፏ ክንፏን በቀስታ ትንቀሳቀስ ነበር።",
       "textEn": "Suddenly, the rabbit saw a little bird sitting on the ground.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_02.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_02.webp",
+      "illustrationPrompt": "The little rabbit notices a small blue bird sitting on the ground near a meadow nest.",
+      "audioUrl": null
     },
     {
       "pageNumber": 3,
       "textAm": "“ምን ሆንሽ?” ብላ ጥንቸሏ በርኅራኄ ጠየቀች። ወፏም “ወደ ጎጆዬ መመለስ አልቻልኩም” አለች።",
       "textEn": "What happened? asked the rabbit kindly.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_03.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_03.webp",
+      "illustrationPrompt": "The rabbit kindly asks the little bird what happened beside the tree and nest.",
+      "audioUrl": null
     },
     {
       "pageNumber": 4,
       "textAm": "ጥንቸሏ ወፏን ብቻዋን አልተወችም። ከሌሎች እንስሳት ጋር በመሆን የወፏን እናት መፈለግ ጀመሩ።",
       "textEn": "The rabbit did not leave the bird alone.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_04.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_04.webp",
+      "illustrationPrompt": "The little rabbit and gentle animal friends search the meadow for the bird's mother.",
+      "audioUrl": null
     },
     {
       "pageNumber": 5,
       "textAm": "ብዙም ሳይቆይ የወፏ እናት መጣች። ወፏን በደስታ አቀፈች እና ጥንቸሏን አመሰገነቻት።",
       "textEn": "Soon, the bird's mother arrived and thanked the rabbit.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_05.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_05.webp",
+      "illustrationPrompt": "The mother bird returns happily and thanks the little rabbit for helping.",
+      "audioUrl": null
     },
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን ጀምሮ ጥንቸሏ እና ወፏ ጥሩ ጓደኞች ሆኑ። ጥንቸሏም ደግነት ትልቅ ደስታ እንደሚያመጣ ተማረች።",
       "textEn": "From that day on, the rabbit and the bird became good friends.",
-      "imageUrl": "assets/images/stories/little_rabbit_page_06.webp"
+      "imageUrl": "assets/images/stories/little_rabbit_page_06.webp",
+      "illustrationPrompt": "The rabbit and little bird play together as happy friends in the warm meadow.",
+      "audioUrl": null
     }
   ]
 }

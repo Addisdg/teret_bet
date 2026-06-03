@@ -129,7 +129,7 @@ class StoryRepository {
   }
 
   Future<void> _cacheStories(List<Story> stories) async {
-    final storyMaps = stories.map(_storyToJson).toList();
+    final storyMaps = stories.map((story) => story.toJson()).toList();
     await _cache.put('stories', jsonEncode(storyMaps));
   }
 
@@ -148,7 +148,7 @@ class StoryRepository {
   }
 
   Future<void> _cacheStoryPages(String storyId, List<StoryPage> pages) async {
-    final pageMaps = pages.map(_pageToJson).toList();
+    final pageMaps = pages.map((page) => page.toJson()).toList();
     await _cache.put('pages_$storyId', jsonEncode(pageMaps));
   }
 
@@ -166,27 +166,6 @@ class StoryRepository {
 
     pages.sort((a, b) => a.pageNumber.compareTo(b.pageNumber));
     return pages;
-  }
-
-  Map<String, dynamic> _storyToJson(Story story) {
-    return {
-      'id': story.id,
-      'titleAm': story.titleAm,
-      'titleEn': story.titleEn,
-      'coverImage': story.coverImage,
-      'summaryAm': story.summaryAm,
-      'ageMin': story.ageMin,
-      'ageMax': story.ageMax,
-    };
-  }
-
-  Map<String, dynamic> _pageToJson(StoryPage page) {
-    return {
-      'pageNumber': page.pageNumber,
-      'textAm': page.textAm,
-      'textEn': page.textEn,
-      'imageUrl': page.imageUrl,
-    };
   }
 
   String _progressKey(String storyId) {
