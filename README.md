@@ -39,7 +39,10 @@ Story loading keeps one simple fallback chain:
 
 `StoryRepository` owns the fallback chain. `FirestoreStoryService` reads cloud
 stories and pages. `LocalStoryService` reads the local manifest, then loads each
-listed story JSON file. Provider remains the app state management approach.
+listed story JSON file. If Firestore or Hive returns only part of the MVP
+catalog, the repository appends missing local manifest stories while keeping
+cloud/cache data first for matching story IDs. Provider remains the app state
+management approach.
 
 ## Project Structure
 

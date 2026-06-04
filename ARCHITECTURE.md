@@ -30,6 +30,12 @@ the Firestore/Hive text data but uses the bundled local image paths. This keeps
 local artwork updates visible even when a browser or device still has older
 cached image URLs.
 
+During the MVP content-building phase, StoryRepository also appends any bundled
+story IDs that are missing from a non-empty Firestore or Hive result. Firestore
+and Hive still stay first for matching IDs, but the local manifest can fill gaps
+so draft stories are visible in the library before every story has been uploaded
+to Firestore.
+
 Source-specific services stay small:
 
 * FirestoreStoryService reads Firestore stories and pages.

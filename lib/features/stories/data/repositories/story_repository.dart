@@ -25,9 +25,9 @@ class StoryRepository {
       final stories = await _firestoreService.fetchStories();
 
       if (stories.isNotEmpty) {
-        final storiesWithLocalImages = await _useBundledStoryImages(stories);
-        await _cacheStories(storiesWithLocalImages);
-        return storiesWithLocalImages;
+        final combinedStories = await _combineWithBundledStories(stories);
+        await _cacheStories(combinedStories);
+        return combinedStories;
       }
     } catch (_) {
       // Firestore is the first choice, but the app still works offline.
@@ -36,7 +36,7 @@ class StoryRepository {
     final cachedStories = _readCachedStories();
 
     if (cachedStories.isNotEmpty) {
-      return _useBundledStoryImages(cachedStories);
+      return _combineWithBundledStories(cachedStories);
     }
 
     return _localStoryService.fetchStories();
@@ -81,14 +81,14 @@ class StoryRepository {
     await _cache.put(_progressKey(storyId), pageIndex);
   }
 
-  Future<List<Story>> _useBundledStoryImages(List<Story> stories) async {
+  Future<List<Story>> _combineWithBundledStories(List<Story> stories) async {
     try {
       final localStories = await _localStoryService.fetchStories();
       final localStoryById = {
         for (final story in localStories) story.id: story,
       };
 
-      return stories.map((story) {
+      final storiesWithLocalImages = stories.map((story) {
         final localStory = localStoryById[story.id];
 
         if (localStory == null || !_isLocalAsset(localStory.coverImage)) {
@@ -97,6 +97,15 @@ class StoryRepository {
 
         return story.copyWith(coverImage: localStory.coverImage);
       }).toList();
+
+      final existingStoryIds =
+          storiesWithLocalImages.map((story) => story.id).toSet();
+      final missingLocalStories = localStories
+          .where((story) => !existingStoryIds.contains(story.id))
+          .toList();
+
+      // Firestore and Hive stay first, but bundled MVP stories fill any gaps.
+      return [...storiesWithLocalImages, ...missingLocalStories];
     } catch (_) {
       // If local assets cannot be read, keep the Firestore or cache data.
       return stories;

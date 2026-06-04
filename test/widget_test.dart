@@ -325,6 +325,25 @@ void main() {
     await cache.deleteFromDisk();
   });
 
+  test('repository appends local stories missing from Firestore', () async {
+    final cache = await Hive.openBox('partial_firestore_merge_test');
+    final repository = StoryRepository(
+      firestoreService: _PartialFirestoreStoryService(),
+      localStoryService: _TwoStoryLocalStoryService(),
+      cache: cache,
+    );
+
+    final stories = await repository.fetchStories();
+
+    expect(stories.map((story) => story.id), [
+      'remote_story',
+      'local_story',
+    ]);
+    expect(stories.first.coverImage, 'assets/images/stories/remote.webp');
+
+    await cache.deleteFromDisk();
+  });
+
   test('repository saves and restores reading progress', () async {
     final cache = await Hive.openBox('reading_progress_test');
     final repository = StoryRepository(
@@ -441,6 +460,23 @@ class _StaleImageFirestoreStoryService extends FirestoreStoryService {
   }
 }
 
+class _PartialFirestoreStoryService extends FirestoreStoryService {
+  @override
+  Future<List<Story>> fetchStories() async {
+    return [
+      Story(
+        id: 'remote_story',
+        titleAm: 'የሩቅ ታሪክ',
+        titleEn: 'Remote Story',
+        coverImage: 'https://placehold.co/800x600/png?text=Old+Remote',
+        summaryAm: 'ከፋየርስቶር የመጣ ታሪክ',
+        ageMin: 3,
+        ageMax: 6,
+      ),
+    ];
+  }
+}
+
 class _FakeLocalStoryService extends LocalStoryService {
   @override
   Future<List<Story>> fetchStories() async {
@@ -464,6 +500,32 @@ class _FakeLocalStoryService extends LocalStoryService {
         pageNumber: 1,
         textAm: 'የሙከራ ገጽ',
         imageUrl: 'assets/images/stories/test_page_01.webp',
+      ),
+    ];
+  }
+}
+
+class _TwoStoryLocalStoryService extends LocalStoryService {
+  @override
+  Future<List<Story>> fetchStories() async {
+    return [
+      Story(
+        id: 'remote_story',
+        titleAm: 'የሩቅ ታሪክ',
+        titleEn: 'Remote Story',
+        coverImage: 'assets/images/stories/remote.webp',
+        summaryAm: 'የአካባቢ ምስል ያለው ታሪክ',
+        ageMin: 3,
+        ageMax: 6,
+      ),
+      Story(
+        id: 'local_story',
+        titleAm: 'የአካባቢ ታሪክ',
+        titleEn: 'Local Story',
+        coverImage: 'assets/images/stories/local.webp',
+        summaryAm: 'በአሴት ውስጥ ያለ ታሪክ',
+        ageMin: 3,
+        ageMax: 6,
       ),
     ];
   }
