@@ -51,7 +51,8 @@ Implemented:
 * Local per-page illustrations
 * Optimized WebP story assets
 * Story content schema documentation
-* Batch 1 local story manifest and placeholders
+* Batch 1 local story manifest
+* Feedback-ready Amharic adaptations for all Batch 1 manifest stories
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 
@@ -107,6 +108,8 @@ Story loading keeps this priority order:
 `StoryRepository` owns the fallback chain. `FirestoreStoryService` reads cloud
 content, and `LocalStoryService` reads story IDs from
 `assets/stories/story_manifest.json` before loading each local JSON story.
+During MVP review, Firestore and Hive results are supplemented with any missing
+local manifest stories so the full bundled catalog remains visible in the app.
 
 ## Long-Term Goals
 

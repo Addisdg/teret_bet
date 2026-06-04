@@ -78,6 +78,10 @@ Hive cache entries, and local JSON files continue to load. New content should
 include the full schema so future audio, review, and collection workflows have
 the data they need.
 
+Use `draft` only for incomplete placeholders. Use `ready_for_review` when a
+story has complete child-friendly text, metadata, page prompts, and audio
+placeholders but still needs human review or final artwork.
+
 `coverImage` and `imageUrl` may be local asset paths or hosted image URLs. Local
 paths should start with `assets/` so the app can load them offline. For bundled
 stories, prefer optimized WebP assets with one cover image plus one unique image

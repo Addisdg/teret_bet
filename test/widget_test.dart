@@ -39,7 +39,11 @@ void main() {
     expect(stories.length, 10);
     expect(
       stories.where((story) => story.status == 'draft').length,
-      3,
+      0,
+    );
+    expect(
+      stories.where((story) => story.status == 'ready_for_review').length,
+      9,
     );
 
     final localCoverStories = stories.where(
@@ -271,22 +275,32 @@ void main() {
     expect(pages.first.audioUrl, isNull);
   });
 
-  test('batch 1 placeholder stories include draft metadata and pages',
+  test('remaining batch 1 stories are full adaptations ready for review',
       () async {
     final service = LocalStoryService();
 
     final stories = await service.fetchStories();
-    final northWindAndSun =
-        stories.firstWhere((story) => story.id == 'north_wind_and_sun');
-    final pages = await service.fetchStoryPages('north_wind_and_sun');
+    final expectedStories = {
+      'north_wind_and_sun': (pages: 8, keyword: 'ደግነት'),
+      'dog_and_reflection': (pages: 7, keyword: 'ማመስገን'),
+      'goose_golden_eggs': (pages: 8, keyword: 'ትዕግሥት'),
+    };
 
-    expect(northWindAndSun.collection, 'aesop');
-    expect(northWindAndSun.status, 'draft');
-    expect(northWindAndSun.source.type, 'public_domain');
-    expect(northWindAndSun.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(3));
-    expect(pages.first.illustrationPrompt, isNotEmpty);
-    expect(pages.first.audioUrl, isNull);
+    for (final entry in expectedStories.entries) {
+      final story = stories.firstWhere((story) => story.id == entry.key);
+      final pages = await service.fetchStoryPages(entry.key);
+      final storyText = pages.map((page) => page.textAm).join(' ');
+
+      expect(story.collection, 'aesop');
+      expect(story.status, 'ready_for_review');
+      expect(story.source.type, 'public_domain');
+      expect(story.audio.storyAudioUrl, isNull);
+      expect(pages, hasLength(entry.value.pages));
+      expect(pages.first.textAm, isNot(contains('በቅርቡ')));
+      expect(storyText, contains(entry.value.keyword));
+      expect(pages.first.illustrationPrompt, isNotEmpty);
+      expect(pages.first.audioUrl, isNull);
+    }
   });
 
   test('repository falls back to local stories when Firestore and cache fail',

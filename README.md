@@ -14,7 +14,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Firebase Firestore integration
 - Cached network images
 - Hive story cache and reading progress
-- Manifest-based local JSON fallback with Batch 1 story placeholders
+- Manifest-based local JSON fallback with a feedback-ready Batch 1 catalog
 - Optimized bundled WebP cover and page illustrations for offline reading
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
@@ -165,8 +165,11 @@ flutter build apk --release
 
 Current goal:
 
-- 50-Story Foundation: documentation, upgraded schema, manifest loading, Batch 1 placeholders, and audio-ready metadata/UI.
+- Feedback-ready MVP catalog: review the current ten-story local library in-app,
+  polish story wording from parent/child feedback, and decide which stories need
+  final custom illustrations first.
 
 Next recommended goal:
 
-- Reading progress persistence + Settings screen polish has already landed, so the next practical product step is replacing Batch 1 placeholders with reviewed full Amharic adaptations and final illustrations.
+- Create final artwork for the Aesop-inspired stories and upload the reviewed
+  catalog to Firestore.

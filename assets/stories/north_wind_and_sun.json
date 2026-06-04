@@ -1,17 +1,17 @@
 {
   "id": "north_wind_and_sun",
   "collection": "aesop",
-  "status": "draft",
+  "status": "ready_for_review",
   "priority": 7,
   "titleAm": "የሰሜን ነፋስ እና ፀሐይ",
   "titleEn": "The North Wind and the Sun",
-  "summaryAm": "ርኅራኄ ከኃይል በላይ መሆኑን የሚያሳይ ታሪክ።",
-  "moralAm": "በቀስታ እና በደግነት ብዙ ነገር ይቻላል።",
+  "summaryAm": "በጉዞ ላይ ያለ ሰው ላይ ኃይል እና ርኅራኄ ሲፈተኑ የሚያሳይ ለልጆች የተለሳለሰ ታሪክ።",
+  "moralAm": "ለሰዎች በቀስታ እና በደግነት መቅረብ ከመግፋት ይሻላል።",
   "source": {
     "type": "public_domain",
     "name": "Aesop's Fables",
     "sourceUrl": "",
-    "notes": "Use only public-domain source material. Create original Amharic adaptation."
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation."
   },
   "ageMin": 3,
   "ageMax": 6,
@@ -25,26 +25,66 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የሰሜን ነፋስ እና የፀሐይ ታሪክ በቅርቡ ይመጣል።",
-      "textEn": "The North Wind and the Sun story is coming soon.",
+      "textAm": "በአንድ ቀን ሰሜን ነፋስ እና ፀሐይ በሰማይ ላይ ተገናኙ። ከታች አንድ ተጓዥ ኮቱን ለብሶ በመንገድ ይሄድ ነበር።",
+      "textEn": "One day the North Wind and the Sun saw a traveler walking with a coat.",
       "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+1",
-      "illustrationPrompt": "A friendly sun and soft north wind look over a traveler on a path.",
+      "illustrationPrompt": "A friendly sun and soft north wind watch a traveler walking on a quiet path.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ይህ ገጽ ኃይልን እና ቀስተኛ ርኅራኄን ይዘጋጃል።",
-      "textEn": "This page will prepare the force and gentleness moment.",
+      "textAm": "ነፋሱ “እኔ በጣም ኃይለኛ ነኝ፤ ኮቱን በፍጥነት አስወልቃለሁ” አለ። ፀሐይ ግን “በትንሽ ሙቀት እና በትዕግሥት እንመልከት” አለች።",
+      "textEn": "The wind wanted to use strength, while the sun suggested patience.",
       "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+2",
-      "illustrationPrompt": "The wind blows leaves gently while the traveler holds a coat.",
+      "illustrationPrompt": "The wind speaks proudly while the sun smiles calmly above the path.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ታሪኩ በሙቀት እና በሰላም ይጨርሳል።",
-      "textEn": "The story will end with warmth and peace.",
+      "textAm": "ነፋሱ በጣም መንፋት ጀመረ። ቅጠሎች ተንቀሳቀሱ፣ ተጓዡም ኮቱን በሁለት እጆቹ ጠበቀ።",
+      "textEn": "The wind blew hard, and the traveler held his coat tightly.",
       "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+3",
-      "illustrationPrompt": "The warm sun shines softly as the traveler smiles on the path.",
+      "illustrationPrompt": "Leaves swirl gently as the traveler holds his coat close, still safe and calm.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ነፋሱ ይበልጥ እየነፈሰ ሄደ። ግን ተጓዡ ብርድ ሲሰማው ኮቱን ይበልጥ አጠበቀ።",
+      "textEn": "The harder the wind blew, the tighter the traveler kept his coat.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+4",
+      "illustrationPrompt": "The traveler wraps his coat tighter while the wind looks puzzled.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ከጥቂት ጊዜ በኋላ ነፋሱ ደከመ። “አሁን አንቺ ሞክሪ” ብሎ ለፀሐይ ቦታ ሰጠ።",
+      "textEn": "After a while, the wind grew tired and let the sun try.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+5",
+      "illustrationPrompt": "The wind rests beside soft clouds while the sun prepares to shine warmly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ፀሐይ በቀስታ በሞቃት ብርሃን አበራች። መንገዱ ተሞቀ፣ ተጓዡም ፈገግ አለ።",
+      "textEn": "The sun shone gently, and the traveler began to feel warm.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+6",
+      "illustrationPrompt": "Warm sunlight fills the path as the traveler smiles comfortably.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ተጓዡ “አሁን ሞቃት ሆነ” ብሎ ኮቱን በጸጥታ አወለቀ። በዛፍ ጥላ ሥርም ትንሽ አረፈ።",
+      "textEn": "Feeling warm, the traveler took off his coat and rested in the shade.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+7",
+      "illustrationPrompt": "The traveler removes his coat peacefully and rests under a small tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ነፋሱ ተማረ። “እውነት ነው፣ ቀስታ እና ደግነት ብዙ ነገር ያደርጋሉ” አለ። ፀሐይም በለስላሳ ብርሃን ቀጠለች።",
+      "textEn": "The wind learned that gentleness and kindness can do a great deal.",
+      "imageUrl": "https://placehold.co/1200x900/png?text=North+Wind+and+Sun+Page+8",
+      "illustrationPrompt": "The wind and sun share a peaceful lesson above a warm storybook path.",
       "audioUrl": null
     }
   ]

@@ -21,7 +21,7 @@
 * More local story content
 * 50-story foundation documentation
 * Story schema upgrade for content roadmap
-* Manifest-based Batch 1 story placeholders
+* Manifest-based Batch 1 story catalog
 * Audio-ready UI placeholders
 * First Batch 1 story adaptation: lion_and_mouse
 * Second Batch 1 story adaptation: tortoise_and_hare
@@ -29,13 +29,18 @@
 * Fourth Batch 1 story adaptation: ant_and_grasshopper
 * Fifth Batch 1 story adaptation: crow_and_pitcher
 * Sixth Batch 1 story adaptation: boy_who_cried_wolf
+* Seventh Batch 1 story adaptation: north_wind_and_sun
+* Eighth Batch 1 story adaptation: dog_and_reflection
+* Ninth Batch 1 story adaptation: goose_golden_eggs
+* Feedback-ready local MVP catalog
 
 ## Next
 
 ### Phase 1
 
-* Replace remaining Batch 1 placeholders with full reviewed adaptations
-* Illustration style consistency pass
+* Review current Batch 1 wording with parent/child feedback
+* Replace placeholder Aesop image URLs with final illustrations
+* Upload reviewed Batch 1 catalog to Firestore
 
 ### Phase 2
 
