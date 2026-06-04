@@ -117,6 +117,10 @@ Current local manifest:
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).
 
+Firebase API keys are intentionally not committed. Local Firebase runs use
+`--dart-define` values; see
+[`docs/firebase_configuration.md`](docs/firebase_configuration.md).
+
 ## Reading Progress And Settings
 
 The reader saves the last opened page for each story in Hive. When the story is
@@ -161,10 +165,18 @@ flutter devices
 flutter run -d <device-id>
 ```
 
+To test against Firebase, add the platform API key at run/build time:
+
+```bash
+flutter run -d <device-id> \
+  --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
+```
+
 Build Android release:
 
 ```bash
-flutter build apk --release
+flutter build apk --release \
+  --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
 ## Current Roadmap

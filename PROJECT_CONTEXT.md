@@ -21,6 +21,7 @@ Frontend:
 Backend:
 
 * Firebase Firestore
+* Firebase API keys provided with `--dart-define`, not committed
 
 Offline:
 

@@ -49,6 +49,10 @@ Hive is used by StoryRepository for:
 
 The SettingsProvider uses a separate Hive settings box for reader preferences.
 
+Firebase platform API keys are supplied with `--dart-define` values at run or
+build time. They are not stored in tracked Dart, Android JSON, or iOS plist
+files.
+
 ## Story Data Model
 
 Story:
