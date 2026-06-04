@@ -48,7 +48,8 @@ Implemented:
 * Reading progress persistence
 * Settings screen with font size control
 * Local cover illustrations
-* Local per-page illustrations
+* Local per-page illustrations for original local stories
+* Local generated cover illustrations for all current manifest stories
 * Optimized WebP story assets
 * Story content schema documentation
 * Batch 1 local story manifest
@@ -82,6 +83,10 @@ assets/stories/
 Local story images are stored in:
 
 assets/images/stories/
+
+All current manifest stories reference local image assets. Aesop-inspired
+stories currently reuse their cover image inside reader pages until final
+per-page artwork is produced.
 
 Firestore structure:
 

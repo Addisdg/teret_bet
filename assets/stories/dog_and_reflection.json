@@ -16,7 +16,7 @@
   "ageMin": 3,
   "ageMax": 6,
   "themes": ["contentment", "gratitude", "choices"],
-  "coverImage": "https://placehold.co/1200x900/png?text=Dog+and+Reflection",
+  "coverImage": "assets/images/stories/dog_and_reflection_cover.webp",
   "audio": {
     "storyAudioUrl": null,
     "durationSeconds": null,
@@ -27,7 +27,7 @@
       "pageNumber": 1,
       "textAm": "አንድ ደስተኛ ውሻ ከመንደሩ ትንሽ ጣፋጭ ቁራሽ አገኘ። በጥንቃቄ በአፉ ይዞ ወደ ቤቱ መጓዝ ጀመረ።",
       "textEn": "A happy dog found a small tasty treat and carried it home.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+1",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "A friendly dog carries a small treat along a sunny village path.",
       "audioUrl": null
     },
@@ -35,7 +35,7 @@
       "pageNumber": 2,
       "textAm": "መንገዱ በትንሽ ወንዝ አጠገብ ያልፍ ነበር። ውኃው ጸጥ ብሎ ይብራ ነበር፣ እንደ መስታወትም ያንጸባርቅ ነበር።",
       "textEn": "The path passed beside a calm stream that shone like a mirror.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+2",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The dog reaches a calm stream with clear mirror-like water.",
       "audioUrl": null
     },
@@ -43,7 +43,7 @@
       "pageNumber": 3,
       "textAm": "ውሻው ወደ ውኃው ሲመለከት ሌላ ውሻ ቁራሽ ይዞ እንደቆመ መሰለው። እርግጥ ግን የራሱ ጥላ ነበር።",
       "textEn": "He saw what looked like another dog, but it was only his reflection.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+3",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The dog sees his own reflection holding a treat in the peaceful water.",
       "audioUrl": null
     },
@@ -51,7 +51,7 @@
       "pageNumber": 4,
       "textAm": "“ያ ቁራሽ ከእኔ ይበልጣል ይመስላል” ብሎ አሰበ። “ሁለቱንም ካገኘሁ በጣም ደስ ይለኛል!”",
       "textEn": "He thought the reflected treat looked bigger and wanted both.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+4",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The dog looks curious and tempted while staring at the reflection.",
       "audioUrl": null
     },
@@ -59,7 +59,7 @@
       "pageNumber": 5,
       "textAm": "ውሻው አፉን ከፍቶ ወደ ጥላው ሊጠራ ሞከረ። በዚያን ጊዜ የያዘው ቁራሽ ከአፉ ወደ ውኃው ወደቀ።",
       "textEn": "When he opened his mouth, his own treat fell into the water.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+5",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The small treat drops gently into the stream as the dog looks surprised.",
       "audioUrl": null
     },
@@ -67,7 +67,7 @@
       "pageNumber": 6,
       "textAm": "ውሻው ትንሽ ቆሞ ውኃውን ተመለከተ። ጥላውም ቁራሹም ጠፉ። “ያለኝን አላመሰገንኩም” ብሎ በጸጥታ አሰበ።",
       "textEn": "The dog paused and understood that he had not been grateful for what he had.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+6",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The dog sits quietly beside the stream, learning a gentle lesson.",
       "audioUrl": null
     },
@@ -75,7 +75,7 @@
       "pageNumber": 7,
       "textAm": "ከዚያ ቀን በኋላ ውሻው ትንሽ ነገር ሲያገኝ እንኳን በደስታ ይቀበል ነበር። ያለውን ማመስገን ተማረ።",
       "textEn": "After that day, the dog learned to be thankful for what he had.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Dog+and+Reflection+Page+7",
+      "imageUrl": "assets/images/stories/dog_and_reflection_cover.webp",
       "illustrationPrompt": "The dog walks home peacefully through warm afternoon light.",
       "audioUrl": null
     }

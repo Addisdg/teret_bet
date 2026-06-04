@@ -15,7 +15,8 @@ offline access, and safe public-domain-inspired adaptations.
 - Cached network images
 - Hive story cache and reading progress
 - Manifest-based local JSON fallback with a feedback-ready Batch 1 catalog
-- Optimized bundled WebP cover and page illustrations for offline reading
+- Optimized bundled WebP cover illustrations for the full manifest catalog
+- Bundled per-page illustrations for original local stories
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
@@ -130,6 +131,11 @@ reading.
 Stories now include nullable audio metadata. The details and reader screens show
 audio placeholders, but playback packages are intentionally deferred.
 
+All current manifest stories use local image assets so web and mobile feedback
+builds do not depend on placeholder image URLs. The Aesop-inspired stories use
+their local cover art inside reader pages until final per-page illustrations are
+created.
+
 ## Local Testing
 
 Run on web server:
@@ -171,5 +177,5 @@ Current goal:
 
 Next recommended goal:
 
-- Create final artwork for the Aesop-inspired stories and upload the reviewed
-  catalog to Firestore.
+- Create final per-page artwork for the Aesop-inspired stories and upload the
+  reviewed catalog to Firestore.

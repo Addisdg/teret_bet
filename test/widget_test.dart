@@ -62,6 +62,29 @@ void main() {
     );
   });
 
+  test('manifest stories use existing non-placeholder image assets', () async {
+    final service = LocalStoryService();
+    final stories = await service.fetchStories();
+
+    for (final story in stories) {
+      expect(story.coverImage, isNot(contains('placehold.co')));
+
+      if (story.coverImage.startsWith('assets/')) {
+        expect(File(story.coverImage).existsSync(), isTrue);
+      }
+
+      final pages = await service.fetchStoryPages(story.id);
+
+      for (final page in pages) {
+        expect(page.imageUrl, isNot(contains('placehold.co')));
+
+        if (page.imageUrl.startsWith('assets/')) {
+          expect(File(page.imageUrl).existsSync(), isTrue);
+        }
+      }
+    }
+  });
+
   test('story model reads upgraded metadata without breaking old fields',
       () async {
     final service = LocalStoryService();

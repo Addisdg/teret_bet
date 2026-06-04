@@ -19,59 +19,71 @@ class StoryDetailsScreen extends StatelessWidget {
         title: Text(story.titleAm),
         centerTitle: true,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(24),
-              child: StoryImage(
-                imagePath: story.coverImage,
-                height: 260,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
-            ),
-            const SizedBox(height: 24),
-            Text(
-              story.titleAm,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 12),
-            Text(
-              story.summaryAm,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 18,
-                height: 1.6,
-              ),
-            ),
-            const SizedBox(height: 16),
-            _AudioStatus(audioAvailable: story.audio.storyAudioUrl != null),
-            const Spacer(),
-            SizedBox(
-              width: double.infinity,
-              height: 56,
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => StoryReaderScreen(story: story),
-                    ),
-                  );
-                },
-                child: const Text(
-                  'ጀምር',
-                  style: TextStyle(fontSize: 22),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            children: [
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(24),
+                        child: StoryImage(
+                          imagePath: story.coverImage,
+                          height: 260,
+                          width: double.infinity,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      const SizedBox(height: 24),
+                      Text(
+                        story.titleAm,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      Text(
+                        story.summaryAm,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 18,
+                          height: 1.6,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      _AudioStatus(
+                        audioAvailable: story.audio.storyAudioUrl != null,
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
+              const SizedBox(height: 16),
+              SizedBox(
+                width: double.infinity,
+                height: 56,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => StoryReaderScreen(story: story),
+                      ),
+                    );
+                  },
+                  child: const Text(
+                    'ጀምር',
+                    style: TextStyle(fontSize: 22),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

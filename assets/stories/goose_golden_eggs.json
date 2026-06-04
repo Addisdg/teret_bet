@@ -16,7 +16,7 @@
   "ageMin": 3,
   "ageMax": 6,
   "themes": ["gratitude", "patience", "contentment"],
-  "coverImage": "https://placehold.co/1200x900/png?text=Golden+Eggs",
+  "coverImage": "assets/images/stories/goose_golden_eggs_cover.webp",
   "audio": {
     "storyAudioUrl": null,
     "durationSeconds": null,
@@ -27,7 +27,7 @@
       "pageNumber": 1,
       "textAm": "በአንድ ትንሽ እርሻ ላይ አንዲት ለስላሳ ዝይ ትኖር ነበር። ባለቤቷ በየጠዋቱ ውኃ እና እህል ይሰጣት ነበር።",
       "textEn": "On a small farm lived a gentle goose cared for every morning.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+1",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "A gentle goose in a warm farmyard beside a small bowl of grain and water.",
       "audioUrl": null
     },
@@ -35,7 +35,7 @@
       "pageNumber": 2,
       "textAm": "አንድ ጠዋት ባለቤቷ በጎጆዋ ውስጥ የሚያበራ ወርቃማ እንቁላል አገኘ። በጣም ተገረመና “እንዴት ያማረ ስጦታ ነው!” አለ።",
       "textEn": "One morning he found a shining golden egg and felt amazed.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+2",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "A farmer discovers one glowing golden egg in the goose's cozy nest.",
       "audioUrl": null
     },
@@ -43,7 +43,7 @@
       "pageNumber": 3,
       "textAm": "በሚቀጥለው ቀንም ሌላ ወርቃማ እንቁላል አገኘ። ቤተሰቡ ደስ አላቸው፣ ዝይዋንም በትህትና አመሰገኑ።",
       "textEn": "The next day there was another golden egg, and the family gave thanks.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+3",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "A small family smiles with gratitude near the goose and a golden egg.",
       "audioUrl": null
     },
@@ -51,7 +51,7 @@
       "pageNumber": 4,
       "textAm": "ቀኖች እየተከተሉ ሲሄዱ ባለቤቱ ብዙ ነገር መግዛት ጀመረ። ግን ልቡ በምስጋና ፋንታ በተጨማሪ ፍላጎት ተሞላ።",
       "textEn": "As days passed, the farmer began wanting more instead of feeling thankful.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+4",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "The farmer counts coins thoughtfully while the goose rests safely nearby.",
       "audioUrl": null
     },
@@ -59,7 +59,7 @@
       "pageNumber": 5,
       "textAm": "“ለምን በየቀኑ አንድ ብቻ እጠብቃለሁ?” ብሎ አሰበ። “ሁሉንም ወርቃማ እንቁላል አሁን ማግኘት እፈልጋለሁ!”",
       "textEn": "He wondered why he should wait for one egg each day.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+5",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "The farmer looks impatient while the goose watches gently in the farmyard.",
       "audioUrl": null
     },
@@ -67,7 +67,7 @@
       "pageNumber": 6,
       "textAm": "ቤተሰቡ ግን “ዝይዋን በደግነት እንንከባከብ፤ ስጦታዋንም በትዕግሥት እንቀበል” አሉት። እሱ ግን ትዕግሥት አጣ።",
       "textEn": "His family reminded him to care for the goose kindly and wait patiently.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+6",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "The family gently talks with the farmer beside the calm goose.",
       "audioUrl": null
     },
@@ -75,7 +75,7 @@
       "pageNumber": 7,
       "textAm": "ባለቤቱ በችኮላ ዝይዋን ሲያስፈራት እሷ ከጎጆዋ ርቃ ወደ ጸጥ ያለ ሜዳ ሄደች። ከዚያ በኋላ ወርቃማ እንቁላል አልተገኘም።",
       "textEn": "When the farmer rushed her, the goose moved away to a quiet meadow.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+7",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "The goose walks safely toward a quiet meadow while the farmer looks regretful.",
       "audioUrl": null
     },
@@ -83,7 +83,7 @@
       "pageNumber": 8,
       "textAm": "ባለቤቱ ተናዘዘ። “በትዕግሥት እና በምስጋና መኖር ነበረብኝ” አለ። ከዚያ ቀን ጀምሮ ያለውን ማመስገን ተማረ።",
       "textEn": "The farmer learned to live with patience and gratitude.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Golden+Eggs+Page+8",
+      "imageUrl": "assets/images/stories/goose_golden_eggs_cover.webp",
       "illustrationPrompt": "The farmer peacefully tends the farm with a humble, grateful expression.",
       "audioUrl": null
     }

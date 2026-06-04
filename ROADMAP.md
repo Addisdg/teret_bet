@@ -33,13 +33,15 @@
 * Eighth Batch 1 story adaptation: dog_and_reflection
 * Ninth Batch 1 story adaptation: goose_golden_eggs
 * Feedback-ready local MVP catalog
+* Local cover illustrations for all current manifest stories
+* Removed placeholder image URLs from local story JSON
 
 ## Next
 
 ### Phase 1
 
 * Review current Batch 1 wording with parent/child feedback
-* Replace placeholder Aesop image URLs with final illustrations
+* Create unique per-page illustrations for Aesop-inspired stories
 * Upload reviewed Batch 1 catalog to Firestore
 
 ### Phase 2

@@ -16,7 +16,7 @@
   "ageMin": 3,
   "ageMax": 6,
   "themes": ["kindness", "helping", "friendship"],
-  "coverImage": "https://placehold.co/1200x900/png?text=Lion+and+Mouse",
+  "coverImage": "assets/images/stories/lion_and_mouse_cover.webp",
   "audio": {
     "storyAudioUrl": null,
     "durationSeconds": null,
@@ -27,7 +27,7 @@
       "pageNumber": 1,
       "textAm": "በሞቃት ሜዳ ውስጥ አንድ ትልቅ አንበሳ በዛፍ ጥላ ሥር አርፎ ነበር። ነፋሱ በቀስታ ይነፍስ ነበር።",
       "textEn": "In a warm meadow, a big lion rested under the shade of a tree.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+1",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "A gentle lion resting peacefully under an acacia-like tree in a warm meadow.",
       "audioUrl": null
     },
@@ -35,7 +35,7 @@
       "pageNumber": 2,
       "textAm": "ትንሽ አይጥ በደስታ ሲሮጥ ወደ አንበሳው ጀርባ ወጣ። አንበሳው ነቃና በጣም ተገረመ።",
       "textEn": "A tiny mouse ran happily and climbed onto the lion's back.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+2",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "A tiny mouse accidentally climbing on a surprised but gentle lion's back.",
       "audioUrl": null
     },
@@ -43,7 +43,7 @@
       "pageNumber": 3,
       "textAm": "“እባክህ አትቆጣብኝ፣” አለ አይጡ። “አንድ ቀን እኔም ልረዳህ እችላለሁ።”",
       "textEn": "Please do not be angry, said the mouse. One day I may help you too.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+3",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The tiny mouse speaking kindly to the lion, asking for patience.",
       "audioUrl": null
     },
@@ -51,7 +51,7 @@
       "pageNumber": 4,
       "textAm": "አንበሳው በለስላሳ ፈገግታ ተመለከተው። “አንተ ትንሽ ነህ፣ ግን ደግ ልብ አለህ” ብሎ አይጡን ለቀቀው።",
       "textEn": "The lion smiled softly and let the little mouse go.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+4",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The lion gently letting the mouse go in a safe, warm storybook scene.",
       "audioUrl": null
     },
@@ -59,7 +59,7 @@
       "pageNumber": 5,
       "textAm": "በሌላ ቀን አንበሳው በደረቅ ቅርንጫፎች መካከል ተጣብቆ ቀረ። “እርዳታ!” ብሎ በቀስታ ጠራ።",
       "textEn": "Another day, the lion got stuck among dry branches and called for help.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+5",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The lion gently stuck among dry branches, worried but safe and not frightening.",
       "audioUrl": null
     },
@@ -67,7 +67,7 @@
       "pageNumber": 6,
       "textAm": "ትንሹ አይጥ ድምፁን ሰማ። በፍጥነት መጥቶ ቅርንጫፎቹን በትንንሽ ጥርሶቹ መክፈት ጀመረ።",
       "textEn": "The little mouse heard him and hurried over to help.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+6",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The tiny mouse carefully nibbling dry branches to help the lion get free.",
       "audioUrl": null
     },
@@ -75,7 +75,7 @@
       "pageNumber": 7,
       "textAm": "ብዙም ሳይቆይ አንበሳው ነፃ ሆነ። “አመሰግናለሁ፣ ትንሽ ጓደኛዬ” አለ በደስታ።",
       "textEn": "Soon the lion was free and thanked his little friend.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+7",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The lion free again, smiling gratefully at the little mouse.",
       "audioUrl": null
     },
@@ -83,7 +83,7 @@
       "pageNumber": 8,
       "textAm": "ከዚያ ቀን ጀምሮ አንበሳው እና አይጡ ጥሩ ጓደኞች ሆኑ። አንበሳውም ትንሽ ደግነት ትልቅ እርዳታ እንደምትሆን ተማረ።",
       "textEn": "From that day on, the lion and the mouse became good friends.",
-      "imageUrl": "https://placehold.co/1200x900/png?text=Lion+and+Mouse+Page+8",
+      "imageUrl": "assets/images/stories/lion_and_mouse_cover.webp",
       "illustrationPrompt": "The lion and mouse sitting together as friends in golden meadow light.",
       "audioUrl": null
     }
