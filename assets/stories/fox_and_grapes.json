@@ -15,7 +15,11 @@
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["honesty", "contentment", "feelings"],
+  "themes": [
+    "honesty",
+    "contentment",
+    "feelings"
+  ],
   "coverImage": "assets/images/stories/fox_and_grapes_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -27,7 +31,7 @@
       "pageNumber": 1,
       "textAm": "አንድ ቀን ቀበሮው በፀሐይ የተሞላ የወይን አትክልት ውስጥ ይጓዝ ነበር። ሆዱም ትንሽ ተርቦ ነበር።",
       "textEn": "One day, the fox walked through a sunny grape garden and felt a little hungry.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_01.webp",
       "illustrationPrompt": "A friendly fox walking through a sunny vineyard with warm storybook colors.",
       "audioUrl": null
     },
@@ -35,7 +39,7 @@
       "pageNumber": 2,
       "textAm": "በዛፍ ላይ የተንጠለጠለ ጣፋጭ ወይን አየ። “እንዴት ጥሩ ይመስላል!” ብሎ በደስታ ተመለከተው።",
       "textEn": "He saw sweet grapes hanging high and looked at them happily.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_02.webp",
       "illustrationPrompt": "The fox looking up happily at sweet grapes hanging high on leafy vines.",
       "audioUrl": null
     },
@@ -43,7 +47,7 @@
       "pageNumber": 3,
       "textAm": "ቀበሮው በቀስታ ዘለለ። ግን ወይኑ ከእጁ ትንሽ ርቆ ነበር።",
       "textEn": "The fox jumped gently, but the grapes were just out of reach.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_03.webp",
       "illustrationPrompt": "The fox making a gentle jump toward grapes that are just out of reach.",
       "audioUrl": null
     },
@@ -51,7 +55,7 @@
       "pageNumber": 4,
       "textAm": "እንደገና ሞከረ። እንደገናም ሞከረ። ነገር ግን ወይኑ አሁንም ከፍ ብሎ ነበር።",
       "textEn": "He tried again and again, but the grapes were still too high.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_04.webp",
       "illustrationPrompt": "The fox trying again with effort, still safe and playful, under high grape vines.",
       "audioUrl": null
     },
@@ -59,7 +63,7 @@
       "pageNumber": 5,
       "textAm": "ቀበሮው ትንሽ ተበሳጨ። “ምናልባት ወይኑ አይጣፍጥም” ብሎ ለራሱ ተናገረ።",
       "textEn": "The fox felt a little upset and said maybe the grapes were not sweet.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_05.webp",
       "illustrationPrompt": "The fox looking a little disappointed but not angry under the grape vine.",
       "audioUrl": null
     },
@@ -67,7 +71,7 @@
       "pageNumber": 6,
       "textAm": "ከዚያ ቆም ብሎ አሰበ። “እውነቱ ግን ወይኑን ፈልጌ ነበር። ስላልደረስኩበት ብቻ ተበሳጨሁ” አለ።",
       "textEn": "Then he stopped and admitted he wanted the grapes but felt disappointed.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_06.webp",
       "illustrationPrompt": "The fox pausing thoughtfully on a warm vineyard path, learning about honest feelings.",
       "audioUrl": null
     },
@@ -75,7 +79,7 @@
       "pageNumber": 7,
       "textAm": "ቀበሮው በቀስታ ተመለሰ። “ዛሬ አልደረስኩበትም፣ ግን እውነተኛ መሆንን ተማርኩ” ብሎ ፈገግ አለ።",
       "textEn": "The fox walked away gently, knowing he had learned to be honest.",
-      "imageUrl": "assets/images/stories/fox_and_grapes_cover.webp",
+      "imageUrl": "assets/images/stories/fox_and_grapes_page_07.webp",
       "illustrationPrompt": "The fox walking away peacefully through the vineyard with a small thoughtful smile.",
       "audioUrl": null
     }

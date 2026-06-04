@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["truthfulness", "trust", "responsibility"],
+  "themes": [
+    "truthfulness",
+    "trust",
+    "responsibility"
+  ],
   "coverImage": "assets/images/stories/boy_who_cried_wolf_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -27,7 +31,7 @@
       "pageNumber": 1,
       "textAm": "በአረንጓዴ ኮረብታ ላይ አንድ ትንሽ እረኛ በጎቹን ይጠብቅ ነበር። በጎቹ በሰላም ሣር ይበሉ ነበር።",
       "textEn": "On a green hill, a young shepherd watched sheep grazing peacefully.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_01.webp",
       "illustrationPrompt": "A young shepherd watching sheep on a sunny green hillside, peaceful and safe.",
       "audioUrl": null
     },
@@ -35,7 +39,7 @@
       "pageNumber": 2,
       "textAm": "አንድ ቀን ልጁ ብቻውን ተሰማው። “ጓደኞቼ ቢመጡ ደስ ይለኛል” ብሎ አሰበ።",
       "textEn": "One day, the child felt lonely and wished his friends would come.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_02.webp",
       "illustrationPrompt": "The young shepherd sitting thoughtfully beside calm sheep on a hillside.",
       "audioUrl": null
     },
@@ -43,7 +47,7 @@
       "pageNumber": 3,
       "textAm": "ከዚያ “ተኩላ መጣ!” ብሎ ጮኸ። ከመንደሩ ሰዎች በፍጥነት መጡ፣ ግን ተኩላ አልነበረም።",
       "textEn": "Then he called, Wolf is coming! People came quickly, but there was no wolf.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_03.webp",
       "illustrationPrompt": "Kind villagers arriving on a sunny hill while the sheep remain safe.",
       "audioUrl": null
     },
@@ -51,7 +55,7 @@
       "pageNumber": 4,
       "textAm": "ልጁ ትንሽ ሳቀ። ሰዎቹ ግን “እባክህ እውነት ሲሆን ብቻ ጥራን” ብለው በርኅራኄ ነገሩት።",
       "textEn": "The child laughed a little, but the people kindly asked him to call only when it was true.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_04.webp",
       "illustrationPrompt": "Villagers kindly speaking with the child about telling the truth.",
       "audioUrl": null
     },
@@ -59,7 +63,7 @@
       "pageNumber": 5,
       "textAm": "በሌላ ቀን ልጁ እንደገና ተጫወተ። “ተኩላ መጣ!” ብሎ ጮኸ። ሰዎቹ መጡ፣ ግን ደግሞ ተኩላ አልነበረም።",
       "textEn": "Another day, the child called again as a joke, and again there was no wolf.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_05.webp",
       "illustrationPrompt": "The child calling from the hillside while villagers look concerned but gentle.",
       "audioUrl": null
     },
@@ -67,7 +71,7 @@
       "pageNumber": 6,
       "textAm": "ከጥቂት ቀናት በኋላ በጫካ ጫፍ አንድ ተኩላ ታየ። ተኩላው ሩቅ ነበር፣ በጎቹም ከልጁ አጠገብ ነበሩ።",
       "textEn": "A few days later, a wolf appeared far away near the forest edge.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_06.webp",
       "illustrationPrompt": "A distant wolf at the forest edge, very small and non-scary, with sheep safe nearby.",
       "audioUrl": null
     },
@@ -75,7 +79,7 @@
       "pageNumber": 7,
       "textAm": "ልጁ “እባካችሁ እርዱኝ፣ ይህ ጊዜ እውነት ነው!” ብሎ ጮኸ። ሰዎቹ ትንሽ ዘገዩ፣ ምክንያቱም ቀድሞ ቀልድ ነበር።",
       "textEn": "The child called for real help, but the people paused because the earlier calls were jokes.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_07.webp",
       "illustrationPrompt": "The child calling sincerely while villagers listen from a safe distance.",
       "audioUrl": null
     },
@@ -83,7 +87,7 @@
       "pageNumber": 8,
       "textAm": "ሰዎቹ መጡና በጎቹን በሰላም ወደ ቤት አመጡ። ልጁም “እውነት መናገር መተማመንን ይገነባል” ብሎ ተማረ።",
       "textEn": "The people came and brought the sheep home safely. The child learned that truth builds trust.",
-      "imageUrl": "assets/images/stories/boy_who_cried_wolf_cover.webp",
+      "imageUrl": "assets/images/stories/boy_who_cried_wolf_page_08.webp",
       "illustrationPrompt": "Villagers, the child, and sheep walking home safely in warm evening light.",
       "audioUrl": null
     }

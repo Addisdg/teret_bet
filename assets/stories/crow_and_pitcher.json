@@ -15,7 +15,11 @@
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["problem solving", "patience", "creativity"],
+  "themes": [
+    "problem solving",
+    "patience",
+    "creativity"
+  ],
   "coverImage": "assets/images/stories/crow_and_pitcher_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -27,7 +31,7 @@
       "pageNumber": 1,
       "textAm": "በሞቃት ቀን አንድ ቁራ በሜዳ ላይ ይበር ነበር። ቁራው ውሃ ፈለገ፣ ነገር ግን ወንዝ በአቅራቢያ አልነበረም።",
       "textEn": "On a warm day, a crow flew over a field looking for water.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_01.webp",
       "illustrationPrompt": "A curious crow flying over a warm meadow while looking for water.",
       "audioUrl": null
     },
@@ -35,7 +39,7 @@
       "pageNumber": 2,
       "textAm": "ቁራው በዛፍ አጠገብ አንድ ማሰሮ አየ። በውስጡ ትንሽ ውሃ ነበር፣ ግን ውሃው በጣም ዝቅ ብሎ ነበር።",
       "textEn": "The crow saw a pitcher near a tree, but the water inside was very low.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_02.webp",
       "illustrationPrompt": "The crow finding a clay pitcher with a little water low inside.",
       "audioUrl": null
     },
@@ -43,7 +47,7 @@
       "pageNumber": 3,
       "textAm": "ቁራው ምንቃሩን ወደ ማሰሮው አስገባ። ግን ውሃውን መድረስ አልቻለም።",
       "textEn": "The crow put his beak into the pitcher, but he could not reach the water.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_03.webp",
       "illustrationPrompt": "The crow gently trying to reach water inside the pitcher but not reaching it.",
       "audioUrl": null
     },
@@ -51,7 +55,7 @@
       "pageNumber": 4,
       "textAm": "ቁራው ተቀመጠና በቀስታ አሰበ። “አልቸኩልም። መፍትሔ እፈልጋለሁ” አለ።",
       "textEn": "The crow sat down and thought slowly. I will look for a solution, he said.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_04.webp",
       "illustrationPrompt": "The crow sitting thoughtfully beside the pitcher in warm storybook light.",
       "audioUrl": null
     },
@@ -59,7 +63,7 @@
       "pageNumber": 5,
       "textAm": "ከዚያ ትንሽ ድንጋይ አየ። ድንጋዩን አንስቶ ወደ ማሰሮው ጣለው። አንድ ድንጋይ፣ ትንሽ ውሃ ወጣ።",
       "textEn": "Then he saw a small pebble and dropped it into the pitcher.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_05.webp",
       "illustrationPrompt": "The crow dropping one small pebble into the pitcher with careful focus.",
       "audioUrl": null
     },
@@ -67,7 +71,7 @@
       "pageNumber": 6,
       "textAm": "ቁራው ሌላ ድንጋይ አመጣ። አንድ ድንጋይ፣ ሌላ ድንጋይ፣ ውሃው በቀስታ ከፍ አለ።",
       "textEn": "The crow brought another pebble, then another, and the water slowly rose.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_06.webp",
       "illustrationPrompt": "The crow adding pebbles one by one as the water rises in the pitcher.",
       "audioUrl": null
     },
@@ -75,7 +79,7 @@
       "pageNumber": 7,
       "textAm": "ብዙም ሳይቆይ ውሃው ወደ ላይ ደረሰ። ቁራው በደስታ ጠጣ፣ ልቡም ተረጋጋ።",
       "textEn": "Soon the water rose high enough, and the crow drank happily.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_07.webp",
       "illustrationPrompt": "The crow happily drinking water from the pitcher after solving the problem.",
       "audioUrl": null
     },
@@ -83,7 +87,7 @@
       "pageNumber": 8,
       "textAm": "ቁራው “በትንሽ ትንሽ ሙከራ ትልቅ ችግኝ ይፈታል” ብሎ ተማረ። ከዚያም በደስታ በሰማይ በረረ።",
       "textEn": "The crow learned that small patient steps can solve a big problem.",
-      "imageUrl": "assets/images/stories/crow_and_pitcher_cover.webp",
+      "imageUrl": "assets/images/stories/crow_and_pitcher_page_08.webp",
       "illustrationPrompt": "The crow flying happily over the meadow after learning a clever lesson.",
       "audioUrl": null
     }

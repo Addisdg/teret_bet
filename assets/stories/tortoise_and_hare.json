@@ -15,7 +15,11 @@
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["patience", "persistence", "humility"],
+  "themes": [
+    "patience",
+    "persistence",
+    "humility"
+  ],
   "coverImage": "assets/images/stories/tortoise_and_hare_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -27,7 +31,7 @@
       "pageNumber": 1,
       "textAm": "በአንድ ፀሐያማ ጠዋት ኤሊው በአረንጓዴ መንገድ ላይ በቀስታ ይጓዝ ነበር። እሱ ቀስ ቢልም ሁልጊዜ ይቀጥል ነበር።",
       "textEn": "One sunny morning, the tortoise walked slowly along a green path.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_01.webp",
       "illustrationPrompt": "A calm tortoise walking slowly on a green sunny path with warm storybook light.",
       "audioUrl": null
     },
@@ -35,7 +39,7 @@
       "pageNumber": 2,
       "textAm": "ጥንቸሉ በፍጥነት እየዘለለ መጣ። “ኤሊ ሆይ፣ እኔ ፈጣን ነኝ፤ አንተ ግን በጣም ቀስ ትሄዳለህ!” አለ።",
       "textEn": "The hare came hopping quickly and said he was very fast.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_02.webp",
       "illustrationPrompt": "A lively hare hopping near the calm tortoise, playful but not mean.",
       "audioUrl": null
     },
@@ -43,7 +47,7 @@
       "pageNumber": 3,
       "textAm": "ኤሊው ፈገግ አለ። “እኔ ቀስ እሄዳለሁ፣ ግን አልቆምም። እስከ ዛፉ ድረስ እንወዳደር?” ብሎ ጠየቀ።",
       "textEn": "The tortoise smiled and asked if they could race to the tree.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_03.webp",
       "illustrationPrompt": "The tortoise smiling calmly while pointing toward a far tree finish line.",
       "audioUrl": null
     },
@@ -51,7 +55,7 @@
       "pageNumber": 4,
       "textAm": "ጓደኞቻቸው “ጀምሩ!” አሉ። ጥንቸሉ ፈጥኖ ሮጠ፣ ኤሊው ግን በቀስታ በቀስታ መጓዝ ጀመረ።",
       "textEn": "Their friends said, Start! The hare ran fast, and the tortoise began slowly.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_04.webp",
       "illustrationPrompt": "Animal friends cheer as the hare runs quickly and the tortoise starts steadily.",
       "audioUrl": null
     },
@@ -59,7 +63,7 @@
       "pageNumber": 5,
       "textAm": "ጥንቸሉ በጣም ፈጥኖ ስለሄደ ኤሊውን ከኋላ አላየውም። “ትንሽ እረፍታለሁ” ብሎ በአበቦች አጠገብ ተቀመጠ።",
       "textEn": "The hare ran far ahead and sat near the flowers to rest.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_05.webp",
       "illustrationPrompt": "The hare resting beside flowers on the path while the finish tree is far away.",
       "audioUrl": null
     },
@@ -67,7 +71,7 @@
       "pageNumber": 6,
       "textAm": "ኤሊው ግን አልቆመም። “በቀስታ በቀስታ፣ እቀጥላለሁ” እያለ መንገዱን ቀጠለ።",
       "textEn": "The tortoise did not stop. Slowly and steadily, he kept going.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_06.webp",
       "illustrationPrompt": "The tortoise steadily walking past flowers with a peaceful determined expression.",
       "audioUrl": null
     },
@@ -75,7 +79,7 @@
       "pageNumber": 7,
       "textAm": "ጥንቸሉ ሲነቃ ኤሊው ወደ መድረሻው ተቃርቦ ነበር። ጥንቸሉ ፈጥኖ ሮጠ፣ ግን ኤሊው መጀመሪያ ደረሰ።",
       "textEn": "When the hare woke up, the tortoise was already near the finish.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_07.webp",
       "illustrationPrompt": "The tortoise reaching the tree finish line as the hare runs kindly behind.",
       "audioUrl": null
     },
@@ -83,7 +87,7 @@
       "pageNumber": 8,
       "textAm": "ጥንቸሉ “አሁን ተማርኩ፤ ፍጥነት ብቻ አይበቃም” አለ። ኤሊውም “በጽናት መቀጠል ያሸንፋል” ብሎ ፈገግ አለ።",
       "textEn": "The hare learned that speed alone is not enough, and the tortoise smiled.",
-      "imageUrl": "assets/images/stories/tortoise_and_hare_cover.webp",
+      "imageUrl": "assets/images/stories/tortoise_and_hare_page_08.webp",
       "illustrationPrompt": "The tortoise and hare smiling together as friends after the race.",
       "audioUrl": null
     }

@@ -35,13 +35,14 @@
 * Feedback-ready local MVP catalog
 * Local cover illustrations for all current manifest stories
 * Removed placeholder image URLs from local story JSON
+* Unique local page illustrations for all current manifest stories
 
 ## Next
 
 ### Phase 1
 
 * Review current Batch 1 wording with parent/child feedback
-* Create unique per-page illustrations for Aesop-inspired stories
+* Polish story wording and page art based on feedback
 * Upload reviewed Batch 1 catalog to Firestore
 
 ### Phase 2

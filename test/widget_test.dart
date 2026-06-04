@@ -74,12 +74,17 @@ void main() {
       }
 
       final pages = await service.fetchStoryPages(story.id);
+      final pageImageUrls = pages.map((page) => page.imageUrl).toSet();
+
+      expect(pageImageUrls.length, pages.length);
+      expect(pageImageUrls, isNot(contains(story.coverImage)));
 
       for (final page in pages) {
         expect(page.imageUrl, isNot(contains('placehold.co')));
 
         if (page.imageUrl.startsWith('assets/')) {
           expect(File(page.imageUrl).existsSync(), isTrue);
+          expect(File(page.imageUrl).lengthSync() < 500000, isTrue);
         }
       }
     }
