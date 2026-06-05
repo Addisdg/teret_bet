@@ -33,6 +33,11 @@ Platforms:
 * Web (development/testing)
 * iOS (future)
 
+Android release identity:
+
+* Package: `com.teretbet.app`
+* Launcher label: `Teret Bet`
+
 ## Current Status
 
 Implemented:
@@ -57,6 +62,8 @@ Implemented:
 * Feedback-ready Amharic adaptations for all Batch 1 manifest stories
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
+* Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
+* Android release signing hook for ignored local/CI keystore secrets
 
 Current local library manifest:
 

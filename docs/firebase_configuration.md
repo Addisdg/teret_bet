@@ -19,6 +19,34 @@ The app still launches without these values. Firebase initialization will fail
 gracefully, then the MVP can keep using Hive cache and bundled local JSON
 stories.
 
+## Android App Identity
+
+The Android release package name is:
+
+```text
+com.teretbet.app
+```
+
+Register this exact Android package in Firebase before building a Firestore-backed
+release, then apply any Android API key restrictions to the same package name and
+the release signing certificate SHA fingerprints.
+
+## Android Release Signing
+
+Release signing secrets stay out of Git. For a locally signed release build,
+create `android/key.properties` with values like:
+
+```properties
+storeFile=../path/to/teret-bet-release.jks
+storePassword=your_store_password
+keyAlias=teret-bet
+keyPassword=your_key_password
+```
+
+When `android/key.properties` exists, Gradle signs release builds with that
+keystore. Without it, release builds fall back to the debug key for local smoke
+testing only.
+
 ## Local Examples
 
 Web:

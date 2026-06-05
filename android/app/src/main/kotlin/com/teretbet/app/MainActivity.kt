@@ -1,4 +1,4 @@
-package com.example.teret_bet_app
+package com.teretbet.app
 
 import io.flutter.embedding.android.FlutterActivity
 

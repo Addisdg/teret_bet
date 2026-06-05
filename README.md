@@ -21,6 +21,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
 - Audio-ready metadata and placeholder UI
+- Android release package and launcher label configured for Teret Bet
 
 ## Tech Stack
 
@@ -120,6 +121,10 @@ Story JSON and Firestore fields are documented in
 Firebase API keys are intentionally not committed. Local Firebase runs use
 `--dart-define` values; see
 [`docs/firebase_configuration.md`](docs/firebase_configuration.md).
+
+Android release builds use package `com.teretbet.app` and launcher label
+`Teret Bet`. Release signing can be provided through ignored local/CI keystore
+secrets; see [`docs/firebase_configuration.md`](docs/firebase_configuration.md).
 
 ## Reading Progress And Settings
 

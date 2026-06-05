@@ -1,9 +1,10 @@
 # Current Goal
 
-50-Story Foundation: documentation, story schema, manifest-based loading, Batch
-1 placeholder stories, and audio-ready metadata.
+Near-release MVP hardening: make the Android build identifiable as Teret Bet,
+keep the bundled ten-story catalog feedback-ready, and remove release blockers
+before external testing.
 
-## Completed In This Goal
+## Completed
 
 * Content strategy documentation
 * First 50 story candidate list
@@ -13,20 +14,34 @@
 * Content review checklist
 * Upgraded story schema
 * Manifest-based local story loading
-* Batch 1 draft placeholder stories
-* Audio-ready UI placeholders
-* First full Batch 1 adaptation: `lion_and_mouse`
-* Second full Batch 1 adaptation: `tortoise_and_hare`
-* Third full Batch 1 adaptation: `fox_and_grapes`
-* Fourth full Batch 1 adaptation: `ant_and_grasshopper`
-* Fifth full Batch 1 adaptation: `crow_and_pitcher`
-* Sixth full Batch 1 adaptation: `boy_who_cried_wolf`
+* Firestore -> Hive cache -> local JSON fallback chain
+* Batch 1 local story manifest
+* Feedback-ready Amharic adaptations for all current manifest stories
+* Audio-ready metadata and UI placeholders
+* Reading progress persistence
+* Settings screen with reader font-size control
+* Local cover illustrations for all current manifest stories
+* Unique cover-style local page illustrations for all current manifest stories
+* Placeholder image URLs removed from the current manifest catalog
+* Android app ID and launcher label prepared for release builds
+* Android release signing hook prepared for ignored local/CI keystore secrets
 
-## Next Recommended Goal
+## Current Release Identity
 
-Reading progress persistence + Settings screen.
+* Android package: `com.teretbet.app`
+* Android launcher label: `Teret Bet`
+* Version: `1.0.0+1`
 
-Note: the MVP already includes reading progress persistence and reader font-size
-settings. The next practical continuation is to turn the remaining Batch 1
-placeholders into reviewed full Amharic adaptations with final illustrations and
-later narration.
+## Next Recommended Task
+
+Create release signing credentials outside the repository, add the matching
+local/CI secret values, then run:
+
+```bash
+flutter analyze
+flutter test
+flutter build apk --release --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
+```
+
+Before a Firestore-backed external test, register `com.teretbet.app` in Firebase
+and apply Android API key restrictions for the release signing certificate.

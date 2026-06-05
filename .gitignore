@@ -35,6 +35,9 @@ migrate_working_dir/
 *-service-account.json
 .env
 android/app/google-services.json
+android/key.properties
+android/*.jks
+android/*.keystore
 **/GoogleService-Info.plist
 **/firebase_app_id_file.json
 
