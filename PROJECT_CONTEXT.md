@@ -90,8 +90,18 @@ Current local library manifest:
 * elves_and_shoemaker
 * little_red_cap
 * wolf_seven_young_kids
+* ugly_duckling
+* emperors_new_clothes
+* thumbelina
+* princess_and_pea
+* snow_queen
+* little_match_girl
+* nightingale
+* fir_tree
+* swineherd
+* steadfast_tin_soldier
 
-The first 20 manifest stories have bundled local cover/page artwork and do not
+The first 30 manifest stories have bundled local cover/page artwork and do not
 depend on placeholder image URLs.
 
 Additional finished local stories currently kept as assets but not listed in

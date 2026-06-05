@@ -1,0 +1,79 @@
+{
+  "id": "little_match_girl",
+  "collection": "andersen",
+  "status": "ready_for_review",
+  "priority": 306,
+  "titleAm": "ትንሿ የክብሪት ልጅ",
+  "titleEn": "The Little Match Girl",
+  "summaryAm": "በቀዝቃዛ ምሽት እርዳታ የምታገኝ ትንሽ ልጅ ስለ ርኅራኄ የምታስተምርበት ተለሳለሰ ታሪክ።",
+  "moralAm": "አንድ ሰው ቀዝቃዛ ሲሆን ሞቃት እጅ መዘርጋት ትልቅ ደግነት ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Hans Christian Andersen tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "compassion",
+    "helping",
+    "warmth"
+  ],
+  "coverImage": "assets/images/stories/little_match_girl_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በቀዝቃዛ ምሽት ትንሽ ልጅ በከተማ መንገድ ላይ ቆማ ነበር።",
+      "textEn": "Page 1 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 1: በቀዝቃዛ ምሽት ትንሽ ልጅ በከተማ መንገድ ላይ ቆማ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "መስኮቶች በብርሃን ይበሩ ነበር፣ እሷም ሞቃት ቤት ትመኝ ነበር።",
+      "textEn": "Page 2 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 2: መስኮቶች በብርሃን ይበሩ ነበር፣ እሷም ሞቃት ቤት ትመኝ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "አንዲት ደግ እናት እሷን አይታ “ወደ ውስጥ ግቢ፣ እንሞቅ” አለቻት።",
+      "textEn": "Page 3 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 3: አንዲት ደግ እናት እሷን አይታ “ወደ ውስጥ ግቢ፣ እንሞቅ” አለቻት።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ልጅቷ ሞቃት ሻይ እና ለስላሳ ብርድ ልብስ አገኘች።",
+      "textEn": "Page 4 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 4: ልጅቷ ሞቃት ሻይ እና ለስላሳ ብርድ ልብስ አገኘች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በቤቱ ውስጥ ሰዎች እንዴት ሌሎችን መርዳት እንደሚችሉ ተነጋገሩ።",
+      "textEn": "Page 5 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 5: በቤቱ ውስጥ ሰዎች እንዴት ሌሎችን መርዳት እንደሚችሉ ተነጋገሩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
+      "textEn": "Page 6 of The Little Match Girl.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 6: በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
+      "audioUrl": null
+    }
+  ]
+}

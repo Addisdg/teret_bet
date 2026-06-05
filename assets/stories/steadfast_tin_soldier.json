@@ -1,0 +1,79 @@
+{
+  "id": "steadfast_tin_soldier",
+  "collection": "andersen",
+  "status": "ready_for_review",
+  "priority": 310,
+  "titleAm": "ጽኑው የብረት ወታደር",
+  "titleEn": "The Steadfast Tin Soldier",
+  "summaryAm": "ትንሽ የብረት መጫወቻ በትልቅ ቤት ውስጥ መንገዱን በጽናት የሚያገኝበት ተለሳለሰ ታሪክ።",
+  "moralAm": "ጽናት ማለት በትንሽ እርምጃ እንኳን በቀስታ መቀጠል ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Hans Christian Andersen tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "courage",
+    "steadiness",
+    "hope"
+  ],
+  "coverImage": "assets/images/stories/steadfast_tin_soldier_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በልጆች ክፍል ውስጥ ትንሽ የብረት ወታደር በቀጥታ ቆሞ ነበር።",
+      "textEn": "Page 1 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 1: በልጆች ክፍል ውስጥ ትንሽ የብረት ወታደር በቀጥታ ቆሞ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ከመስኮቱ አጠገብ የወረቀት ዳንሰኛ ቆማ ነበር፣ እሷም በደግነት ፈገግ አለች።",
+      "textEn": "Page 2 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 2: ከመስኮቱ አጠገብ የወረቀት ዳንሰኛ ቆማ ነበር፣ እሷም በደግነት ፈገግ አለች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ነፋስ መጣ፣ ወታደሩም በትንሽ ወረቀት ጀልባ ላይ ወደ ክፍሉ ሌላ ጫፍ ተንቀሳቀሰ።",
+      "textEn": "Page 3 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 3: ነፋስ መጣ፣ ወታደሩም በትንሽ ወረቀት ጀልባ ላይ ወደ ክፍሉ ሌላ ጫፍ ተንቀሳቀሰ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በመንገድ ላይ መጫወቻዎች እርዳታ ሰጡት፣ እሱም ጸጥ ብሎ አመሰገነ።",
+      "textEn": "Page 4 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 4: በመንገድ ላይ መጫወቻዎች እርዳታ ሰጡት፣ እሱም ጸጥ ብሎ አመሰገነ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በመጨረሻ ወደ መስኮቱ ተመለሰ እና ዳንሰኛዋን እንደገና አየ።",
+      "textEn": "Page 5 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 5: በመጨረሻ ወደ መስኮቱ ተመለሰ እና ዳንሰኛዋን እንደገና አየ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ሁለቱ በመጫወቻ መደርደሪያ ላይ በሰላም ቆሙ፣ ልጆችም በጥንቃቄ ተጫወቱባቸው።",
+      "textEn": "Page 6 of The Steadfast Tin Soldier.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 6: ሁለቱ በመጫወቻ መደርደሪያ ላይ በሰላም ቆሙ፣ ልጆችም በጥንቃቄ ተጫወቱባቸው።",
+      "audioUrl": null
+    }
+  ]
+}

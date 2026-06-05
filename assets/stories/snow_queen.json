@@ -1,0 +1,79 @@
+{
+  "id": "snow_queen",
+  "collection": "andersen",
+  "status": "ready_for_review",
+  "priority": 305,
+  "titleAm": "የበረዶዋ ንግሥት",
+  "titleEn": "The Snow Queen",
+  "summaryAm": "ጓደኛዋን ለመርዳት በበረዶ መንገድ የምትጓዝ ልጅ ስለ ፍቅርና ድፍረት የምትማርበት ተለሳለሰ ታሪክ።",
+  "moralAm": "የጓደኝነት ሙቀት ቀዝቃዛ ቀንን እንኳን ያበራል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Hans Christian Andersen tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "love",
+    "courage",
+    "friendship"
+  ],
+  "coverImage": "assets/images/stories/snow_queen_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ጌርዳ እና ካይ በመስኮታቸው አጠገብ አበባዎችን ይንከባከቡ ነበር።",
+      "textEn": "Page 1 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 1: ጌርዳ እና ካይ በመስኮታቸው አጠገብ አበባዎችን ይንከባከቡ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ቀዝቃዛ ነፋስ መጣ፣ ካይም በበረዶ ቤት ውስጥ ለመጫወት ሄደ።",
+      "textEn": "Page 2 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 2: አንድ ቀዝቃዛ ነፋስ መጣ፣ ካይም በበረዶ ቤት ውስጥ ለመጫወት ሄደ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ጌርዳ ጓደኛዋን ለማግኘት ሞቃት ሻርፍ ይዛ መንገድ ጀመረች።",
+      "textEn": "Page 3 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 3: ጌርዳ ጓደኛዋን ለማግኘት ሞቃት ሻርፍ ይዛ መንገድ ጀመረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በመንገድ ላይ ደግ አበባዎች፣ ወፎች እና እረኛ መንገድ አሳዩአት።",
+      "textEn": "Page 4 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 4: በመንገድ ላይ ደግ አበባዎች፣ ወፎች እና እረኛ መንገድ አሳዩአት።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በበረዶው ቤት ውስጥ ጌርዳ ካይን በሞቃት መዝሙር አስታወሰችው።",
+      "textEn": "Page 5 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 5: በበረዶው ቤት ውስጥ ጌርዳ ካይን በሞቃት መዝሙር አስታወሰችው።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
+      "textEn": "Page 6 of The Snow Queen.",
+      "imageUrl": "assets/images/stories/snow_queen_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 6: ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
+      "audioUrl": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "swineherd",
+  "collection": "andersen",
+  "status": "ready_for_review",
+  "priority": 309,
+  "titleAm": "የአሳማ ጠባቂው",
+  "titleEn": "The Swineherd",
+  "summaryAm": "አንዲት ልጃገረድ ብሩህ ስጦታን ከደግ ልብ ጋር ማወዳደር የምትማርበት ተለሳለሰ ታሪክ።",
+  "moralAm": "የሰውን ልብ ከውጭ ነገር በላይ መመልከት ጥሩ ምርጫ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Hans Christian Andersen tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "pride",
+    "choices",
+    "kindness"
+  ],
+  "coverImage": "assets/images/stories/swineherd_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ ወጣት በቀላል ልብስ ወደ ቤተመንግሥት መጣ። እሱ ደግ እና ብልህ ነበር።",
+      "textEn": "Page 1 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 1: አንድ ወጣት በቀላል ልብስ ወደ ቤተመንግሥት መጣ። እሱ ደግ እና ብልህ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
+      "textEn": "Page 2 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 2: ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "እሷ ግን ብሩህ ነገሮችን ብቻ ማየት ትፈልግ ነበር።",
+      "textEn": "Page 3 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 3: እሷ ግን ብሩህ ነገሮችን ብቻ ማየት ትፈልግ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ወጣቱ አሳማዎችን በደግነት ሲንከባከብ ሁሉም እንስሳት ይወዱት ነበር።",
+      "textEn": "Page 4 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 4: ወጣቱ አሳማዎችን በደግነት ሲንከባከብ ሁሉም እንስሳት ይወዱት ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
+      "textEn": "Page 5 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 5: ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
+      "textEn": "Page 6 of The Swineherd.",
+      "imageUrl": "assets/images/stories/swineherd_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 6: እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
+      "audioUrl": null
+    }
+  ]
+}

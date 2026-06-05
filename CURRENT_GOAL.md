@@ -18,6 +18,7 @@ before external testing.
 * Batch 1 local story manifest
 * Feedback-ready Amharic adaptations for all current manifest stories
 * Batch 2 Grimm-inspired Amharic stories added with bundled local cover/page artwork
+* Batch 3 Andersen-inspired Amharic stories added with bundled local cover/page artwork
 * Audio-ready metadata and UI placeholders
 * Reading progress persistence
 * Favorite stories with local persistence and library filtering
@@ -38,7 +39,7 @@ before external testing.
 
 ## Next Recommended Task
 
-Continue Batch 3 with the next 10 stories from `docs/FIRST_50_STORIES.md`,
+Continue Batch 4 with the next 10 stories from `docs/FIRST_50_STORIES.md`,
 including schema-complete text assets, bundled cover/page artwork, manifest
 updates, tests, verification, and one commit for the 10-story batch.
 

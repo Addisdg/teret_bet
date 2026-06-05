@@ -43,14 +43,14 @@ void main() {
     expect(storyIds, contains('lion_and_mouse'));
     expect(storyIds, contains('goose_golden_eggs'));
     expect(storyIds, isNot(contains('story_manifest')));
-    expect(stories.length, 20);
+    expect(stories.length, 30);
     expect(
       stories.where((story) => story.status == 'draft').length,
       0,
     );
     expect(
       stories.where((story) => story.status == 'ready_for_review').length,
-      19,
+      29,
     );
 
     final localCoverStories = stories.where(
@@ -338,24 +338,36 @@ void main() {
     }
   });
 
-  test('batch 2 story assets are complete and visible in manifest', () {
-    const batch2StoryIds = [
-      'hansel_and_gretel',
-      'rapunzel',
-      'bremen_town_musicians',
-      'snow_white',
-      'rumpelstiltskin',
-      'golden_goose',
-      'fisherman_and_wife',
-      'elves_and_shoemaker',
-      'little_red_cap',
-      'wolf_seven_young_kids',
-    ];
+  test('later batch story assets are complete and visible in manifest', () {
+    const storyCollections = {
+      'hansel_and_gretel': 'grimm',
+      'rapunzel': 'grimm',
+      'bremen_town_musicians': 'grimm',
+      'snow_white': 'grimm',
+      'rumpelstiltskin': 'grimm',
+      'golden_goose': 'grimm',
+      'fisherman_and_wife': 'grimm',
+      'elves_and_shoemaker': 'grimm',
+      'little_red_cap': 'grimm',
+      'wolf_seven_young_kids': 'grimm',
+      'ugly_duckling': 'andersen',
+      'emperors_new_clothes': 'andersen',
+      'thumbelina': 'andersen',
+      'princess_and_pea': 'andersen',
+      'snow_queen': 'andersen',
+      'little_match_girl': 'andersen',
+      'nightingale': 'andersen',
+      'fir_tree': 'andersen',
+      'swineherd': 'andersen',
+      'steadfast_tin_soldier': 'andersen',
+    };
     final manifest = jsonDecode(
       File('assets/stories/story_manifest.json').readAsStringSync(),
     ) as List;
 
-    for (final storyId in batch2StoryIds) {
+    for (final entry in storyCollections.entries) {
+      final storyId = entry.key;
+
       expect(manifest, contains(storyId));
 
       final storyJson = jsonDecode(
@@ -367,7 +379,7 @@ void main() {
           .toList();
 
       expect(story.id, storyId);
-      expect(story.collection, 'grimm');
+      expect(story.collection, entry.value);
       expect(story.status, 'ready_for_review');
       expect(story.source.type, 'public_domain');
       expect(story.coverImage, 'assets/images/stories/${storyId}_cover.webp');

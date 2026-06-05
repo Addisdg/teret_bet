@@ -1,0 +1,79 @@
+{
+  "id": "fir_tree",
+  "collection": "andersen",
+  "status": "ready_for_review",
+  "priority": 308,
+  "titleAm": "የጥድ ዛፉ",
+  "titleEn": "The Fir Tree",
+  "summaryAm": "ትንሽ የጥድ ዛፍ በፍጥነት ለመትልቅ ከመፈለግ ይልቅ ዛሬን መደሰትን የሚማርበት ታሪክ።",
+  "moralAm": "ዛሬ ያለንን ደስታ ማየት ከነገ መጠበቅ በላይ ልብን ያረጋጋል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Hans Christian Andersen tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 4,
+  "ageMax": 6,
+  "themes": [
+    "gratitude",
+    "today",
+    "growth"
+  ],
+  "coverImage": "assets/images/stories/fir_tree_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በጫካ ውስጥ ትንሽ የጥድ ዛፍ ይበቅል ነበር። እሱ ግን “ቶሎ ትልቅ ልሁን” ይል ነበር።",
+      "textEn": "Page 1 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 1: በጫካ ውስጥ ትንሽ የጥድ ዛፍ ይበቅል ነበር። እሱ ግን “ቶሎ ትልቅ ልሁን” ይል ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ወፎች “ዛሬ ያለውን ፀሐይ ተመልከት” ብለው ዘመሩለት።",
+      "textEn": "Page 2 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 2: ወፎች “ዛሬ ያለውን ፀሐይ ተመልከት” ብለው ዘመሩለት።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ዛፉ ረጅም ዛፎችን እያየ ራሱን ትንሽ ብሎ አሰበ።",
+      "textEn": "Page 3 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 3: ዛፉ ረጅም ዛፎችን እያየ ራሱን ትንሽ ብሎ አሰበ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "አንድ ቀን ልጆች በአጠገቡ ተጫወቱ፣ ከጥላውም ተደሰቱ።",
+      "textEn": "Page 4 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 4: አንድ ቀን ልጆች በአጠገቡ ተጫወቱ፣ ከጥላውም ተደሰቱ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "የጥድ ዛፉ “እኔም ዛሬ ደስታ እሰጣለሁ” ብሎ ተረዳ።",
+      "textEn": "Page 5 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 5: የጥድ ዛፉ “እኔም ዛሬ ደስታ እሰጣለሁ” ብሎ ተረዳ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከዚያ በኋላ በየቀኑ ፀሐይን፣ ዝናብን እና ጓደኞቹን በምስጋና ይቀበል ነበር።",
+      "textEn": "Page 6 of The Fir Tree.",
+      "imageUrl": "assets/images/stories/fir_tree_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 6: ከዚያ በኋላ በየቀኑ ፀሐይን፣ ዝናብን እና ጓደኞቹን በምስጋና ይቀበል ነበር።",
+      "audioUrl": null
+    }
+  ]
+}

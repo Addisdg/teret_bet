@@ -127,8 +127,18 @@ Current local manifest:
 - `elves_and_shoemaker`
 - `little_red_cap`
 - `wolf_seven_young_kids`
+- `ugly_duckling`
+- `emperors_new_clothes`
+- `thumbelina`
+- `princess_and_pea`
+- `snow_queen`
+- `little_match_girl`
+- `nightingale`
+- `fir_tree`
+- `swineherd`
+- `steadfast_tin_soldier`
 
-The first 20 manifest stories have bundled local cover/page images and do not
+The first 30 manifest stories have bundled local cover/page images and do not
 depend on placeholder image URLs.
 
 Story JSON and Firestore fields are documented in
