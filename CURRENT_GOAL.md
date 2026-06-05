@@ -26,6 +26,7 @@ before external testing.
 * Android app ID and launcher label prepared for release builds
 * Android release signing hook prepared for ignored local/CI keystore secrets
 * Web, iOS, and macOS display metadata prepared with the Teret Bet name
+* Branded launcher icons prepared for Android, iOS, macOS, and web
 
 ## Current Release Identity
 

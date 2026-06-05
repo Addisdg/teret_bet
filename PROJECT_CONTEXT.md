@@ -65,6 +65,7 @@ Implemented:
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
 * Android release signing hook for ignored local/CI keystore secrets
 * Web, iOS, and macOS display metadata configured with the Teret Bet name
+* Branded launcher icons for Android, iOS, macOS, and web
 
 Current local library manifest:
 

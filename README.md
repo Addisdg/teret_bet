@@ -23,6 +23,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Audio-ready metadata and placeholder UI
 - Android release package and launcher label configured for Teret Bet
 - Web, iOS, and macOS display metadata configured with the Teret Bet name
+- Branded launcher icons for Android, iOS, macOS, and web
 
 ## Tech Stack
 
@@ -126,6 +127,11 @@ Firebase API keys are intentionally not committed. Local Firebase runs use
 Android release builds use package `com.teretbet.app` and launcher label
 `Teret Bet`. Release signing can be provided through ignored local/CI keystore
 secrets; see [`docs/firebase_configuration.md`](docs/firebase_configuration.md).
+
+The launcher icon source is tracked at
+`assets/images/branding/app_icon_source.png`; platform icon sizes are generated
+from that source into the standard Flutter Android, iOS, macOS, and web icon
+locations.
 
 ## Reading Progress And Settings
 
