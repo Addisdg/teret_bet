@@ -1,0 +1,75 @@
+{
+  "id": "rumpelstiltskin",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 205,
+  "titleAm": "ሩምፐልስቲልትስኪን",
+  "titleEn": "Rumpelstiltskin",
+  "summaryAm": "ስለ ቃል መጠበቅ፣ እውነት መናገር እና በችግር ጊዜ በቀስታ መፍትሔ መፈለግ የሚያስተምር ተለሳለሰ ታሪክ።",
+  "moralAm": "ቃል ከመስጠት በፊት ማሰብ እና እውነትን መናገር ጥሩ መንገድ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation softens threats and keeps the lesson about promises."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": ["promises", "honesty", "cleverness"],
+  "coverImage": "assets/images/stories/rumpelstiltskin_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንዲት ብልህ ልጃገረድ በመንደር ውስጥ በእጅ ሥራዋ ትታወቅ ነበር። ነገር ግን አንድ ቀን ከባድ ሥራ ተጠየቀች።",
+      "textEn": "A clever young woman was known for her handwork, but one day she was given a hard task.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_01.webp",
+      "illustrationPrompt": "A clever young woman in a warm village room with baskets of straw and craft tools.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "“እኔ ብቻዬን ይህን ማድረግ አልችልም” ብላ በሐቀኝነት ተናገረች። በዚያ ጊዜ ትንሽ እንግዳ መጣ።",
+      "textEn": "I cannot do this alone, she said honestly. Then a small stranger arrived.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_02.webp",
+      "illustrationPrompt": "A tiny mysterious but not scary helper appearing near a lantern-lit craft room.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "እንግዳው “እረዳሻለሁ፣ ግን ቃል መስጠት በጥንቃቄ ነው” አለ። ልጃገረዷም በመጀመሪያ ማሰብ ጀመረች።",
+      "textEn": "I can help, said the stranger, but promises need care.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_03.webp",
+      "illustrationPrompt": "The young woman thinking carefully while the tiny helper points to a simple promise token.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "እሷ አንድ ትንሽ ደወል ሰጠችው፣ እንግዳውም ሥራውን ለማቀላጠፍ ረዳት። ግን ልጃገረዷ ቃልን በቀላሉ መስጠት እንደማይገባ ተማረች።",
+      "textEn": "She gave him a small bell, and he helped with the work.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_04.webp",
+      "illustrationPrompt": "A tiny helper and young woman working together with glowing thread and a small bell.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በኋላ እንግዳው ስሙን እንድታውቅ ጨዋታ አደረገ። ልጃገረዷ በትዕግሥት ጠየቀች፣ አዳመጠች፣ እና መልሱን አገኘች።",
+      "textEn": "Later the stranger made a name-guessing game, and she listened patiently.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_05.webp",
+      "illustrationPrompt": "The young woman listening thoughtfully during a playful name-guessing scene.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "“ሩምፐልስቲልትስኪን!” ብላ በደስታ አለች። እንግዳው ፈገግ ብሎ ተሰናበተ። ልጃገረዷም ከዚያ በኋላ ቃል ከመስጠት በፊት በጥንቃቄ ታስብ ነበር።",
+      "textEn": "Rumpelstiltskin! she said happily, and the stranger smiled goodbye.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_06.webp",
+      "illustrationPrompt": "The young woman smiling as the tiny helper waves goodbye under warm lantern light.",
+      "audioUrl": null
+    }
+  ]
+}

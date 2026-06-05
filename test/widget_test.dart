@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -42,14 +43,14 @@ void main() {
     expect(storyIds, contains('lion_and_mouse'));
     expect(storyIds, contains('goose_golden_eggs'));
     expect(storyIds, isNot(contains('story_manifest')));
-    expect(stories.length, 10);
+    expect(stories.length, 20);
     expect(
       stories.where((story) => story.status == 'draft').length,
       0,
     );
     expect(
       stories.where((story) => story.status == 'ready_for_review').length,
-      9,
+      19,
     );
 
     final localCoverStories = stories.where(
@@ -334,6 +335,64 @@ void main() {
       expect(storyText, contains(entry.value.keyword));
       expect(pages.first.illustrationPrompt, isNotEmpty);
       expect(pages.first.audioUrl, isNull);
+    }
+  });
+
+  test('batch 2 story assets are complete and visible in manifest', () {
+    const batch2StoryIds = [
+      'hansel_and_gretel',
+      'rapunzel',
+      'bremen_town_musicians',
+      'snow_white',
+      'rumpelstiltskin',
+      'golden_goose',
+      'fisherman_and_wife',
+      'elves_and_shoemaker',
+      'little_red_cap',
+      'wolf_seven_young_kids',
+    ];
+    final manifest = jsonDecode(
+      File('assets/stories/story_manifest.json').readAsStringSync(),
+    ) as List;
+
+    for (final storyId in batch2StoryIds) {
+      expect(manifest, contains(storyId));
+
+      final storyJson = jsonDecode(
+        File('assets/stories/$storyId.json').readAsStringSync(),
+      ) as Map<String, dynamic>;
+      final story = Story.fromJson(storyJson);
+      final pages = (storyJson['pages'] as List)
+          .map((item) => StoryPage.fromMap(Map<String, dynamic>.from(item)))
+          .toList();
+
+      expect(story.id, storyId);
+      expect(story.collection, 'grimm');
+      expect(story.status, 'ready_for_review');
+      expect(story.source.type, 'public_domain');
+      expect(story.coverImage, 'assets/images/stories/${storyId}_cover.webp');
+      expect(File(story.coverImage).existsSync(), isTrue);
+      expect(File(story.coverImage).lengthSync() < 500000, isTrue);
+      expect(story.audio.storyAudioUrl, isNull);
+      expect(story.moralAm, isNotEmpty);
+      expect(story.themes, isNotEmpty);
+      expect(pages, hasLength(6));
+
+      for (var index = 0; index < pages.length; index += 1) {
+        final page = pages[index];
+
+        expect(page.pageNumber, index + 1);
+        expect(page.textAm, isNotEmpty);
+        expect(page.textAm, isNot(contains('በቅርቡ')));
+        expect(
+          page.imageUrl,
+          'assets/images/stories/${storyId}_page_${(index + 1).toString().padLeft(2, '0')}.webp',
+        );
+        expect(File(page.imageUrl).existsSync(), isTrue);
+        expect(File(page.imageUrl).lengthSync() < 500000, isTrue);
+        expect(page.illustrationPrompt, isNotEmpty);
+        expect(page.audioUrl, isNull);
+      }
     }
   });
 

@@ -1,0 +1,75 @@
+{
+  "id": "elves_and_shoemaker",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 208,
+  "titleAm": "ኤልፎቹ እና ጫማ ሰፊው",
+  "titleEn": "The Elves and the Shoemaker",
+  "summaryAm": "ደከመኛ ጫማ ሰፊ እና ትንንሽ ደግ ረዳቶች ስለ ሥራ፣ ምስጋና እና ማጋራት የሚያስተምሩበት ታሪክ።",
+  "moralAm": "ሥራ እና ደግነት ሲገናኙ ቤት ይበራል፤ ምስጋናም ደግነትን ያበዛል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation keeps the magical helpers gentle."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": ["gratitude", "work", "kindness"],
+  "coverImage": "assets/images/stories/elves_and_shoemaker_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ ጫማ ሰፊ ከሚስቱ ጋር ትንሽ ሱቅ ውስጥ ይሠራ ነበር። እጆቹ ደክመው ነበር፣ ግን ልቡ ደግ ነበር።",
+      "textEn": "A shoemaker and his wife worked in a small shop with kind hearts.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_01.webp",
+      "illustrationPrompt": "A kind shoemaker and wife in a cozy small shoe shop with leather and tools.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ሌሊት ጫማ ሰፊው የተቆረጠ ቆዳ በጠረጴዛ ላይ ተወው። “ነገ እጨርሰዋለሁ” ብሎ አረፈ።",
+      "textEn": "One night he left cut leather on the table and went to rest.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_02.webp",
+      "illustrationPrompt": "Cut leather pieces resting on a wooden worktable under moonlight.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ጠዋት ሲነሳ ቆንጆ ጫማዎች ተሠርተው አገኘ። ጫማዎቹ እንደ ትንሽ ቀስተ ደመና ይበሩ ነበር።",
+      "textEn": "In the morning he found beautiful shoes already made.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_03.webp",
+      "illustrationPrompt": "Beautiful handmade shoes glowing softly on the shoemaker's table in morning light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በሌላ ሌሊት እሱና ሚስቱ በጸጥታ ተመለከቱ። ሁለት ትንንሽ ደግ ረዳቶች መጡና በደስታ መስፋት ጀመሩ።",
+      "textEn": "Another night they quietly saw two tiny helpers sewing happily.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_04.webp",
+      "illustrationPrompt": "Two tiny friendly helpers sewing shoes at night while the couple watches kindly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ጫማ ሰፊው እና ሚስቱ ለረዳቶቹ ትንንሽ ሞቃት ልብሶችን ሠሩ። “እናመሰግናለን” ብለው በጠረጴዛው ላይ አኖሩ።",
+      "textEn": "The shoemaker and his wife made warm tiny clothes to say thank you.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_05.webp",
+      "illustrationPrompt": "Tiny warm clothes placed on the shoemaker's table as a thank-you gift.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ረዳቶቹ ስጦታውን ሲያዩ በደስታ ዘፈኑ። ጫማ ሰፊውም ከዚያ በኋላ ሥራውን በምስጋና እና በደግነት ቀጠለ።",
+      "textEn": "The helpers sang with joy, and the shoemaker kept working with gratitude.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_06.webp",
+      "illustrationPrompt": "Tiny helpers dancing happily in new clothes while the shoemaker and wife smile.",
+      "audioUrl": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "wolf_seven_young_kids",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 210,
+  "titleAm": "ተኩላው እና ሰባቱ ግልገሎች",
+  "titleEn": "The Wolf and the Seven Young Kids",
+  "summaryAm": "ሰባት ትንንሽ ግልገሎች በቤት ውስጥ ሲጠብቁ ድምፅን መለየት፣ በር በጥንቃቄ መክፈት እና እርዳታ መጠየቅን የሚማሩበት ተለሳለሰ ታሪክ።",
+  "moralAm": "በር ከመክፈት በፊት መጠየቅ እና የታመኑ ድምፆችን መለየት ደህንነትን ይጠብቃል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation removes frightening violence and focuses on safe-home rules."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": ["safety", "listening", "family"],
+  "coverImage": "assets/images/stories/wolf_seven_young_kids_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "እናት ፍየል ሰባት ግልገሎቿን በቤት ትተው ወደ ገበያ ልትሄድ ተዘጋጀች። “የማታውቁትን በር አትክፈቱ” አለቻቸው።",
+      "textEn": "Mother goat told her seven young kids not to open the door to strangers.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_01.webp",
+      "illustrationPrompt": "Mother goat gently speaking to seven young kids inside a cozy cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ግልገሎቹ “እንሰማለን፣ እንጠይቃለን፣ እንጠብቃለን” ብለው በደስታ መለሱ።",
+      "textEn": "The young kids promised to listen, ask, and wait.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_02.webp",
+      "illustrationPrompt": "Seven young goats nodding together in a warm cottage room.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ትንሽ ተኩላ በሩን አንኳኳ። “እኔ ነኝ” አለ። ግልገሎቹ ግን “የእናታችን ድምፅ ለስላሳ ነው፤ እባክህ ቆይ” አሉ።",
+      "textEn": "A small wolf knocked, but the kids noticed the voice was not mother's.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_03.webp",
+      "illustrationPrompt": "A small non-scary wolf at the cottage door while young goats listen carefully inside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ግልገሎቹ በመስኮቱ የጫካ ጠባቂን አዩ። “እባክዎ ያልታወቀ እንግዳ በሩ ላይ አለ” ብለው ጠሩት።",
+      "textEn": "The kids saw the forest keeper and asked for help.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_04.webp",
+      "illustrationPrompt": "Young goats calling to a friendly forest keeper through the cottage window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ጠባቂው ተኩላውን በቀስታ ወደ ጫካው መንገድ መራው። “የሌሎችን ቤት መከበር አለብህ” አለው።",
+      "textEn": "The keeper gently led the wolf back to the forest path.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_05.webp",
+      "illustrationPrompt": "A forest keeper kindly guiding a small wolf back to a forest path outside the cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "እናት ፍየል ስትመለስ ግልገሎቿ የተማሩትን ነገሯት። እሷም አቅፋቸው “በጥንቃቄ ጠብቃችኋል” አለች።",
+      "textEn": "When mother goat returned, she hugged the kids and praised their careful choices.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_06.webp",
+      "illustrationPrompt": "Mother goat hugging seven young kids in a cozy cottage, all safe and smiling.",
+      "audioUrl": null
+    }
+  ]
+}

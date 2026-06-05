@@ -17,6 +17,7 @@ before external testing.
 * Firestore -> Hive cache -> local JSON fallback chain
 * Batch 1 local story manifest
 * Feedback-ready Amharic adaptations for all current manifest stories
+* Batch 2 Grimm-inspired Amharic stories added with bundled local cover/page artwork
 * Audio-ready metadata and UI placeholders
 * Reading progress persistence
 * Favorite stories with local persistence and library filtering
@@ -37,8 +38,13 @@ before external testing.
 
 ## Next Recommended Task
 
-Create release signing credentials outside the repository, add the matching
-local/CI secret values, then run:
+Continue Batch 3 with the next 10 stories from `docs/FIRST_50_STORIES.md`,
+including schema-complete text assets, bundled cover/page artwork, manifest
+updates, tests, verification, and one commit for the 10-story batch.
+
+Release signing also remains before external Android testing: create release
+signing credentials outside the repository, add the matching local/CI secret
+values, then run:
 
 ```bash
 flutter analyze

@@ -1,0 +1,75 @@
+{
+  "id": "fisherman_and_wife",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 207,
+  "titleAm": "አሳ አጥማጁ እና ሚስቱ",
+  "titleEn": "The Fisherman and His Wife",
+  "summaryAm": "አንድ አሳ አጥማጅ እና ሚስቱ ምስጋና፣ በቂ ማወቅ እና በቀላል ነገር መደሰትን የሚማሩበት ታሪክ።",
+  "moralAm": "ሁልጊዜ ተጨማሪ መፈለግ ልብን አያረካም፤ ምስጋና ግን ቤትን በሰላም ይሞላል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation keeps the lesson gentle and non-shaming."
+  },
+  "ageMin": 4,
+  "ageMax": 6,
+  "themes": ["contentment", "gratitude", "choices"],
+  "coverImage": "assets/images/stories/fisherman_and_wife_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ አሳ አጥማጅ ከሚስቱ ጋር በባሕር ዳር ትንሽ ቤት ውስጥ ይኖር ነበር። ቤታቸው ቀላል ነበር፣ ግን ፀሐይ በመስኮቱ ትገባ ነበር።",
+      "textEn": "A fisherman and his wife lived in a small house by the sea.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_01.webp",
+      "illustrationPrompt": "A small seaside cottage with a fisherman and his wife in warm morning light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ቀን አሳ አጥማጁ ብሩህ ቀለም ያለው አሳ ያዘ። አሳው “እባክህ ወደ ባሕር መልሰኝ” አለ።",
+      "textEn": "One day the fisherman caught a bright fish that asked to return to the sea.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_02.webp",
+      "illustrationPrompt": "A gentle fisherman holding a shimmering fish near calm blue water.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "አሳ አጥማጁ በርኅራኄ አሳውን መለሰው። ቤት ሲመለስ ሚስቱ ትንሽ የተሻለ ቤት እንዲኖራቸው ፈለገች።",
+      "textEn": "The fisherman kindly returned the fish, and his wife wished for a nicer home.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_03.webp",
+      "illustrationPrompt": "The fisherman releasing the fish back into the sea, with a hopeful expression.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በሚቀጥለው ቀን ቤታቸው ንጹህ እና ሰፊ ሆኖ ተገኘ። ሁለቱም ደስ አላቸው፣ ግን ሚስቱ እንደገና ተጨማሪ ነገር መፈለግ ጀመረች።",
+      "textEn": "The next day their house was clean and roomy, but another wish soon came.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_04.webp",
+      "illustrationPrompt": "A neat cozy seaside home with the couple looking at it thoughtfully.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "አሳ አጥማጁ ባሕሩን ተመለከተ። ማዕበሉ እንደሚናገር በቀስታ ይንቀሳቀስ ነበር። “በቂ ማወቅ ልብን ያረጋጋል” ብሎ አሰበ።",
+      "textEn": "The fisherman looked at the sea and thought about being content.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_05.webp",
+      "illustrationPrompt": "The fisherman standing by gentle waves at sunset, thinking calmly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "በመጨረሻ ሁለቱ በቀላል ቤታቸው ውስጥ ሻይ ጠጡ። ሚስቱም “ያለንን ስናመሰግን ቤታችን ይሞቃል” አለች።",
+      "textEn": "At last they drank tea at home and felt grateful for what they had.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_06.webp",
+      "illustrationPrompt": "The fisherman and wife sharing tea in a warm simple seaside home.",
+      "audioUrl": null
+    }
+  ]
+}

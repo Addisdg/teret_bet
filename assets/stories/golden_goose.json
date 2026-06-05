@@ -1,0 +1,75 @@
+{
+  "id": "golden_goose",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 206,
+  "titleAm": "ወርቃማዋ ዝይ",
+  "titleEn": "The Golden Goose",
+  "summaryAm": "ደግ ልጅ በመንገድ ላይ ሰዎችን በመርዳት ደስታን የሚያገኝበት ቀላል እና ቀልድ ያለው ታሪክ።",
+  "moralAm": "ደግነት ደስታን ያበዛል፣ ትንሽ ማጋራትም ትልቅ ፈገግታ ያመጣል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation keeps the humor gentle and safe."
+  },
+  "ageMin": 4,
+  "ageMax": 6,
+  "themes": ["generosity", "kindness", "joy"],
+  "coverImage": "assets/images/stories/golden_goose_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ ደግ ልጅ በጫካ ዳር እንጨት ይሰበስብ ነበር። ምሳውንም ከተራበ አሮጌ ተጓዥ ጋር አጋራ።",
+      "textEn": "A kind boy gathered wood and shared his lunch with a hungry traveler.",
+      "imageUrl": "assets/images/stories/golden_goose_page_01.webp",
+      "illustrationPrompt": "A kind boy sharing lunch with an old traveler near a forest path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "ተጓዡ በደስታ አመሰገነው። “በዚያ ዛፍ ሥር ያለውን ስጦታ ተመልከት” አለው።",
+      "textEn": "The traveler thanked him and pointed to a gift under a tree.",
+      "imageUrl": "assets/images/stories/golden_goose_page_02.webp",
+      "illustrationPrompt": "The traveler pointing kindly toward a tree stump glowing softly in the forest.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ልጁ በዛፉ ሥር ወርቃማ ቀለም ያላት ዝይ አገኘ። ዝይዋ በቀስታ ተንቀሳቀሰችና “ጋክ!” አለች።",
+      "textEn": "Under the tree he found a goose with golden feathers.",
+      "imageUrl": "assets/images/stories/golden_goose_page_03.webp",
+      "illustrationPrompt": "A cheerful golden goose under a tree beside a surprised kind boy.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ልጁ ዝይዋን ይዞ መንደር ሲገባ፣ ሰዎች በብርሃኗ ተገረሙ። ልጁ ግን “ደግነት ስጦታው ነው” አለ።",
+      "textEn": "People in the village wondered at the goose's glow.",
+      "imageUrl": "assets/images/stories/golden_goose_page_04.webp",
+      "illustrationPrompt": "The boy entering a village with a golden goose while villagers smile with wonder.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ዝይዋ በመንደሩ አደባባይ ትንሽ ዳንስ ጀመረች። ልጆች ሳቁ፣ አዋቂዎችም ፈገግ አሉ።",
+      "textEn": "The goose danced in the village square, and everyone smiled.",
+      "imageUrl": "assets/images/stories/golden_goose_page_05.webp",
+      "illustrationPrompt": "A golden goose dancing gently in a village square with children laughing.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከዚያ ቀን ጀምሮ ልጁ ስጦታውን ለሰዎች ደስታ ለማምጣት ተጠቀመበት። መንደሩም ደግነት ሲካፈል እንደሚያድግ ተማረ።",
+      "textEn": "From then on, the boy used the gift to bring joy to others.",
+      "imageUrl": "assets/images/stories/golden_goose_page_06.webp",
+      "illustrationPrompt": "The kind boy and golden goose surrounded by happy villagers in warm evening light.",
+      "audioUrl": null
+    }
+  ]
+}

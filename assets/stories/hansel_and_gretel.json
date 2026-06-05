@@ -1,0 +1,75 @@
+{
+  "id": "hansel_and_gretel",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 201,
+  "titleAm": "ሀንሰል እና ግሬቴል",
+  "titleEn": "Hansel and Gretel",
+  "summaryAm": "ሁለት ልጆች በጫካ ውስጥ በመረጋጋት፣ በመተባበር እና በተስፋ ወደ ቤታቸው የሚመለሱበት የተለሳለሰ ታሪክ።",
+  "moralAm": "በአስቸጋሪ ጊዜ መረጋጋት፣ መተባበር እና እርዳታ መጠየቅ ይረዳል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with fear and danger softened for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": ["courage", "family", "problem_solving"],
+  "coverImage": "assets/images/stories/hansel_and_gretel_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ሀንሰል እና ግሬቴል ከቤታቸው አጠገብ ባለው ጫካ ዳር አበቦችን ይመለከቱ ነበር። ወፎች በቀስታ ይዘምሩ ነበር።",
+      "textEn": "Hansel and Gretel looked at flowers near the edge of the woods.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_01.webp",
+      "illustrationPrompt": "Hansel and Gretel near a friendly forest edge with wildflowers and soft morning light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "በመጫወት ላይ ሳሉ መንገዱን ትንሽ ርቀው ሄዱ። ግሬቴል “እንቆምና በቀስታ እናስብ” አለች።",
+      "textEn": "While playing, they walked a little too far from the path.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_02.webp",
+      "illustrationPrompt": "Two children pausing calmly on a leafy forest path, looking around thoughtfully.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ሀንሰል ትንንሽ ነጭ ድንጋዮችን አስታወሰ። “በመንገድ ላይ ያየናቸውን ምልክቶች እንከተል” አለ።",
+      "textEn": "Hansel remembered the small white stones they had seen.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_03.webp",
+      "illustrationPrompt": "Hansel pointing to small white stones on a safe forest trail while Gretel smiles.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በጫካው መካከል ቀለም ያለው ትንሽ ቤት አገኙ። በውስጡ የሚኖረው አሮጊት ሴት ውሃ ሰጠቻቸው እና መንገዱን ጠቆመቻቸው።",
+      "textEn": "They found a colorful little house where an old woman kindly gave directions.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_04.webp",
+      "illustrationPrompt": "A colorful cottage in the woods with a kind old woman offering water and directions.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ልጆቹ እጅ በእጅ ተያይዘው ድንጋዮቹን ተከተሉ። ሰማዩም በቀስታ ብርሃን ጀመረ።",
+      "textEn": "The children held hands and followed the stones as the sky grew bright.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_05.webp",
+      "illustrationPrompt": "Hansel and Gretel holding hands and following white stones through a bright forest path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ብዙም ሳይቆይ የቤታቸውን መብራት አዩ። ቤተሰባቸው በደስታ ተቀበላቸው፣ ልጆቹም ከዚያ ቀን በኋላ አንዳቸው አንዳቸውን በቅርብ ይጠብቁ ነበር።",
+      "textEn": "Soon they saw the light of home and were welcomed with joy.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_06.webp",
+      "illustrationPrompt": "The children returning home safely at sunset, family welcoming them warmly.",
+      "audioUrl": null
+    }
+  ]
+}

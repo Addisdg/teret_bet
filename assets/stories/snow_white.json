@@ -1,0 +1,75 @@
+{
+  "id": "snow_white",
+  "collection": "grimm",
+  "status": "ready_for_review",
+  "priority": 204,
+  "titleAm": "ስኖው ዋይት",
+  "titleEn": "Snow White",
+  "summaryAm": "ደግ ልጃገረድ በጫካ ውስጥ አዲስ ጓደኞችን የምታገኝበት እና ደግነት ቤትን እንደሚሞላ የሚያሳይ ተለሳለሰ ታሪክ።",
+  "moralAm": "ውበት በውጭ ብቻ አይደለም፤ ደግ ልብ ቤትን እና ጓደኝነትን ያበራል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Grimm fairy tale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This adaptation removes frightening violence and focuses on kindness and safe friendship."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": ["kindness", "friendship", "courage"],
+  "coverImage": "assets/images/stories/snow_white_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ስኖው ዋይት ደግ እና ረጋ ያለች ልጃገረድ ነበረች። አበቦችን ትንከባከብ፣ ወፎችንም በደስታ ትመግብ ነበር።",
+      "textEn": "Snow White was kind and gentle, caring for flowers and birds.",
+      "imageUrl": "assets/images/stories/snow_white_page_01.webp",
+      "illustrationPrompt": "Snow White caring for flowers and feeding birds in a bright palace garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ቀን ለራሷ ጸጥ ያለ ቦታ ለማግኘት ወደ ጫካ ተጓዘች። ጫካው በአረንጓዴ ቅጠሎች ተሞልቶ ነበር።",
+      "textEn": "One day she walked into the forest to find a quiet place.",
+      "imageUrl": "assets/images/stories/snow_white_page_02.webp",
+      "illustrationPrompt": "Snow White walking calmly through a friendly green forest with soft light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "በጫካው ውስጥ ትንሽ ንጹህ ቤት አገኘች። በሩን በቀስታ አንኳኳች እና “ሰላም?” አለች።",
+      "textEn": "In the forest she found a small clean house and knocked gently.",
+      "imageUrl": "assets/images/stories/snow_white_page_03.webp",
+      "illustrationPrompt": "Snow White gently knocking at a tiny cottage door in the woods.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በቤቱ ውስጥ ሰባት ትንንሽ ጓደኞች ይኖሩ ነበር። ስኖው ዋይትን በደግነት ተቀበሏት፣ እሷም ቤቱን ለማበጀት ረዳች።",
+      "textEn": "Seven small friends lived there and welcomed her kindly.",
+      "imageUrl": "assets/images/stories/snow_white_page_04.webp",
+      "illustrationPrompt": "Seven small friendly forest cottage dwellers welcoming Snow White warmly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ሁሉም አብረው ምግብ አዘጋጁ፣ ዘፈኑ፣ ቤቱንም በሳቅ ሞሉት። ስኖው ዋይት ብቻዋን እንዳልሆነች ተሰማት።",
+      "textEn": "Together they cooked, sang, and filled the house with laughter.",
+      "imageUrl": "assets/images/stories/snow_white_page_05.webp",
+      "illustrationPrompt": "Snow White and seven small friends cooking and singing in a cozy cottage kitchen.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ከዚያ ቀን ጀምሮ ስኖው ዋይት ከጓደኞቿ ጋር በደስታ ኖረች። ደግነቷም በጫካው ሁሉ ብርሃን ሆነ።",
+      "textEn": "From then on Snow White lived happily with friends, and her kindness shone.",
+      "imageUrl": "assets/images/stories/snow_white_page_06.webp",
+      "illustrationPrompt": "Snow White and her seven friends outside the cottage in warm sunset light.",
+      "audioUrl": null
+    }
+  ]
+}

@@ -117,6 +117,19 @@ Current local manifest:
 - `north_wind_and_sun`
 - `dog_and_reflection`
 - `goose_golden_eggs`
+- `hansel_and_gretel`
+- `rapunzel`
+- `bremen_town_musicians`
+- `snow_white`
+- `rumpelstiltskin`
+- `golden_goose`
+- `fisherman_and_wife`
+- `elves_and_shoemaker`
+- `little_red_cap`
+- `wolf_seven_young_kids`
+
+The first 20 manifest stories have bundled local cover/page images and do not
+depend on placeholder image URLs.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).
