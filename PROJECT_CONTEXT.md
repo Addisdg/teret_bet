@@ -49,7 +49,7 @@ Implemented:
 * Reading progress persistence
 * Settings screen with font size control
 * Local cover illustrations
-* Unique local per-page illustrations for all current manifest stories
+* Unique cover-style local per-page illustrations for all current manifest stories
 * Local generated cover illustrations for all current manifest stories
 * Optimized WebP story assets
 * Story content schema documentation

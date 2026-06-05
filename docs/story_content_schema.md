@@ -98,9 +98,9 @@ Firestore/Hive text data but uses the bundled local image paths. This prevents
 stale cached placeholder URLs from hiding packaged artwork during MVP testing.
 
 For feedback builds, every manifest story should avoid `placehold.co` or other
-temporary placeholder URLs. Each story page should reference a unique local image
-path instead of reusing the cover image, and each referenced asset must exist in
-`assets/images/stories/`.
+temporary placeholder URLs. Each story page should reference a unique local
+cover-style image path instead of reusing the cover image or lower-quality
+temporary art, and each referenced asset must exist in `assets/images/stories/`.
 
 ## Illustration Style
 

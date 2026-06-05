@@ -16,7 +16,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Hive story cache and reading progress
 - Manifest-based local JSON fallback with a feedback-ready Batch 1 catalog
 - Optimized bundled WebP cover illustrations for the full manifest catalog
-- Unique bundled WebP page illustrations for the full manifest catalog
+- Unique cover-style bundled WebP page illustrations for the full manifest catalog
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
@@ -137,8 +137,8 @@ audio placeholders, but playback packages are intentionally deferred.
 
 All current manifest stories use local image assets so web and mobile feedback
 builds do not depend on placeholder image URLs. Each story page has its own
-bundled illustration path, so the reader no longer repeats the cover image on
-every page.
+cover-style bundled illustration path, so the reader no longer repeats the cover
+image or lower-quality temporary panels.
 
 ## Local Testing
 

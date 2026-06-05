@@ -35,7 +35,7 @@
 * Feedback-ready local MVP catalog
 * Local cover illustrations for all current manifest stories
 * Removed placeholder image URLs from local story JSON
-* Unique local page illustrations for all current manifest stories
+* Cover-style local page illustrations for all current manifest stories
 
 ## Next
 
