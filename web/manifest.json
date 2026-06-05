@@ -1,11 +1,11 @@
 {
-    "name": "teret_bet_app",
-    "short_name": "teret_bet_app",
+    "name": "Teret Bet",
+    "short_name": "Teret Bet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "An Amharic-first illustrated storybook app for young children and families.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

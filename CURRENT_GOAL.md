@@ -25,6 +25,7 @@ before external testing.
 * Placeholder image URLs removed from the current manifest catalog
 * Android app ID and launcher label prepared for release builds
 * Android release signing hook prepared for ignored local/CI keystore secrets
+* Web, iOS, and macOS display metadata prepared with the Teret Bet name
 
 ## Current Release Identity
 

@@ -22,6 +22,7 @@ offline access, and safe public-domain-inspired adaptations.
   reading
 - Audio-ready metadata and placeholder UI
 - Android release package and launcher label configured for Teret Bet
+- Web, iOS, and macOS display metadata configured with the Teret Bet name
 
 ## Tech Stack
 
