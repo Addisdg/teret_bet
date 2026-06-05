@@ -1,0 +1,79 @@
+{
+  "id": "magic_porridge_pot",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 507,
+  "titleAm": "የተአምር ገንፎ ማሰሮ",
+  "titleEn": "The Magic Porridge Pot",
+  "summaryAm": "ትንሽ ልጅ የሚያበስል ማሰሮ ሲያገኝ መስማትን እና ማጋራትን የሚማርበት ታሪክ።",
+  "moralAm": "አስተምሮ መስማት እና ቃልን በጥንቃቄ መጠቀም ቤትን ያስደስታል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic",
+    "sourceUrl": "",
+    "notes": "Traditional/public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "listening",
+    "care",
+    "sharing"
+  ],
+  "coverImage": "assets/images/stories/magic_porridge_pot_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለች።",
+      "textEn": "Page 1 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 1: ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "“በደግ ቃል ገንፎ ይበስላል፣ በደግ ቃልም ይቆማል” አለቻት አያቷ።",
+      "textEn": "Page 2 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 2: “በደግ ቃል ገንፎ ይበስላል፣ በደግ ቃልም ይቆማል” አለቻት አያቷ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ልጅቷ ቃሉን አለች፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
+      "textEn": "Page 3 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 3: ልጅቷ ቃሉን አለች፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ቤተሰቡ ገንፎውን ከጎረቤቶች ጋር አጋራ።",
+      "textEn": "Page 4 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 4: ቤተሰቡ ገንፎውን ከጎረቤቶች ጋር አጋራ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "አንድ ጊዜ ሰው የማቆሚያውን ቃል ረሳ፣ ገንፎውም ትንሽ ብዙ ሆነ።",
+      "textEn": "Page 5 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 5: አንድ ጊዜ ሰው የማቆሚያውን ቃል ረሳ፣ ገንፎውም ትንሽ ብዙ ሆነ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ልጅቷ በቀስታ ቃሉን አስታወሰች፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
+      "textEn": "Page 6 of The Magic Porridge Pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: ልጅቷ በቀስታ ቃሉን አስታወሰች፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
+      "audioUrl": null
+    }
+  ]
+}

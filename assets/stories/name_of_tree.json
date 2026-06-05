@@ -1,0 +1,79 @@
+{
+  "id": "name_of_tree",
+  "collection": "african_folktales",
+  "status": "ready_for_review",
+  "priority": 504,
+  "titleAm": "የዛፉ ስም",
+  "titleEn": "The Name of the Tree",
+  "summaryAm": "እንስሳት የምግብ ዛፍን ስም ለማስታወስ በመተባበር የሚማሩበት ታሪክ።",
+  "moralAm": "ጥበብን ማዳመጥ እና ማስታወስ ማኅበረሰብን ይረዳል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Traditional African folktale",
+    "sourceUrl": "",
+    "notes": "Traditional/public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 4,
+  "ageMax": 6,
+  "themes": [
+    "memory",
+    "wisdom",
+    "community"
+  ],
+  "coverImage": "assets/images/stories/name_of_tree_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በደረቅ ወቅት እንስሳት ምግብ ይፈልጉ ነበር።",
+      "textEn": "Page 1 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 1: በደረቅ ወቅት እንስሳት ምግብ ይፈልጉ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ አሮጌ ጥበበኛ ዛፍ “ስሜን ካስታወሳችሁ ፍሬዬን እካፈላለሁ” አለ።",
+      "textEn": "Page 2 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 2: አንድ አሮጌ ጥበበኛ ዛፍ “ስሜን ካስታወሳችሁ ፍሬዬን እካፈላለሁ” አለ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "እንስሳቱ ስሙን ለማስታወስ ዘፈን ፈጠሩ።",
+      "textEn": "Page 3 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 3: እንስሳቱ ስሙን ለማስታወስ ዘፈን ፈጠሩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ትንሹ ጥንቸል ዘፈኑን በጉዞ ላይ በቀስታ ደጋገመ።",
+      "textEn": "Page 4 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 4: ትንሹ ጥንቸል ዘፈኑን በጉዞ ላይ በቀስታ ደጋገመ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ወደ ዛፉ ሲመለሱ ስሙን በአንድ ድምፅ አሉ።",
+      "textEn": "Page 5 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 5: ወደ ዛፉ ሲመለሱ ስሙን በአንድ ድምፅ አሉ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ዛፉ ፍሬውን አጋራ፣ እንስሳቱም ጥበብን ማስታወስ እንደሚረዳ ተማሩ።",
+      "textEn": "Page 6 of The Name of the Tree.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 6: ዛፉ ፍሬውን አጋራ፣ እንስሳቱም ጥበብን ማስታወስ እንደሚረዳ ተማሩ።",
+      "audioUrl": null
+    }
+  ]
+}

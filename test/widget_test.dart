@@ -43,14 +43,14 @@ void main() {
     expect(storyIds, contains('lion_and_mouse'));
     expect(storyIds, contains('goose_golden_eggs'));
     expect(storyIds, isNot(contains('story_manifest')));
-    expect(stories.length, 40);
+    expect(stories.length, 50);
     expect(
       stories.where((story) => story.status == 'draft').length,
       0,
     );
     expect(
       stories.where((story) => story.status == 'ready_for_review').length,
-      39,
+      49,
     );
 
     final localCoverStories = stories.where(
@@ -370,6 +370,16 @@ void main() {
       'town_mouse_country_mouse': 'aesop',
       'selfish_giant': 'world_classics',
       'happy_prince': 'world_classics',
+      'anansi_and_turtle': 'african_folktales',
+      'anansi_pot_beans': 'african_folktales',
+      'sun_moon_sky': 'african_folktales',
+      'name_of_tree': 'african_folktales',
+      'monkey_and_shark': 'african_folktales',
+      'clever_rabbit_lion': 'african_folktales',
+      'magic_porridge_pot': 'world_classics',
+      'puss_in_boots': 'world_classics',
+      'cinderella': 'world_classics',
+      'sleeping_beauty': 'world_classics',
     };
     final manifest = jsonDecode(
       File('assets/stories/story_manifest.json').readAsStringSync(),

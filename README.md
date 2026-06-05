@@ -147,9 +147,19 @@ Current local manifest:
 - `town_mouse_country_mouse`
 - `selfish_giant`
 - `happy_prince`
+- `anansi_and_turtle`
+- `anansi_pot_beans`
+- `sun_moon_sky`
+- `name_of_tree`
+- `monkey_and_shark`
+- `clever_rabbit_lion`
+- `magic_porridge_pot`
+- `puss_in_boots`
+- `cinderella`
+- `sleeping_beauty`
 
-The first 40 manifest stories have bundled local cover/page images and do not
-depend on placeholder image URLs.
+All 50 manifest stories have bundled local cover/page images and do not depend
+on placeholder image URLs.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

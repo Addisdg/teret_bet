@@ -110,9 +110,19 @@ Current local library manifest:
 * town_mouse_country_mouse
 * selfish_giant
 * happy_prince
+* anansi_and_turtle
+* anansi_pot_beans
+* sun_moon_sky
+* name_of_tree
+* monkey_and_shark
+* clever_rabbit_lion
+* magic_porridge_pot
+* puss_in_boots
+* cinderella
+* sleeping_beauty
 
-The first 40 manifest stories have bundled local cover/page artwork and do not
-depend on placeholder image URLs.
+All 50 manifest stories have bundled local cover/page artwork and do not depend
+on placeholder image URLs.
 
 Additional finished local stories currently kept as assets but not listed in
 the Batch 1 manifest:

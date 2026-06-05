@@ -20,6 +20,7 @@ before external testing.
 * Batch 2 Grimm-inspired Amharic stories added with bundled local cover/page artwork
 * Batch 3 Andersen-inspired Amharic stories added with bundled local cover/page artwork
 * Batch 4 world classic and folktale Amharic stories added with bundled local cover/page artwork
+* Batch 5 African folktale and world classic Amharic stories added with bundled local cover/page artwork
 * Audio-ready metadata and UI placeholders
 * Reading progress persistence
 * Favorite stories with local persistence and library filtering
@@ -40,9 +41,8 @@ before external testing.
 
 ## Next Recommended Task
 
-Continue Batch 5 with the final 10 stories from `docs/FIRST_50_STORIES.md`,
-including schema-complete text assets, bundled cover/page artwork, manifest
-updates, tests, verification, and one commit for the 10-story batch.
+Review and polish the full 50-story catalog for release feedback: content QA,
+illustration QA, parent-facing copy, and any final launch-blocking UI issues.
 
 Release signing also remains before external Android testing: create release
 signing credentials outside the repository, add the matching local/CI secret

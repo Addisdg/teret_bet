@@ -1,0 +1,79 @@
+{
+  "id": "sleeping_beauty",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 510,
+  "titleAm": "የተኛችው ውብ ልዕልት",
+  "titleEn": "Sleeping Beauty",
+  "summaryAm": "አንዲት ልዕልት ረጅም እረፍት ከወሰደች በኋላ በጓደኞች እና በቤተሰብ ደስታ የምትነቃበት ተለሳለሰ ታሪክ።",
+  "moralAm": "በጸጥታ መጠበቅ እና ተስፋን መያዝ አዲስ ጠዋትን ያመጣል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic",
+    "sourceUrl": "",
+    "notes": "Traditional/public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 4,
+  "ageMax": 6,
+  "themes": [
+    "hope",
+    "patience",
+    "care"
+  ],
+  "coverImage": "assets/images/stories/sleeping_beauty_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር።",
+      "textEn": "Page 1 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 1: በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "በበዓል ቀን ሁሉም ለእሷ መልካም ምኞት አመጡ።",
+      "textEn": "Page 2 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 2: በበዓል ቀን ሁሉም ለእሷ መልካም ምኞት አመጡ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "አንድ ቀን ልዕልቷ በጣም ደከመች እና ረጅም እረፍት ወሰደች።",
+      "textEn": "Page 3 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 3: አንድ ቀን ልዕልቷ በጣም ደከመች እና ረጅም እረፍት ወሰደች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ቤተመንግሥቱ በጸጥታ ተሞላ፣ አበቦችም በመስኮቶች ዙሪያ በቀስታ በቀሉ።",
+      "textEn": "Page 4 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 4: ቤተመንግሥቱ በጸጥታ ተሞላ፣ አበቦችም በመስኮቶች ዙሪያ በቀስታ በቀሉ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ጓደኞቿ በየቀኑ በተስፋ አበቦችን አጠጡ።",
+      "textEn": "Page 5 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 5: ጓደኞቿ በየቀኑ በተስፋ አበቦችን አጠጡ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "በአንድ ብሩህ ጠዋት ልዕልቷ ተነሳች፣ ሁሉም በደስታ አብረው ዘፈኑ።",
+      "textEn": "Page 6 of Sleeping Beauty.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 6: በአንድ ብሩህ ጠዋት ልዕልቷ ተነሳች፣ ሁሉም በደስታ አብረው ዘፈኑ።",
+      "audioUrl": null
+    }
+  ]
+}
