@@ -1,0 +1,79 @@
+{
+  "id": "chicken_little",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 405,
+  "titleAm": "ትንሿ ዶሮ",
+  "titleEn": "Chicken Little",
+  "summaryAm": "ትንሿ ዶሮ አንድ ድምፅ ሲሰማት በመረጋጋት ምን እንደሆነ የምትመረምርበት ታሪክ።",
+  "moralAm": "ከመፍራት በፊት መመርመር እና በቀስታ መጠየቅ ጥሩ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "careful_thinking",
+    "calm",
+    "listening"
+  ],
+  "coverImage": "assets/images/stories/chicken_little_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ትንሿ ዶሮ በጓሮ ውስጥ ቆሎ ትፈልግ ነበር።",
+      "textEn": "Page 1 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 1: ትንሿ ዶሮ በጓሮ ውስጥ ቆሎ ትፈልግ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ትንሽ ፍሬ ከዛፍ ወደቀና በራሷ አጠገብ ወደቀ።",
+      "textEn": "Page 2 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 2: አንድ ትንሽ ፍሬ ከዛፍ ወደቀና በራሷ አጠገብ ወደቀ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "“ምን ሆነ?” ብላ ተገረመች፣ ግን በቀስታ መመርመር ጀመረች።",
+      "textEn": "Page 3 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 3: “ምን ሆነ?” ብላ ተገረመች፣ ግን በቀስታ መመርመር ጀመረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ጓደኞቿን ጠራች፣ ሁሉም ዛፉን እና ፍሬውን ተመለከቱ።",
+      "textEn": "Page 4 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 4: ጓደኞቿን ጠራች፣ ሁሉም ዛፉን እና ፍሬውን ተመለከቱ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ጉጉት ያለው ወፍ “ይህ የዛፍ ፍሬ ነው” ብሎ አስረዳ።",
+      "textEn": "Page 5 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 5: ጉጉት ያለው ወፍ “ይህ የዛፍ ፍሬ ነው” ብሎ አስረዳ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ትንሿ ዶሮ ከዚያ ቀን በኋላ ከመሮጥ በፊት መጠየቅን ተማረች።",
+      "textEn": "Page 6 of Chicken Little.",
+      "imageUrl": "assets/images/stories/chicken_little_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 6: ትንሿ ዶሮ ከዚያ ቀን በኋላ ከመሮጥ በፊት መጠየቅን ተማረች።",
+      "audioUrl": null
+    }
+  ]
+}

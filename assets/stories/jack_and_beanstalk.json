@@ -1,0 +1,79 @@
+{
+  "id": "jack_and_beanstalk",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 402,
+  "titleAm": "ጃክ እና የባቄላው ግንድ",
+  "titleEn": "Jack and the Beanstalk",
+  "summaryAm": "ጃክ አስደናቂ የባቄላ ግንድ ሲያገኝ በጥንቃቄ እና በድፍረት የሚያድግበት ታሪክ።",
+  "moralAm": "ድፍረት ከጥንቃቄ ጋር ሲመጣ ጥሩ ውጤት ያመጣል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "courage",
+    "choices",
+    "growth"
+  ],
+  "coverImage": "assets/images/stories/jack_and_beanstalk_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ጃክ ከእናቱ ጋር ትንሽ እርሻ ላይ ይኖር ነበር።",
+      "textEn": "Page 1 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 1: ጃክ ከእናቱ ጋር ትንሽ እርሻ ላይ ይኖር ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ቀን ብሩህ ባቄላዎችን ተቀበለ እና በመሬት ውስጥ ተከላቸው።",
+      "textEn": "Page 2 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 2: አንድ ቀን ብሩህ ባቄላዎችን ተቀበለ እና በመሬት ውስጥ ተከላቸው።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ጠዋት ሲነሳ ባቄላው እስከ ደመና ድረስ ያደገ ነበር።",
+      "textEn": "Page 3 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 3: ጠዋት ሲነሳ ባቄላው እስከ ደመና ድረስ ያደገ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ጃክ በጥንቃቄ ወጣ እና በላይ ያለ ሰፊ አትክልት አገኘ።",
+      "textEn": "Page 4 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 4: ጃክ በጥንቃቄ ወጣ እና በላይ ያለ ሰፊ አትክልት አገኘ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "በዚያ የሚኖር ትልቅ ገበሬ ዘር ማጋራትን አስተማረው።",
+      "textEn": "Page 5 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 5: በዚያ የሚኖር ትልቅ ገበሬ ዘር ማጋራትን አስተማረው።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ጃክ ወደ ቤት ተመልሶ ዘሮቹን ከመንደሩ ጋር አጋራ።",
+      "textEn": "Page 6 of Jack and the Beanstalk.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 6: ጃክ ወደ ቤት ተመልሶ ዘሮቹን ከመንደሩ ጋር አጋራ።",
+      "audioUrl": null
+    }
+  ]
+}

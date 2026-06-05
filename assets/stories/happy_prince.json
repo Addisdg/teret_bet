@@ -1,0 +1,79 @@
+{
+  "id": "happy_prince",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 410,
+  "titleAm": "ደስተኛው ልዑል",
+  "titleEn": "The Happy Prince",
+  "summaryAm": "ደግ ልዑል እና ትንሽ ወፍ ከተማቸውን በርኅራኄ የሚመለከቱበት ተለሳለሰ ታሪክ።",
+  "moralAm": "ሌሎችን ማስታወስ እና ትንሽ እርዳታ መስጠት ከብርሃን በላይ ይደምቃል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 5,
+  "ageMax": 6,
+  "themes": [
+    "compassion",
+    "giving",
+    "friendship"
+  ],
+  "coverImage": "assets/images/stories/happy_prince_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "በከተማ መካከል ቆንጆ የልዑል ሐውልት ቆሞ ነበር።",
+      "textEn": "Page 1 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 1: በከተማ መካከል ቆንጆ የልዑል ሐውልት ቆሞ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "አንድ ትንሽ ወፍ በሐውልቱ እግር ሥር አረፈች።",
+      "textEn": "Page 2 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 2: አንድ ትንሽ ወፍ በሐውልቱ እግር ሥር አረፈች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "ልዑሉ ከላይ ሰዎችን ሲያይ ማን እርዳታ እንደሚፈልግ አስተዋለ።",
+      "textEn": "Page 3 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 3: ልዑሉ ከላይ ሰዎችን ሲያይ ማን እርዳታ እንደሚፈልግ አስተዋለ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ወፏ ትንሽ መልእክቶችን ወደ ቤቶች በደስታ አደረሰች።",
+      "textEn": "Page 4 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 4: ወፏ ትንሽ መልእክቶችን ወደ ቤቶች በደስታ አደረሰች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
+      "textEn": "Page 5 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 5: ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
+      "textEn": "Page 6 of The Happy Prince.",
+      "imageUrl": "assets/images/stories/happy_prince_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 6: ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
+      "audioUrl": null
+    }
+  ]
+}

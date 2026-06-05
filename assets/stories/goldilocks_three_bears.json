@@ -1,0 +1,79 @@
+{
+  "id": "goldilocks_three_bears",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 401,
+  "titleAm": "ጎልዲሎክስ እና ሦስቱ ድቦች",
+  "titleEn": "Goldilocks and the Three Bears",
+  "summaryAm": "ጎልዲሎክስ በጫካ ውስጥ አዲስ ቤት ስታገኝ የሌሎችን ነገር መከበር የምትማርበት ታሪክ።",
+  "moralAm": "የሌሎችን ቤት መከበር እና ከመጠቀም በፊት መጠየቅ ጥሩ ልማድ ነው።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "respect",
+    "homes",
+    "choices"
+  ],
+  "coverImage": "assets/images/stories/goldilocks_three_bears_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "ጎልዲሎክስ በፀሐይ ቀን በጫካ መንገድ ትጓዝ ነበር።",
+      "textEn": "Page 1 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 1: ጎልዲሎክስ በፀሐይ ቀን በጫካ መንገድ ትጓዝ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "በዛፎች መካከል ትንሽ ቆንጆ ቤት አየች።",
+      "textEn": "Page 2 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 2: በዛፎች መካከል ትንሽ ቆንጆ ቤት አየች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "በሩን አንኳኳች፣ መልስ ሳትሰማ ግን መጠበቅ እንዳለባት አስታወሰች።",
+      "textEn": "Page 3 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 3: በሩን አንኳኳች፣ መልስ ሳትሰማ ግን መጠበቅ እንዳለባት አስታወሰች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
+      "textEn": "Page 4 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 4: በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ሦስቱ ድቦች ሲመለሱ ጎልዲሎክስ በደግነት ይቅርታ ጠየቀች።",
+      "textEn": "Page 5 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 5: ሦስቱ ድቦች ሲመለሱ ጎልዲሎክስ በደግነት ይቅርታ ጠየቀች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
+      "textEn": "Page 6 of Goldilocks and the Three Bears.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 6: ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
+      "audioUrl": null
+    }
+  ]
+}

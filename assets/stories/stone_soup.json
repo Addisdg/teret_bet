@@ -1,0 +1,79 @@
+{
+  "id": "stone_soup",
+  "collection": "world_folktales",
+  "status": "ready_for_review",
+  "priority": 403,
+  "titleAm": "የድንጋይ ሾርባ",
+  "titleEn": "Stone Soup",
+  "summaryAm": "መንደር ሰዎች በመጋራት አንድ ትልቅ ሾርባ የሚያዘጋጁበት የማኅበረሰብ ታሪክ።",
+  "moralAm": "ትንሽ ነገር ሲካፈል ለሁሉም በቂ ደስታ ይሆናል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "sharing",
+    "community",
+    "kindness"
+  ],
+  "coverImage": "assets/images/stories/stone_soup_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንድ ተጓዥ ወደ መንደር መጣ፣ ትንሽ ድንጋይም ይዞ ነበር።",
+      "textEn": "Page 1 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 1: አንድ ተጓዥ ወደ መንደር መጣ፣ ትንሽ ድንጋይም ይዞ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "“የድንጋይ ሾርባ እንሠራ” ብሎ በደስታ አለ።",
+      "textEn": "Page 2 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 2: “የድንጋይ ሾርባ እንሠራ” ብሎ በደስታ አለ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "አንድ ሰው ካሮት፣ ሌላ ሰው ቆሎ፣ ሌላውም ጨው አመጣ።",
+      "textEn": "Page 3 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 3: አንድ ሰው ካሮት፣ ሌላ ሰው ቆሎ፣ ሌላውም ጨው አመጣ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ሁሉም ትንሽ ትንሽ ነገር ሲያክሉ ሽታው መንደሩን ሞላ።",
+      "textEn": "Page 4 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 4: ሁሉም ትንሽ ትንሽ ነገር ሲያክሉ ሽታው መንደሩን ሞላ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ሰዎቹ በአንድ ጠረጴዛ ዙሪያ ተቀምጠው ሾርባውን አጋሩ።",
+      "textEn": "Page 5 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 5: ሰዎቹ በአንድ ጠረጴዛ ዙሪያ ተቀምጠው ሾርባውን አጋሩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "መንደሩ ከዚያ ቀን በኋላ መጋራት ቤትን እንደሚያሞቅ አስታወሰ።",
+      "textEn": "Page 6 of Stone Soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 6: መንደሩ ከዚያ ቀን በኋላ መጋራት ቤትን እንደሚያሞቅ አስታወሰ።",
+      "audioUrl": null
+    }
+  ]
+}

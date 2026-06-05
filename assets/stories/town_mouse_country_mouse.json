@@ -1,0 +1,79 @@
+{
+  "id": "town_mouse_country_mouse",
+  "collection": "aesop",
+  "status": "ready_for_review",
+  "priority": 408,
+  "titleAm": "የከተማ አይጥ እና የገጠር አይጥ",
+  "titleEn": "The Town Mouse and the Country Mouse",
+  "summaryAm": "ሁለት አይጦች ከተማና ገጠርን በመጎብኘት ቀላል ደስታን የሚማሩበት ታሪክ።",
+  "moralAm": "ለእያንዳንዱ ሰው የሚያረጋጋው ቦታ የተለየ ሊሆን ይችላል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "contentment",
+    "simple_life",
+    "friendship"
+  ],
+  "coverImage": "assets/images/stories/town_mouse_country_mouse_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "የገጠር አይጥ በሰላም በትንሽ እህል ቤት ይኖር ነበር።",
+      "textEn": "Page 1 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 1: የገጠር አይጥ በሰላም በትንሽ እህል ቤት ይኖር ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "የከተማ አይጥ መጥቶ “ከተማዬን እይ” ብሎ ጋበዘው።",
+      "textEn": "Page 2 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 2: የከተማ አይጥ መጥቶ “ከተማዬን እይ” ብሎ ጋበዘው።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "በከተማ ብዙ መብራት እና ብዙ ምግብ ነበር፣ ግን ጫጫታም ብዙ ነበር።",
+      "textEn": "Page 3 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 3: በከተማ ብዙ መብራት እና ብዙ ምግብ ነበር፣ ግን ጫጫታም ብዙ ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "የገጠር አይጥ በብዙ ድምፅ ትንሽ ደነገጠ።",
+      "textEn": "Page 4 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 4: የገጠር አይጥ በብዙ ድምፅ ትንሽ ደነገጠ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "ሁለቱ ወደ ገጠር ተመለሱ፣ በዛፍ ጥላ ሥር ቀላል ምግብ አጋሩ።",
+      "textEn": "Page 5 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 5: ሁለቱ ወደ ገጠር ተመለሱ፣ በዛፍ ጥላ ሥር ቀላል ምግብ አጋሩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "የከተማ አይጥም ሰላም የሚያስደስት ስጦታ እንደሆነ ተማረ።",
+      "textEn": "Page 6 of The Town Mouse and the Country Mouse.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 6: የከተማ አይጥም ሰላም የሚያስደስት ስጦታ እንደሆነ ተማረ።",
+      "audioUrl": null
+    }
+  ]
+}

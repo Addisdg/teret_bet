@@ -1,0 +1,79 @@
+{
+  "id": "gingerbread_man",
+  "collection": "world_classics",
+  "status": "ready_for_review",
+  "priority": 407,
+  "titleAm": "የዝንጅብል እንጀራ ሰው",
+  "titleEn": "The Gingerbread Man",
+  "summaryAm": "የዝንጅብል እንጀራ ሰው በደስታ ሲሮጥ መስማትና መመለስን የሚማርበት ተለሳለሰ ታሪክ።",
+  "moralAm": "መጫወት ደስ ይላል፣ ግን ደህንነትን መስማት ይበልጣል።",
+  "source": {
+    "type": "public_domain",
+    "name": "Public-domain classic or folktale",
+    "sourceUrl": "",
+    "notes": "Public-domain source inspiration only. This is an original child-friendly Amharic adaptation with softened themes for ages 3-6."
+  },
+  "ageMin": 3,
+  "ageMax": 6,
+  "themes": [
+    "playfulness",
+    "caution",
+    "listening"
+  ],
+  "coverImage": "assets/images/stories/gingerbread_man_cover.webp",
+  "audio": {
+    "storyAudioUrl": null,
+    "durationSeconds": null,
+    "narratorName": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "textAm": "አንዲት እናት የዝንጅብል እንጀራ ሰው ጋገረች።",
+      "textEn": "Page 1 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_01.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 1: አንዲት እናት የዝንጅብል እንጀራ ሰው ጋገረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "textAm": "እንጀራው በደስታ ከመድቡ ወጥቶ “እሮጣለሁ!” አለ።",
+      "textEn": "Page 2 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_02.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 2: እንጀራው በደስታ ከመድቡ ወጥቶ “እሮጣለሁ!” አለ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "textAm": "በጓሮ ውስጥ ዶሮ፣ ድመት እና ልጆች በሳቅ ተከተሉት።",
+      "textEn": "Page 3 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_03.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 3: በጓሮ ውስጥ ዶሮ፣ ድመት እና ልጆች በሳቅ ተከተሉት።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "textAm": "ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
+      "textEn": "Page 4 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 4: ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "textAm": "አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
+      "textEn": "Page 5 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_05.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 5: አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "textAm": "እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
+      "textEn": "Page 6 of The Gingerbread Man.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 6: እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
+      "audioUrl": null
+    }
+  ]
+}

@@ -100,8 +100,18 @@ Current local library manifest:
 * fir_tree
 * swineherd
 * steadfast_tin_soldier
+* goldilocks_three_bears
+* jack_and_beanstalk
+* stone_soup
+* three_billy_goats_gruff
+* chicken_little
+* little_red_hen
+* gingerbread_man
+* town_mouse_country_mouse
+* selfish_giant
+* happy_prince
 
-The first 30 manifest stories have bundled local cover/page artwork and do not
+The first 40 manifest stories have bundled local cover/page artwork and do not
 depend on placeholder image URLs.
 
 Additional finished local stories currently kept as assets but not listed in
