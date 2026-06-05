@@ -20,6 +20,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
+- Favorite stories with local persistence and a library favorites filter
 - Audio-ready metadata and placeholder UI
 - Android release package and launcher label configured for Teret Bet
 - Web, iOS, and macOS display metadata configured with the Teret Bet name
@@ -143,6 +144,10 @@ Reader font size is also stored in Hive from the Settings screen. The language
 toggle is shown as a disabled placeholder for a future multilingual release.
 The reader also includes text-size buttons so parents can adjust the story while
 reading.
+
+Favorite story IDs are stored locally in Hive so children and parents can keep a
+small personal shelf even when the app is offline. The home library can switch
+between all stories and favorite stories.
 
 Stories now include nullable audio metadata. The details and reader screens show
 audio placeholders, but playback packages are intentionally deferred.

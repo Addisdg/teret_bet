@@ -19,6 +19,7 @@ before external testing.
 * Feedback-ready Amharic adaptations for all current manifest stories
 * Audio-ready metadata and UI placeholders
 * Reading progress persistence
+* Favorite stories with local persistence and library filtering
 * Settings screen with reader font-size control
 * Local cover illustrations for all current manifest stories
 * Unique cover-style local page illustrations for all current manifest stories

@@ -52,6 +52,7 @@ Implemented:
 * Page-based story reader
 * Reading progress UI
 * Reading progress persistence
+* Favorite stories with local persistence and a library favorites filter
 * Settings screen with font size control
 * Local cover illustrations
 * Unique cover-style local per-page illustrations for all current manifest stories
@@ -110,6 +111,7 @@ stories/{storyId}/pages/{pageId}
 * Large Amharic text
 * Illustration-first experience
 * Offline-first architecture
+* Simple local personalization before account features
 * Easy content management
 
 ## Current Content Pipeline

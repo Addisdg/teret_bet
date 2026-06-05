@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../data/models/story_model.dart';
+import '../providers/story_provider.dart';
 import '../widgets/story_image.dart';
 import 'story_reader_screen.dart';
 
@@ -14,10 +16,24 @@ class StoryDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final storyProvider = context.watch<StoryProvider>();
+    final isFavorite = storyProvider.isFavorite(story.id);
+
     return Scaffold(
       appBar: AppBar(
         title: Text(story.titleAm),
         centerTitle: true,
+        actions: [
+          IconButton(
+            tooltip: isFavorite ? 'Remove favorite' : 'Add favorite',
+            icon: Icon(
+              isFavorite ? Icons.favorite : Icons.favorite_border,
+            ),
+            onPressed: () {
+              storyProvider.toggleFavorite(story.id);
+            },
+          ),
+        ],
       ),
       body: SafeArea(
         child: Padding(

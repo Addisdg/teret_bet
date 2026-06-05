@@ -3,21 +3,27 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
+import 'package:provider/provider.dart';
 import 'package:teret_bet_app/features/stories/data/models/story_model.dart';
 import 'package:teret_bet_app/features/stories/data/models/story_page_model.dart';
 import 'package:teret_bet_app/features/stories/data/repositories/story_repository.dart';
 import 'package:teret_bet_app/features/stories/data/services/firestore_story_service.dart';
 import 'package:teret_bet_app/features/stories/data/services/local_story_service.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
+import 'package:teret_bet_app/features/stories/presentation/providers/story_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   final tempDir = Directory.systemTemp.createTempSync('teret_bet_tests_');
+  late Box widgetCacheBox;
+  late Box widgetSettingsBox;
 
-  setUpAll(() {
+  setUpAll(() async {
     Hive.init(tempDir.path);
+    widgetCacheBox = await Hive.openBox('widget_story_cache');
+    widgetSettingsBox = await Hive.openBox('widget_settings');
   });
 
   tearDownAll(() async {
@@ -439,19 +445,88 @@ void main() {
     await box.deleteFromDisk();
   });
 
+  test('story provider saves and restores favorite stories', () async {
+    final cache = await Hive.openBox('favorites_story_cache_test');
+    final settings = await Hive.openBox('favorites_settings_test');
+    final repository = StoryRepository(
+      firestoreService: _ThrowingFirestoreStoryService(),
+      localStoryService: _TwoStoryLocalStoryService(),
+      cache: cache,
+    );
+    final provider = StoryProvider(
+      repository: repository,
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+    await provider.toggleFavorite('local_story');
+
+    expect(provider.isFavorite('local_story'), isTrue);
+    expect(provider.isFavorite('remote_story'), isFalse);
+
+    final restoredProvider = StoryProvider(
+      repository: repository,
+      settingsBox: settings,
+    );
+
+    expect(restoredProvider.isFavorite('local_story'), isTrue);
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
+  test('story provider filters visible stories to favorites', () async {
+    final cache = await Hive.openBox('favorites_filter_cache_test');
+    final settings = await Hive.openBox('favorites_filter_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _TwoStoryLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+    await provider.toggleFavorite('local_story');
+
+    provider.setShowFavoritesOnly(true);
+
+    expect(provider.visibleStories.map((story) => story.id), ['local_story']);
+
+    provider.setShowFavoritesOnly(false);
+
+    expect(provider.visibleStories, hasLength(2));
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   testWidgets('story details shows audio coming soon when audio is missing',
       (tester) async {
+    final repository = StoryRepository(
+      firestoreService: _ThrowingFirestoreStoryService(),
+      localStoryService: _FakeLocalStoryService(),
+      cache: widgetCacheBox,
+    );
+
     await tester.pumpWidget(
-      MaterialApp(
-        home: StoryDetailsScreen(
-          story: Story(
-            id: 'audio_placeholder_test',
-            titleAm: 'የድምፅ ሙከራ',
-            titleEn: 'Audio Placeholder Test',
-            coverImage: '',
-            summaryAm: 'የሙከራ ማጠቃለያ',
-            ageMin: 3,
-            ageMax: 6,
+      ChangeNotifierProvider(
+        create: (_) => StoryProvider(
+          repository: repository,
+          settingsBox: widgetSettingsBox,
+        ),
+        child: MaterialApp(
+          home: StoryDetailsScreen(
+            story: Story(
+              id: 'audio_placeholder_test',
+              titleAm: 'የድምፅ ሙከራ',
+              titleEn: 'Audio Placeholder Test',
+              coverImage: '',
+              summaryAm: 'የሙከራ ማጠቃለያ',
+              ageMin: 3,
+              ageMax: 6,
+            ),
           ),
         ),
       ),
@@ -459,6 +534,8 @@ void main() {
 
     expect(find.text('ድምፅ በቅርቡ'), findsOneWidget);
     expect(find.byIcon(Icons.headphones), findsOneWidget);
+
+    await tester.pumpWidget(const SizedBox.shrink());
   });
 }
 

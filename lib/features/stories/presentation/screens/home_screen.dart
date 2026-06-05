@@ -79,19 +79,52 @@ class _StoryLibraryBody extends StatelessWidget {
       );
     }
 
-    return GridView.builder(
-      padding: const EdgeInsets.all(12),
-      itemCount: provider.stories.length,
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 0.75,
-        crossAxisSpacing: 12,
-        mainAxisSpacing: 12,
-      ),
-      itemBuilder: (context, index) {
-        final story = provider.stories[index];
-        return StoryCard(story: story);
-      },
+    final visibleStories = provider.visibleStories;
+
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(12, 12, 12, 4),
+          child: SegmentedButton<bool>(
+            segments: const [
+              ButtonSegment(
+                value: false,
+                icon: Icon(Icons.menu_book),
+                label: Text('ሁሉም'),
+              ),
+              ButtonSegment(
+                value: true,
+                icon: Icon(Icons.favorite),
+                label: Text('የተወደዱ'),
+              ),
+            ],
+            selected: {provider.showFavoritesOnly},
+            onSelectionChanged: (selection) {
+              provider.setShowFavoritesOnly(selection.first);
+            },
+          ),
+        ),
+        Expanded(
+          child: visibleStories.isEmpty
+              ? const _LibraryMessage(
+                  message: 'እስካሁን የተወደዱ ታሪኮች የሉም።',
+                )
+              : GridView.builder(
+                  padding: const EdgeInsets.all(12),
+                  itemCount: visibleStories.length,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    childAspectRatio: 0.75,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                  ),
+                  itemBuilder: (context, index) {
+                    final story = visibleStories[index];
+                    return StoryCard(story: story);
+                  },
+                ),
+        ),
+      ],
     );
   }
 }
