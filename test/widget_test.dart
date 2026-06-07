@@ -593,6 +593,66 @@ void main() {
     await settings.deleteFromDisk();
   });
 
+  test('story provider filters visible stories by search query', () async {
+    final cache = await Hive.openBox('search_filter_cache_test');
+    final settings = await Hive.openBox('search_filter_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+
+    provider.setSearchQuery('አበባ');
+
+    expect(provider.searchQuery, 'አበባ');
+    expect(provider.visibleStories.map((story) => story.id), ['flower_story']);
+
+    provider.setSearchQuery('forest');
+
+    expect(provider.visibleStories.map((story) => story.id), ['forest_story']);
+
+    provider.setSearchQuery('kindness');
+
+    expect(provider.visibleStories.map((story) => story.id), ['flower_story']);
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
+  test('story provider combines favorites and search filters', () async {
+    final cache = await Hive.openBox('favorites_search_filter_cache_test');
+    final settings =
+        await Hive.openBox('favorites_search_filter_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+    await provider.toggleFavorite('forest_story');
+
+    provider.setShowFavoritesOnly(true);
+    provider.setSearchQuery('አበባ');
+
+    expect(provider.visibleStories, isEmpty);
+
+    provider.setSearchQuery('forest');
+
+    expect(provider.visibleStories.map((story) => story.id), ['forest_story']);
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   testWidgets('story details shows audio coming soon when audio is missing',
       (tester) async {
     final repository = StoryRepository(
@@ -736,6 +796,34 @@ class _TwoStoryLocalStoryService extends LocalStoryService {
         summaryAm: 'በአሴት ውስጥ ያለ ታሪክ',
         ageMin: 3,
         ageMax: 6,
+      ),
+    ];
+  }
+}
+
+class _SearchableLocalStoryService extends LocalStoryService {
+  @override
+  Future<List<Story>> fetchStories() async {
+    return [
+      Story(
+        id: 'flower_story',
+        titleAm: 'የአበባዋ ታሪክ',
+        titleEn: 'Flower Story',
+        coverImage: 'assets/images/stories/flower.webp',
+        summaryAm: 'ስለ ደግነት የሚናገር ታሪክ',
+        ageMin: 3,
+        ageMax: 6,
+        themes: const ['kindness'],
+      ),
+      Story(
+        id: 'forest_story',
+        titleAm: 'የጫካው ታሪክ',
+        titleEn: 'Forest Story',
+        coverImage: 'assets/images/stories/forest.webp',
+        summaryAm: 'ስለ ጓደኝነት የሚናገር ታሪክ',
+        ageMin: 3,
+        ageMax: 6,
+        themes: const ['friendship'],
       ),
     ];
   }

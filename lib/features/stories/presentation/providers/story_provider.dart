@@ -14,6 +14,7 @@ class StoryProvider with ChangeNotifier {
   Set<String> _favoriteStoryIds = {};
   bool _isLoading = false;
   bool _showFavoritesOnly = false;
+  String _searchQuery = '';
   String? _errorMessage;
 
   StoryProvider({
@@ -26,14 +27,24 @@ class StoryProvider with ChangeNotifier {
 
   List<Story> get stories => _stories;
   List<Story> get visibleStories {
-    if (!_showFavoritesOnly) {
-      return _stories;
+    Iterable<Story> filteredStories = _stories;
+
+    if (_showFavoritesOnly) {
+      filteredStories = filteredStories.where((story) => isFavorite(story.id));
     }
 
-    return _stories.where((story) => isFavorite(story.id)).toList();
+    final normalizedQuery = _searchQuery.trim().toLowerCase();
+    if (normalizedQuery.isNotEmpty) {
+      filteredStories = filteredStories.where(
+        (story) => _storyMatchesSearch(story, normalizedQuery),
+      );
+    }
+
+    return filteredStories.toList();
   }
 
   bool get showFavoritesOnly => _showFavoritesOnly;
+  String get searchQuery => _searchQuery;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
 
@@ -78,6 +89,27 @@ class StoryProvider with ChangeNotifier {
 
     _showFavoritesOnly = value;
     notifyListeners();
+  }
+
+  void setSearchQuery(String value) {
+    if (_searchQuery == value) {
+      return;
+    }
+
+    _searchQuery = value;
+    notifyListeners();
+  }
+
+  bool _storyMatchesSearch(Story story, String normalizedQuery) {
+    final searchableText = [
+      story.titleAm,
+      story.titleEn,
+      story.summaryAm,
+      story.collection,
+      ...story.themes,
+    ].join(' ').toLowerCase();
+
+    return searchableText.contains(normalizedQuery);
   }
 
   Set<String> _readFavoriteStoryIds() {
