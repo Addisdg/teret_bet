@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "አንድ ግዙፍ ትልቅ አትክልት ነበረው። መጀመሪያ ለራሱ ብቻ መያዝ ፈለገ።",
-      "textEn": "Page 1 of The Selfish Giant.",
+      "textAm": "አንድ ግዙፍ በትልቅ አትክልት ያለው ቤት ይኖር ነበር። አትክልቱ በአበቦች፣ በዛፎች እና በወፎች ድምፅ የተሞላ ነበር።",
+      "textEn": "A giant lived beside a beautiful garden.",
       "imageUrl": "assets/images/stories/selfish_giant_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 1: አንድ ግዙፍ ትልቅ አትክልት ነበረው። መጀመሪያ ለራሱ ብቻ መያዝ ፈለገ።",
+      "illustrationPrompt": "A gentle-looking giant near a large beautiful garden full of flowers.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ልጆች ከውጭ አበቦቹን በናፍቆት ይመለከቱ ነበር።",
-      "textEn": "Page 2 of The Selfish Giant.",
+      "textAm": "ልጆች ከትምህርት በኋላ በአትክልቱ ዳር ይቆሙ ነበር። አበቦቹን ሲያዩ ዓይኖቻቸው በደስታ ይበሩ ነበር።",
+      "textEn": "Children looked at the garden with joy.",
       "imageUrl": "assets/images/stories/selfish_giant_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 2: ልጆች ከውጭ አበቦቹን በናፍቆት ይመለከቱ ነበር።",
+      "illustrationPrompt": "Children looking kindly at flowers outside a garden gate.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "አትክልቱ ጸጥ አለ፣ ወፎችም አልዘመሩም።",
-      "textEn": "Page 3 of The Selfish Giant.",
+      "textAm": "ግዙፉ ግን ‘ይህ አትክልት ለእኔ ብቻ ነው’ ብሎ በሩን ዘጋ። አትክልቱም በቀስታ ጸጥ መሆን ጀመረ።",
+      "textEn": "The giant closed the gate, and the garden grew quiet.",
       "imageUrl": "assets/images/stories/selfish_giant_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 3: አትክልቱ ጸጥ አለ፣ ወፎችም አልዘመሩም።",
+      "illustrationPrompt": "The giant closing a garden gate while the garden becomes quiet, not scary.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "አንድ ቀን ግዙፉ ልጆች ሲስቁ ሰማ፣ ልቡም በቀስታ ለሰለሰ።",
-      "textEn": "Page 4 of The Selfish Giant.",
+      "textAm": "ወፎች አልዘመሩም፣ አበቦችም አልተከፈቱም። ግዙፉ ብቻውን ተቀምጦ ‘ለምን እንዲህ ጸጥ አለ?’ ብሎ አሰበ።",
+      "textEn": "The garden became quiet, and the giant wondered why.",
       "imageUrl": "assets/images/stories/selfish_giant_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 4: አንድ ቀን ግዙፉ ልጆች ሲስቁ ሰማ፣ ልቡም በቀስታ ለሰለሰ።",
+      "illustrationPrompt": "The giant sitting alone in a quiet garden, thoughtful and gentle.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "“አትክልቱ ለሁላችን ነው” ብሎ በሩን ከፈተ።",
-      "textEn": "Page 5 of The Selfish Giant.",
+      "textAm": "አንድ ጠዋት ከበሩ ውጭ ልጆች በቀስታ ሲስቁ ሰማ። ድምፃቸው እንደ ትንሽ ወፍ ዘፈን ወደ ልቡ ገባ።",
+      "textEn": "One morning he heard children laughing softly outside.",
       "imageUrl": "assets/images/stories/selfish_giant_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 5: “አትክልቱ ለሁላችን ነው” ብሎ በሩን ከፈተ።",
+      "illustrationPrompt": "The giant hearing children laughing softly outside the garden gate.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ልጆች ሲጫወቱ አበቦች ተከፈቱ፣ ግዙፉም ማጋራት ደስታ እንደሚያመጣ ተማረ።",
-      "textEn": "Page 6 of The Selfish Giant.",
+      "textAm": "ግዙፉ በመስኮት ተመለከተ። ልጆች አበቦቹን ሳይነኩ በናፍቆት ይመለከቱ ነበር።",
+      "textEn": "He saw children looking lovingly at the flowers.",
       "imageUrl": "assets/images/stories/selfish_giant_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Selfish Giant, page 6: ልጆች ሲጫወቱ አበቦች ተከፈቱ፣ ግዙፉም ማጋራት ደስታ እንደሚያመጣ ተማረ።",
+      "illustrationPrompt": "Children admiring flowers from outside while the giant watches from a window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "‘ደስታ ሲካፈል ነው የሚበቅለው’ ብሎ ግዙፉ ተረዳ። በሩን ከፈተና ‘እባካችሁ በጥንቃቄ ግቡ’ አለ።",
+      "textEn": "The giant opened the gate and invited the children in kindly.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_07.webp",
+      "illustrationPrompt": "The giant opening the garden gate kindly for children.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ልጆቹ በአትክልቱ ውስጥ በቀስታ ተጓዙ። አንዱ ዛፍ ሥር ተቀመጠ፣ ሌላውም ወፎችን ተመለከተ።",
+      "textEn": "The children entered carefully and enjoyed the garden.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_08.webp",
+      "illustrationPrompt": "Children walking carefully through the giant's garden with flowers and birds.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በጥቂት ጊዜ አበቦች ተከፈቱ፣ ወፎችም ዘመሩ። ግዙፉ በፈገግታ ውሃ አመጣና ልጆቹን አገዘ።",
+      "textEn": "Flowers opened and birds sang as the giant helped.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_09.webp",
+      "illustrationPrompt": "The giant watering flowers while children play gently in the garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ከዚያ ቀን በኋላ አትክልቱ ለሁሉም ደስታ ቦታ ሆነ። ግዙፉም ቦታን ሲካፈል ልብ እንደሚሞቅ ተማረ።",
+      "textEn": "From then on, the garden became a shared place of joy.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_10.webp",
+      "illustrationPrompt": "The giant and children enjoying a blooming shared garden together.",
       "audioUrl": null
     }
   ]

@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "የገጠር አይጥ በሰላም በትንሽ እህል ቤት ይኖር ነበር።",
-      "textEn": "Page 1 of The Town Mouse and the Country Mouse.",
+      "textAm": "የገጠር አይጥ በእህል ቤት አጠገብ በሰላም ይኖር ነበር። በየጠዋቱ ወፎችን ይሰማ እና ትንሽ እህል በደስታ ይበላ ነበር።",
+      "textEn": "The country mouse lived peacefully near a grain house.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 1: የገጠር አይጥ በሰላም በትንሽ እህል ቤት ይኖር ነበር።",
+      "illustrationPrompt": "A country mouse in a peaceful grain house with birds outside.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "የከተማ አይጥ መጥቶ “ከተማዬን እይ” ብሎ ጋበዘው።",
-      "textEn": "Page 2 of The Town Mouse and the Country Mouse.",
+      "textAm": "አንድ ቀን የከተማ አይጥ መጣ። ‘ከተማዬ ብሩህ ነው፣ ብዙ ነገርም አለበት’ ብሎ ጓደኛውን ጋበዘው።",
+      "textEn": "The town mouse invited his friend to visit the city.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 2: የከተማ አይጥ መጥቶ “ከተማዬን እይ” ብሎ ጋበዘው።",
+      "illustrationPrompt": "A town mouse inviting the country mouse from a country doorway.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "በከተማ ብዙ መብራት እና ብዙ ምግብ ነበር፣ ግን ጫጫታም ብዙ ነበር።",
-      "textEn": "Page 3 of The Town Mouse and the Country Mouse.",
+      "textAm": "የገጠር አይጥ እንግዳውን በቀላል ምግብ ተቀበለው። የከተማ አይጥ ግን ‘በከተማ ብዙ ጣፋጭ ነገር አለ’ አለ።",
+      "textEn": "The country mouse served simple food before the trip.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 3: በከተማ ብዙ መብራት እና ብዙ ምግብ ነበር፣ ግን ጫጫታም ብዙ ነበር።",
+      "illustrationPrompt": "Two mice sharing simple grain under a shady country tree.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "የገጠር አይጥ በብዙ ድምፅ ትንሽ ደነገጠ።",
-      "textEn": "Page 4 of The Town Mouse and the Country Mouse.",
+      "textAm": "ሁለቱ አይጦች ወደ ከተማ ተጓዙ። መብራቶች ብሩህ ነበሩ፣ መንገዶችም በድምፅ ተሞልተው ነበር።",
+      "textEn": "The two mice traveled to the bright noisy town.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 4: የገጠር አይጥ በብዙ ድምፅ ትንሽ ደነገጠ።",
+      "illustrationPrompt": "Two mice arriving in a bright busy but child-friendly town street.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ሁለቱ ወደ ገጠር ተመለሱ፣ በዛፍ ጥላ ሥር ቀላል ምግብ አጋሩ።",
-      "textEn": "Page 5 of The Town Mouse and the Country Mouse.",
+      "textAm": "በትልቅ ቤት ውስጥ ብዙ ምግብ አዩ። የገጠር አይጥ ተደነቀ፣ ግን ድምፁ እና ፈጣኑ እንቅስቃሴ ትንሽ አደከመው።",
+      "textEn": "They saw much food in a large house, but the noise felt tiring.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 5: ሁለቱ ወደ ገጠር ተመለሱ፣ በዛፍ ጥላ ሥር ቀላል ምግብ አጋሩ።",
+      "illustrationPrompt": "Two mice looking at a large table of food in a bright house.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "የከተማ አይጥም ሰላም የሚያስደስት ስጦታ እንደሆነ ተማረ።",
-      "textEn": "Page 6 of The Town Mouse and the Country Mouse.",
+      "textAm": "አንድ ድንገተኛ ድምፅ ሲሰማ ሁለቱ አይጦች በቀስታ ወደ ጸጥ ያለ ቦታ ገቡ። ‘እዚህ ሁሌ እንዲህ ነው?’ ብሎ የገጠር አይጥ ጠየቀ።",
+      "textEn": "A sudden sound made them move to a quiet corner.",
       "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Town Mouse and the Country Mouse, page 6: የከተማ አይጥም ሰላም የሚያስደስት ስጦታ እንደሆነ ተማረ።",
+      "illustrationPrompt": "Two mice calmly hiding in a safe quiet corner of a city house.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "የከተማ አይጥ ‘አዎ፣ ከተማዬ ብሩህ ነው፣ ግን ፈጣን ነው’ አለ። ጓደኛውም ‘እኔ በጸጥታ ልብ እረፍታለሁ’ አለ።",
+      "textEn": "The town mouse admitted the city is bright but fast.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_07.webp",
+      "illustrationPrompt": "The two mice talking kindly in a quiet city corner.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በማግሥቱ ወደ ገጠር ተመለሱ። ከዛፍ ጥላ ሥር ተቀምጠው ቀላል እህል እና ትንሽ ፍሬ ተካፈሉ።",
+      "textEn": "The next day they returned to the country and shared simple food.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_08.webp",
+      "illustrationPrompt": "Two mice sharing simple food under a tree in peaceful countryside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "የከተማ አይጥ ወፎችን ሰማ፣ ነፋሱንም ተሰማ። ‘የእርስዎ ቤት ሰላም አለው’ ብሎ በፈገግታ ተናገረ።",
+      "textEn": "The town mouse noticed the peace of the country home.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_09.webp",
+      "illustrationPrompt": "The town mouse smiling while listening to birds in the countryside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ሁለቱ አይጦች ከተማና ገጠር ሁለቱም የራሳቸው ውበት እንዳላቸው ተማሩ። ነገር ግን ለልብ የሚያረጋጋውን ቦታ መምረጥ ጥሩ ነው።",
+      "textEn": "They learned that every place has beauty, and peace matters.",
+      "imageUrl": "assets/images/stories/town_mouse_country_mouse_page_10.webp",
+      "illustrationPrompt": "The two mouse friends waving goodbye between city road and country path.",
       "audioUrl": null
     }
   ]

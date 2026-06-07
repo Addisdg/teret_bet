@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር።",
-      "textEn": "Page 1 of Sleeping Beauty.",
+      "textAm": "በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር። ቤተሰቧ እና ጓደኞቿ በቀስታ በቀስታ ያሳድጓት ነበር።",
+      "textEn": "A kind princess lived in a beautiful castle.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 1: በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር።",
+      "illustrationPrompt": "A kind young princess with family and friends in a warm castle.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "በበዓል ቀን ሁሉም ለእሷ መልካም ምኞት አመጡ።",
-      "textEn": "Page 2 of Sleeping Beauty.",
+      "textAm": "በበዓል ቀን ሁሉም መልካም ምኞት አመጡላት። አንዱ ጥበብን፣ ሌላው ደግነትን፣ ሌላውም ትዕግሥትን ተመኘላት።",
+      "textEn": "At a celebration, everyone brought kind wishes.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 2: በበዓል ቀን ሁሉም ለእሷ መልካም ምኞት አመጡ።",
+      "illustrationPrompt": "A gentle castle celebration with people offering kind wishes to the princess.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "አንድ ቀን ልዕልቷ በጣም ደከመች እና ረጅም እረፍት ወሰደች።",
-      "textEn": "Page 3 of Sleeping Beauty.",
+      "textAm": "ልዕልቷ እያደገች አበቦችን መንከባከብ እና ለሰዎች በጥሩ ቃል መናገር ትወድ ነበር።",
+      "textEn": "The princess grew up loving flowers and kind words.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 3: አንድ ቀን ልዕልቷ በጣም ደከመች እና ረጅም እረፍት ወሰደች።",
+      "illustrationPrompt": "The princess caring for flowers in a sunny castle garden.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ቤተመንግሥቱ በጸጥታ ተሞላ፣ አበቦችም በመስኮቶች ዙሪያ በቀስታ በቀሉ።",
-      "textEn": "Page 4 of Sleeping Beauty.",
+      "textAm": "አንድ ቀን በአትክልቱ ውስጥ ሲዞር በጣም ደከመች። ሐኪሞች እና ቤተሰቧ ‘ረጅም እረፍት ያስፈልጋታል’ አሉ።",
+      "textEn": "One day she became very tired and needed a long rest.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 4: ቤተመንግሥቱ በጸጥታ ተሞላ፣ አበቦችም በመስኮቶች ዙሪያ በቀስታ በቀሉ።",
+      "illustrationPrompt": "The tired princess being cared for gently by family in the castle garden.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ጓደኞቿ በየቀኑ በተስፋ አበቦችን አጠጡ።",
-      "textEn": "Page 5 of Sleeping Beauty.",
+      "textAm": "ልዕልቷ በጸጥ ያለ ክፍል ውስጥ አረፈች። ቤተመንግሥቱም ድምፁን አሳነሰ፣ ሁሉም በተስፋ ጠበቀ።",
+      "textEn": "The princess rested in a quiet room while everyone waited with hope.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 5: ጓደኞቿ በየቀኑ በተስፋ አበቦችን አጠጡ።",
+      "illustrationPrompt": "The princess resting peacefully in a soft quiet castle room.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በአንድ ብሩህ ጠዋት ልዕልቷ ተነሳች፣ ሁሉም በደስታ አብረው ዘፈኑ።",
-      "textEn": "Page 6 of Sleeping Beauty.",
+      "textAm": "ከመስኮቷ ውጭ አበቦች በቀስታ በቀሉ። ጓደኞቿ በየቀኑ ውሃ አጠጡአቸው እና ለልዕልቷ መልካም ቃላትን ተናገሩ።",
+      "textEn": "Her friends watered flowers and spoke kind words each day.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Sleeping Beauty, page 6: በአንድ ብሩህ ጠዋት ልዕልቷ ተነሳች፣ ሁሉም በደስታ አብረው ዘፈኑ።",
+      "illustrationPrompt": "Friends watering flowers outside the princess's castle window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ወቅቶች ተቀያየሩ። ፀሐይ ወጣች፣ ዝናብ ወረደ፣ አበቦቹም የተስፋ ቀለም ይዘው ቀጠሉ።",
+      "textEn": "Seasons passed while hope stayed alive.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_07.webp",
+      "illustrationPrompt": "Castle flowers through changing seasons, gentle hopeful mood.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንድ ብሩህ ጠዋት ወፎች በመስኮቷ አጠገብ ዘመሩ። ልዕልቷ ዓይኖቿን በቀስታ ከፈተች።",
+      "textEn": "One bright morning, birds sang and the princess woke gently.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_08.webp",
+      "illustrationPrompt": "Birds singing near the castle window as the princess wakes gently.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ቤተሰቧ እና ጓደኞቿ በደስታ ተቀበሏት። ማንም አልቸኮለም፤ ሁሉም በቀስታ እንድትመለስ ረዳት።",
+      "textEn": "Her family and friends welcomed her gently and joyfully.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_09.webp",
+      "illustrationPrompt": "Family and friends warmly welcoming the princess as she wakes.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በአትክልቱ ውስጥ ትንሽ በዓል አደረጉ። ልዕልቷም ተስፋ እና ትዕግሥት አዲስ ጠዋትን እንደሚያመጡ ተማረች።",
+      "textEn": "They celebrated gently in the garden and remembered hope.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_10.webp",
+      "illustrationPrompt": "A gentle garden celebration for the princess with family and flowers.",
       "audioUrl": null
     }
   ]

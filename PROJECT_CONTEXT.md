@@ -70,6 +70,13 @@ Implemented:
   * chicken_little
   * jack_and_beanstalk
   * stone_soup
+* Second catalog expansion batch with longer content-driven adaptations and
+  page-specific local WebP artwork for:
+  * puss_in_boots
+  * town_mouse_country_mouse
+  * little_red_hen
+  * selfish_giant
+  * sleeping_beauty
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -185,8 +192,8 @@ During MVP review, Firestore and Hive results are supplemented with any missing
 local manifest stories so the full bundled catalog remains visible in the app.
 
 Current expansion priority: continue expanding the remaining very short six-page
-stories, starting with `puss_in_boots`, `town_mouse_country_mouse`,
-`little_red_hen`, `selfish_giant`, and `sleeping_beauty`.
+stories. The next recommended batch is `little_rabbit`, `hansel_and_gretel`,
+`rapunzel`, `bremen_town_musicians`, and `snow_white`.
 
 ## Long-Term Goals
 

@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ትንሿ ቀይ ዶሮ ትንሽ የስንዴ ዘር አገኘች።",
-      "textEn": "Page 1 of The Little Red Hen.",
+      "textAm": "ትንሿ ቀይ ዶሮ በጓሮዋ ውስጥ ትንሽ የስንዴ ዘር አገኘች። ‘ይህን ብንተክል አንድ ቀን እንጀራ ይሆናል’ አለች።",
+      "textEn": "The little red hen found wheat seeds in the yard.",
       "imageUrl": "assets/images/stories/little_red_hen_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 1: ትንሿ ቀይ ዶሮ ትንሽ የስንዴ ዘር አገኘች።",
+      "illustrationPrompt": "A little red hen finding wheat seeds in a sunny farmyard.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "“ማን ይረዳኛል?” ብላ ጠየቀች፣ ጓደኞቿ ግን በመጀመሪያ ተጫወቱ።",
-      "textEn": "Page 2 of The Little Red Hen.",
+      "textAm": "‘ማን ይረዳኛል?’ ብላ ዳክዬን፣ ውሻን እና ድመትን ጠየቀች። ጓደኞቿ ግን በመጀመሪያ መጫወት ፈለጉ።",
+      "textEn": "She asked her friends for help, but they wanted to play first.",
       "imageUrl": "assets/images/stories/little_red_hen_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 2: “ማን ይረዳኛል?” ብላ ጠየቀች፣ ጓደኞቿ ግን በመጀመሪያ ተጫወቱ።",
+      "illustrationPrompt": "The little red hen asking duck, dog, and cat for help.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ዶሮዋ ዘሩን ተከለች፣ ውሃ አጠጣችው፣ በትዕግሥትም ጠበቀች።",
-      "textEn": "Page 3 of The Little Red Hen.",
+      "textAm": "ዶሮዋ ዘሩን በቀስታ ተከለች። ቀን በቀን ውሃ አጠጣችው፣ አፈሩንም በፍቅር አስተካከለች።",
+      "textEn": "The hen planted the seeds and cared for them every day.",
       "imageUrl": "assets/images/stories/little_red_hen_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 3: ዶሮዋ ዘሩን ተከለች፣ ውሃ አጠጣችው፣ በትዕግሥትም ጠበቀች።",
+      "illustrationPrompt": "The little red hen watering newly planted wheat seeds.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ስንዴው ሲያድግ ጓደኞቿ ሥራው ብዙ እንደሆነ አዩ።",
-      "textEn": "Page 4 of The Little Red Hen.",
+      "textAm": "ስንዴው ትንሽ ትንሽ በቀለ። ጓደኞቿ ሲመለከቱ ‘ሥራው ብዙ ነው’ ብለው መገንዘብ ጀመሩ።",
+      "textEn": "The wheat began to grow, and her friends noticed the work.",
       "imageUrl": "assets/images/stories/little_red_hen_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 4: ስንዴው ሲያድግ ጓደኞቿ ሥራው ብዙ እንደሆነ አዩ።",
+      "illustrationPrompt": "Young wheat sprouting while farm friends watch thoughtfully.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ከዚያ ሁሉም በመተባበር ዱቄት አዘጋጁ እና እንጀራ ጋገሩ።",
-      "textEn": "Page 5 of The Little Red Hen.",
+      "textAm": "‘ስንዴውን ለመሰብሰብ ማን ይረዳኛል?’ ብላ ዶሮዋ እንደገና ጠየቀች። ይህ ጊዜ ዳክዬው ‘እኔ እረዳለሁ’ አለ።",
+      "textEn": "This time Duck offered to help harvest the wheat.",
       "imageUrl": "assets/images/stories/little_red_hen_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 5: ከዚያ ሁሉም በመተባበር ዱቄት አዘጋጁ እና እንጀራ ጋገሩ።",
+      "illustrationPrompt": "Duck helping the little red hen gather wheat in the farmyard.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በመጨረሻ እንጀራውን አጋሩ፣ ሁሉም ማገዝ ጥሩ እንደሆነ ተማሩ።",
-      "textEn": "Page 6 of The Little Red Hen.",
+      "textAm": "ውሻው ትንሽ ጭነት ተሸከመ፣ ድመቱም ዘሮቹን በሳህን አደረገ። ሁሉም ትንሽ ትንሽ ሲረዱ ሥራው ቀለለ።",
+      "textEn": "Dog and Cat helped too, and the work became easier.",
       "imageUrl": "assets/images/stories/little_red_hen_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Red Hen, page 6: በመጨረሻ እንጀራውን አጋሩ፣ ሁሉም ማገዝ ጥሩ እንደሆነ ተማሩ።",
+      "illustrationPrompt": "Dog and cat helping carry wheat and bowls for the little red hen.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ከዚያ ዱቄት ለማዘጋጀት ተባበሩ። ዱቄቱ በነጭ ደመና ይመስል ነበር፣ ሁሉም በደስታ ሳቁ።",
+      "textEn": "They worked together to make flour.",
+      "imageUrl": "assets/images/stories/little_red_hen_page_07.webp",
+      "illustrationPrompt": "Farm friends making flour together with the little red hen.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ዶሮዋ ውሃ አከለች፣ ዳክዬው አቀላቀለ፣ ውሻውም ምድጃውን አዘጋጀ። ድመቱ ጠረጴዛውን በጥንቃቄ አጸዳ።",
+      "textEn": "Everyone helped prepare the bread and table.",
+      "imageUrl": "assets/images/stories/little_red_hen_page_08.webp",
+      "illustrationPrompt": "The hen and friends preparing bread dough and a clean table.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "እንጀራው ሲጋገር ሽታው ጓሮውን ሞላ። ጓደኞቿ ‘ማገዝ ምግቡን የበለጠ ጣፋጭ አደረገው’ አሉ።",
+      "textEn": "The warm bread smell filled the yard.",
+      "imageUrl": "assets/images/stories/little_red_hen_page_09.webp",
+      "illustrationPrompt": "Warm bread baking while farm friends smile in the cozy yard.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በመጨረሻ ሁሉም እንጀራውን ተካፈሉ። ትንሿ ቀይ ዶሮም ‘ሥራን ስናጋራ ደስታውንም እናጋራለን’ ብላ ተደሰተች።",
+      "textEn": "At the end, everyone shared the bread and the joy.",
+      "imageUrl": "assets/images/stories/little_red_hen_page_10.webp",
+      "illustrationPrompt": "The little red hen and farm friends sharing warm bread together.",
       "audioUrl": null
     }
   ]

@@ -39,6 +39,9 @@ before external testing.
 * First story expansion batch completed with page-specific local artwork:
   `three_billy_goats_gruff`, `name_of_tree`, `chicken_little`,
   `jack_and_beanstalk`, and `stone_soup`
+* Second story expansion batch completed with page-specific local artwork:
+  `puss_in_boots`, `town_mouse_country_mouse`, `little_red_hen`,
+  `selfish_giant`, and `sleeping_beauty`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
 
@@ -57,11 +60,11 @@ WebP artwork for every new page.
 
 Next expansion batch:
 
-* `puss_in_boots`
-* `town_mouse_country_mouse`
-* `little_red_hen`
-* `selfish_giant`
-* `sleeping_beauty`
+* `little_rabbit`
+* `hansel_and_gretel`
+* `rapunzel`
+* `bremen_town_musicians`
+* `snow_white`
 
 After each expansion batch, run `dart run tool/catalog_qa.dart`,
 `flutter analyze`, and `flutter test`. Use the library search, collection

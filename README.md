@@ -176,14 +176,19 @@ Expanded so far:
 - `chicken_little`
 - `jack_and_beanstalk`
 - `stone_soup`
-
-Next recommended expansion batch:
-
 - `puss_in_boots`
 - `town_mouse_country_mouse`
 - `little_red_hen`
 - `selfish_giant`
 - `sleeping_beauty`
+
+Next recommended expansion batch:
+
+- `little_rabbit`
+- `hansel_and_gretel`
+- `rapunzel`
+- `bremen_town_musicians`
+- `snow_white`
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

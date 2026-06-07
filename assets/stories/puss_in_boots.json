@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "አንድ ወጣት ታማኝ ድመት ነበረው። ድመቱም ትንሽ ቦት ለብሶ ይጓዝ ነበር።",
-      "textEn": "Page 1 of Puss in Boots.",
+      "textAm": "አንድ ወጣት በትንሽ ቤት ውስጥ ከታማኝ ድመቱ ጋር ይኖር ነበር። ድመቱ ትንሽ ቦት ለብሶ በኩራት ይራመድ ነበር።",
+      "textEn": "A young man lived with his loyal boot-wearing cat.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 1: አንድ ወጣት ታማኝ ድመት ነበረው። ድመቱም ትንሽ ቦት ለብሶ ይጓዝ ነበር።",
+      "illustrationPrompt": "A young man in a small cottage with a loyal cat wearing little boots.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ድመቱ “በደግ ቃል እና በብልሃት እረዳሃለሁ” አለ።",
-      "textEn": "Page 2 of Puss in Boots.",
+      "textAm": "ወጣቱ ሥራ ለማግኘት ተጨነቀ። ድመቱ ግን ‘በደግ ቃል እና በብልሃት እረዳሃለሁ’ ብሎ አረጋጋው።",
+      "textEn": "The cat promised to help with kind words and cleverness.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 2: ድመቱ “በደግ ቃል እና በብልሃት እረዳሃለሁ” አለ።",
+      "illustrationPrompt": "The booted cat comforting the worried young man inside a cozy cottage.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ወደ መንደር ሄዶ የወጣቱን ደግነት ለሰዎች ነገረ።",
-      "textEn": "Page 3 of Puss in Boots.",
+      "textAm": "ድመቱ በመጀመሪያ ወደ መንደር ሄደ። ሰዎችን በጨዋነት ሰላም አለ፣ የወጣቱንም ደግ ልብ ነገራቸው።",
+      "textEn": "The cat went to the village and spoke kindly about his friend.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 3: ወደ መንደር ሄዶ የወጣቱን ደግነት ለሰዎች ነገረ።",
+      "illustrationPrompt": "The booted cat politely greeting villagers in a sunny market lane.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ሰዎች ወጣቱን በሥራው እና በልቡ ለማወቅ ጀመሩ።",
-      "textEn": "Page 4 of Puss in Boots.",
+      "textAm": "መንደር ሰዎች ወጣቱን ለማወቅ ፈለጉ። ወጣቱም በሥራው ትጉህ፣ በቃሉም ታማኝ መሆኑን አሳየ።",
+      "textEn": "The villagers learned that the young man was hardworking and honest.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 4: ሰዎች ወጣቱን በሥራው እና በልቡ ለማወቅ ጀመሩ።",
+      "illustrationPrompt": "Villagers watching the young man work kindly and honestly in the village.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ድመቱ በብልሃት ትንሽ ችግሮችን ፈታ፣ ማንንም ሳይጎዳ።",
-      "textEn": "Page 5 of Puss in Boots.",
+      "textAm": "አንድ ቀን በመንገድ ላይ ጋሪ ተደናቀፈ። ድመቱ በብልሃት ሰዎችን አደራጅቶ ሁሉም በሰላም እንዲረዱ አደረገ።",
+      "textEn": "One day the cat helped organize people to move a stuck cart safely.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 5: ድመቱ በብልሃት ትንሽ ችግሮችን ፈታ፣ ማንንም ሳይጎዳ።",
+      "illustrationPrompt": "The booted cat organizing villagers to help move a stuck cart safely.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ወጣቱ እና ድመቱ በመጨረሻ ከመንደሩ ጋር በደስታ ኖሩ።",
-      "textEn": "Page 6 of Puss in Boots.",
+      "textAm": "ወጣቱ ለሰዎቹ ውሃ አመጣ፣ ድመቱም ልጆችን ከመንገድ ዳር እንዲቆሙ አሳሰበ። ማንም አልተጎዳም።",
+      "textEn": "The young man brought water and everyone helped safely.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Puss in Boots, page 6: ወጣቱ እና ድመቱ በመጨረሻ ከመንደሩ ጋር በደስታ ኖሩ።",
+      "illustrationPrompt": "The young man bringing water while the booted cat keeps children safely aside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ከዚያ ቀን በኋላ ሰዎች ‘ይህ ወጣት እና ድመቱ ታማኞች ናቸው’ ብለው ተናገሩ። በመንደሩም አዲስ ጓደኞች አገኙ።",
+      "textEn": "The village began to trust the young man and his cat.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_07.webp",
+      "illustrationPrompt": "Villagers smiling warmly at the young man and his booted cat.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "የመንደሩ መሪ ወጣቱን በአትክልት ሥራ እንዲረዳ ጠየቀው። ወጣቱ በደስታ ተቀበለ፣ ድመቱም ቦቱን አብራርቶ ተከተለው።",
+      "textEn": "The village leader invited the young man to help in the garden.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_08.webp",
+      "illustrationPrompt": "The young man and booted cat walking to help in a village garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በትንሽ ጊዜ አትክልቱ ተሻለ። ወጣቱ ሥራ አገኘ፣ ድመቱም ብልሃቱ ለደግነት ሲውል እንደሚያበራ ተደሰተ።",
+      "textEn": "The garden improved, and the young man found good work.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_09.webp",
+      "illustrationPrompt": "A bright village garden growing well while the young man and cat smile.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ወጣቱ እና ቦት የለበሰው ድመት ከመንደሩ ጋር በደስታ ኖሩ። ብልሃት ከታማኝነት ጋር ሲሆን ብዙ በሮችን እንደሚከፍት ተማሩ።",
+      "textEn": "The young man and his loyal cat lived happily with the village.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_10.webp",
+      "illustrationPrompt": "The young man, booted cat, and villagers celebrating friendship in a garden.",
       "audioUrl": null
     }
   ]
