@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ጃክ ከእናቱ ጋር ትንሽ እርሻ ላይ ይኖር ነበር።",
-      "textEn": "Page 1 of Jack and the Beanstalk.",
+      "textAm": "ጃክ ከእናቱ ጋር በትንሽ እርሻ ላይ ይኖር ነበር። እርሻቸው ትንሽ ቢሆንም በፍቅር እና በትጋት የተሞላ ነበር።",
+      "textEn": "Jack lived with his mother on a small farm.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 1: ጃክ ከእናቱ ጋር ትንሽ እርሻ ላይ ይኖር ነበር።",
+      "illustrationPrompt": "Jack and his mother on a small warm farm, child-friendly storybook style.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "አንድ ቀን ብሩህ ባቄላዎችን ተቀበለ እና በመሬት ውስጥ ተከላቸው።",
-      "textEn": "Page 2 of Jack and the Beanstalk.",
+      "textAm": "አንድ ቀን ጃክ ከገበያ መንገድ ላይ ብሩህ ባቄላዎችን አገኘ። ሰውዬው “እነዚህ በጥንቃቄ ካደጉ ድንቅ ይሆናሉ” አለው።",
+      "textEn": "Jack received bright beans on the market road.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 2: አንድ ቀን ብሩህ ባቄላዎችን ተቀበለ እና በመሬት ውስጥ ተከላቸው።",
+      "illustrationPrompt": "Jack receiving shiny beans on a friendly market path.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ጠዋት ሲነሳ ባቄላው እስከ ደመና ድረስ ያደገ ነበር።",
-      "textEn": "Page 3 of Jack and the Beanstalk.",
+      "textAm": "ጃክ ባቄላዎቹን በቤቱ አጠገብ ተከለ። እናቱ “በየቀኑ ውሃ ስጣቸው፣ ነገር ግን በጥንቃቄ ተመልከታቸው” አለችው።",
+      "textEn": "Jack planted the beans and promised to care for them.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 3: ጠዋት ሲነሳ ባቄላው እስከ ደመና ድረስ ያደገ ነበር።",
+      "illustrationPrompt": "Jack planting beans beside the farmhouse while his mother watches kindly.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ጃክ በጥንቃቄ ወጣ እና በላይ ያለ ሰፊ አትክልት አገኘ።",
-      "textEn": "Page 4 of Jack and the Beanstalk.",
+      "textAm": "ጠዋት ሲነሳ ባቄላው እስከ ደመና ድረስ ያደገ ነበር። ጃክ ተገረመ፣ ግን መጀመሪያ እናቱን ጠየቀ።",
+      "textEn": "By morning, the beanstalk had grown to the clouds.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 4: ጃክ በጥንቃቄ ወጣ እና በላይ ያለ ሰፊ አትክልት አገኘ።",
+      "illustrationPrompt": "A huge beanstalk rising beside Jack's home into soft clouds.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "በዚያ የሚኖር ትልቅ ገበሬ ዘር ማጋራትን አስተማረው።",
-      "textEn": "Page 5 of Jack and the Beanstalk.",
+      "textAm": "እናቱ “ብቻህን አትቸኩል፤ በጥንቃቄ ወጥተህ ቶሎ ተመለስ” አለችው። ጃክ እጁን በግንዱ ላይ አድርጎ በቀስታ መውጣት ጀመረ።",
+      "textEn": "His mother reminded him to climb carefully and return soon.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 5: በዚያ የሚኖር ትልቅ ገበሬ ዘር ማጋራትን አስተማረው።",
+      "illustrationPrompt": "Jack carefully climbing the beanstalk while his mother waves from below.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ጃክ ወደ ቤት ተመልሶ ዘሮቹን ከመንደሩ ጋር አጋራ።",
-      "textEn": "Page 6 of Jack and the Beanstalk.",
+      "textAm": "በደመናዎች መካከል ጃክ ሰፊ አትክልት አገኘ። በዚያ ትልቅ ገበሬ በዘር ቦርሳዎች መካከል ይሰራ ነበር።",
+      "textEn": "Above the clouds, Jack found a wide garden and a giant farmer.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Jack and the Beanstalk, page 6: ጃክ ወደ ቤት ተመልሶ ዘሮቹን ከመንደሩ ጋር አጋራ።",
+      "illustrationPrompt": "Jack discovering a cloud garden with a gentle giant farmer.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ገበሬው ትልቅ ቢሆንም ድምፁ ለስላሳ ነበር። “ዘር ሲካፈል ብዙ ቤቶች ይበራሉ” ብሎ ጃክን አስተማረው።",
+      "textEn": "The gentle giant farmer taught Jack that seeds are for sharing.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_07.webp",
+      "illustrationPrompt": "A gentle giant farmer showing Jack baskets of seeds in a cloud garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ጃክ የወርቅ ዘር አልወሰደም፤ ፈቃድ ጠየቀ። ገበሬውም ትንሽ ቦርሳ ሰጠው፣ “ከመንደራችሁ ጋር አጋሩት” አለ።",
+      "textEn": "Jack asked permission, and the farmer gave him seeds to share.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_08.webp",
+      "illustrationPrompt": "Jack receiving a small seed bag from the gentle giant farmer.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጃክ በጥንቃቄ ወደ ታች ተመለሰ። እናቱ ሲያየው “በጥንቃቄ መመለስህ ከሁሉም በላይ ደስ አሰኘኝ” አለች።",
+      "textEn": "Jack climbed home safely and told his mother what he learned.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_09.webp",
+      "illustrationPrompt": "Jack safely returning down the beanstalk to his smiling mother.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ጃክ ዘሮቹን ከመንደሩ ጋር አጋራ። ብዙ ትንንሽ አትክልቶች አደጉ፣ ጃክም ድፍረት ከጥንቃቄ ጋር ሲሆን ቤትን እንደሚረዳ ተማረ።",
+      "textEn": "Jack shared the seeds, and many small gardens grew.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_10.webp",
+      "illustrationPrompt": "Jack and villagers planting many small gardens together in warm sunlight.",
       "audioUrl": null
     }
   ]

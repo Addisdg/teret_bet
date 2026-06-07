@@ -88,9 +88,9 @@ void _reviewStory(String storyId, CatalogQaReport report) {
     return;
   }
 
-  if (pages.length < 6 || pages.length > 10) {
+  if (pages.length < 6) {
     report.addWarning(
-      '$storyId: has ${pages.length} pages; guidelines prefer 6-10.',
+      '$storyId: has ${pages.length} pages; expand if the story feels rushed.',
     );
   }
 

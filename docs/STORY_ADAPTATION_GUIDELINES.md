@@ -2,10 +2,11 @@
 
 ## Story Length
 
-Stories for the MVP should be short enough for bedtime reading and early
-attention spans:
+Stories for the MVP should be short enough for bedtime reading but long enough
+to feel like complete stories instead of summaries:
 
-* 6-10 pages per story for ages 3-6
+* At least 6 pages per story for ages 3-6
+* Use as many pages as the story needs; do not force a 6-page or 10-page limit
 * 1-3 short sentences per page
 * One clear action or emotional beat per page
 * Simple page endings that invite the child to continue

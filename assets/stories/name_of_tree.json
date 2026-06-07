@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "በደረቅ ወቅት እንስሳት ምግብ ይፈልጉ ነበር።",
-      "textEn": "Page 1 of The Name of the Tree.",
+      "textAm": "በደረቅ ወቅት ሣሩ ቀነሰ፣ ፍሬዎችም በጣም ጥቂት ሆኑ። እንስሳቱ በአንድነት “ምግብ የት እናገኛለን?” ብለው ተጠየቁ።",
+      "textEn": "In the dry season, the animals wondered where they could find food.",
       "imageUrl": "assets/images/stories/name_of_tree_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 1: በደረቅ ወቅት እንስሳት ምግብ ይፈልጉ ነበር።",
+      "illustrationPrompt": "Gentle animals gathering in a dry but warm landscape, child-friendly style.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "አንድ አሮጌ ጥበበኛ ዛፍ “ስሜን ካስታወሳችሁ ፍሬዬን እካፈላለሁ” አለ።",
-      "textEn": "Page 2 of The Name of the Tree.",
+      "textAm": "አንድ ጥበበኛ አያት ለእንስሳቱ ስለ ልዩ ዛፍ ነገራቸው። “የዛፉን ስም ካስታወሳችሁ፣ ፍሬውን በደስታ ይካፈላል” አለ።",
+      "textEn": "A wise elder told them about a special tree with fruit to share.",
       "imageUrl": "assets/images/stories/name_of_tree_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 2: አንድ አሮጌ ጥበበኛ ዛፍ “ስሜን ካስታወሳችሁ ፍሬዬን እካፈላለሁ” አለ።",
+      "illustrationPrompt": "A wise elder speaking kindly to animals under a shaded tree.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "እንስሳቱ ስሙን ለማስታወስ ዘፈን ፈጠሩ።",
-      "textEn": "Page 3 of The Name of the Tree.",
+      "textAm": "ስሙ ትንሽ ረጅም ነበር፣ ስለዚህ እንስሳቱ በቀስታ ደጋገሙት። ዝሆኑ በዝቅተኛ ድምፅ፣ ወፉም በቀላል ዜማ አለችው።",
+      "textEn": "The name was long, so the animals repeated it together.",
       "imageUrl": "assets/images/stories/name_of_tree_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 3: እንስሳቱ ስሙን ለማስታወስ ዘፈን ፈጠሩ።",
+      "illustrationPrompt": "Animals repeating a tree name together like a gentle song.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ትንሹ ጥንቸል ዘፈኑን በጉዞ ላይ በቀስታ ደጋገመ።",
-      "textEn": "Page 4 of The Name of the Tree.",
+      "textAm": "ትንሹ ጥንቸል “እኔ እሄዳለሁ” አለ። ጓደኞቹም ስሙን በዜማ አስተምረውት በመንገድ ላይ እንዲደግመው አበረታቱት።",
+      "textEn": "The little rabbit offered to go and practiced the name as a song.",
       "imageUrl": "assets/images/stories/name_of_tree_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 4: ትንሹ ጥንቸል ዘፈኑን በጉዞ ላይ በቀስታ ደጋገመ።",
+      "illustrationPrompt": "A little rabbit starting a journey while animal friends encourage him.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ወደ ዛፉ ሲመለሱ ስሙን በአንድ ድምፅ አሉ።",
-      "textEn": "Page 5 of The Name of the Tree.",
+      "textAm": "በመንገድ ላይ ነፋስ ነፈሰ፣ አቧራም በቀስታ ተነሳ። ጥንቸሉ ግን “አልረሳም፣ በቀስታ እደግመዋለሁ” ብሎ ዜማውን ቀጠለ።",
+      "textEn": "Wind blew on the path, but the rabbit kept repeating the song.",
       "imageUrl": "assets/images/stories/name_of_tree_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 5: ወደ ዛፉ ሲመለሱ ስሙን በአንድ ድምፅ አሉ።",
+      "illustrationPrompt": "The little rabbit walking through soft wind while remembering the song.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ዛፉ ፍሬውን አጋራ፣ እንስሳቱም ጥበብን ማስታወስ እንደሚረዳ ተማሩ።",
-      "textEn": "Page 6 of The Name of the Tree.",
+      "textAm": "አንድ ወፍ በደስታ ስትዘምር ጥንቸሉ ለመጫወት ቆመ። ከዚያ በኋላ ስሙን ትንሽ ረሳው፣ ግን ተቀምጦ በጥሞና አሰበ።",
+      "textEn": "A bird's song distracted him, but he sat quietly and remembered.",
       "imageUrl": "assets/images/stories/name_of_tree_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Name of the Tree, page 6: ዛፉ ፍሬውን አጋራ፣ እንስሳቱም ጥበብን ማስታወስ እንደሚረዳ ተማሩ።",
+      "illustrationPrompt": "The rabbit sitting calmly under a small tree, thinking carefully.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "“ዜማውን ከመጀመሪያ እንደገና እቆጥራለሁ” አለ። በቀስታ በቀስታ ስሙ ወደ ልቡ ተመለሰ።",
+      "textEn": "He began the song again, and the name came back to him.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_07.webp",
+      "illustrationPrompt": "The rabbit smiling as he remembers the tree name again.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ጥንቸሉ ወደ ልዩ ዛፉ ደረሰ። ዛፉ ረጅም ነበር፣ ቅጠሎቹም በፀሐይ ብርሃን ይንቀሳቀሱ ነበር።",
+      "textEn": "The rabbit reached the special tree shining in the sun.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_08.webp",
+      "illustrationPrompt": "A special tall fruit tree glowing gently in sunlight as the rabbit arrives.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጥንቸሉ የዛፉን ስም በግልጽ ድምፅ አለ። ዛፉ ቅርንጫፎቹን አንቀሳቅሶ ጣፋጭ ፍሬዎችን በቀስታ አወረደ።",
+      "textEn": "The rabbit said the name, and the tree gently shared fruit.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_09.webp",
+      "illustrationPrompt": "The tree gently lowering fruit for the little rabbit.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "እንስሳቱ ፍሬውን ተካፈሉ፣ ስሙንም እንዳይረሱ በየቀኑ ዘፈኑ። ጥበብን ማዳመጥ እና ማስታወስ ሁሉንም እንደሚረዳ ተማሩ።",
+      "textEn": "The animals shared the fruit and sang the name together.",
+      "imageUrl": "assets/images/stories/name_of_tree_page_10.webp",
+      "illustrationPrompt": "Animals sharing fruit together under the wise tree, warm and joyful.",
       "audioUrl": null
     }
   ]

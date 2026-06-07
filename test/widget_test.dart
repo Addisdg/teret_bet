@@ -408,7 +408,7 @@ void main() {
       expect(story.audio.storyAudioUrl, isNull);
       expect(story.moralAm, isNotEmpty);
       expect(story.themes, isNotEmpty);
-      expect(pages, hasLength(6));
+      expect(pages.length, greaterThanOrEqualTo(6));
 
       for (var index = 0; index < pages.length; index += 1) {
         final page = pages[index];

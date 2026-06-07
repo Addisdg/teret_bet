@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "አንድ ተጓዥ ወደ መንደር መጣ፣ ትንሽ ድንጋይም ይዞ ነበር።",
-      "textEn": "Page 1 of Stone Soup.",
+      "textAm": "አንድ ተጓዥ በአመሻሽ ወደ ትንሽ መንደር መጣ። በኪሱ ውስጥ ንጹሕ ትንሽ ድንጋይ ነበረው።",
+      "textEn": "A traveler came to a small village carrying a clean little stone.",
       "imageUrl": "assets/images/stories/stone_soup_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 1: አንድ ተጓዥ ወደ መንደር መጣ፣ ትንሽ ድንጋይም ይዞ ነበር።",
+      "illustrationPrompt": "A kind traveler arriving at a small village at sunset with a clean stone.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "“የድንጋይ ሾርባ እንሠራ” ብሎ በደስታ አለ።",
-      "textEn": "Page 2 of Stone Soup.",
+      "textAm": "መንደሩ ጸጥ ብሎ ነበር። ሰዎቹ ትንሽ ትንሽ ምግብ ቢኖራቸውም እያንዳንዱ ለቤቱ ብቻ ያስብ ነበር።",
+      "textEn": "The village was quiet, and everyone kept their small food at home.",
       "imageUrl": "assets/images/stories/stone_soup_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 2: “የድንጋይ ሾርባ እንሠራ” ብሎ በደስታ አለ።",
+      "illustrationPrompt": "Quiet village homes with people peeking kindly from doors and windows.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "አንድ ሰው ካሮት፣ ሌላ ሰው ቆሎ፣ ሌላውም ጨው አመጣ።",
-      "textEn": "Page 3 of Stone Soup.",
+      "textAm": "ተጓዡ በመንደሩ መካከል ትልቅ ማሰሮ አስቀመጠ። “ዛሬ የድንጋይ ሾርባ እንሠራ” ብሎ በደስታ አለ።",
+      "textEn": "The traveler placed a pot in the village square for stone soup.",
       "imageUrl": "assets/images/stories/stone_soup_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 3: አንድ ሰው ካሮት፣ ሌላ ሰው ቆሎ፣ ሌላውም ጨው አመጣ።",
+      "illustrationPrompt": "The traveler setting a large soup pot in the village square.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ሁሉም ትንሽ ትንሽ ነገር ሲያክሉ ሽታው መንደሩን ሞላ።",
-      "textEn": "Page 4 of Stone Soup.",
+      "textAm": "ልጆች በጉጉት ቀረቡ። “ድንጋይ ሾርባ ይሆናል?” ብለው ጠየቁ፣ ተጓዡም “በትንሽ እርዳታ ይበልጥ ጣፋጭ ይሆናል” አለ።",
+      "textEn": "Children wondered how stone soup could become tasty.",
       "imageUrl": "assets/images/stories/stone_soup_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 4: ሁሉም ትንሽ ትንሽ ነገር ሲያክሉ ሽታው መንደሩን ሞላ።",
+      "illustrationPrompt": "Curious children watching the traveler stir the pot.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ሰዎቹ በአንድ ጠረጴዛ ዙሪያ ተቀምጠው ሾርባውን አጋሩ።",
-      "textEn": "Page 5 of Stone Soup.",
+      "textAm": "አንዲት እናት ትንሽ ካሮት አመጣች። “ይህ ብቻ ነው” አለች፣ ተጓዡም “ትንሽ ነገር ሲካፈል ትልቅ ይሆናል” አለ።",
+      "textEn": "One parent brought a small carrot to add.",
       "imageUrl": "assets/images/stories/stone_soup_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 5: ሰዎቹ በአንድ ጠረጴዛ ዙሪያ ተቀምጠው ሾርባውን አጋሩ።",
+      "illustrationPrompt": "A parent adding a small carrot to the soup pot.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "መንደሩ ከዚያ ቀን በኋላ መጋራት ቤትን እንደሚያሞቅ አስታወሰ።",
-      "textEn": "Page 6 of Stone Soup.",
+      "textAm": "ሌላ ሰው ቆሎ አመጣ፣ አንድ አያትም ጨው አመጡ። ማሰሮው በቀስታ መቀቀል ጀመረ።",
+      "textEn": "Others brought corn and salt, and the pot began to simmer.",
       "imageUrl": "assets/images/stories/stone_soup_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Stone Soup, page 6: መንደሩ ከዚያ ቀን በኋላ መጋራት ቤትን እንደሚያሞቅ አስታወሰ።",
+      "illustrationPrompt": "Villagers adding corn and salt while the soup pot gently simmers.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በትንሽ ጊዜ ሽታው መንደሩን ሞላ። በር የዘጉ ቤቶች ተከፈቱ፣ ሰዎችም በፈገግታ ወደ መካከሉ መጡ።",
+      "textEn": "Soon the smell filled the village and more people came outside.",
+      "imageUrl": "assets/images/stories/stone_soup_page_07.webp",
+      "illustrationPrompt": "Warm soup aroma bringing smiling villagers into the square.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንድ ልጅ ትንሽ ቅጠል አመጣ፣ ሌላ ልጅም ንጹሕ ሳህኖችን አዘጋጀ። ሁሉም ለሾርባው አንድ ነገር አደረጉ።",
+      "textEn": "Children helped with herbs and bowls.",
+      "imageUrl": "assets/images/stories/stone_soup_page_08.webp",
+      "illustrationPrompt": "Children bringing herbs and setting bowls near the soup pot.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ሰዎቹ በአንድ ረጅም ጠረጴዛ ዙሪያ ተቀመጡ። ሾርባውን ሲቀምሱ “እንዴት ጣፋጭ ሆነ!” ብለው ተደሰቱ።",
+      "textEn": "Everyone sat together and tasted the warm soup.",
+      "imageUrl": "assets/images/stories/stone_soup_page_09.webp",
+      "illustrationPrompt": "Villagers sharing soup around a long table with warm smiles.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ተጓዡ ድንጋዩን አጥቦ በኪሱ አስቀመጠ። መንደሩም ከዚያ ቀን በኋላ መጋራት ቤትን እና ልብን እንደሚያሞቅ አስታወሰ።",
+      "textEn": "The traveler kept his stone, and the village remembered to share.",
+      "imageUrl": "assets/images/stories/stone_soup_page_10.webp",
+      "illustrationPrompt": "The traveler washing the little stone while villagers wave goodbye warmly.",
       "audioUrl": null
     }
   ]

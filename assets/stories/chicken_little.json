@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ትንሿ ዶሮ በጓሮ ውስጥ ቆሎ ትፈልግ ነበር።",
-      "textEn": "Page 1 of Chicken Little.",
+      "textAm": "ትንሿ ዶሮ በጓሮ ውስጥ በጠዋት ፀሐይ ቆሎ ትፈልግ ነበር። ጓደኞቿ በአቅራቢያ በሰላም ይጫወቱ ነበር።",
+      "textEn": "Chicken Little searched for corn in the morning yard.",
       "imageUrl": "assets/images/stories/chicken_little_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 1: ትንሿ ዶሮ በጓሮ ውስጥ ቆሎ ትፈልግ ነበር።",
+      "illustrationPrompt": "Chicken Little searching for corn in a sunny yard with friends nearby.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "አንድ ትንሽ ፍሬ ከዛፍ ወደቀና በራሷ አጠገብ ወደቀ።",
-      "textEn": "Page 2 of Chicken Little.",
+      "textAm": "ከዛፉ ላይ አንድ ትንሽ ፍሬ “ጥፍ!” ብሎ ከእሷ አጠገብ ወደቀ። ትንሿ ዶሮ በድንጋጤ ወደ ላይ ተመለከተች።",
+      "textEn": "A small fruit fell beside her with a tap.",
       "imageUrl": "assets/images/stories/chicken_little_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 2: አንድ ትንሽ ፍሬ ከዛፍ ወደቀና በራሷ አጠገብ ወደቀ።",
+      "illustrationPrompt": "A small fruit falling near Chicken Little under a friendly tree.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "“ምን ሆነ?” ብላ ተገረመች፣ ግን በቀስታ መመርመር ጀመረች።",
-      "textEn": "Page 3 of Chicken Little.",
+      "textAm": "“ምን ሆነ?” ብላ ተገረመች። ከመሮጥ በፊት ግን አንድ ጥልቅ ትንፋሽ ወሰደች።",
+      "textEn": "She wondered what happened, then took a deep breath.",
       "imageUrl": "assets/images/stories/chicken_little_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 3: “ምን ሆነ?” ብላ ተገረመች፣ ግን በቀስታ መመርመር ጀመረች።",
+      "illustrationPrompt": "Chicken Little pausing and taking a calm breath in the yard.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ጓደኞቿን ጠራች፣ ሁሉም ዛፉን እና ፍሬውን ተመለከቱ።",
-      "textEn": "Page 4 of Chicken Little.",
+      "textAm": "እሷ ጓደኞቿን ጠራች። “አንድ ድምፅ ሰማሁ፣ እንድንመረምር ትረዱኛላችሁ?” ብላ በጥሩ ቃል ጠየቀች።",
+      "textEn": "She asked her friends to help her investigate.",
       "imageUrl": "assets/images/stories/chicken_little_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 4: ጓደኞቿን ጠራች፣ ሁሉም ዛፉን እና ፍሬውን ተመለከቱ።",
+      "illustrationPrompt": "Chicken Little asking animal friends for help in the yard.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ጉጉት ያለው ወፍ “ይህ የዛፍ ፍሬ ነው” ብሎ አስረዳ።",
-      "textEn": "Page 5 of Chicken Little.",
+      "textAm": "ዳክዬው መሬቱን ተመለከተ፣ ጥንቸሉም በዛፉ በታች ተቀመጠ። ሁሉም በቀስታ ምልክቶቹን መመርመር ጀመሩ።",
+      "textEn": "Duck and Rabbit looked carefully for clues.",
       "imageUrl": "assets/images/stories/chicken_little_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 5: ጉጉት ያለው ወፍ “ይህ የዛፍ ፍሬ ነው” ብሎ አስረዳ።",
+      "illustrationPrompt": "Duck, rabbit, and Chicken Little gently looking for clues near a tree.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ትንሿ ዶሮ ከዚያ ቀን በኋላ ከመሮጥ በፊት መጠየቅን ተማረች።",
-      "textEn": "Page 6 of Chicken Little.",
+      "textAm": "ጉጉት ያለው ወፍ ከቅርንጫፍ ላይ ወደታች ተመለከተ። “ይህ የዛፍ ፍሬ ነው፤ ሰማዩ አልወደቀም” ብሎ በፈገግታ አስረዳ።",
+      "textEn": "A curious bird explained that the sound came from a fruit.",
       "imageUrl": "assets/images/stories/chicken_little_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Chicken Little, page 6: ትንሿ ዶሮ ከዚያ ቀን በኋላ ከመሮጥ በፊት መጠየቅን ተማረች።",
+      "illustrationPrompt": "A friendly bird explaining the fallen fruit to Chicken Little.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ትንሿ ዶሮ ፍሬውን አንስታ ተመለከተች። “አዎ፣ ትንሽ ፍሬ ነው፤ ትልቅ ጭንቀት አያስፈልግም” አለች።",
+      "textEn": "Chicken Little looked at the fruit and understood.",
+      "imageUrl": "assets/images/stories/chicken_little_page_07.webp",
+      "illustrationPrompt": "Chicken Little holding a small fruit and smiling with relief.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ጓደኞቿ “መጀመሪያ ቆመን አሰብን፣ ከዚያም ጠየቅን” ብለው ተደሰቱ። በጓሮው ውስጥ ሁሉም በሰላም ተሳቁ።",
+      "textEn": "Her friends were glad they stopped, thought, and asked.",
+      "imageUrl": "assets/images/stories/chicken_little_page_08.webp",
+      "illustrationPrompt": "Animal friends laughing gently together in a sunny yard.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ትንሿ ዶሮ ከፍሬው ዘር ትንሽ ቦታ ላይ ተከለች። “አንድ ቀን አዲስ ዛፍ ይሆናል” አለች።",
+      "textEn": "Chicken Little planted the fruit seed for a future tree.",
+      "imageUrl": "assets/images/stories/chicken_little_page_09.webp",
+      "illustrationPrompt": "Chicken Little planting a tiny seed with friends watching.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ከዚያ ቀን በኋላ ድምፅ ሲሰሙ መጀመሪያ ይቆማሉ፣ ይተነፍሳሉ፣ ከዚያም ይመረምራሉ። ትንሿ ዶሮም በቀስታ መጠየቅ ጥበብ እንደሆነ ተማረች።",
+      "textEn": "From then on, they paused, breathed, and checked before worrying.",
+      "imageUrl": "assets/images/stories/chicken_little_page_10.webp",
+      "illustrationPrompt": "Chicken Little and friends calmly exploring the yard together.",
       "audioUrl": null
     }
   ]

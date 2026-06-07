@@ -29,50 +29,82 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ሦስት ፍየሎች በተራራ ዳር ትንሽ ሣር ይበሉ ነበር።",
-      "textEn": "Page 1 of The Three Billy Goats Gruff.",
+      "textAm": "ሦስት ፍየሎች በተራራ ዳር አብረው ይኖሩ ነበር። ትንሹ፣ መካከለኛው እና ትልቁ ፍየል በየቀኑ በቀስታ ይራመዱ ነበር።",
+      "textEn": "Three goats lived together near the mountain.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 1: ሦስት ፍየሎች በተራራ ዳር ትንሽ ሣር ይበሉ ነበር።",
+      "illustrationPrompt": "Three friendly goats near a mountain meadow, warm child-friendly storybook style.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ከወንዙ ማዶ ትልቅ አረንጓዴ ሜዳ አዩ።",
-      "textEn": "Page 2 of The Three Billy Goats Gruff.",
+      "textAm": "በእነሱ ያለው ሣር ትንሽ ሆነ። ከወንዙ ማዶ ግን ሰፊ አረንጓዴ ሜዳ በፀሐይ ይበራ ነበር።",
+      "textEn": "Their grass was small, but a green meadow shone across the river.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 2: ከወንዙ ማዶ ትልቅ አረንጓዴ ሜዳ አዩ።",
+      "illustrationPrompt": "The goats looking across a river toward a bright green meadow.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ድልድዩ ላይ ጮኸኛ እንግዳ ተቀምጦ ነበር።",
-      "textEn": "Page 3 of The Three Billy Goats Gruff.",
+      "textAm": "ወደ ሜዳው ለመሄድ አንድ የእንጨት ድልድይ መሻገር ነበረባቸው። ከድልድዩ በታች ጮኸኛ እንግዳ ብቻውን ተቀምጦ ነበር።",
+      "textEn": "They needed to cross a wooden bridge where a noisy stranger sat.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 3: ድልድዩ ላይ ጮኸኛ እንግዳ ተቀምጦ ነበር።",
+      "illustrationPrompt": "A wooden bridge with a small grumpy but non-scary stranger below.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ትንሹ ፍየል በቀስታ ተናገረ፣ መካከለኛውም መንገድ አቀረበ።",
-      "textEn": "Page 4 of The Three Billy Goats Gruff.",
+      "textAm": "ትንሹ ፍየል መጀመሪያ በቀስታ ተመራ። “እባክህ፣ ወደ ሜዳው ልሻገር?” ብሎ በጨዋነት ጠየቀ።",
+      "textEn": "The smallest goat asked politely to cross first.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 4: ትንሹ ፍየል በቀስታ ተናገረ፣ መካከለኛውም መንገድ አቀረበ።",
+      "illustrationPrompt": "The smallest goat speaking politely on the bridge.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ትልቁ ፍየል “ሁላችንም ሜዳውን እንጋራ” ብሎ እንግዳውን አሳመነው።",
-      "textEn": "Page 5 of The Three Billy Goats Gruff.",
+      "textAm": "እንግዳው “እኔስ ሣር የለኝም” ብሎ አጉረመረመ። ትንሹ ፍየል “እኛ ካገኘን እንካፈልሃለን” አለ።",
+      "textEn": "The stranger grumbled, and the small goat offered to share.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 5: ትልቁ ፍየል “ሁላችንም ሜዳውን እንጋራ” ብሎ እንግዳውን አሳመነው።",
+      "illustrationPrompt": "The small goat kindly offering to share meadow grass with the stranger.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ሁሉም በሰላም ተሻገሩ እና ሣሩን አብረው በደስታ በሉ።",
-      "textEn": "Page 6 of The Three Billy Goats Gruff.",
+      "textAm": "መካከለኛው ፍየል ሲመጣ እንግዳው እንደገና ጮኸ። መካከለኛው ፍየል ግን “በጩኸት ሳይሆን በንግግር እንፈታዋለን” አለ።",
+      "textEn": "The middle goat answered the noise with calm words.",
       "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Three Billy Goats Gruff, page 6: ሁሉም በሰላም ተሻገሩ እና ሣሩን አብረው በደስታ በሉ።",
+      "illustrationPrompt": "The middle goat talking calmly on the bridge while the stranger listens.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ትልቁ ፍየል መጨረሻ መጣ። “ሜዳው ለአንዳችን ብቻ አይደለም፤ ሁላችንም በሰላም እንጠቀምበት” ብሎ በልብ ያለ ቃል ተናገረ።",
+      "textEn": "The biggest goat invited everyone to share the meadow peacefully.",
+      "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_07.webp",
+      "illustrationPrompt": "The largest goat calmly inviting everyone to share the meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "እንግዳው ትንሽ ተረጋጋ። እሱም ብቻውን ስለነበር እንደሚጮኽ ተናገረ።",
+      "textEn": "The stranger calmed down and said he had felt lonely.",
+      "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_08.webp",
+      "illustrationPrompt": "The bridge stranger looking calmer as the goats listen kindly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ፍየሎቹ እንግዳውን ከእነሱ ጋር ለመሻገር ጋበዙት። በድልድዩ ላይ በቀስታ ተጓዙ፣ ወንዙም በሰላም ይፈስ ነበር።",
+      "textEn": "The goats invited the stranger to cross with them.",
+      "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_09.webp",
+      "illustrationPrompt": "The goats and the small stranger crossing the wooden bridge together.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በአረንጓዴው ሜዳ ሁሉም ሣሩን ተካፈሉ። ከዚያ ቀን በኋላ ድልድዩ የጩኸት ቦታ ሳይሆን የጓደኝነት መንገድ ሆነ።",
+      "textEn": "In the green meadow, everyone shared and became friends.",
+      "imageUrl": "assets/images/stories/three_billy_goats_gruff_page_10.webp",
+      "illustrationPrompt": "The goats and the stranger sharing a sunny green meadow as friends.",
       "audioUrl": null
     }
   ]
