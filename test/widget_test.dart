@@ -653,6 +653,67 @@ void main() {
     await settings.deleteFromDisk();
   });
 
+  test('story provider filters visible stories by collection', () async {
+    final cache = await Hive.openBox('collection_filter_cache_test');
+    final settings = await Hive.openBox('collection_filter_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+
+    expect(provider.availableCollections, ['original', 'world_classics']);
+
+    provider.setSelectedCollection('world_classics');
+
+    expect(provider.selectedCollection, 'world_classics');
+    expect(provider.visibleStories.map((story) => story.id), ['forest_story']);
+
+    provider.setSelectedCollection(null);
+
+    expect(provider.visibleStories, hasLength(2));
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
+  test('story provider combines collection with search and favorites',
+      () async {
+    final cache = await Hive.openBox('collection_search_favorites_cache_test');
+    final settings =
+        await Hive.openBox('collection_search_favorites_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+    await provider.toggleFavorite('flower_story');
+
+    provider.setShowFavoritesOnly(true);
+    provider.setSelectedCollection('world_classics');
+    provider.setSearchQuery('forest');
+
+    expect(provider.visibleStories, isEmpty);
+
+    provider.setSelectedCollection('original');
+    provider.setSearchQuery('kindness');
+
+    expect(provider.visibleStories.map((story) => story.id), ['flower_story']);
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   testWidgets('story details shows audio coming soon when audio is missing',
       (tester) async {
     final repository = StoryRepository(
@@ -846,6 +907,7 @@ class _SearchableLocalStoryService extends LocalStoryService {
     return [
       Story(
         id: 'flower_story',
+        collection: 'original',
         titleAm: 'የአበባዋ ታሪክ',
         titleEn: 'Flower Story',
         coverImage: 'assets/images/stories/flower.webp',
@@ -856,6 +918,7 @@ class _SearchableLocalStoryService extends LocalStoryService {
       ),
       Story(
         id: 'forest_story',
+        collection: 'world_classics',
         titleAm: 'የጫካው ታሪክ',
         titleEn: 'Forest Story',
         coverImage: 'assets/images/stories/forest.webp',

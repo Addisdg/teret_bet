@@ -157,6 +157,10 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
                   provider.setShowFavoritesOnly(selection.first);
                 },
               ),
+              if (provider.availableCollections.isNotEmpty) ...[
+                const SizedBox(height: 10),
+                _CollectionFilter(provider: provider),
+              ],
             ],
           ),
         ),
@@ -193,16 +197,89 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
 
   String _emptyMessage(StoryProvider provider) {
     final hasSearch = provider.searchQuery.trim().isNotEmpty;
+    final hasCollection = provider.selectedCollection != null;
+
+    if (hasSearch && provider.showFavoritesOnly && hasCollection) {
+      return 'በዚህ ምድብ እና በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+    }
 
     if (hasSearch && provider.showFavoritesOnly) {
       return 'በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+    }
+
+    if (hasSearch && hasCollection) {
+      return 'በዚህ ምድብ ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
     }
 
     if (hasSearch) {
       return 'ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
     }
 
+    if (hasCollection && provider.showFavoritesOnly) {
+      return 'በዚህ ምድብ ውስጥ የተወደደ ታሪክ አልተገኘም።';
+    }
+
+    if (hasCollection) {
+      return 'በዚህ ምድብ ውስጥ ታሪክ አልተገኘም።';
+    }
+
     return 'እስካሁን የተወደዱ ታሪኮች የሉም።';
+  }
+}
+
+class _CollectionFilter extends StatelessWidget {
+  final StoryProvider provider;
+
+  const _CollectionFilter({
+    required this.provider,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final selectedCollection = provider.selectedCollection;
+
+    return SizedBox(
+      height: 42,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: FilterChip(
+              label: const Text('ሁሉም ምድቦች'),
+              selected: selectedCollection == null,
+              onSelected: (_) {
+                provider.setSelectedCollection(null);
+              },
+            ),
+          ),
+          for (final collection in provider.availableCollections)
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: FilterChip(
+                label: Text(_collectionLabel(collection)),
+                selected: selectedCollection == collection,
+                onSelected: (_) {
+                  provider.setSelectedCollection(collection);
+                },
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+  String _collectionLabel(String collection) {
+    return switch (collection) {
+      'original' => 'ኦሪጅናል',
+      'aesop' => 'ኤሶፕ',
+      'grimm' => 'ግሪም',
+      'andersen' => 'አንደርሰን',
+      'world_classics' => 'ዓለም ክላሲክ',
+      'world_folktales' => 'ዓለም ተረቶች',
+      'african_folktales' => 'አፍሪካ',
+      _ => collection,
+    };
   }
 }
 

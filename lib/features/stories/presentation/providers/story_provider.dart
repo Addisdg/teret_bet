@@ -15,6 +15,7 @@ class StoryProvider with ChangeNotifier {
   bool _isLoading = false;
   bool _showFavoritesOnly = false;
   String _searchQuery = '';
+  String? _selectedCollection;
   String? _errorMessage;
 
   StoryProvider({
@@ -33,6 +34,12 @@ class StoryProvider with ChangeNotifier {
       filteredStories = filteredStories.where((story) => isFavorite(story.id));
     }
 
+    if (_selectedCollection != null) {
+      filteredStories = filteredStories.where(
+        (story) => story.collection == _selectedCollection,
+      );
+    }
+
     final normalizedQuery = _searchQuery.trim().toLowerCase();
     if (normalizedQuery.isNotEmpty) {
       filteredStories = filteredStories.where(
@@ -43,8 +50,30 @@ class StoryProvider with ChangeNotifier {
     return filteredStories.toList();
   }
 
+  List<String> get availableCollections {
+    final collections = _stories
+        .map((story) => story.collection)
+        .where((collection) => collection.isNotEmpty)
+        .toSet()
+        .toList();
+
+    collections.sort((left, right) {
+      final leftIndex = _collectionSortOrder.indexOf(left);
+      final rightIndex = _collectionSortOrder.indexOf(right);
+
+      if (leftIndex != -1 || rightIndex != -1) {
+        return _sortIndex(leftIndex).compareTo(_sortIndex(rightIndex));
+      }
+
+      return left.compareTo(right);
+    });
+
+    return collections;
+  }
+
   bool get showFavoritesOnly => _showFavoritesOnly;
   String get searchQuery => _searchQuery;
+  String? get selectedCollection => _selectedCollection;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
 
@@ -100,6 +129,15 @@ class StoryProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void setSelectedCollection(String? value) {
+    if (_selectedCollection == value) {
+      return;
+    }
+
+    _selectedCollection = value;
+    notifyListeners();
+  }
+
   bool _storyMatchesSearch(Story story, String normalizedQuery) {
     final searchableText = [
       story.titleAm,
@@ -126,5 +164,19 @@ class StoryProvider with ChangeNotifier {
     }
 
     return {};
+  }
+
+  static const _collectionSortOrder = [
+    'original',
+    'aesop',
+    'grimm',
+    'andersen',
+    'world_classics',
+    'world_folktales',
+    'african_folktales',
+  ];
+
+  int _sortIndex(int index) {
+    return index == -1 ? _collectionSortOrder.length : index;
   }
 }
