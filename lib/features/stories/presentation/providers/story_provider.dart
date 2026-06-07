@@ -74,6 +74,10 @@ class StoryProvider with ChangeNotifier {
   bool get showFavoritesOnly => _showFavoritesOnly;
   String get searchQuery => _searchQuery;
   String? get selectedCollection => _selectedCollection;
+  bool get hasActiveFilters =>
+      _showFavoritesOnly ||
+      _searchQuery.trim().isNotEmpty ||
+      _selectedCollection != null;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
 
@@ -135,6 +139,17 @@ class StoryProvider with ChangeNotifier {
     }
 
     _selectedCollection = value;
+    notifyListeners();
+  }
+
+  void clearFilters() {
+    if (!hasActiveFilters) {
+      return;
+    }
+
+    _showFavoritesOnly = false;
+    _searchQuery = '';
+    _selectedCollection = null;
     notifyListeners();
   }
 

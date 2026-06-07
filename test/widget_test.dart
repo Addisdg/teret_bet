@@ -714,6 +714,40 @@ void main() {
     await settings.deleteFromDisk();
   });
 
+  test('story provider clears active library filters', () async {
+    final cache = await Hive.openBox('clear_filters_cache_test');
+    final settings = await Hive.openBox('clear_filters_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    await provider.loadStories();
+    await provider.toggleFavorite('flower_story');
+
+    provider.setShowFavoritesOnly(true);
+    provider.setSelectedCollection('original');
+    provider.setSearchQuery('kindness');
+
+    expect(provider.hasActiveFilters, isTrue);
+    expect(provider.visibleStories.map((story) => story.id), ['flower_story']);
+
+    provider.clearFilters();
+
+    expect(provider.showFavoritesOnly, isFalse);
+    expect(provider.selectedCollection, isNull);
+    expect(provider.searchQuery, isEmpty);
+    expect(provider.hasActiveFilters, isFalse);
+    expect(provider.visibleStories, hasLength(2));
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   testWidgets('story details shows audio coming soon when audio is missing',
       (tester) async {
     final repository = StoryRepository(

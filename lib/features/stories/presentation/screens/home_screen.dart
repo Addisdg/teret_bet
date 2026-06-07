@@ -161,6 +161,16 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
                 const SizedBox(height: 10),
                 _CollectionFilter(provider: provider),
               ],
+              const SizedBox(height: 8),
+              _LibraryStatusBar(
+                visibleCount: visibleStories.length,
+                totalCount: provider.stories.length,
+                hasActiveFilters: provider.hasActiveFilters,
+                onClearFilters: () {
+                  _searchController.clear();
+                  provider.clearFilters();
+                },
+              ),
             ],
           ),
         ),
@@ -224,6 +234,47 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
     }
 
     return 'እስካሁን የተወደዱ ታሪኮች የሉም።';
+  }
+}
+
+class _LibraryStatusBar extends StatelessWidget {
+  final int visibleCount;
+  final int totalCount;
+  final bool hasActiveFilters;
+  final VoidCallback onClearFilters;
+
+  const _LibraryStatusBar({
+    required this.visibleCount,
+    required this.totalCount,
+    required this.hasActiveFilters,
+    required this.onClearFilters,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final countText = hasActiveFilters
+        ? '$visibleCount / $totalCount ታሪኮች'
+        : '$totalCount ታሪኮች';
+
+    return Row(
+      children: [
+        Text(
+          countText,
+          style: TextStyle(
+            color: colorScheme.onSurfaceVariant,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        const Spacer(),
+        if (hasActiveFilters)
+          TextButton.icon(
+            onPressed: onClearFilters,
+            icon: const Icon(Icons.clear_all),
+            label: const Text('ማጣሪያ አጥፋ'),
+          ),
+      ],
+    );
   }
 }
 
