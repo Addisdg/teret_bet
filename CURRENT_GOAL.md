@@ -34,6 +34,8 @@ before external testing.
 * Branded launcher icons prepared for Android, iOS, macOS, and web
 * Library search added for Amharic titles, English titles, summaries,
   collections, and themes
+* Local Android release smoke build passes without Firebase/signing secrets,
+  using debug signing fallback for the generated APK
 
 ## Current Release Identity
 

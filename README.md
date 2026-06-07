@@ -240,7 +240,15 @@ flutter run -d <device-id> \
   --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
-Build Android release:
+Build a local Android release smoke APK. If `android/key.properties` is missing,
+Gradle uses the debug signing fallback documented in
+[`docs/firebase_configuration.md`](docs/firebase_configuration.md):
+
+```bash
+flutter build apk --release
+```
+
+Build a Firebase-backed Android release:
 
 ```bash
 flutter build apk --release \
