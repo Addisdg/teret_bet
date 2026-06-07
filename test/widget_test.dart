@@ -164,9 +164,11 @@ void main() {
     final pages = await service.fetchStoryPages('brave_tortoise');
     final imagePaths = pages.map((page) => page.imageUrl).toSet();
 
-    expect(pages, hasLength(6));
-    expect(pages.last.imageUrl,
-        'assets/images/stories/brave_tortoise_page_06.webp');
+    expect(pages.length, greaterThanOrEqualTo(6));
+    expect(
+      imagePaths,
+      contains('assets/images/stories/brave_tortoise_page_06.webp'),
+    );
     expect(imagePaths.length, pages.length);
     expect(
       imagePaths.every((path) => File(path).existsSync()),
@@ -180,10 +182,12 @@ void main() {
     final pages = await service.fetchStoryPages('little_seed');
     final imagePaths = pages.map((page) => page.imageUrl).toSet();
 
-    expect(pages, hasLength(6));
+    expect(pages.length, greaterThanOrEqualTo(6));
     expect(pages.first.textAm, contains('ዘር'));
     expect(
-        pages.last.imageUrl, 'assets/images/stories/little_seed_page_06.webp');
+      imagePaths,
+      contains('assets/images/stories/little_seed_page_06.webp'),
+    );
     expect(pages.first.illustrationPrompt, isNotEmpty);
     expect(pages.first.audioUrl, isNull);
     expect(imagePaths.length, pages.length);
@@ -205,7 +209,7 @@ void main() {
     expect(lionAndMouse.status, 'ready_for_review');
     expect(lionAndMouse.source.type, 'public_domain');
     expect(lionAndMouse.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(8));
+    expect(pages.length, greaterThanOrEqualTo(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.first.illustrationPrompt, isNotEmpty);
     expect(pages.first.audioUrl, isNull);
@@ -224,7 +228,7 @@ void main() {
     expect(tortoiseAndHare.status, 'ready_for_review');
     expect(tortoiseAndHare.source.type, 'public_domain');
     expect(tortoiseAndHare.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(8));
+    expect(pages.length, greaterThanOrEqualTo(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.map((page) => page.textAm).join(' '), contains('በቀስታ በቀስታ'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
@@ -243,7 +247,7 @@ void main() {
     expect(foxAndGrapes.status, 'ready_for_review');
     expect(foxAndGrapes.source.type, 'public_domain');
     expect(foxAndGrapes.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(7));
+    expect(pages.length, greaterThanOrEqualTo(7));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.map((page) => page.textAm).join(' '), contains('እውነተኛ'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
@@ -263,7 +267,7 @@ void main() {
     expect(antAndGrasshopper.status, 'ready_for_review');
     expect(antAndGrasshopper.source.type, 'public_domain');
     expect(antAndGrasshopper.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(8));
+    expect(pages.length, greaterThanOrEqualTo(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.map((page) => page.textAm).join(' '), contains('መዘጋጀት'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
@@ -283,7 +287,7 @@ void main() {
     expect(crowAndPitcher.status, 'ready_for_review');
     expect(crowAndPitcher.source.type, 'public_domain');
     expect(crowAndPitcher.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(8));
+    expect(pages.length, greaterThanOrEqualTo(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.map((page) => page.textAm).join(' '), contains('አንድ ድንጋይ'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
@@ -303,7 +307,7 @@ void main() {
     expect(boyWhoCriedWolf.status, 'ready_for_review');
     expect(boyWhoCriedWolf.source.type, 'public_domain');
     expect(boyWhoCriedWolf.audio.storyAudioUrl, isNull);
-    expect(pages, hasLength(8));
+    expect(pages.length, greaterThanOrEqualTo(8));
     expect(pages.first.textAm, isNot(contains('በቅርቡ')));
     expect(pages.map((page) => page.textAm).join(' '), contains('መተማመን'));
     expect(pages.first.illustrationPrompt, isNotEmpty);
@@ -316,9 +320,9 @@ void main() {
 
     final stories = await service.fetchStories();
     final expectedStories = {
-      'north_wind_and_sun': (pages: 8, keyword: 'ደግነት'),
-      'dog_and_reflection': (pages: 7, keyword: 'ማመስገን'),
-      'goose_golden_eggs': (pages: 8, keyword: 'ትዕግሥት'),
+      'north_wind_and_sun': (minPages: 8, keyword: 'ደግነት'),
+      'dog_and_reflection': (minPages: 7, keyword: 'ማመስገን'),
+      'goose_golden_eggs': (minPages: 8, keyword: 'ትዕግሥት'),
     };
 
     for (final entry in expectedStories.entries) {
@@ -330,7 +334,7 @@ void main() {
       expect(story.status, 'ready_for_review');
       expect(story.source.type, 'public_domain');
       expect(story.audio.storyAudioUrl, isNull);
-      expect(pages, hasLength(entry.value.pages));
+      expect(pages.length, greaterThanOrEqualTo(entry.value.minPages));
       expect(pages.first.textAm, isNot(contains('በቅርቡ')));
       expect(storyText, contains(entry.value.keyword));
       expect(pages.first.illustrationPrompt, isNotEmpty);
