@@ -72,6 +72,8 @@ class StoryDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 16),
+                      _StoryInfo(story: story),
+                      const SizedBox(height: 16),
                       _AudioStatus(
                         audioAvailable: story.audio.storyAudioUrl != null,
                       ),
@@ -100,6 +102,147 @@ class StoryDetailsScreen extends StatelessWidget {
               ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class _StoryInfo extends StatelessWidget {
+  final Story story;
+
+  const _StoryInfo({
+    required this.story,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final collectionLabel = _collectionLabel(story.collection);
+    final hasMoral = story.moralAm.trim().isNotEmpty;
+
+    return Column(
+      children: [
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: 8,
+          runSpacing: 8,
+          children: [
+            _InfoChip(
+              icon: Icons.child_care,
+              label: 'ዕድሜ ${story.ageMin}-${story.ageMax}',
+            ),
+            if (collectionLabel != null)
+              _InfoChip(
+                icon: Icons.auto_stories,
+                label: collectionLabel,
+              ),
+          ],
+        ),
+        if (hasMoral) ...[
+          const SizedBox(height: 14),
+          _MoralBox(moral: story.moralAm),
+        ],
+      ],
+    );
+  }
+
+  String? _collectionLabel(String collection) {
+    return switch (collection) {
+      'original' => 'ኦሪጅናል',
+      'aesop' => 'ተረት እና ትምህርት',
+      'grimm' => 'የተለመዱ ተረቶች',
+      'andersen' => 'የተለመዱ ተረቶች',
+      'world_classics' => 'ዓለም ተረቶች',
+      'world_folktales' => 'ዓለም ተረቶች',
+      'african_folktales' => 'የአፍሪካ ተረቶች',
+      _ => null,
+    };
+  }
+}
+
+class _InfoChip extends StatelessWidget {
+  final IconData icon;
+  final String label;
+
+  const _InfoChip({
+    required this.icon,
+    required this.label,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: colorScheme.surfaceContainerHighest,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              size: 18,
+              color: colorScheme.onSurfaceVariant,
+            ),
+            const SizedBox(width: 6),
+            Text(
+              label,
+              style: TextStyle(
+                color: colorScheme.onSurfaceVariant,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _MoralBox extends StatelessWidget {
+  final String moral;
+
+  const _MoralBox({
+    required this.moral,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: colorScheme.outlineVariant,
+        ),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(
+              Icons.favorite,
+              size: 20,
+              color: colorScheme.primary,
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                moral,
+                textAlign: TextAlign.start,
+                style: const TextStyle(
+                  fontSize: 16,
+                  height: 1.5,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

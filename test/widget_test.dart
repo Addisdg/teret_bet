@@ -688,6 +688,45 @@ void main() {
 
     await tester.pumpWidget(const SizedBox.shrink());
   });
+
+  testWidgets('story details shows parent-facing story metadata',
+      (tester) async {
+    final repository = StoryRepository(
+      firestoreService: _ThrowingFirestoreStoryService(),
+      localStoryService: _FakeLocalStoryService(),
+      cache: widgetCacheBox,
+    );
+
+    await tester.pumpWidget(
+      ChangeNotifierProvider(
+        create: (_) => StoryProvider(
+          repository: repository,
+          settingsBox: widgetSettingsBox,
+        ),
+        child: MaterialApp(
+          home: StoryDetailsScreen(
+            story: Story(
+              id: 'details_metadata_test',
+              collection: 'aesop',
+              titleAm: 'የመረጃ ሙከራ',
+              titleEn: 'Details Metadata Test',
+              coverImage: '',
+              summaryAm: 'የሙከራ ማጠቃለያ',
+              moralAm: 'ትንሽ ደግነት ትልቅ እርዳታ ይሆናል።',
+              ageMin: 4,
+              ageMax: 6,
+            ),
+          ),
+        ),
+      ),
+    );
+
+    expect(find.text('ዕድሜ 4-6'), findsOneWidget);
+    expect(find.text('ተረት እና ትምህርት'), findsOneWidget);
+    expect(find.text('ትንሽ ደግነት ትልቅ እርዳታ ይሆናል።'), findsOneWidget);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
 }
 
 class _ThrowingFirestoreStoryService extends FirestoreStoryService {
