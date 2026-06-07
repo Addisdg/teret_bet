@@ -36,6 +36,11 @@ before external testing.
   collections, and themes
 * Local Android release smoke build passes without Firebase/signing secrets,
   using debug signing fallback for the generated APK
+* First story expansion batch completed with page-specific local artwork:
+  `three_billy_goats_gruff`, `name_of_tree`, `chicken_little`,
+  `jack_and_beanstalk`, and `stone_soup`
+* Tests and catalog QA now allow stories to grow beyond fixed page counts; story
+  length is content-driven with no hard upper page limit
 
 ## Current Release Identity
 
@@ -45,10 +50,23 @@ before external testing.
 
 ## Next Recommended Task
 
-Review and polish the full 50-story catalog for release feedback: content QA,
-illustration QA, parent-facing copy, and any final launch-blocking UI issues.
-Use the library search and favorites filter to review by collection, theme, and
-story title during feedback sessions.
+Continue catalog expansion before broad feedback review. The current priority is
+to expand the remaining very short six-page stories into fuller adaptations,
+using as many pages as each story needs and adding matching page-specific local
+WebP artwork for every new page.
+
+Next expansion batch:
+
+* `puss_in_boots`
+* `town_mouse_country_mouse`
+* `little_red_hen`
+* `selfish_giant`
+* `sleeping_beauty`
+
+After each expansion batch, run `dart run tool/catalog_qa.dart`,
+`flutter analyze`, and `flutter test`. Use the library search, collection
+filters, and favorites filter to review by collection, theme, and story title
+during feedback sessions.
 
 Release signing also remains before external Android testing: create release
 signing credentials outside the repository, add the matching local/CI secret

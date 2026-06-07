@@ -63,6 +63,13 @@ Implemented:
 * Story content schema documentation
 * 50-story local story manifest
 * Feedback-ready Amharic adaptations for all current manifest stories
+* First catalog expansion batch with longer content-driven adaptations and
+  page-specific local WebP artwork for:
+  * three_billy_goats_gruff
+  * name_of_tree
+  * chicken_little
+  * jack_and_beanstalk
+  * stone_soup
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -144,6 +151,10 @@ All current manifest stories reference local image assets. Each reader page uses
 a unique bundled WebP image path so stories do not repeat the same picture across
 pages.
 
+Story length is content-driven. Do not force stories into a six-page or ten-page
+shape. Use as many pages as the story needs, and add matching page-specific
+local WebP art for every new page.
+
 Firestore structure:
 
 stories/{storyId}
@@ -172,6 +183,10 @@ content, and `LocalStoryService` reads story IDs from
 `assets/stories/story_manifest.json` before loading each local JSON story.
 During MVP review, Firestore and Hive results are supplemented with any missing
 local manifest stories so the full bundled catalog remains visible in the app.
+
+Current expansion priority: continue expanding the remaining very short six-page
+stories, starting with `puss_in_boots`, `town_mouse_country_mouse`,
+`little_red_hen`, `selfish_giant`, and `sleeping_beauty`.
 
 ## Long-Term Goals
 

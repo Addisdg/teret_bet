@@ -163,6 +163,28 @@ Current local manifest:
 All 50 manifest stories have bundled local cover/page images and do not depend
 on placeholder image URLs.
 
+### Catalog Expansion Status
+
+Story length is content-driven. Do not force stories into a six-page or
+ten-page shape; use as many pages as each story needs. Every added page must
+include matching local WebP artwork and a complete page entry in the story JSON.
+
+Expanded so far:
+
+- `three_billy_goats_gruff`
+- `name_of_tree`
+- `chicken_little`
+- `jack_and_beanstalk`
+- `stone_soup`
+
+Next recommended expansion batch:
+
+- `puss_in_boots`
+- `town_mouse_country_mouse`
+- `little_red_hen`
+- `selfish_giant`
+- `sleeping_beauty`
+
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).
 

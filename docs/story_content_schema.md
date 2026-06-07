@@ -101,6 +101,9 @@ For feedback builds, every manifest story should avoid `placehold.co` or other
 temporary placeholder URLs. Each story page should reference a unique local
 cover-style image path instead of reusing the cover image or lower-quality
 temporary art, and each referenced asset must exist in `assets/images/stories/`.
+Story length should be driven by the story, not by a fixed upper page count.
+When adding pages during expansion, add a matching page-specific local WebP
+asset for every new page and keep page numbers sequential.
 
 ## Illustration Style
 

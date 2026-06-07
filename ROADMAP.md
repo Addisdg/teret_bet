@@ -39,11 +39,17 @@
 * Favorite stories with local persistence and library filtering
 * Library search for Amharic titles, English titles, summaries, collections,
   and themes
+* First catalog expansion batch with longer adaptations and page-specific local
+  artwork
 
 ## Next
 
 ### Phase 1
 
+* Continue expanding very short stories without a fixed upper page limit
+* Add matching page-specific local WebP art for every new page
+* Next expansion batch: `puss_in_boots`, `town_mouse_country_mouse`,
+  `little_red_hen`, `selfish_giant`, and `sleeping_beauty`
 * Review full 50-story wording with parent/child feedback
 * Polish story wording and page art based on feedback
 * Resolve any final launch-blocking UI issues found during catalog review
