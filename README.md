@@ -204,6 +204,12 @@ image or lower-quality temporary panels.
 
 ## Local Testing
 
+Run catalog QA before feedback sessions or Firestore upload:
+
+```bash
+dart run tool/catalog_qa.dart
+```
+
 Run on web server:
 
 ```bash
