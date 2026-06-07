@@ -53,14 +53,16 @@ Implemented:
 * Reading progress UI
 * Reading progress persistence
 * Favorite stories with local persistence and a library favorites filter
+* Library search across Amharic titles, English titles, summaries, collections,
+  and themes
 * Settings screen with font size control
 * Local cover illustrations
 * Unique cover-style local per-page illustrations for all current manifest stories
 * Local generated cover illustrations for all current manifest stories
 * Optimized WebP story assets
 * Story content schema documentation
-* Batch 1 local story manifest
-* Feedback-ready Amharic adaptations for all Batch 1 manifest stories
+* 50-story local story manifest
+* Feedback-ready Amharic adaptations for all current manifest stories
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -125,7 +127,7 @@ All 50 manifest stories have bundled local cover/page artwork and do not depend
 on placeholder image URLs.
 
 Additional finished local stories currently kept as assets but not listed in
-the Batch 1 manifest:
+the 50-story manifest:
 
 * brave_tortoise
 * little_seed
@@ -173,11 +175,10 @@ local manifest stories so the full bundled catalog remains visible in the app.
 
 ## Long-Term Goals
 
-* 20+ stories
 * Audio narration
 * Language switching
 * Story downloads
-* Favorites
 * Parent settings
 * Analytics
 * Monetization
+* Publishing

@@ -21,7 +21,7 @@
 * More local story content
 * 50-story foundation documentation
 * Story schema upgrade for content roadmap
-* Manifest-based Batch 1 story catalog
+* Manifest-based 50-story local catalog
 * Audio-ready UI placeholders
 * First Batch 1 story adaptation: lion_and_mouse
 * Second Batch 1 story adaptation: tortoise_and_hare
@@ -36,20 +36,24 @@
 * Local cover illustrations for all current manifest stories
 * Removed placeholder image URLs from local story JSON
 * Cover-style local page illustrations for all current manifest stories
+* Favorite stories with local persistence and library filtering
+* Library search for Amharic titles, English titles, summaries, collections,
+  and themes
 
 ## Next
 
 ### Phase 1
 
-* Review current Batch 1 wording with parent/child feedback
+* Review full 50-story wording with parent/child feedback
 * Polish story wording and page art based on feedback
-* Upload reviewed Batch 1 catalog to Firestore
+* Resolve any final launch-blocking UI issues found during catalog review
+* Upload reviewed 50-story catalog to Firestore
+* Prepare Android release signing credentials outside the repository
 
 ### Phase 2
 
 * Audio narration
 * Language toggle
-* Favorites
 
 ### Phase 3
 

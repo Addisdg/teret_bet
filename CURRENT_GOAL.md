@@ -1,7 +1,7 @@
 # Current Goal
 
 Near-release MVP hardening: make the Android build identifiable as Teret Bet,
-keep the bundled ten-story catalog feedback-ready, and remove release blockers
+keep the bundled 50-story catalog feedback-ready, and remove release blockers
 before external testing.
 
 ## Completed
@@ -32,6 +32,8 @@ before external testing.
 * Android release signing hook prepared for ignored local/CI keystore secrets
 * Web, iOS, and macOS display metadata prepared with the Teret Bet name
 * Branded launcher icons prepared for Android, iOS, macOS, and web
+* Library search added for Amharic titles, English titles, summaries,
+  collections, and themes
 
 ## Current Release Identity
 
@@ -43,6 +45,8 @@ before external testing.
 
 Review and polish the full 50-story catalog for release feedback: content QA,
 illustration QA, parent-facing copy, and any final launch-blocking UI issues.
+Use the library search and favorites filter to review by collection, theme, and
+story title during feedback sessions.
 
 Release signing also remains before external Android testing: create release
 signing credentials outside the repository, add the matching local/CI secret

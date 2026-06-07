@@ -1,8 +1,14 @@
 # First 50 Stories
 
-These candidates form the long-term content foundation. The first ten are marked
-as MVP Batch 1 because they are short, familiar, public-domain-friendly fables
-with clear morals and relatively simple illustration needs.
+These candidates formed the original long-term content foundation. The app has
+since moved from planning into a bundled 50-story feedback catalog with local
+JSON, cover art, and page art listed in `assets/stories/story_manifest.json`.
+
+This table is still useful for source planning, difficulty notes, and collection
+balance. Treat the Status and Priority columns as the original planning state,
+not the current release implementation state. The live manifest replaced the
+planned `fox_and_crow` slot with the original `little_rabbit` story and now
+contains 50 feedback-ready bundled stories.
 
 | ID | Amharic Title | English Source Title | Collection | Target Age | Theme | Source Type | Priority | Audio Difficulty | Illustration Difficulty | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

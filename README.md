@@ -14,13 +14,15 @@ offline access, and safe public-domain-inspired adaptations.
 - Firebase Firestore integration
 - Cached network images
 - Hive story cache and reading progress
-- Manifest-based local JSON fallback with a feedback-ready Batch 1 catalog
+- Manifest-based local JSON fallback with a feedback-ready 50-story catalog
 - Optimized bundled WebP cover illustrations for the full manifest catalog
 - Unique cover-style bundled WebP page illustrations for the full manifest catalog
 - Settings screen with reader font size control
 - Reader controls for page jumping, text-size changes, and distraction-light
   reading
 - Favorite stories with local persistence and a library favorites filter
+- Library search across Amharic titles, English titles, summaries,
+  collections, and themes
 - Audio-ready metadata and placeholder UI
 - Android release package and launcher label configured for Teret Bet
 - Web, iOS, and macOS display metadata configured with the Teret Bet name
@@ -243,11 +245,12 @@ flutter build apk --release \
 
 Current goal:
 
-- Feedback-ready MVP catalog: review the current ten-story local library in-app,
-  polish story wording from parent/child feedback, and decide which stories need
-  final custom illustrations first.
+- Near-release MVP hardening: review the full 50-story local library in-app,
+  polish story wording and page art from parent/child feedback, and remove
+  release blockers before external Android testing.
 
 Next recommended goal:
 
-- Review the current story wording and page art in-app, polish based on
-  parent/child feedback, then upload the reviewed catalog to Firestore.
+- Complete full-catalog content QA and illustration QA, prepare release signing
+  credentials outside the repository, then upload the reviewed catalog to
+  Firestore for external testing.
