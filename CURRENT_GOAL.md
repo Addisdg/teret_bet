@@ -56,6 +56,22 @@ before external testing.
 * Android launcher label: `Teret Bet`
 * Version: `1.0.0+1`
 
+## Latest Validation
+
+Latest content expansion commit:
+
+* `53bafc6 Expand stories beyond ten pages`
+
+Quality gates passed after the latest expansion:
+
+* `dart run tool/catalog_qa.dart`
+* `flutter analyze`
+* `flutter test`
+* `timeout 90s flutter run -d web-server --web-port 0`
+
+The smoke run served the app locally before timeout. The working tree was clean
+after the commit.
+
 ## Next Recommended Task
 
 Continue catalog expansion before broad feedback review. The current priority is
@@ -71,6 +87,12 @@ Next expansion batch:
 * `rapunzel`
 * `bremen_town_musicians`
 * `snow_white`
+
+For this batch, read each story end to end first. Expand only where the story
+feels rushed, missing setup, missing transitions, or missing resolution. Do not
+target a fixed page count. Each new page needs matching `textAm`, `textEn`,
+`illustrationPrompt`, `audioUrl: null`, and a local 1200 x 900 WebP image under
+`assets/images/stories/`.
 
 After each expansion batch, run `dart run tool/catalog_qa.dart`,
 `flutter analyze`, and `flutter test`. Use the library search, collection

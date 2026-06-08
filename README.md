@@ -166,8 +166,9 @@ on placeholder image URLs.
 ### Catalog Expansion Status
 
 Story length is content-driven. Do not force stories into a six-page or
-ten-page shape; use as many pages as each story needs. Every added page must
-include matching local WebP artwork and a complete page entry in the story JSON.
+ten-page shape; ten pages is not an upper limit. Use as many pages as each
+story needs. Every added page must include matching local WebP artwork and a
+complete page entry in the story JSON.
 
 Expanded so far:
 
@@ -196,6 +197,10 @@ Next recommended expansion batch:
 - `rapunzel`
 - `bremen_town_musicians`
 - `snow_white`
+
+Latest validated expansion commit: `53bafc6 Expand stories beyond ten pages`.
+The latest pass expanded selected narrative-heavy stories beyond 10 pages and
+passed catalog QA, analyzer, tests, and a web-server launch smoke check.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

@@ -102,8 +102,10 @@ temporary placeholder URLs. Each story page should reference a unique local
 cover-style image path instead of reusing the cover image or lower-quality
 temporary art, and each referenced asset must exist in `assets/images/stories/`.
 Story length should be driven by the story, not by a fixed upper page count.
-When adding pages during expansion, add a matching page-specific local WebP
-asset for every new page and keep page numbers sequential.
+Six pages and ten pages are not targets or limits. When adding pages during
+expansion, add only the pages needed for clear setup, transitions, emotional
+beats, and resolution. Add a matching page-specific local WebP asset for every
+new page and keep page numbers sequential.
 
 ## Illustration Style
 

@@ -202,6 +202,15 @@ Current expansion priority: continue expanding the remaining very short six-page
 stories. The next recommended batch is `little_rabbit`, `hansel_and_gretel`,
 `rapunzel`, `bremen_town_musicians`, and `snow_white`.
 
+Latest validated content commit: `53bafc6 Expand stories beyond ten pages`.
+After that commit, `dart run tool/catalog_qa.dart`, `flutter analyze`,
+`flutter test`, and a web-server launch smoke check all passed.
+
+When continuing expansion, decide the page count by reading flow. Add pages only
+where the story needs more setup, transition, emotional beat, or resolution.
+Every added page must have a matching local 1200 x 900 WebP image and the JSON
+page numbers must remain sequential.
+
 ## Long-Term Goals
 
 * Audio narration

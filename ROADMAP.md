@@ -55,6 +55,8 @@
 * Add matching page-specific local WebP art for every new page
 * Next expansion batch: `little_rabbit`, `hansel_and_gretel`, `rapunzel`,
   `bremen_town_musicians`, and `snow_white`
+* For each expansion batch, run `dart run tool/catalog_qa.dart`,
+  `flutter analyze`, `flutter test`, and a launch smoke check
 * Review full 50-story wording with parent/child feedback
 * Polish story wording and page art based on feedback
 * Resolve any final launch-blocking UI issues found during catalog review
