@@ -208,7 +208,7 @@ Current expansion priority: continue expanding the remaining very short six-page
 stories. The next recommended batch is `rumpelstiltskin`, `golden_goose`,
 `fisherman_and_wife`, `elves_and_shoemaker`, and `little_red_cap`.
 
-Latest validated content commit: `53bafc6 Expand stories beyond ten pages`.
+Latest validated content commit: `8758d5d Expand first six-page story batch`.
 After that commit, `dart run tool/catalog_qa.dart`, `flutter analyze`,
 `flutter test`, and a web-server launch smoke check all passed.
 

@@ -64,7 +64,7 @@ before external testing.
 
 Latest content expansion commit:
 
-* `53bafc6 Expand stories beyond ten pages`
+* `8758d5d Expand first six-page story batch`
 
 Quality gates passed after the latest expansion:
 

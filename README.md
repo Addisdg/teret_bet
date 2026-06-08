@@ -206,8 +206,8 @@ Next recommended expansion batch:
 - `elves_and_shoemaker`
 - `little_red_cap`
 
-Latest validated expansion commit: `53bafc6 Expand stories beyond ten pages`.
-The latest pass expanded selected narrative-heavy stories beyond 10 pages and
+Latest validated expansion commit: `8758d5d Expand first six-page story batch`.
+The latest pass expanded the first five stories from the six-page backlog and
 passed catalog QA, analyzer, tests, and a web-server launch smoke check.
 
 Story JSON and Firestore fields are documented in
