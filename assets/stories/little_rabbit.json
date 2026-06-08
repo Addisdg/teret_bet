@@ -15,7 +15,11 @@
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["kindness", "helping", "friendship"],
+  "themes": [
+    "kindness",
+    "helping",
+    "friendship"
+  ],
   "coverImage": "assets/images/stories/little_rabbit_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,38 @@
       "textEn": "From that day on, the rabbit and the bird became good friends.",
       "imageUrl": "assets/images/stories/little_rabbit_page_06.webp",
       "illustrationPrompt": "The rabbit and little bird play together as happy friends in the warm meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ከዚያ ቀን ጀምሮ ጥንቸሏ እና ወፏ በሜዳው ውስጥ በየጠዋቱ ይገናኙ ነበር። ጥንቸሏ ቅጠሎችን ታመጣ፣ ወፏም ከላይ የሚታየውን መንገድ ትነግራት ነበር።",
+      "textEn": "The rabbit and bird began meeting each morning and helping each other.",
+      "imageUrl": "assets/images/stories/little_rabbit_page_07.webp",
+      "illustrationPrompt": "The rabbit and small blue bird meeting in a sunny meadow morning.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንድ ቀን ነፋስ በሜዳው ላይ በብርቱ ነፈሰ። የወፏ ጎጆ ትንሽ ተንቀጠቀጠ፣ ጥንቸሏም “አንቺን እንደገና ብቻሽን አልተውሽም” አለች።",
+      "textEn": "One windy day the bird nest shook, and the rabbit stayed to help.",
+      "imageUrl": "assets/images/stories/little_rabbit_page_08.webp",
+      "illustrationPrompt": "A gentle rabbit watching a small bird nest sway in a windy meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጥንቸሏ ቀላል ቅርንጫፎችን ሰበሰበች። ወፏ በትንሽ ድምፅ እናቷን ጠራች፣ እናቷም ጎጆውን እንዴት በደህና መጠገን እንደሚቻል አሳየቻቸው።",
+      "textEn": "The rabbit gathered twigs while the mother bird showed how to mend the nest.",
+      "imageUrl": "assets/images/stories/little_rabbit_page_09.webp",
+      "illustrationPrompt": "Rabbit gathering twigs while a mother bird repairs a nest with her chick.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በጥቂት ጊዜ ጎጆው እንደገና ጠንካራ ሆነ። ወፏ በደስታ በክንፏ ሲያወዛውዝ፣ ጥንቸሏ መርዳት አንድ ጊዜ ብቻ ሳይሆን የጓደኝነት ልማድ እንደሆነ ተማረች።",
+      "textEn": "The nest was safe again, and the rabbit learned that helping is a habit of friendship.",
+      "imageUrl": "assets/images/stories/little_rabbit_page_10.webp",
+      "illustrationPrompt": "Rabbit and blue bird smiling beside a repaired nest in warm sunlight.",
       "audioUrl": null
     }
   ]

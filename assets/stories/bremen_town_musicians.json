@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["teamwork", "music", "friendship"],
+  "themes": [
+    "teamwork",
+    "music",
+    "friendship"
+  ],
   "coverImage": "assets/images/stories/bremen_town_musicians_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "The animals stayed there, playing music and celebrating friendship.",
       "imageUrl": "assets/images/stories/bremen_town_musicians_page_06.webp",
       "illustrationPrompt": "Four animal friends happily living in a cozy cottage filled with music notes and warmth.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በማግሥቱ እንስሳቱ ቤቱን በቀስታ መመርመር ጀመሩ። አህያው እንጨት አመጣ፣ ውሻው ትራስ አዘጋጀ፣ ድመቷም መስኮቱን አጸዳች።",
+      "textEn": "The next day the animals began making the house into a home.",
+      "imageUrl": "assets/images/stories/bremen_town_musicians_page_07.webp",
+      "illustrationPrompt": "Donkey, dog, cat, and rooster tidying a cozy cottage together.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ዶሮው ጠዋት ጠዋት በደስታ ይዘምር ነበር። የእሱ ድምፅ ሰዓት ሆነ፣ ውሻውም ለሁሉም በር እንዲከፈት በጨዋነት ይጠብቅ ነበር።",
+      "textEn": "The rooster sang each morning, and the dog helped welcome visitors.",
+      "imageUrl": "assets/images/stories/bremen_town_musicians_page_08.webp",
+      "illustrationPrompt": "Rooster singing at a cottage window while dog welcomes visitors kindly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "አንድ ቀን ከመንገድ ላይ የደከመ እንግዳ መጣ። እንስሳቱ ሙዚቃ ተጫወቱለት፣ ትንሽ ምግብም አጋሩት።",
+      "textEn": "One day a tired traveler arrived, and the animals shared music and food.",
+      "imageUrl": "assets/images/stories/bremen_town_musicians_page_09.webp",
+      "illustrationPrompt": "The animal musicians playing music for a tired traveler at their cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ከጥቂት ቀናት በኋላ ሰዎች “በዚያ ቤት ደስ የሚል ዘፈን አለ” ብለው መጡ። እንስሳቱ ግን ድምፃቸውን ለመስማማት ተማሩ፤ እያንዳንዱ ቦታ ነበረው።",
+      "textEn": "People came to hear the music, and each animal learned its part.",
+      "imageUrl": "assets/images/stories/bremen_town_musicians_page_10.webp",
+      "illustrationPrompt": "Villagers listening happily as donkey, dog, cat, and rooster perform together.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ቤቱ የሙዚቃ ቤት ሆነ። አህያ፣ ውሻ፣ ድመት እና ዶሮ አዲስ ቤት ማግኘት ማለት አብሮ መስራት እና አብሮ መዘመር እንደሆነ ተማሩ።",
+      "textEn": "Their cottage became a music home, and they learned to work and sing together.",
+      "imageUrl": "assets/images/stories/bremen_town_musicians_page_11.webp",
+      "illustrationPrompt": "The four animal musicians celebrating their cozy music cottage at sunset.",
       "audioUrl": null
     }
   ]

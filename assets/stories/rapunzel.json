@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["hope", "friendship", "patience"],
+  "themes": [
+    "hope",
+    "friendship",
+    "patience"
+  ],
   "coverImage": "assets/images/stories/rapunzel_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "Rapunzel smiled as she saw the meadow and sang freely with friends.",
       "imageUrl": "assets/images/stories/rapunzel_page_06.webp",
       "illustrationPrompt": "Rapunzel standing in a meadow with friends and birds, singing happily in golden light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በመጀመሪያ ራፑንዘል ሜዳውን በቀስታ ተመለከተች። እግሯ ሳርን ሲነካ ትንሽ ተገረመች፣ ወፎቹም እንደ አሮጌ ጓደኛ ዘመሩላት።",
+      "textEn": "Rapunzel first explored the meadow slowly and happily.",
+      "imageUrl": "assets/images/stories/rapunzel_page_07.webp",
+      "illustrationPrompt": "Bright flower meadow beside a friendly stone tower with birds and an open path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ደጉ ተጓዥ በመንገዱ ላይ አበቦችን፣ ዛፎችን እና ወንዝን አሳያት። ራፑንዘል አስቀድሞ በዘፈን የሰማችውን ዓለም በዓይኗ ማየት ጀመረች።",
+      "textEn": "The traveler showed Rapunzel flowers, trees, and a river she had only imagined.",
+      "imageUrl": "assets/images/stories/rapunzel_page_08.webp",
+      "illustrationPrompt": "Peaceful river path with wildflowers and a friendly village road in the distance.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በመንደር ገበያ ሰዎች በፈገግታ ሰላም አሏት። አንዲት እናት ቅርጫት እንድትይዝ ጠየቀቻት፣ ራፑንዘልም በደስታ ረዳች።",
+      "textEn": "In the village market, Rapunzel met people and helped kindly.",
+      "imageUrl": "assets/images/stories/rapunzel_page_09.webp",
+      "illustrationPrompt": "Rapunzel helping carry a basket in a friendly village market.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ምሽት ሲደርስ ራፑንዘል ወደ ግንቡ ተመለከተች። ግንቡ አሁን እስር ቦታ አይመስልም ነበር፤ ከዓለም ጋር የተገናኘ የታሪክ ቦታ ሆነ።",
+      "textEn": "At evening, the tower felt less lonely and more like part of her story.",
+      "imageUrl": "assets/images/stories/rapunzel_page_10.webp",
+      "illustrationPrompt": "Rapunzel looking back at her flower-covered tower at sunset.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ራፑንዘል በየጠዋቱ ዘፈኗን ትዘምር ነበር። አሁን ግን ዘፈኗ ከመስኮት ብቻ ሳይሆን ከመንገድ፣ ከገበያ እና ከጓደኞቿ መካከል ይሰማ ነበር።",
+      "textEn": "Rapunzel kept singing, now among roads, markets, and friends.",
+      "imageUrl": "assets/images/stories/rapunzel_page_11.webp",
+      "illustrationPrompt": "Rapunzel singing with friends in a meadow and village path.",
       "audioUrl": null
     }
   ]

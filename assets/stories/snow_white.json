@@ -15,7 +15,11 @@
   },
   "ageMin": 5,
   "ageMax": 6,
-  "themes": ["kindness", "friendship", "courage"],
+  "themes": [
+    "kindness",
+    "friendship",
+    "courage"
+  ],
   "coverImage": "assets/images/stories/snow_white_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "From then on Snow White lived happily with friends, and her kindness shone.",
       "imageUrl": "assets/images/stories/snow_white_page_06.webp",
       "illustrationPrompt": "Snow White and her seven friends outside the cottage in warm sunset light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በመጀመሪያ ስኖው ዋይት የቤቱን ሥራ በቀስታ ተማረች። አንዱ ጓደኛ እንጨት አመጣ፣ ሌላው ውሃ አመጣ፣ እሷም አበቦችን በመስኮቱ አጠገብ አዘጋጀች።",
+      "textEn": "Snow White learned the rhythm of the little house and helped with flowers.",
+      "imageUrl": "assets/images/stories/snow_white_page_07.webp",
+      "illustrationPrompt": "Cozy forest cottage window with fresh flowers and warm sunlight.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በየማታው ሁሉም የቀኑን ደስታ ይናገሩ ነበር። ስኖው ዋይት ወፎች የነገሯትን ዘፈን ትዘምር፣ ጓደኞቿም በቀስታ ይቀላቀሉ ነበር።",
+      "textEn": "Each evening they shared stories and songs together.",
+      "imageUrl": "assets/images/stories/snow_white_page_08.webp",
+      "illustrationPrompt": "Cozy forest cottage fireplace with seven small chairs and warm evening glow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "አንድ ጠዋት ጫካው በዝናብ ተሸፈነ። ስኖው ዋይት ለወፎች ትንሽ እህል አዘጋጀች፣ ጓደኞቿም የተሰበረውን ትንሽ ድልድይ ጠገኑ።",
+      "textEn": "On a rainy morning, Snow White fed birds while her friends repaired a small bridge.",
+      "imageUrl": "assets/images/stories/snow_white_page_09.webp",
+      "illustrationPrompt": "Gentle rainy forest with a small wooden bridge being repaired near a cottage path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ዝናቡ ሲቆም የጫካ እንስሳት በመንገዱ ላይ ተመለሱ። ስኖው ዋይት እና ጓደኞቿ ለሁሉም ቦታ እንዳለ ተማሩ።",
+      "textEn": "When the rain stopped, the forest animals returned and everyone felt welcome.",
+      "imageUrl": "assets/images/stories/snow_white_page_10.webp",
+      "illustrationPrompt": "After-rain forest sunlight near a cottage path with deer, rabbits, squirrels, and birds.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን ጀምሮ ትንሹ ቤት በደግነት ብርሃን ተሞላ። ስኖው ዋይት ቤት ማለት የሚንከባከቡህ ሰዎች እና አንተም የምትንከባከባቸው ጓደኞች እንደሆኑ ተማረች።",
+      "textEn": "Snow White learned that home is made by caring for one another.",
+      "imageUrl": "assets/images/stories/snow_white_page_11.webp",
+      "illustrationPrompt": "Snow White and seven small friends outside a glowing forest cottage at sunset.",
       "audioUrl": null
     }
   ]

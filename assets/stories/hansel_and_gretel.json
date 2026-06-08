@@ -15,7 +15,11 @@
   },
   "ageMin": 5,
   "ageMax": 6,
-  "themes": ["courage", "family", "problem_solving"],
+  "themes": [
+    "courage",
+    "family",
+    "problem_solving"
+  ],
   "coverImage": "assets/images/stories/hansel_and_gretel_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "Soon they saw the light of home and were welcomed with joy.",
       "imageUrl": "assets/images/stories/hansel_and_gretel_page_06.webp",
       "illustrationPrompt": "The children returning home safely at sunset, family welcoming them warmly.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በማግሥቱ ሀንሰል እና ግሬቴል ከቤተሰባቸው ጋር ተቀመጡ። “በጫካ ስንጫወት ምልክት ማስታወስ እና አብረን መቆየት አለብን” አሉ።",
+      "textEn": "The next day the family talked about staying together and noticing signs.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_07.webp",
+      "illustrationPrompt": "Hansel and Gretel sitting with family at a warm table discussing a forest path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አባታቸው ትንሽ የጫካ ካርታ ሠራላቸው። እናታቸውም በኪሳቸው ውስጥ ትንሽ ደወል እና ቀለም ያለው ጨርቅ አስቀመጠች።",
+      "textEn": "Their parents made a small map and safety markers for future walks.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_08.webp",
+      "illustrationPrompt": "Parents giving Hansel and Gretel a simple forest map and bright cloth marker.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ልጆቹ ወደ ጫካ ዳር ተመለሱ፣ ግን ይህ ጊዜ በጥንቃቄ ቆሙ። ዛፎችን፣ ድንጋዮችን እና የፀሐይን ቦታ በቀስታ ተመለከቱ።",
+      "textEn": "They returned to the forest edge and practiced noticing landmarks.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_09.webp",
+      "illustrationPrompt": "Hansel and Gretel at a forest edge observing trees, stones, and sunlight.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በትንሽ ጊዜ ሌላ ልጅ መንገዱን ትንሽ ርቆ ሲፈልግ አዩ። ሀንሰል እጁን አወዛወዘ፣ ግሬቴልም “እንቆም፣ እንተነፍስ፣ እና እርዳታ እንጠይቅ” አለች።",
+      "textEn": "When another child felt unsure, the siblings helped calmly.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_10.webp",
+      "illustrationPrompt": "Hansel and Gretel calmly helping a younger child near a forest path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ሁሉም በደህና ወደ ቤት ተመለሱ። ሀንሰል እና ግሬቴል ድፍረት ማለት መሮጥ ሳይሆን በቀስታ ማሰብ፣ አብሮ መቆየት እና እርዳታ መጠየቅ እንደሆነ ተማሩ።",
+      "textEn": "They learned that courage can mean pausing, thinking, staying together, and asking for help.",
+      "imageUrl": "assets/images/stories/hansel_and_gretel_page_11.webp",
+      "illustrationPrompt": "Hansel and Gretel walking safely home with family in golden evening light.",
       "audioUrl": null
     }
   ]

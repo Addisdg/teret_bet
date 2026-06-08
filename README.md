@@ -190,13 +190,21 @@ Expanded beyond 10 pages after story-length review:
 - `sleeping_beauty` - 12 pages
 - `selfish_giant` - 12 pages
 
+Expanded from the six-page backlog:
+
+- `little_rabbit` - 10 pages
+- `hansel_and_gretel` - 11 pages
+- `rapunzel` - 11 pages
+- `bremen_town_musicians` - 11 pages
+- `snow_white` - 11 pages
+
 Next recommended expansion batch:
 
-- `little_rabbit`
-- `hansel_and_gretel`
-- `rapunzel`
-- `bremen_town_musicians`
-- `snow_white`
+- `rumpelstiltskin`
+- `golden_goose`
+- `fisherman_and_wife`
+- `elves_and_shoemaker`
+- `little_red_cap`
 
 Latest validated expansion commit: `53bafc6 Expand stories beyond ten pages`.
 The latest pass expanded selected narrative-heavy stories beyond 10 pages and
