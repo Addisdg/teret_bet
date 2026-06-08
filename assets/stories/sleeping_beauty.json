@@ -101,10 +101,26 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "በአትክልቱ ውስጥ ትንሽ በዓል አደረጉ። ልዕልቷም ተስፋ እና ትዕግሥት አዲስ ጠዋትን እንደሚያመጡ ተማረች።",
-      "textEn": "They celebrated gently in the garden and remembered hope.",
+      "textAm": "በአትክልቱ ውስጥ ትንሽ የእንኳን ደህና መጣሽ በዓል አደረጉ። ልዕልቷ በቀስታ ፈገግ አለች፣ ሁሉም ግን እንዳትደክም በርጋታ ነበሩ።",
+      "textEn": "They held a gentle welcome celebration in the garden.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_10.webp",
       "illustrationPrompt": "A gentle garden celebration for the princess with family and flowers.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "በየቀኑ ትንሽ ትንሽ ጥንካሬዋ ተመለሰ። አንድ ቀን አበባ አጠጣች፣ ሌላ ቀን ለልጆች በለስላሳ ድምፅ ታሪክ ነገረች።",
+      "textEn": "Each day she grew stronger and returned to small kind routines.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_11.webp",
+      "illustrationPrompt": "The princess watering flowers and telling a gentle story to children in a sunny garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 12,
+      "textAm": "ከዚያ ቤተመንግሥቱ ትንሽ በዓል አደረገ። ሁሉም ተስፋ፣ ትዕግሥት እና በቀስታ መንከባከብ አዲስ ጠዋትን እንደሚያመጡ አስታወሱ።",
+      "textEn": "The castle celebrated hope, patience, and gentle care.",
+      "imageUrl": "assets/images/stories/sleeping_beauty_page_12.webp",
+      "illustrationPrompt": "A gentle castle garden celebration with the princess, family, friends, and flowers.",
       "audioUrl": null
     }
   ]

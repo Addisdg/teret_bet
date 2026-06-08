@@ -182,6 +182,13 @@ Expanded so far:
 - `selfish_giant`
 - `sleeping_beauty`
 
+Expanded beyond 10 pages after story-length review:
+
+- `jack_and_beanstalk` - 14 pages
+- `puss_in_boots` - 13 pages
+- `sleeping_beauty` - 12 pages
+- `selfish_giant` - 12 pages
+
 Next recommended expansion batch:
 
 - `little_rabbit`

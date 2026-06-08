@@ -43,12 +43,15 @@
   artwork
 * Second catalog expansion batch with longer adaptations and page-specific local
   artwork
+* Expanded selected narrative-heavy stories beyond 10 pages after story-length
+  review
 
 ## Next
 
 ### Phase 1
 
 * Continue expanding very short stories without a fixed upper page limit
+* Re-audit expanded stories by reading flow, not page count
 * Add matching page-specific local WebP art for every new page
 * Next expansion batch: `little_rabbit`, `hansel_and_gretel`, `rapunzel`,
   `bremen_town_musicians`, and `snow_white`

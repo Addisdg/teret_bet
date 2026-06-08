@@ -101,10 +101,42 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "ጃክ ዘሮቹን ከመንደሩ ጋር አጋራ። ብዙ ትንንሽ አትክልቶች አደጉ፣ ጃክም ድፍረት ከጥንቃቄ ጋር ሲሆን ቤትን እንደሚረዳ ተማረ።",
-      "textEn": "Jack shared the seeds, and many small gardens grew.",
+      "textAm": "ጃክ ዘሮቹን ከመንደሩ ጋር አጋራ። ሰዎቹ በተራ አፈር አዘጋጁ፣ ውሃ አመጡ፣ ትንንሽ አትክልቶችንም ጀመሩ።",
+      "textEn": "Jack shared the seeds, and the village began planting together.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_10.webp",
       "illustrationPrompt": "Jack and villagers planting many small gardens together in warm sunlight.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "በማግሥቱ መንደር ሰዎችን ጠሩ። አንዱ አፈር አዘጋጀ፣ ሌላው ውሃ አመጣ፣ ልጆችም ትንንሽ ጉድጓዶችን ቆፈሩ።",
+      "textEn": "The village prepared soil, water, and small holes for planting.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_11.webp",
+      "illustrationPrompt": "Jack, his mother, and villagers preparing garden soil and water together.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 12,
+      "textAm": "ዘሮቹ ተተከሉ። ጃክ በየጠዋቱ ይመለከታቸው ነበር፣ ልጆቹም “ዛሬ ትንሽ በቅሏል!” ብለው በደስታ ይጠሩ ነበር።",
+      "textEn": "The seeds sprouted, and the children watched them grow each morning.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_12.webp",
+      "illustrationPrompt": "Children and Jack smiling at tiny green sprouts in village garden beds.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 13,
+      "textAm": "በጊዜው ቅጠሎች ተስፋፉ፣ ፍሬዎችም በቅርንጫፎች ላይ ተንጠለጠሉ። ቤቶቹ በአዲስ ምግብ እና በምስጋና ተሞሉ።",
+      "textEn": "The plants grew fruit, and the village had food to share.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_13.webp",
+      "illustrationPrompt": "A thriving village garden with baskets of vegetables and grateful families.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 14,
+      "textAm": "ጃክ ወደ ሰማይ የሚወጣውን ግንድ በፈገግታ ተመለከተ። ድፍረት ከጥንቃቄ ጋር፣ ስጦታም ከመጋራት ጋር ሲሆን ቤትን እንደሚያበራ ተማረ።",
+      "textEn": "Jack learned that courage, care, and sharing can brighten a home.",
+      "imageUrl": "assets/images/stories/jack_and_beanstalk_page_14.webp",
+      "illustrationPrompt": "Jack smiling beside the beanstalk while village gardens glow in sunset light.",
       "audioUrl": null
     }
   ]

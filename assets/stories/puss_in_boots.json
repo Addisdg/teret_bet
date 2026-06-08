@@ -101,10 +101,34 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "ወጣቱ እና ቦት የለበሰው ድመት ከመንደሩ ጋር በደስታ ኖሩ። ብልሃት ከታማኝነት ጋር ሲሆን ብዙ በሮችን እንደሚከፍት ተማሩ።",
-      "textEn": "The young man and his loyal cat lived happily with the village.",
+      "textAm": "የመጀመሪያው ጥሩ ሰብል ሲመጣ መንደሩ በአትክልቱ ውስጥ ተሰበሰበ። ሰዎች ለወጣቱ እና ለቦት የለበሰው ድመት አመሰገኑ።",
+      "textEn": "When the first good harvest came, the village thanked the young man and his cat.",
       "imageUrl": "assets/images/stories/puss_in_boots_page_10.webp",
       "illustrationPrompt": "The young man, booted cat, and villagers celebrating friendship in a garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ወጣቱ ያወቀውን ሥራ ለሌሎች ማስተማር ጀመረ። ድመቱም በቦቱ መካከል በኩራት ሲራመድ ልጆች በደስታ ይከተሉት ነበር።",
+      "textEn": "The young man taught others, and the cat helped the children join in.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_11.webp",
+      "illustrationPrompt": "The young man teaching village children in a garden while the booted cat leads them.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 12,
+      "textAm": "አንድ ጎረቤት ውሃ ለመካፈል ሲያስቸግረው ድመቱ በብልሃት ሁሉንም አቀራረበ። በሰላም ተነጋገሩ፣ ውሃውንም በተራ ሊጠቀሙ ተስማሙ።",
+      "textEn": "When neighbors needed to share water, the cat helped them talk kindly.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_12.webp",
+      "illustrationPrompt": "The booted cat helping neighbors talk kindly beside a village water barrel.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 13,
+      "textAm": "ከዚያ ቀን በኋላ ወጣቱ እና ታማኙ ድመት በመንደሩ ውስጥ ቦታ አገኙ። ብልሃት ከታማኝነት ጋር ሲሆን ብዙ በሮችን እንደሚከፍት ተማሩ።",
+      "textEn": "The young man and loyal cat found a home in the village.",
+      "imageUrl": "assets/images/stories/puss_in_boots_page_13.webp",
+      "illustrationPrompt": "The young man and booted cat at a cozy village home with friends waving warmly.",
       "audioUrl": null
     }
   ]

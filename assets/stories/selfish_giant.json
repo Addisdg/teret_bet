@@ -101,10 +101,26 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "ከዚያ ቀን በኋላ አትክልቱ ለሁሉም ደስታ ቦታ ሆነ። ግዙፉም ቦታን ሲካፈል ልብ እንደሚሞቅ ተማረ።",
-      "textEn": "From then on, the garden became a shared place of joy.",
+      "textAm": "ግዙፉ ከልጆቹ ጋር በአበቦች መካከል ተቀመጠ። አንዱ ቢራቢሮ አሳየው፣ ሌላውም የወፎችን ዘፈን በደስታ አዳመጠ።",
+      "textEn": "The giant sat among the flowers with the children and listened happily.",
       "imageUrl": "assets/images/stories/selfish_giant_page_10.webp",
       "illustrationPrompt": "The giant and children enjoying a blooming shared garden together.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ዝናብ ሲወርድ ግዙፉ ትልቅ ቅጠል እንደ ጃንጥላ ይይዝላቸው ነበር። ፀሐይ ሲወጣም ሁሉም አበቦችን አጠጡ።",
+      "textEn": "In rain and sunshine, the giant and children cared for the garden together.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_11.webp",
+      "illustrationPrompt": "A gentle giant holding a large leaf like an umbrella for children in a garden rain.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 12,
+      "textAm": "ከዚያ ቀን በኋላ አትክልቱ ለሁሉም የደስታ ቦታ ሆነ። ግዙፉም ቦታን ሲካፈል ልብ እንደሚሞቅ፣ ደስታም እንደ አበባ እንደሚበቅል ተማረ።",
+      "textEn": "The garden became a shared place of joy, and the giant learned to share his heart.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_12.webp",
+      "illustrationPrompt": "The gentle giant and children in a blooming shared garden full of flowers and warm light.",
       "audioUrl": null
     }
   ]

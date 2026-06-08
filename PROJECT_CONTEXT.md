@@ -77,6 +77,12 @@ Implemented:
   * little_red_hen
   * selfish_giant
   * sleeping_beauty
+* Follow-up 10-page audit expansion for narrative-heavy stories that still felt
+  compressed:
+  * jack_and_beanstalk: 14 pages
+  * puss_in_boots: 13 pages
+  * sleeping_beauty: 12 pages
+  * selfish_giant: 12 pages
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -159,8 +165,9 @@ a unique bundled WebP image path so stories do not repeat the same picture acros
 pages.
 
 Story length is content-driven. Do not force stories into a six-page or ten-page
-shape. Use as many pages as the story needs, and add matching page-specific
-local WebP art for every new page.
+shape. Ten pages is not an upper limit; longer stories should continue beyond it
+when the narrative needs more room. Add matching page-specific local WebP art
+for every new page.
 
 Firestore structure:
 

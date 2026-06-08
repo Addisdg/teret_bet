@@ -42,6 +42,11 @@ before external testing.
 * Second story expansion batch completed with page-specific local artwork:
   `puss_in_boots`, `town_mouse_country_mouse`, `little_red_hen`,
   `selfish_giant`, and `sleeping_beauty`
+* Story-length audit completed for 10-page stories. Narrative-heavy stories
+  that still felt compressed were expanded beyond 10 pages with matching local
+  artwork:
+  `jack_and_beanstalk`, `puss_in_boots`, `sleeping_beauty`, and
+  `selfish_giant`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
 
@@ -54,9 +59,10 @@ before external testing.
 ## Next Recommended Task
 
 Continue catalog expansion before broad feedback review. The current priority is
-to expand the remaining very short six-page stories into fuller adaptations,
-using as many pages as each story needs and adding matching page-specific local
-WebP artwork for every new page.
+to expand the remaining very short six-page stories into fuller adaptations and
+to keep auditing any longer story that still feels compressed. Use as many pages
+as each story needs and add matching page-specific local WebP artwork for every
+new page.
 
 Next expansion batch:
 
