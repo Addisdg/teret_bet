@@ -217,20 +217,16 @@ Expanded from the six-page backlog:
 - `gingerbread_man` - 11 pages
 - `happy_prince` - 11 pages
 - `anansi_and_turtle` - 11 pages
+- `anansi_pot_beans` - 11 pages
+- `sun_moon_sky` - 11 pages
+- `monkey_and_shark` - 11 pages
+- `clever_rabbit_lion` - 11 pages
+- `magic_porridge_pot` - 11 pages
+- `cinderella` - 11 pages
 
-Final recommended expansion batch:
-
-- `anansi_pot_beans`
-- `sun_moon_sky`
-- `monkey_and_shark`
-- `clever_rabbit_lion`
-- `magic_porridge_pot`
-- `cinderella`
-
-Latest committed expansion: `72ad6d0 Expand second six-page story batch`.
-The latest working-tree pass expanded the fifth five-story batch from the
-six-page backlog and passed catalog QA, analyzer, tests, and a web-server launch
-smoke check.
+Latest committed expansion: `089abbc Expand fifth six-page story batch`.
+The latest working-tree pass completed the documented six-page backlog and
+passed catalog QA, analyzer, tests, and a web-server launch smoke check.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).

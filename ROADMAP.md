@@ -50,17 +50,15 @@
 * Third six-page backlog batch expanded with matching page-specific local art
 * Fourth six-page backlog batch expanded with matching page-specific local art
 * Fifth six-page backlog batch expanded with matching page-specific local art
+* Final six-page backlog batch expanded with matching page-specific local art
 
 ## Next
 
 ### Phase 1
 
-* Continue expanding very short stories without a fixed upper page limit
-* Re-audit expanded stories by reading flow, not page count
-* Add matching page-specific local WebP art for every new page
-* Final short-story expansion batch: `anansi_pot_beans`, `sun_moon_sky`,
-  `monkey_and_shark`, `clever_rabbit_lion`, `magic_porridge_pot`, and
-  `cinderella`
+* Re-audit the full 50-story catalog by reading flow, not page count
+* Check Amharic wording, age fit, and illustration match across expanded stories
+* Add matching page-specific local WebP art for any future new page
 * For each expansion batch, run `dart run tool/catalog_qa.dart`,
   `flutter analyze`, `flutter test`, and a launch smoke check
 * Review full 50-story wording with parent/child feedback

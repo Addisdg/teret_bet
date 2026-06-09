@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "አናንሲ በጓደኛው ቤት የሚበስል ባቄላ ሽታ ሰማ።",
-      "textEn": "Page 1 of Anansi and the Pot of Beans.",
+      "textEn": "Anansi smelled beans cooking at his friend’s house.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 1: አናንሲ በጓደኛው ቤት የሚበስል ባቄላ ሽታ ሰማ።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "“ትንሽ እጠብቃለሁ” ብሎ ቢናገርም ሆዱ በፍጥነት ተናገረ።",
-      "textEn": "Page 2 of Anansi and the Pot of Beans.",
+      "textEn": "He said he would wait, but his belly spoke quickly.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 2: “ትንሽ እጠብቃለሁ” ብሎ ቢናገርም ሆዱ በፍጥነት ተናገረ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "አናንሲ ማሰሮውን በቅርብ ተመለከተ፣ ግን እጁን ወደ ውስጥ ማስገባት ጥሩ እንዳልሆነ አሰበ።",
-      "textEn": "Page 3 of Anansi and the Pot of Beans.",
+      "textEn": "Anansi looked closely at the pot, then remembered he should not reach inside.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 3: አናንሲ ማሰሮውን በቅርብ ተመለከተ፣ ግን እጁን ወደ ውስጥ ማስገባት ጥሩ እንዳልሆነ አሰበ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ጓደኛው ተመልሶ “እባክህ በግልጽ ንገረኝ” አለው።",
-      "textEn": "Page 4 of Anansi and the Pot of Beans.",
+      "textEn": "His friend returned and asked him to speak clearly.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 4: ጓደኛው ተመልሶ “እባክህ በግልጽ ንገረኝ” አለው።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "አናንሲ “መጠበቅ አስቸጋሪ ሆነብኝ” ብሎ እውነቱን ተናገረ።",
-      "textEn": "Page 5 of Anansi and the Pot of Beans.",
+      "textEn": "Anansi honestly said waiting had been hard for him.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 5: አናንሲ “መጠበቅ አስቸጋሪ ሆነብኝ” ብሎ እውነቱን ተናገረ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ጓደኞቹ ባቄላውን አጋሩ እና አናንሲ ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ ተማረ።",
-      "textEn": "Page 6 of Anansi and the Pot of Beans.",
+      "textEn": "The friends shared the beans, and Anansi learned that patience makes food sweeter.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 6: ጓደኞቹ ባቄላውን አጋሩ እና አናንሲ ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ ተማረ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "አናንሲ ሽታውን ሲሰማ አፉ ውሃ ሞላ። ነገር ግን “ጓደኛዬ እስኪመጣ እጠብቃለሁ” ብሎ ከማሰሮው ትንሽ ራቀ።",
+      "textEn": "Anansi stepped back from the pot and tried to wait for his friend.",
+      "imageUrl": "assets/images/stories/anansi_pot_beans_page_07.webp",
+      "illustrationPrompt": "Anansi smelling a pot of beans while standing back politely.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "እሱ ራሱን ለማጽናናት በዛፍ ላይ ተቀመጠ። ወፎች ሲዘምሩ ትንሽ መጠበቅ ቀላል ሆነለት።",
+      "textEn": "He sat in a tree and listened to birds while he waited.",
+      "imageUrl": "assets/images/stories/anansi_pot_beans_page_08.webp",
+      "illustrationPrompt": "Anansi sitting in a tree listening to birds near a cooking pot.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጓደኛው ሲመጣ አናንሲ ስለ ሽታው እና ስለ ችኮላው በግልጽ ነገረው። ጓደኛውም ሐቀኝነቱን አደነቀ።",
+      "textEn": "When his friend came back, Anansi spoke honestly and was appreciated.",
+      "imageUrl": "assets/images/stories/anansi_pot_beans_page_09.webp",
+      "illustrationPrompt": "Anansi speaking honestly with a friend beside a pot of beans.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ሁለቱ ምግቡ እስኪዘጋጅ ድረስ ሳህኖችን አዘጋጁ። አናንሲ ሥራ ሲረዳ መጠበቅ እንደሚቀል ተረዳ።",
+      "textEn": "They set the bowls together, and waiting became easier.",
+      "imageUrl": "assets/images/stories/anansi_pot_beans_page_10.webp",
+      "illustrationPrompt": "Anansi and a friend setting bowls beside a warm bean pot.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ባቄላው ሲደርስ ሁሉም በእኩል ተካፈሉ። አናንሲም “እውነት እና ትዕግሥት ሆድንም ልብንም ያስደስታሉ” አለ።",
+      "textEn": "When the beans were ready, everyone shared equally and happily.",
+      "imageUrl": "assets/images/stories/anansi_pot_beans_page_11.webp",
+      "illustrationPrompt": "Friends sharing bowls of beans equally under a shady tree.",
       "audioUrl": null
     }
   ]

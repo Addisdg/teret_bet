@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ፀሐይ እና ጨረቃ በምድር ላይ ቆንጆ ቤት ነበራቸው።",
-      "textEn": "Page 1 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "Sun and Moon had a beautiful house on the earth.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 1: ፀሐይ እና ጨረቃ በምድር ላይ ቆንጆ ቤት ነበራቸው።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ጓደኛቸው ውሃ ሊጎበኛቸው ፈለገ፣ ግን “ቦታ ብዙ ያስፈልገኛል” አለ።",
-      "textEn": "Page 2 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "Their friend Water wanted to visit but said he needed a lot of room.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 2: ጓደኛቸው ውሃ ሊጎበኛቸው ፈለገ፣ ግን “ቦታ ብዙ ያስፈልገኛል” አለ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ፀሐይ እና ጨረቃ ቤታቸውን አሰፉ፣ በሮችንም ከፈቱ።",
-      "textEn": "Page 3 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "Sun and Moon made their house bigger and opened the doors.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 3: ፀሐይ እና ጨረቃ ቤታቸውን አሰፉ፣ በሮችንም ከፈቱ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ውሃ በደስታ ገባ፣ ግን ቤቱን ሁሉ በቀስታ ሞላው።",
-      "textEn": "Page 4 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "Water came in happily and gently filled the whole house.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 4: ውሃ በደስታ ገባ፣ ግን ቤቱን ሁሉ በቀስታ ሞላው።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ፀሐይ እና ጨረቃ ወደ ላይ ተነሱ እና በሰማይ ሰፊ ቦታ አገኙ።",
-      "textEn": "Page 5 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "Sun and Moon rose upward and found wide space in the sky.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 5: ፀሐይ እና ጨረቃ ወደ ላይ ተነሱ እና በሰማይ ሰፊ ቦታ አገኙ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን ጀምሮ ፀሐይ በቀን፣ ጨረቃም በሌሊት ለጓደኞቻቸው ይበራሉ።",
-      "textEn": "Page 6 of Why the Sun and Moon Live in the Sky.",
+      "textEn": "From then on, Sun shines by day and Moon shines by night for their friends.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 6: ከዚያ ቀን ጀምሮ ፀሐይ በቀን፣ ጨረቃም በሌሊት ለጓደኞቻቸው ይበራሉ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ፀሐይ ቤቱን ሲያሰፋ ጨረቃ ለጓደኛቸው ለስላሳ መንገድ አዘጋጀች። “ጓደኛን መቀበል ቦታን መከበር ይፈልጋል” አሉ።",
+      "textEn": "Sun and Moon prepared more room and remembered to respect their friend’s needs.",
+      "imageUrl": "assets/images/stories/sun_moon_sky_page_07.webp",
+      "illustrationPrompt": "Sun and Moon preparing a wide bright house for Water to visit.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ውሃ በመጀመሪያ ትንሽ ጠብታዎችን ላከ። ከዚያ ብዙ ወንዞች በደስታ እየዘፈኑ ገቡ።",
+      "textEn": "Water first sent drops, then cheerful streams came in.",
+      "imageUrl": "assets/images/stories/sun_moon_sky_page_08.webp",
+      "illustrationPrompt": "Friendly water drops and streams entering a bright house.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ቤቱ በውሃ ሲሞላ ፀሐይ እና ጨረቃ በቀስታ ወደ ላይ ተነሱ። እነሱ አልተቆጡም፣ ለሁሉም ሰፊ ቦታ ፈለጉ።",
+      "textEn": "As the house filled, Sun and Moon calmly rose upward to make room.",
+      "imageUrl": "assets/images/stories/sun_moon_sky_page_09.webp",
+      "illustrationPrompt": "Sun and Moon rising gently above a house filled with blue water.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በሰማይ ውስጥ ፀሐይ ቀኑን በብርሃን አሞቀች። ጨረቃም ሌሊቱን በለስላሳ ብርሃን አሳረፈች።",
+      "textEn": "In the sky, Sun warmed the day and Moon softened the night.",
+      "imageUrl": "assets/images/stories/sun_moon_sky_page_10.webp",
+      "illustrationPrompt": "Sun and Moon glowing in a wide friendly sky.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ውሃ በምድር ላይ ወንዝ፣ ኩሬ እና ባሕር ሆኖ ቀረ። ሶስቱም ጓደኞች በተለያዩ ቦታ ሆነው አንድ ዓለምን ያስደስቱ ነበር።",
+      "textEn": "Water stayed as rivers, ponds, and seas, and all three friends brightened one world.",
+      "imageUrl": "assets/images/stories/sun_moon_sky_page_11.webp",
+      "illustrationPrompt": "Sun, Moon, rivers, ponds, and sea sharing one peaceful world.",
       "audioUrl": null
     }
   ]

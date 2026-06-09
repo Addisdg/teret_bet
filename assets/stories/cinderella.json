@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ሲንደሬላ በቤት ውስጥ ብዙ ሥራ ትሠራ ነበር፣ ግን ልቧ ደግ ነበር።",
-      "textEn": "Page 1 of Cinderella.",
+      "textEn": "Cinderella worked hard at home, but her heart was kind.",
       "imageUrl": "assets/images/stories/cinderella_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 1: ሲንደሬላ በቤት ውስጥ ብዙ ሥራ ትሠራ ነበር፣ ግን ልቧ ደግ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "አንድ ቀን በመንደሩ ትልቅ የዘፈን በዓል ተዘጋጀ።",
-      "textEn": "Page 2 of Cinderella.",
+      "textEn": "One day, the village prepared a big singing festival.",
       "imageUrl": "assets/images/stories/cinderella_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 2: አንድ ቀን በመንደሩ ትልቅ የዘፈን በዓል ተዘጋጀ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ጓደኛዋ አሮጊት ሴት ቀላል ቆንጆ ልብስ እንድታዘጋጅ ረዳቻት።",
-      "textEn": "Page 3 of Cinderella.",
+      "textEn": "Her elderly friend helped her prepare a simple beautiful dress.",
       "imageUrl": "assets/images/stories/cinderella_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 3: ጓደኛዋ አሮጊት ሴት ቀላል ቆንጆ ልብስ እንድታዘጋጅ ረዳቻት።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ሲንደሬላ በበዓሉ ላይ በደስታ ዘፈነች እና አዲስ ጓደኞች አገኘች።",
-      "textEn": "Page 4 of Cinderella.",
+      "textEn": "Cinderella sang happily at the festival and made new friends.",
       "imageUrl": "assets/images/stories/cinderella_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 4: ሲንደሬላ በበዓሉ ላይ በደስታ ዘፈነች እና አዲስ ጓደኞች አገኘች።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "እሷ በሩጫ ስትመለስ ትንሽ ጫማዋን ተወች።",
-      "textEn": "Page 5 of Cinderella.",
+      "textEn": "As she hurried home, she left one small shoe behind.",
       "imageUrl": "assets/images/stories/cinderella_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 5: እሷ በሩጫ ስትመለስ ትንሽ ጫማዋን ተወች።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ጓደኞቿ ጫማውን መልሰው አመጡላት፣ ሲንደሬላም ደግነት እንደማይጠፋ ተማረች።",
-      "textEn": "Page 6 of Cinderella.",
+      "textEn": "Her friends brought the shoe back, and Cinderella learned that kindness is never lost.",
       "imageUrl": "assets/images/stories/cinderella_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 6: ጓደኞቿ ጫማውን መልሰው አመጡላት፣ ሲንደሬላም ደግነት እንደማይጠፋ ተማረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ሲንደሬላ ቀኑን ሥራ ስታደርግ ትንሽ ዘፈን ትዘምር ነበር። ዘፈኗም ቤቱን በተስፋ ያሞቅ ነበር።",
+      "textEn": "Cinderella sang as she worked, filling the house with hope.",
+      "imageUrl": "assets/images/stories/cinderella_page_07.webp",
+      "illustrationPrompt": "Cinderella working gently at home while singing with hope.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ጓደኛዋ አሮጊት ሴት ትንሽ ጨርቅ፣ ቀለም እና ማሰሪያ አመጣች። ሁለቱም በትዕግሥት ልብሱን አዘጋጁ።",
+      "textEn": "Her elderly friend brought cloth and ribbons, and they prepared the dress patiently.",
+      "imageUrl": "assets/images/stories/cinderella_page_08.webp",
+      "illustrationPrompt": "Cinderella and an elderly friend sewing a simple festival dress.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በበዓሉ ላይ ሲንደሬላ ለብቻዋ አልቆመችም። አዲስ ጓደኞች እጇን ይዘው በደስታ አስተናገዷት።",
+      "textEn": "At the festival, new friends welcomed Cinderella warmly.",
+      "imageUrl": "assets/images/stories/cinderella_page_09.webp",
+      "illustrationPrompt": "Cinderella welcomed by new friends at a cheerful village festival.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ሲንደሬላ ሲመለስ ጫማዋ እንደቀረ አላወቀችም። አንድ ጓደኛ ጫማውን አግኝቶ “ይህን መመለስ አለብን” አለ።",
+      "textEn": "A friend found her shoe and knew it should be returned.",
+      "imageUrl": "assets/images/stories/cinderella_page_10.webp",
+      "illustrationPrompt": "Friend finding Cinderella’s small shoe after the festival.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ጫማው ሲመለስ ሲንደሬላ በደስታ አመሰገነች። ከዚያ በኋላ በመንደሩ ውስጥ ዘፈንን፣ ሥራን እና ደግነትን ከጓደኞቿ ጋር አጋራች።",
+      "textEn": "When the shoe returned, Cinderella thanked her friends and shared kindness in the village.",
+      "imageUrl": "assets/images/stories/cinderella_page_11.webp",
+      "illustrationPrompt": "Cinderella thanking friends in a warm village courtyard.",
       "audioUrl": null
     }
   ]

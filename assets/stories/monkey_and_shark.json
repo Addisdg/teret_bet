@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ዝንጀሮው በባሕር ዳር በዛፍ ላይ ፍሬ ይበላ ነበር።",
-      "textEn": "Page 1 of The Monkey and the Shark.",
+      "textEn": "The monkey ate fruit in a tree by the sea.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 1: ዝንጀሮው በባሕር ዳር በዛፍ ላይ ፍሬ ይበላ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ሻርኩ ከውሃ ወጥቶ “ፍሬውን ትካፈለኛለህ?” ብሎ ጠየቀ።",
-      "textEn": "Page 2 of The Monkey and the Shark.",
+      "textEn": "The shark came from the water and asked to share the fruit.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 2: ሻርኩ ከውሃ ወጥቶ “ፍሬውን ትካፈለኛለህ?” ብሎ ጠየቀ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ዝንጀሮው ፍሬ አወረደለት፣ ሁለቱም ጓደኞች ሆኑ።",
-      "textEn": "Page 3 of The Monkey and the Shark.",
+      "textEn": "The monkey dropped fruit for him, and the two became friends.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 3: ዝንጀሮው ፍሬ አወረደለት፣ ሁለቱም ጓደኞች ሆኑ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "አንድ ቀን ሻርኩ ዝንጀሮውን ወደ ውሃ ሊወስደው ፈለገ።",
-      "textEn": "Page 4 of The Monkey and the Shark.",
+      "textEn": "One day, the shark wanted to take the monkey into the water.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 4: አንድ ቀን ሻርኩ ዝንጀሮውን ወደ ውሃ ሊወስደው ፈለገ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ዝንጀሮው “እኔ ዛፍ ላይ ደህና ነኝ፤ እዚህ እንገናኝ” ብሎ በብልሃት ተናገረ።",
-      "textEn": "Page 5 of The Monkey and the Shark.",
+      "textEn": "The monkey wisely said he was safe in the tree and they could meet there.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 5: ዝንጀሮው “እኔ ዛፍ ላይ ደህና ነኝ፤ እዚህ እንገናኝ” ብሎ በብልሃት ተናገረ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ሻርኩ ተረዳ፣ ከዚያም የተለየ ቦታ ያላቸው ጓደኞችም መከባበር እንደሚችሉ ተማሩ።",
-      "textEn": "Page 6 of The Monkey and the Shark.",
+      "textEn": "The shark understood, and they learned that friends in different places can respect one another.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 6: ሻርኩ ተረዳ፣ ከዚያም የተለየ ቦታ ያላቸው ጓደኞችም መከባበር እንደሚችሉ ተማሩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ዝንጀሮው በየቀኑ ጥቂት ፍሬ ለሻርኩ ያወርድለት ነበር። ሻርኩም ከውሃ ውስጥ የባሕር ዜማ ይዘምርለት ነበር።",
+      "textEn": "Each day the monkey shared fruit, and the shark shared sea songs.",
+      "imageUrl": "assets/images/stories/monkey_and_shark_page_07.webp",
+      "illustrationPrompt": "Monkey in a seaside tree sharing fruit with a friendly shark.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንድ ቀን ሻርኩ “የእኔን ቤት እንድታይ እፈልጋለሁ” አለ። ዝንጀሮውም ውሃ ለእሱ ቦታ እንዳልሆነ አስታወሰ።",
+      "textEn": "The shark wanted to show his home, but the monkey remembered water was not his safe place.",
+      "imageUrl": "assets/images/stories/monkey_and_shark_page_08.webp",
+      "illustrationPrompt": "Friendly shark inviting monkey near the water while monkey thinks carefully.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ዝንጀሮው በደግነት “እኔ ከዛፌ ላይ እመለከታለሁ፣ አንተም ከውሃህ ውስጥ ታሳየኛለህ” አለ።",
+      "textEn": "The monkey kindly suggested they share from their own safe places.",
+      "imageUrl": "assets/images/stories/monkey_and_shark_page_09.webp",
+      "illustrationPrompt": "Monkey on a branch speaking kindly to a shark in the water.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ሻርኩ የባሕር ኮከቦችን እና ዓሣዎችን ከሩቅ አሳየው። ዝንጀሮውም ከዛፉ ላይ ቀለማትን በደስታ ተመለከተ።",
+      "textEn": "The shark showed sea wonders from the water while the monkey watched safely.",
+      "imageUrl": "assets/images/stories/monkey_and_shark_page_10.webp",
+      "illustrationPrompt": "Shark showing colorful sea life while monkey watches from a tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ በኋላ ጓደኞቹ የራሳቸውን ቦታ ያከብሩ ነበር። ፍሬና ዘፈን በደህና መንገድ ይካፈሉ ነበር።",
+      "textEn": "After that, they respected their places and shared safely.",
+      "imageUrl": "assets/images/stories/monkey_and_shark_page_11.webp",
+      "illustrationPrompt": "Monkey and shark happily sharing fruit and songs from tree and sea.",
       "audioUrl": null
     }
   ]

@@ -63,6 +63,9 @@ before external testing.
 * Fifth six-page backlog batch expanded with matching local artwork:
   `steadfast_tin_soldier`, `goldilocks_three_bears`, `gingerbread_man`,
   `happy_prince`, and `anansi_and_turtle`
+* Final six-page backlog batch expanded with matching local artwork:
+  `anansi_pot_beans`, `sun_moon_sky`, `monkey_and_shark`,
+  `clever_rabbit_lion`, `magic_porridge_pot`, and `cinderella`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
 
@@ -76,9 +79,9 @@ before external testing.
 
 Latest committed content expansion:
 
-* `72ad6d0 Expand second six-page story batch`
+* `089abbc Expand fifth six-page story batch`
 
-Quality gates passed after the current third six-page expansion pass:
+Quality gates passed after the current final six-page expansion pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`
@@ -89,30 +92,11 @@ The smoke run served the app locally before timeout.
 
 ## Next Recommended Task
 
-Continue catalog expansion before broad feedback review. The current priority is
-to expand the remaining very short six-page stories into fuller adaptations and
-to keep auditing any longer story that still feels compressed. Use as many pages
-as each story needs and add matching page-specific local WebP artwork for every
-new page.
-
-Next expansion batch:
-
-* `anansi_pot_beans`
-* `sun_moon_sky`
-* `monkey_and_shark`
-* `clever_rabbit_lion`
-* `magic_porridge_pot`
-* `cinderella`
-
-For this batch, read each story end to end first. Expand only where the story
-feels rushed, missing setup, missing transitions, or missing resolution. Do not
-target a fixed page count. Each new page needs matching `textAm`, `textEn`,
-`illustrationPrompt`, `audioUrl: null`, and a local 1200 x 900 WebP image under
-`assets/images/stories/`.
-
-Remaining six-page manifest stories after the latest pass:
-`anansi_pot_beans`, `sun_moon_sky`, `monkey_and_shark`,
-`clever_rabbit_lion`, `magic_porridge_pot`, and `cinderella`.
+Continue catalog review before broad feedback review. The documented six-page
+backlog has now been expanded; the current priority is to re-audit the full
+50-story catalog by reading flow, age fit, Amharic wording, and illustration
+match. Keep using as many pages as each story needs if any longer story still
+feels compressed.
 
 After each expansion batch, run `dart run tool/catalog_qa.dart`,
 `flutter analyze`, and `flutter test`. Use the library search, collection

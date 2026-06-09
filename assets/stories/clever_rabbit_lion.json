@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በሜዳ ውስጥ አንበሳው በጣም ድምፁን ያሰማ ነበር።",
-      "textEn": "Page 1 of The Clever Rabbit and the Lion.",
+      "textEn": "In the meadow, the lion used a very loud voice.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 1: በሜዳ ውስጥ አንበሳው በጣም ድምፁን ያሰማ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "እንስሳቱ ትንሽ ፈሩ፣ ጥንቸሉ ግን በቀስታ ለመናገር ወሰነ።",
-      "textEn": "Page 2 of The Clever Rabbit and the Lion.",
+      "textEn": "The animals felt a little afraid, but Rabbit decided to speak gently.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 2: እንስሳቱ ትንሽ ፈሩ፣ ጥንቸሉ ግን በቀስታ ለመናገር ወሰነ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ጥንቸሉ አንበሳውን ወደ ጸጥ ያለ የውሃ ጉድጓድ መራው።",
-      "textEn": "Page 3 of The Clever Rabbit and the Lion.",
+      "textEn": "Rabbit led the lion to a quiet water pool.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 3: ጥንቸሉ አንበሳውን ወደ ጸጥ ያለ የውሃ ጉድጓድ መራው።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "አንበሳው በውሃ ውስጥ የራሱን ጥላ አየ እና ድምፁ ሌሎችን እንደሚያስፈራ ተረዳ።",
-      "textEn": "Page 4 of The Clever Rabbit and the Lion.",
+      "textEn": "The lion saw his reflection in the water and understood his voice frightened others.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 4: አንበሳው በውሃ ውስጥ የራሱን ጥላ አየ እና ድምፁ ሌሎችን እንደሚያስፈራ ተረዳ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ጥንቸሉ “ትልቅ መሆን ሌሎችን መጠበቅም ነው” አለው።",
-      "textEn": "Page 5 of The Clever Rabbit and the Lion.",
+      "textEn": "Rabbit told him that being big also means protecting others.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 5: ጥንቸሉ “ትልቅ መሆን ሌሎችን መጠበቅም ነው” አለው።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "አንበሳው በቀስታ መናገር ጀመረ፣ ሜዳውም እንደገና በሰላም ተሞላ።",
-      "textEn": "Page 6 of The Clever Rabbit and the Lion.",
+      "textEn": "The lion began speaking softly, and the meadow became peaceful again.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 6: አንበሳው በቀስታ መናገር ጀመረ፣ ሜዳውም እንደገና በሰላም ተሞላ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ጥንቸሉ አንበሳውን ለመናገር ትንሽ ጊዜ ጠበቀ። አንበሳው ሲረጋጋ እሱ በለስላሳ ድምፅ ቀረበ።",
+      "textEn": "Rabbit waited until the lion was calm, then spoke softly.",
+      "imageUrl": "assets/images/stories/clever_rabbit_lion_page_07.webp",
+      "illustrationPrompt": "Small rabbit approaching a calm lion in a sunny meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "“ድምፅህ ትልቅ ነው፣ ልብህም ትልቅ ሊሆን ይችላል” አለ ጥንቸሉ። አንበሳውም ይህን ቃል ለመስማት ቆመ።",
+      "textEn": "Rabbit told the lion that a big voice can come with a big heart.",
+      "imageUrl": "assets/images/stories/clever_rabbit_lion_page_08.webp",
+      "illustrationPrompt": "Rabbit speaking kindly to a thoughtful lion.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በውሃው አጠገብ አንበሳው ፊቱን በጸጥታ አየ። “ሰላም ስሰጥ ሁሉም ይቀርባል” ብሎ አሰበ።",
+      "textEn": "At the water, the lion thought about giving peace so others could come near.",
+      "imageUrl": "assets/images/stories/clever_rabbit_lion_page_09.webp",
+      "illustrationPrompt": "Lion looking at his reflection in a quiet pool beside Rabbit.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "አንበሳው ወደ ሜዳው ተመልሶ በቀስታ ሰላም አለ። ትንንሽ እንስሳትም በቀስታ ወደ እሱ ቀረቡ።",
+      "textEn": "The lion returned and greeted the meadow softly.",
+      "imageUrl": "assets/images/stories/clever_rabbit_lion_page_10.webp",
+      "illustrationPrompt": "Lion softly greeting small meadow animals while Rabbit smiles.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ አንበሳው ትልቅ ጉልበቱን ለመጠበቅ ተጠቀመ። ጥንቸሉም ብልሃት በሰላም ሲመራ እንደሚያበራ አስታወሰ።",
+      "textEn": "After that, the lion used his strength to protect, and Rabbit remembered peaceful cleverness.",
+      "imageUrl": "assets/images/stories/clever_rabbit_lion_page_11.webp",
+      "illustrationPrompt": "Peaceful lion watching over a meadow beside a clever rabbit.",
       "audioUrl": null
     }
   ]
