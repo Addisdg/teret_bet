@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["contentment", "gratitude", "choices"],
+  "themes": [
+    "contentment",
+    "gratitude",
+    "choices"
+  ],
   "coverImage": "assets/images/stories/fisherman_and_wife_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "At last they drank tea at home and felt grateful for what they had.",
       "imageUrl": "assets/images/stories/fisherman_and_wife_page_06.webp",
       "illustrationPrompt": "The fisherman and wife sharing tea in a warm simple seaside home.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ከሻዩ በኋላ ሚስቱ መስኮቱን ከፈተች። ባሕሩ በቀስታ ይበራ ነበር፣ ትንሹ ቤታቸውም በፀሐይ ሞቃት ሆኖ ታየ።",
+      "textEn": "After tea, the wife saw how warm their simple home already was.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_07.webp",
+      "illustrationPrompt": "A seaside cottage window open to a calm shining sea, warm tea on table.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አሳ አጥማጁ “አንድ ነገር ከመፈለጋችን በፊት ያለንን እንቆጥር” አለ። ሁለቱም ቤታቸውን፣ መጠጡን፣ የባሕሩንም ድምፅ በምስጋና አስታወሱ።",
+      "textEn": "The fisherman suggested counting what they already had before wanting more.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_08.webp",
+      "illustrationPrompt": "Fisherman and wife counting simple blessings at a cottage table by the sea.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በማግሥቱ በባሕር ዳር ትንሽ አትክልት ተከሉ። ሚስቱ አበቦችን አጠጣች፣ አሳ አጥማጁም መረቡን በሰላም ጠገነ።",
+      "textEn": "The next day they planted a small seaside garden and worked peacefully.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_09.webp",
+      "illustrationPrompt": "A couple tending flowers and a fishing net beside a small seaside cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ብሩህ አሳው ከሩቅ በውኃ ውስጥ ተንቀሳቀሰ። እንደሚስቅ ብልጭ አለ፣ ሁለቱም የባሕሩን ስጦታ በርኅራኄ መመለሳቸውን አስታወሱ።",
+      "textEn": "The bright fish glimmered from afar, reminding them of kindness.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_10.webp",
+      "illustrationPrompt": "A shimmering colorful fish in calm sea water near a small boat.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ በቤታቸው ትልቅ ነገር ባይኖርም ልባቸው ተሞላ። በቂ ማወቅ እና ምስጋና ትንሽ ቤትን እንኳን ሰፊ እንደሚያደርግ ተማሩ።",
+      "textEn": "They learned that gratitude can make even a small home feel wide and warm.",
+      "imageUrl": "assets/images/stories/fisherman_and_wife_page_11.webp",
+      "illustrationPrompt": "A peaceful small seaside cottage glowing warmly at sunset.",
       "audioUrl": null
     }
   ]

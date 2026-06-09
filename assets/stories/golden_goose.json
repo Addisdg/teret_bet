@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["generosity", "kindness", "joy"],
+  "themes": [
+    "generosity",
+    "kindness",
+    "joy"
+  ],
   "coverImage": "assets/images/stories/golden_goose_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "From then on, the boy used the gift to bring joy to others.",
       "imageUrl": "assets/images/stories/golden_goose_page_06.webp",
       "illustrationPrompt": "The kind boy and golden goose surrounded by happy villagers in warm evening light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በማግሥቱ ልጁ ዝይዋን ወደ መንደሩ ትልቅ ዛፍ አጠገብ ወሰዳት። ልጆች በክብ ተቀመጡ፣ አዋቂዎችም በርጋታ ተመለከቱ።",
+      "textEn": "The boy brought the goose to the village tree, where everyone gathered peacefully.",
+      "imageUrl": "assets/images/stories/golden_goose_page_07.webp",
+      "illustrationPrompt": "A kind boy with a glowing golden goose under a large village tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ዝይዋ በደስታ ተጓዘች፣ ሰዎችም እንዲስቁ አደረገች። ልጁ ግን “ይህ ስጦታ ለእኔ ብቻ አይደለም” ብሎ አስታወሰ።",
+      "textEn": "The goose brought laughter, and the boy remembered the gift was for sharing.",
+      "imageUrl": "assets/images/stories/golden_goose_page_08.webp",
+      "illustrationPrompt": "Golden goose waddling happily while villagers laugh gently in a sunny square.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "አንዲት አያት ሳቁን ስትሰማ ከቤቷ ወጣች። ልጁ ዝይዋን አቅርቦ “ዛሬ ደስታው ወደ እርስዎም ይመጣ” አለ።",
+      "textEn": "The boy brought joy to an elder who had stayed indoors.",
+      "imageUrl": "assets/images/stories/golden_goose_page_09.webp",
+      "illustrationPrompt": "A kind boy and golden goose visiting a smiling grandmother near her doorway.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በየሳምንቱ ሰዎች በአደባባይ ተሰበሰቡ። አንዱ ዘፈነ፣ ሌላው ታሪክ ነገረ፣ ዝይዋም በመካከላቸው ብርሃኗን አበራች።",
+      "textEn": "Each week the village shared songs, stories, and the goose’s gentle glow.",
+      "imageUrl": "assets/images/stories/golden_goose_page_10.webp",
+      "illustrationPrompt": "Village gathering with songs, stories, and a glowing golden goose at center.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ልጁ ትልቁ ስጦታ ወርቃማው ቀለም ብቻ እንዳልሆነ ተማረ። ምሳን፣ ሳቅን እና ደግነትን ሲካፈል መንደሩ የበለጠ ብሩህ ሆነ።",
+      "textEn": "The boy learned that sharing kindness made the village brighter.",
+      "imageUrl": "assets/images/stories/golden_goose_page_11.webp",
+      "illustrationPrompt": "A bright happy village square at sunset with a boy and golden goose.",
       "audioUrl": null
     }
   ]

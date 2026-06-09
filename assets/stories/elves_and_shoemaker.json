@@ -15,7 +15,11 @@
   },
   "ageMin": 3,
   "ageMax": 6,
-  "themes": ["gratitude", "work", "kindness"],
+  "themes": [
+    "gratitude",
+    "work",
+    "kindness"
+  ],
   "coverImage": "assets/images/stories/elves_and_shoemaker_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "The helpers sang with joy, and the shoemaker kept working with gratitude.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_06.webp",
       "illustrationPrompt": "Tiny helpers dancing happily in new clothes while the shoemaker and wife smile.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በማግሥቱ ጫማ ሰፊው እና ሚስቱ ጠረጴዛውን በንጽሕና አዘጋጁ። እነሱ ረዳቶቹ ቢመጡም ባይመጡም ሥራውን በፍቅር መቀጠል ወሰኑ።",
+      "textEn": "The shoemaker and his wife prepared the table and chose to keep working with love.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_07.webp",
+      "illustrationPrompt": "Shoemaker and wife preparing a tidy worktable in a warm shoe shop.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ረዳቶቹ አዲሱን ልብስ ለብሰው በመስኮት አጠገብ በደስታ ዘመሩ። ከዚያ በኋላ ወደ ሌላ ሰው ለመርዳት በቀስታ ተጓዙ።",
+      "textEn": "The little helpers wore their warm clothes and went on to help elsewhere.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_08.webp",
+      "illustrationPrompt": "Two tiny cheerful helpers in warm clothes waving near a shoe shop window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጫማ ሰፊው አዲስ ጫማ ሲሠራ እያንዳንዱን በጥንቃቄ አጠናቀቀ። ሚስቱም “ምስጋና እጆችን ያበረታታል” አለች።",
+      "textEn": "The shoemaker worked carefully, strengthened by gratitude.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_09.webp",
+      "illustrationPrompt": "Shoemaker carefully stitching a beautiful pair of shoes in warm lamplight.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በመንደሩ ውስጥ ጫማዎቹ በደስታ ተለበሱ። ልጆች በአዲስ ጫማ በቀስታ ተመላለሱ፣ አዋቂዎችም ለጫማ ሰፊው አመሰገኑ።",
+      "textEn": "The village wore the shoes happily and thanked the shoemaker.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_10.webp",
+      "illustrationPrompt": "Villagers and children happily trying new shoes outside a small shoe shop.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ጫማ ሰፊው ትንሽ እርዳታ ትልቅ ምስጋና እንደሚያስፈልጋት አስታወሰ። እሱና ሚስቱም የተረፈውን ቆዳ ለሚፈልጉ ሰዎች አጋሩ።",
+      "textEn": "The shoemaker remembered to share gratitude and leftover materials with others.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_11.webp",
+      "illustrationPrompt": "Shoemaker and wife sharing extra leather pieces with neighbors in a cozy shop.",
       "audioUrl": null
     }
   ]

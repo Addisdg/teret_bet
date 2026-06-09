@@ -15,7 +15,11 @@
   },
   "ageMin": 4,
   "ageMax": 6,
-  "themes": ["listening", "safety", "family"],
+  "themes": [
+    "listening",
+    "safety",
+    "family"
+  ],
   "coverImage": "assets/images/stories/little_red_cap_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "Little Red Cap shared bread with grandmother and learned to follow the path.",
       "imageUrl": "assets/images/stories/little_red_cap_page_06.webp",
       "illustrationPrompt": "Little Red Cap and grandmother sharing bread in a warm cottage kitchen.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "አያቷ ቀይ ኮፍያን በቀስታ አቀፈቻት። “መንገድን መከተልሽ እና እርዳታ መጠየቅሽ ጥሩ ነበር” አለች።",
+      "textEn": "Grandmother praised Little Red Cap for staying on the path and asking for help.",
+      "imageUrl": "assets/images/stories/little_red_cap_page_07.webp",
+      "illustrationPrompt": "Little girl in a red hood sitting safely with grandmother in a cozy cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ቀይ ኮፍያ የቀረውን እንጀራ በቅርጫት አዘጋጀች። ለጫካ ጠባቂውም “እኛን ስለረዱን እናመሰግናለን” ብላ ትንሽ ፍሬ ሰጠችው።",
+      "textEn": "She thanked the forest keeper with bread and fruit.",
+      "imageUrl": "assets/images/stories/little_red_cap_page_08.webp",
+      "illustrationPrompt": "Red-hooded child giving fruit to a kind forest keeper near grandmother cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በመመለሻ መንገድ ጠባቂው የዛፎችን ምልክት አሳያት። “ይህ ቀጥታ መንገድ ነው፣ ይህ ደግሞ ወደ ወንዝ ይወስዳል” አለ።",
+      "textEn": "On the way back, the forest keeper showed her safe path markers.",
+      "imageUrl": "assets/images/stories/little_red_cap_page_09.webp",
+      "illustrationPrompt": "Kind forest keeper showing a red-hooded child tree markers on a sunny path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ትንሹ ተኩላ ከሩቅ ተመለከተ። በዚህ ጊዜ ቀይ ኮፍያ ርቀትዋን ጠበቀች፣ በጨዋነት እጇን አወዛወዘች፣ መንገዷንም ቀጠለች።",
+      "textEn": "When the little wolf watched from far away, she kept a safe distance and continued on.",
+      "imageUrl": "assets/images/stories/little_red_cap_page_10.webp",
+      "illustrationPrompt": "Red-hooded child waving politely from a safe distance on a forest path.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ቤት ስትደርስ ለእናቷ ሁሉንም ነገረች። እናቷም “ደግ መሆን እና ጥንቃቄ መያዝ አብረው ይሄዳሉ” አለች። ቀይ ኮፍያም የመንገድ ምልክቶችን ማስታወስ ተማረች።",
+      "textEn": "At home, she learned that kindness and caution can go together.",
+      "imageUrl": "assets/images/stories/little_red_cap_page_11.webp",
+      "illustrationPrompt": "Red-hooded child safely home with mother, basket on table, warm evening.",
       "audioUrl": null
     }
   ]

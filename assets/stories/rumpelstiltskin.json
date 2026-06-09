@@ -15,7 +15,11 @@
   },
   "ageMin": 5,
   "ageMax": 6,
-  "themes": ["promises", "honesty", "cleverness"],
+  "themes": [
+    "promises",
+    "honesty",
+    "cleverness"
+  ],
   "coverImage": "assets/images/stories/rumpelstiltskin_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "Rumpelstiltskin! she said happily, and the stranger smiled goodbye.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_06.webp",
       "illustrationPrompt": "The young woman smiling as the tiny helper waves goodbye under warm lantern light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በማግሥቱ ልጃገረዷ በመስኮቷ አጠገብ ተቀምጣ ያለፈውን ቀን አሰበች። “እርዳታ መቀበል ጥሩ ነው፣ ግን ቃል በጥንቃቄ መስጠት አለብኝ” አለች።",
+      "textEn": "The girl thought about help, promises, and careful choices.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_07.webp",
+      "illustrationPrompt": "A thoughtful young craftswoman sitting by a sunny window beside a spinning wheel.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "እሷ ለመንደሩ ልጆች ትንሽ የቃል ጨዋታ አዘጋጀች። ልጆቹ “ቃል ከመስጠታችን በፊት እንጠይቃለን” ብለው በደስታ ተማሩ።",
+      "textEn": "She made a promise game so children could practice asking questions first.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_08.webp",
+      "illustrationPrompt": "Village children playing a gentle promise game with a young craftswoman.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ከዚያ በኋላ ማንም እርዳታ ሲጠይቅ እሷ “እሺ፣ ነገር ግን በግልጽ እንነጋገር” ትል ነበር። ሰዎችም ሐቀኛ ንግግር እንደሚያረጋጋ አዩ።",
+      "textEn": "She practiced clear and honest agreements with neighbors.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_09.webp",
+      "illustrationPrompt": "Neighbors talking kindly with a young craftswoman in a village workshop.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ትንሹ እንግዳ አንድ ቀን ከሩቅ በፈገግታ እጁን አወዛወዘ። እሱም በጨዋታ ውስጥ ጥበብ እንዳለ አሳይቶ ሄደ።",
+      "textEn": "The little stranger waved kindly from far away, leaving a lesson behind.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_10.webp",
+      "illustrationPrompt": "A tiny friendly forest helper waving from a sunny path near a village.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ልጃገረዷ ሥራዋን በሰላም ቀጠለች። ከዚያ ቀን በኋላ ቃል በፊት ማሰብ፣ በግልጽ መናገር እና እርዳታን በምስጋና መቀበል እንደሚጠቅም ታስታውስ ነበር።",
+      "textEn": "She remembered to think first, speak clearly, and accept help with gratitude.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_11.webp",
+      "illustrationPrompt": "A peaceful craft room with a spinning wheel, flowers, and warm morning light.",
       "audioUrl": null
     }
   ]

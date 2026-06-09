@@ -197,14 +197,19 @@ Expanded from the six-page backlog:
 - `rapunzel` - 11 pages
 - `bremen_town_musicians` - 11 pages
 - `snow_white` - 11 pages
+- `rumpelstiltskin` - 11 pages
+- `golden_goose` - 11 pages
+- `fisherman_and_wife` - 11 pages
+- `elves_and_shoemaker` - 11 pages
+- `little_red_cap` - 11 pages
 
 Next recommended expansion batch:
 
-- `rumpelstiltskin`
-- `golden_goose`
-- `fisherman_and_wife`
-- `elves_and_shoemaker`
-- `little_red_cap`
+- `wolf_seven_young_kids`
+- `ugly_duckling`
+- `emperors_new_clothes`
+- `thumbelina`
+- `princess_and_pea`
 
 Latest validated expansion commit: `8758d5d Expand first six-page story batch`.
 The latest pass expanded the first five stories from the six-page backlog and
