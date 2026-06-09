@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ጌርዳ እና ካይ በመስኮታቸው አጠገብ አበባዎችን ይንከባከቡ ነበር።",
-      "textEn": "Page 1 of The Snow Queen.",
+      "textEn": "Gerda and Kai cared for flowers beside their window.",
       "imageUrl": "assets/images/stories/snow_queen_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 1: ጌርዳ እና ካይ በመስኮታቸው አጠገብ አበባዎችን ይንከባከቡ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "አንድ ቀዝቃዛ ነፋስ መጣ፣ ካይም በበረዶ ቤት ውስጥ ለመጫወት ሄደ።",
-      "textEn": "Page 2 of The Snow Queen.",
+      "textEn": "A cold wind came, and Kai went to play in a house of snow.",
       "imageUrl": "assets/images/stories/snow_queen_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 2: አንድ ቀዝቃዛ ነፋስ መጣ፣ ካይም በበረዶ ቤት ውስጥ ለመጫወት ሄደ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ጌርዳ ጓደኛዋን ለማግኘት ሞቃት ሻርፍ ይዛ መንገድ ጀመረች።",
-      "textEn": "Page 3 of The Snow Queen.",
+      "textEn": "Gerda took a warm scarf and began the path to find her friend.",
       "imageUrl": "assets/images/stories/snow_queen_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 3: ጌርዳ ጓደኛዋን ለማግኘት ሞቃት ሻርፍ ይዛ መንገድ ጀመረች።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "በመንገድ ላይ ደግ አበባዎች፣ ወፎች እና እረኛ መንገድ አሳዩአት።",
-      "textEn": "Page 4 of The Snow Queen.",
+      "textEn": "Kind flowers, birds, and a shepherd showed Gerda the way.",
       "imageUrl": "assets/images/stories/snow_queen_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 4: በመንገድ ላይ ደግ አበባዎች፣ ወፎች እና እረኛ መንገድ አሳዩአት።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "በበረዶው ቤት ውስጥ ጌርዳ ካይን በሞቃት መዝሙር አስታወሰችው።",
-      "textEn": "Page 5 of The Snow Queen.",
+      "textEn": "Inside the snow house, Gerda reminded Kai with a warm song.",
       "imageUrl": "assets/images/stories/snow_queen_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 5: በበረዶው ቤት ውስጥ ጌርዳ ካይን በሞቃት መዝሙር አስታወሰችው።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
-      "textEn": "Page 6 of The Snow Queen.",
+      "textEn": "Kai smiled, and they returned home to play among their flowers again.",
       "imageUrl": "assets/images/stories/snow_queen_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 6: ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ጌርዳ በመንገዱ ላይ ብርድ ቢሰማትም ሻርፏን በጥንቃቄ ጠበቀች። “የጓደኛ ልብ መንገድን ያሞቃል” ብላ ቀጠለች።",
+      "textEn": "Gerda felt the cold but kept walking with the warmth of friendship in her heart.",
+      "imageUrl": "assets/images/stories/snow_queen_page_07.webp",
+      "illustrationPrompt": "Gerda walking through gentle snow with a warm scarf and glowing cottage lights far away.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንዲት ደግ ወፍ በዛፍ ላይ ቆማ “ካይ ወደ በረዶው ግቢ ሄዷል” ብላ አሳወቀቻት። ጌርዳም ወፏን አመሰገነች።",
+      "textEn": "A kind bird told Gerda where Kai had gone, and Gerda thanked her.",
+      "imageUrl": "assets/images/stories/snow_queen_page_08.webp",
+      "illustrationPrompt": "Kind bird on a snowy tree branch guiding Gerda toward an icy garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በበረዶው ግቢ ውስጥ ካይ ጸጥ ብሎ ተቀምጦ ነበር። ጌርዳ በቀስታ ቀርባ “እኔ እዚህ ነኝ” አለችው።",
+      "textEn": "In the snowy garden, Gerda gently told Kai she was there.",
+      "imageUrl": "assets/images/stories/snow_queen_page_09.webp",
+      "illustrationPrompt": "Gerda approaching Kai in a sparkling icy garden, calm and kind.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ጌርዳ የቤታቸውን አበባ ታሪክ ስትናገር ካይ የድሮ ፈገግታውን አስታወሰ። በረዶውም በፀሐይ ብርሃን መብራት ጀመረ።",
+      "textEn": "Gerda spoke of their flowers, and Kai remembered his smile.",
+      "imageUrl": "assets/images/stories/snow_queen_page_10.webp",
+      "illustrationPrompt": "Gerda and Kai smiling as sunlight warms a snowy garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ሁለቱ ወደ ቤት ሲመለሱ በመንገድ ላይ ለረዷቸው ሁሉ አመሰገኑ። አበቦቻቸውም በመስኮቱ አጠገብ እንደገና አበቡ።",
+      "textEn": "On the way home, they thanked everyone who had helped, and their flowers bloomed again.",
+      "imageUrl": "assets/images/stories/snow_queen_page_11.webp",
+      "illustrationPrompt": "Gerda and Kai returning home past helpers as flowers bloom by a window.",
       "audioUrl": null
     }
   ]

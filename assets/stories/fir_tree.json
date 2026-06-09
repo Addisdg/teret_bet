@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በጫካ ውስጥ ትንሽ የጥድ ዛፍ ይበቅል ነበር። እሱ ግን “ቶሎ ትልቅ ልሁን” ይል ነበር።",
-      "textEn": "Page 1 of The Fir Tree.",
+      "textEn": "A little fir tree grew in the forest, but he wished to become big quickly.",
       "imageUrl": "assets/images/stories/fir_tree_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 1: በጫካ ውስጥ ትንሽ የጥድ ዛፍ ይበቅል ነበር። እሱ ግን “ቶሎ ትልቅ ልሁን” ይል ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ወፎች “ዛሬ ያለውን ፀሐይ ተመልከት” ብለው ዘመሩለት።",
-      "textEn": "Page 2 of The Fir Tree.",
+      "textEn": "Birds sang to him and told him to notice today’s sunshine.",
       "imageUrl": "assets/images/stories/fir_tree_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 2: ወፎች “ዛሬ ያለውን ፀሐይ ተመልከት” ብለው ዘመሩለት።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ዛፉ ረጅም ዛፎችን እያየ ራሱን ትንሽ ብሎ አሰበ።",
-      "textEn": "Page 3 of The Fir Tree.",
+      "textEn": "The tree looked at tall trees and thought he was too small.",
       "imageUrl": "assets/images/stories/fir_tree_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 3: ዛፉ ረጅም ዛፎችን እያየ ራሱን ትንሽ ብሎ አሰበ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "አንድ ቀን ልጆች በአጠገቡ ተጫወቱ፣ ከጥላውም ተደሰቱ።",
-      "textEn": "Page 4 of The Fir Tree.",
+      "textEn": "One day children played beside him and enjoyed his shade.",
       "imageUrl": "assets/images/stories/fir_tree_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 4: አንድ ቀን ልጆች በአጠገቡ ተጫወቱ፣ ከጥላውም ተደሰቱ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "የጥድ ዛፉ “እኔም ዛሬ ደስታ እሰጣለሁ” ብሎ ተረዳ።",
-      "textEn": "Page 5 of The Fir Tree.",
+      "textEn": "The fir tree understood that he could give joy today too.",
       "imageUrl": "assets/images/stories/fir_tree_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 5: የጥድ ዛፉ “እኔም ዛሬ ደስታ እሰጣለሁ” ብሎ ተረዳ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ከዚያ በኋላ በየቀኑ ፀሐይን፣ ዝናብን እና ጓደኞቹን በምስጋና ይቀበል ነበር።",
-      "textEn": "Page 6 of The Fir Tree.",
+      "textEn": "After that, he welcomed each day’s sun, rain, and friends with gratitude.",
       "imageUrl": "assets/images/stories/fir_tree_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Fir Tree, page 6: ከዚያ በኋላ በየቀኑ ፀሐይን፣ ዝናብን እና ጓደኞቹን በምስጋና ይቀበል ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ትንሹ ዛፍ የጠዋት ጤዛ በቅጠሎቹ ላይ ሲያበራ አየ። ወፎቹም “ትንሽ መሆንህ የጠዋትን ብርሃን አያሳንስም” ብለው ዘመሩ።",
+      "textEn": "The little tree saw morning dew sparkle and heard birds praise the day.",
+      "imageUrl": "assets/images/stories/fir_tree_page_07.webp",
+      "illustrationPrompt": "Small fir tree with sparkling morning dew while birds sing nearby.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ነፋሱ ሲነፍስ ትንሹ ዛፍ በቀስታ ተንቀሳቀሰ። ከትልልቅ ዛፎች ጋር አንድ የጫካ ዘፈን መሆኑን ተሰማው።",
+      "textEn": "When the wind blew, the little tree felt part of the forest song.",
+      "imageUrl": "assets/images/stories/fir_tree_page_08.webp",
+      "illustrationPrompt": "Little fir tree swaying with tall trees in a friendly forest breeze.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ልጆች በአጠገቡ ትንሽ የቅጠል ቤት ሠሩ። “ይህ ዛፍ በጣም ጥሩ ጥላ አለው” ብለው ተደሰቱ።",
+      "textEn": "Children built a little leaf house nearby and enjoyed the tree’s shade.",
+      "imageUrl": "assets/images/stories/fir_tree_page_09.webp",
+      "illustrationPrompt": "Children building a tiny leaf house in the shade of a small fir tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በዝናብ ቀን ዛፉ ሥሮቹ ውሃ ሲጠጡ ተሰማው። “እድገት በቀስታ ይመጣል” ብሎ ራሱን አጽናና።",
+      "textEn": "On a rainy day, the tree learned that growth comes slowly.",
+      "imageUrl": "assets/images/stories/fir_tree_page_10.webp",
+      "illustrationPrompt": "Small fir tree drinking rain with gentle drops and soft forest colors.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ዛፉ ረጅም ዛፎችን ሲያይ አይቀናም ነበር። እሱ ዛሬ የሚሰጠውን ጥላ፣ መዓዛ እና ደስታ ይቆጥር ነበር።",
+      "textEn": "After that, the tree counted the shade, scent, and joy he could give today.",
+      "imageUrl": "assets/images/stories/fir_tree_page_11.webp",
+      "illustrationPrompt": "Happy little fir tree among tall trees with children and birds nearby.",
       "audioUrl": null
     }
   ]

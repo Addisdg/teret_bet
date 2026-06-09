@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "አንድ ወጣት በቀላል ልብስ ወደ ቤተመንግሥት መጣ። እሱ ደግ እና ብልህ ነበር።",
-      "textEn": "Page 1 of The Swineherd.",
+      "textEn": "A young man in simple clothes came to the palace, kind and clever.",
       "imageUrl": "assets/images/stories/swineherd_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 1: አንድ ወጣት በቀላል ልብስ ወደ ቤተመንግሥት መጣ። እሱ ደግ እና ብልህ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
-      "textEn": "Page 2 of The Swineherd.",
+      "textEn": "He brought the princess a flower he had grown with his own hands.",
       "imageUrl": "assets/images/stories/swineherd_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 2: ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "እሷ ግን ብሩህ ነገሮችን ብቻ ማየት ትፈልግ ነበር።",
-      "textEn": "Page 3 of The Swineherd.",
+      "textEn": "She wanted to notice only shiny things.",
       "imageUrl": "assets/images/stories/swineherd_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 3: እሷ ግን ብሩህ ነገሮችን ብቻ ማየት ትፈልግ ነበር።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ወጣቱ አሳማዎችን በደግነት ሲንከባከብ ሁሉም እንስሳት ይወዱት ነበር።",
-      "textEn": "Page 4 of The Swineherd.",
+      "textEn": "The young man cared kindly for pigs, and all the animals liked him.",
       "imageUrl": "assets/images/stories/swineherd_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 4: ወጣቱ አሳማዎችን በደግነት ሲንከባከብ ሁሉም እንስሳት ይወዱት ነበር።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
-      "textEn": "Page 5 of The Swineherd.",
+      "textEn": "The princess learned that a kind heart is worth more than a shiny gift.",
       "imageUrl": "assets/images/stories/swineherd_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 5: ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
-      "textEn": "Page 6 of The Swineherd.",
+      "textEn": "She planted the flower in the garden and began to look at people by their hearts.",
       "imageUrl": "assets/images/stories/swineherd_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 6: እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ወጣቱ አበባውን ሲያቀርብ “ይህን በትዕግሥት አሳድጌዋለሁ” አለ። ልጃገረዷ ግን በፍጥነት ብሩህ ሳጥኖችን ተመለከተች።",
+      "textEn": "The young man offered a flower grown with patience, but the princess looked for shiny boxes.",
+      "imageUrl": "assets/images/stories/swineherd_page_07.webp",
+      "illustrationPrompt": "Young man offering a simple flower while a princess notices shiny boxes.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በአጥር አጠገብ ወጣቱ አሳማዎቹን በስም ይጠራቸው ነበር። እነሱም በደስታ ወደ እሱ ይሮጡ ነበር።",
+      "textEn": "By the fence, the young man called the pigs by name and cared for them kindly.",
+      "imageUrl": "assets/images/stories/swineherd_page_08.webp",
+      "illustrationPrompt": "Kind swineherd calling happy pigs by a fence near the palace garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ልጃገረዷ ከመስኮት ይህን አይታ ተገረመች። “እንስሳት ደግነትን ፈጥነው ያውቃሉ” ብላ አሰበች።",
+      "textEn": "The princess watched and noticed that animals quickly know kindness.",
+      "imageUrl": "assets/images/stories/swineherd_page_09.webp",
+      "illustrationPrompt": "Princess watching from a palace window as pigs gather around the kind swineherd.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በኋላ ወጣቱ ለአሳማዎቹ ትንሽ የሙዚቃ መጫወቻ ሠራ። ድምፁ ቀላል ነበር፣ ግን ሁሉንም እንዲደሰቱ አደረገ።",
+      "textEn": "Later, he made a simple music toy that made everyone happy.",
+      "imageUrl": "assets/images/stories/swineherd_page_10.webp",
+      "illustrationPrompt": "Swineherd playing a simple music toy while pigs and children listen happily.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ልጃገረዷ አበባውን እንደገና ተመለከተች። “ብሩህ ነገር ዓይንን ያስደስታል፣ ደግ ልብ ግን ቤትን ያሞቃል” ብላ ተማረች።",
+      "textEn": "The princess looked again at the flower and understood the warmth of a kind heart.",
+      "imageUrl": "assets/images/stories/swineherd_page_11.webp",
+      "illustrationPrompt": "Princess holding a simple flower warmly in a palace garden.",
       "audioUrl": null
     }
   ]

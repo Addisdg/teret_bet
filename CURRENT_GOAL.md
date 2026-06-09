@@ -57,6 +57,9 @@ before external testing.
 * Third six-page backlog batch expanded with matching local artwork:
   `wolf_seven_young_kids`, `ugly_duckling`, `emperors_new_clothes`,
   `thumbelina`, and `princess_and_pea`
+* Fourth six-page backlog batch expanded with matching local artwork:
+  `snow_queen`, `little_match_girl`, `nightingale`, `fir_tree`, and
+  `swineherd`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
 
@@ -91,11 +94,11 @@ new page.
 
 Next expansion batch:
 
-* `snow_queen`
-* `little_match_girl`
-* `nightingale`
-* `fir_tree`
-* `swineherd`
+* `steadfast_tin_soldier`
+* `goldilocks_three_bears`
+* `gingerbread_man`
+* `happy_prince`
+* `anansi_and_turtle`
 
 For this batch, read each story end to end first. Expand only where the story
 feels rushed, missing setup, missing transitions, or missing resolution. Do not
@@ -104,7 +107,6 @@ target a fixed page count. Each new page needs matching `textAm`, `textEn`,
 `assets/images/stories/`.
 
 Remaining six-page manifest stories after the latest pass:
-`snow_queen`, `little_match_girl`, `nightingale`, `fir_tree`, `swineherd`,
 `steadfast_tin_soldier`, `goldilocks_three_bears`, `gingerbread_man`,
 `happy_prince`, `anansi_and_turtle`, `anansi_pot_beans`, `sun_moon_sky`,
 `monkey_and_shark`, `clever_rabbit_lion`, `magic_porridge_pot`, and

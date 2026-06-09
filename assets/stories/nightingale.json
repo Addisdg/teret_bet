@@ -30,23 +30,23 @@
     {
       "pageNumber": 1,
       "textAm": "በአንድ ቆንጆ አትክልት ውስጥ ትንሽ የሌሊት ወፍ በጣም ደስ የሚል ትዘምር ነበር።",
-      "textEn": "Page 1 of The Nightingale.",
+      "textEn": "In a beautiful garden, a small nightingale sang a very lovely song.",
       "imageUrl": "assets/images/stories/nightingale_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 1: በአንድ ቆንጆ አትክልት ውስጥ ትንሽ የሌሊት ወፍ በጣም ደስ የሚል ትዘምር ነበር።",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "ንጉሡ ድምፇን ሰምቶ ወፏን ለመጋበዝ ፈለገ።",
-      "textEn": "Page 2 of The Nightingale.",
+      "textAm": "ንጉሡ ድምፁን ሰምቶ ወፏን ለመጋበዝ ፈለገ።",
+      "textEn": "The king heard the voice and wanted to invite the bird.",
       "imageUrl": "assets/images/stories/nightingale_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 2: ንጉሡ ድምፇን ሰምቶ ወፏን ለመጋበዝ ፈለገ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 2: ንጉሡ ድምፁን ሰምቶ ወፏን ለመጋበዝ ፈለገ።",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
       "textAm": "በቤተመንግሥት ውስጥ ወርቃማ የሚዘምር መጫወቻም ነበር።",
-      "textEn": "Page 3 of The Nightingale.",
+      "textEn": "Inside the palace, there was also a golden singing toy.",
       "imageUrl": "assets/images/stories/nightingale_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 3: በቤተመንግሥት ውስጥ ወርቃማ የሚዘምር መጫወቻም ነበር።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "መጫወቻው ብሩህ ነበር፣ ግን የወፏ ዘፈን ልብን በሰላም ይሞላ ነበር።",
-      "textEn": "Page 4 of The Nightingale.",
+      "textEn": "The toy was bright, but the bird’s song filled hearts with peace.",
       "imageUrl": "assets/images/stories/nightingale_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 4: መጫወቻው ብሩህ ነበር፣ ግን የወፏ ዘፈን ልብን በሰላም ይሞላ ነበር።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ንጉሡ ወፏን “በነፃ ዘምሪ፣ አትክልቱንም አብሪ” አለ።",
-      "textEn": "Page 5 of The Nightingale.",
+      "textEn": "The king told the bird to sing freely and brighten the garden.",
       "imageUrl": "assets/images/stories/nightingale_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 5: ንጉሡ ወፏን “በነፃ ዘምሪ፣ አትክልቱንም አብሪ” አለ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን ጀምሮ ቤተመንግሥቱ በተፈጥሮ ዘፈን እና በምስጋና ተሞላ።",
-      "textEn": "Page 6 of The Nightingale.",
+      "textEn": "From that day on, the palace was filled with natural song and gratitude.",
       "imageUrl": "assets/images/stories/nightingale_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 6: ከዚያ ቀን ጀምሮ ቤተመንግሥቱ በተፈጥሮ ዘፈን እና በምስጋና ተሞላ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "አትክልተኛው ንጉሡን ወደ ጫካው ጫፍ መራው። “ወፏ በትንሽ ቅርንጫፍ ላይ ትዘምራለች፣ ግን ድምጿ ትልቅ ደስታ ይሰጣል” አለ።",
+      "textEn": "The gardener led the king to the garden edge where the little bird sang.",
+      "imageUrl": "assets/images/stories/nightingale_page_07.webp",
+      "illustrationPrompt": "Gardener guiding a kind king toward a small nightingale in a garden tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ንጉሡ የወፏን ዘፈን ሲሰማ በጸጥታ ተቀመጠ። የተፈጥሮ ድምፅ ልቡን እንደ ለስላሳ ነፋስ አረጋጋው።",
+      "textEn": "When the king heard the bird, the natural song calmed his heart.",
+      "imageUrl": "assets/images/stories/nightingale_page_08.webp",
+      "illustrationPrompt": "King sitting quietly under a tree while a nightingale sings.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ወርቃማው መጫወቻ በቤተመንግሥት ውስጥ ይብራ ነበር። ንጉሡ ግን “ብርሃን ደስ ይላል፣ ሕያው ዘፈን ግን ልብን ይነካል” አለ።",
+      "textEn": "The golden toy sparkled, but the king learned that living song touches the heart.",
+      "imageUrl": "assets/images/stories/nightingale_page_09.webp",
+      "illustrationPrompt": "Golden singing toy on a palace table beside open windows to the garden.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ንጉሡ ወፏን በወርቅ ቤት ለመዝጋት አልፈለገም። “በአትክልቱ ውስጥ በነፃ ዘምሪ፣ ስትፈልጊም ጎብኚን” ብሎ ጠየቃት።",
+      "textEn": "The king chose to let the nightingale sing freely in the garden.",
+      "imageUrl": "assets/images/stories/nightingale_page_10.webp",
+      "illustrationPrompt": "King opening a palace window so a nightingale can fly freely.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ወፏ በየጠዋቱ ትንሽ ዘፈን ትሰጥ ነበር። ንጉሡም ከአሁን በኋላ ቀላል ውበትን በምስጋና ማየት ተማረ።",
+      "textEn": "Each morning, the bird sang, and the king learned to be grateful for simple beauty.",
+      "imageUrl": "assets/images/stories/nightingale_page_11.webp",
+      "illustrationPrompt": "Morning palace garden with a nightingale singing and the king smiling gratefully.",
       "audioUrl": null
     }
   ]

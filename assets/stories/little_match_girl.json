@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በቀዝቃዛ ምሽት ትንሽ ልጅ በከተማ መንገድ ላይ ቆማ ነበር።",
-      "textEn": "Page 1 of The Little Match Girl.",
+      "textEn": "On a cold evening, a small girl stood on a city street.",
       "imageUrl": "assets/images/stories/little_match_girl_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 1: በቀዝቃዛ ምሽት ትንሽ ልጅ በከተማ መንገድ ላይ ቆማ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "መስኮቶች በብርሃን ይበሩ ነበር፣ እሷም ሞቃት ቤት ትመኝ ነበር።",
-      "textEn": "Page 2 of The Little Match Girl.",
+      "textEn": "Windows glowed with light, and she wished for a warm home.",
       "imageUrl": "assets/images/stories/little_match_girl_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 2: መስኮቶች በብርሃን ይበሩ ነበር፣ እሷም ሞቃት ቤት ትመኝ ነበር።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "አንዲት ደግ እናት እሷን አይታ “ወደ ውስጥ ግቢ፣ እንሞቅ” አለቻት።",
-      "textEn": "Page 3 of The Little Match Girl.",
+      "textEn": "A kind mother saw her and invited her inside to get warm.",
       "imageUrl": "assets/images/stories/little_match_girl_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 3: አንዲት ደግ እናት እሷን አይታ “ወደ ውስጥ ግቢ፣ እንሞቅ” አለቻት።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ልጅቷ ሞቃት ሻይ እና ለስላሳ ብርድ ልብስ አገኘች።",
-      "textEn": "Page 4 of The Little Match Girl.",
+      "textEn": "The girl received warm tea and a soft blanket.",
       "imageUrl": "assets/images/stories/little_match_girl_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 4: ልጅቷ ሞቃት ሻይ እና ለስላሳ ብርድ ልብስ አገኘች።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "በቤቱ ውስጥ ሰዎች እንዴት ሌሎችን መርዳት እንደሚችሉ ተነጋገሩ።",
-      "textEn": "Page 5 of The Little Match Girl.",
+      "textEn": "Inside the house, people talked about how they could help others.",
       "imageUrl": "assets/images/stories/little_match_girl_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 5: በቤቱ ውስጥ ሰዎች እንዴት ሌሎችን መርዳት እንደሚችሉ ተነጋገሩ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
-      "textEn": "Page 6 of The Little Match Girl.",
+      "textEn": "The next day, the girl played with new friends in warmth and safety.",
       "imageUrl": "assets/images/stories/little_match_girl_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 6: በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "በቤቱ ውስጥ ልጅቷ እጆቿን በሞቃት ኩባያ ዙሪያ አኖረች። ደጉ ቤተሰብም ስሟን ጠይቆ በክብር አዳመጣት።",
+      "textEn": "Inside the home, the family listened kindly and learned her name.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_07.webp",
+      "illustrationPrompt": "Little girl holding a warm cup while a kind family listens in a cozy room.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "እናቱ ለልጅቷ ደረቅ ጫማ እና ሞቃት ካልሲ አመጣች። ልጅቷም “አመሰግናለሁ” ብላ በቀስታ ፈገግ አለች።",
+      "textEn": "The mother brought dry shoes and warm socks, and the girl smiled with thanks.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_08.webp",
+      "illustrationPrompt": "Kind mother giving dry shoes and warm socks to a smiling child.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በማታው ጎረቤቶች ተሰብስበው የሙቀት ሳጥን አዘጋጁ። በውስጡ ብርድ ልብስ፣ ካልሲ እና ትንሽ መክሰስ አስቀመጡ።",
+      "textEn": "That evening, neighbors made a warmth box with blankets, socks, and snacks.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_09.webp",
+      "illustrationPrompt": "Neighbors filling a community warmth box with blankets, socks, and small snacks.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ትንሿ ልጅ በሚቀጥለው ቀን ሳጥኑን ለሌላ ቀዝቃዛ ልጅ ለማድረስ ረዳች። እሷ ያገኘችውን ደግነት ለሌሎች አካፈለች።",
+      "textEn": "The next day, the girl helped share the kindness she had received.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_10.webp",
+      "illustrationPrompt": "Little girl helping deliver a warmth box to another child on a bright morning.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ጀምሮ በዚያ መንደር ሰዎች በቀዝቃዛ ቀን እርስ በርስ ይጠያየቁ ነበር። ልጅቷም በደህንነት ከጓደኞቿ ጋር ተማረች እና ተጫወተች።",
+      "textEn": "From then on, the village checked on one another during cold days.",
+      "imageUrl": "assets/images/stories/little_match_girl_page_11.webp",
+      "illustrationPrompt": "Warm village street with children playing safely while neighbors wave.",
       "audioUrl": null
     }
   ]
