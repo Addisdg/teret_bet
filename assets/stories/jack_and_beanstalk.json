@@ -101,10 +101,10 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "ጃክ ዘሮቹን ከመንደሩ ጋር አጋራ። ሰዎቹ በተራ አፈር አዘጋጁ፣ ውሃ አመጡ፣ ትንንሽ አትክልቶችንም ጀመሩ።",
-      "textEn": "Jack shared the seeds, and the village began planting together.",
+      "textAm": "ጃክ ዘሮቹን ከመንደሩ ጋር ለማጋራት ሰዎቹን ጠራ። እያንዳንዱ ቤት ትንሽ ዘር እንዲያገኝ በፍትሕ ተካፈሉ።",
+      "textEn": "Jack called the village together and shared the seeds fairly.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_10.webp",
-      "illustrationPrompt": "Jack and villagers planting many small gardens together in warm sunlight.",
+      "illustrationPrompt": "Jack sharing a small bag of seeds fairly with villagers in warm sunlight.",
       "audioUrl": null
     },
     {
