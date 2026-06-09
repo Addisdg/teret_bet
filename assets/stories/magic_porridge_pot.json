@@ -29,10 +29,10 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለች።",
-      "textEn": "A little girl received a small pot from a kind grandmother.",
+      "textAm": "ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለ።",
+      "textEn": "A little child received a small pot from a kind grandmother.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 1: ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 1: ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለ።",
       "audioUrl": null
     },
     {
@@ -45,10 +45,10 @@
     },
     {
       "pageNumber": 3,
-      "textAm": "ልጅቷ ቃሉን አለች፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
-      "textEn": "The girl said the words, and warm porridge filled the pot.",
+      "textAm": "ልጁ ቃሉን አለ፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
+      "textEn": "The child said the words, and warm porridge filled the pot.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 3: ልጅቷ ቃሉን አለች፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 3: ልጁ ቃሉን አለ፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
       "audioUrl": null
     },
     {
@@ -69,26 +69,26 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ልጅቷ በቀስታ ቃሉን አስታወሰች፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
-      "textEn": "The girl calmly remembered the words, and everyone learned to listen carefully.",
+      "textAm": "ልጁ በቀስታ ቃሉን አስታወሰ፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
+      "textEn": "The child calmly remembered the words, and everyone learned to listen carefully.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: ልጅቷ በቀስታ ቃሉን አስታወሰች፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: ልጁ በቀስታ ቃሉን አስታወሰ፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ልጅቷ ቃላቱን በትንሽ ወረቀት ላይ ሳለች። አያቷም “አስፈላጊ ቃል በጥንቃቄ ይጠበቃል” አለቻት።",
-      "textEn": "The girl drew the words on a little paper so she could remember them.",
+      "textAm": "ልጁ ቃላቱን በትንሽ ወረቀት ላይ ጻፈ። አያቱም “አስፈላጊ ቃል በጥንቃቄ ይጠበቃል” አለች።",
+      "textEn": "The child drew the words on a little paper so he could remember them.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_07.webp",
-      "illustrationPrompt": "Little girl drawing reminder words beside a small porridge pot.",
+      "illustrationPrompt": "Little child drawing reminder words beside a small porridge pot.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "ገንፎው ሲበስል ቤቱ በሞቃት ሽታ ተሞላ። ልጅቷ መጀመሪያ ለአያቷ ትንሽ ሳህን አቀረበች።",
-      "textEn": "When the porridge cooked, she served her grandmother first.",
+      "textAm": "ገንፎው ሲበስል ቤቱ በሞቃት ሽታ ተሞላ። ልጁ መጀመሪያ ለአያቱ ትንሽ ሳህን አቀረበ።",
+      "textEn": "When the porridge cooked, he served his grandmother first.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_08.webp",
-      "illustrationPrompt": "Little girl serving a small bowl of porridge to grandmother.",
+      "illustrationPrompt": "Little child serving a small bowl of porridge to grandmother.",
       "audioUrl": null
     },
     {
@@ -101,18 +101,18 @@
     },
     {
       "pageNumber": 10,
-      "textAm": "በተረሳው ቀን ገንፎው ከማሰሮው በላይ በቀስታ ወጣ። ሰዎቹ አልተጨነቁም፤ ልጅቷን ጠሩ።",
-      "textEn": "When the words were forgotten, the porridge rose gently and everyone called the girl.",
+      "textAm": "በተረሳው ቀን ገንፎው ከማሰሮው በላይ በቀስታ ወጣ። ሰዎቹ አልተጨነቁም፤ ልጁን ጠሩ።",
+      "textEn": "When the words were forgotten, the porridge rose gently and everyone called the child.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_10.webp",
-      "illustrationPrompt": "Porridge gently rising from a pot while family calls for the little girl.",
+      "illustrationPrompt": "Porridge gently rising from a pot while family calls for the little child.",
       "audioUrl": null
     },
     {
       "pageNumber": 11,
-      "textAm": "ልጅቷ የማቆሚያውን ቃል በጸጥታ አለች። ገንፎው ቆመ፣ ሁሉም ቃልን መስማት እና ማስታወስ እንደሚጠቅም ተማሩ።",
-      "textEn": "The girl calmly said the stopping words, and everyone learned to listen and remember.",
+      "textAm": "ልጁ የማቆሚያውን ቃል በጸጥታ አለ። ገንፎው ቆመ፣ ሁሉም ቃልን መስማት እና ማስታወስ እንደሚጠቅም ተማሩ።",
+      "textEn": "The child calmly said the stopping words, and everyone learned to listen and remember.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_11.webp",
-      "illustrationPrompt": "Little girl calmly stopping a magic porridge pot while everyone smiles.",
+      "illustrationPrompt": "Little child calmly stopping a magic porridge pot while everyone smiles.",
       "audioUrl": null
     }
   ]
