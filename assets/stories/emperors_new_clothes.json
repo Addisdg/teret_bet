@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "አንድ ንጉሥ ቀለማትን እና አዲስ ልብሶችን በጣም ይወድ ነበር።",
-      "textEn": "Page 1 of The Emperor's New Clothes.",
+      "textEn": "A king loved colors and new clothes very much.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 1: አንድ ንጉሥ ቀለማትን እና አዲስ ልብሶችን በጣም ይወድ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ሁለት ሰፊዎች በጣም ልዩ ልብስ እንደሚሠሩ ተናገሩ።",
-      "textEn": "Page 2 of The Emperor's New Clothes.",
+      "textEn": "Two tailors said they could make a very special outfit.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 2: ሁለት ሰፊዎች በጣም ልዩ ልብስ እንደሚሠሩ ተናገሩ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ሰዎች እውነትን ለመናገር ትንሽ ፈሩ፣ ግን ልባቸው ጥያቄ ነበረው።",
-      "textEn": "Page 3 of The Emperor's New Clothes.",
+      "textEn": "People were a little afraid to tell the truth, though their hearts had questions.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 3: ሰዎች እውነትን ለመናገር ትንሽ ፈሩ፣ ግን ልባቸው ጥያቄ ነበረው።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "በበዓል ቀን ንጉሡ በቀላል ነጭ ልብስ ወጣ፣ ሁሉም በጸጥታ ተመለከተ።",
-      "textEn": "Page 4 of The Emperor's New Clothes.",
+      "textEn": "On festival day, the king came out in simple white clothes while everyone watched quietly.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 4: በበዓል ቀን ንጉሡ በቀላል ነጭ ልብስ ወጣ፣ ሁሉም በጸጥታ ተመለከተ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "አንድ ልጅ “እኔ የማየውን በደግነት እናገራለሁ” ብሎ እውነቱን ጠቆመ።",
-      "textEn": "Page 5 of The Emperor's New Clothes.",
+      "textEn": "A child kindly said what they saw and pointed to the truth.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 5: አንድ ልጅ “እኔ የማየውን በደግነት እናገራለሁ” ብሎ እውነቱን ጠቆመ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ንጉሡ ፈገግ ብሎ “እውነት መስማት ጥሩ ነው” አለ፣ ከዚያም ቀለማትን ለሁሉም አጋራ።",
-      "textEn": "Page 6 of The Emperor's New Clothes.",
+      "textEn": "The king smiled, listened to the truth, and shared colors with everyone.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 6: ንጉሡ ፈገግ ብሎ “እውነት መስማት ጥሩ ነው” አለ፣ ከዚያም ቀለማትን ለሁሉም አጋራ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ሰፊዎቹ ባዶ እጆቻቸውን እያንቀሳቀሱ “እጅግ የሚያምር ነው” አሉ። አንድ አገልጋይ ግን በልቡ “የማየው ምንድን ነው?” ብሎ ጠየቀ።",
+      "textEn": "The tailors pretended to sew, and a helper wondered what was really there.",
+      "imageUrl": "assets/images/stories/emperors_new_clothes_page_07.webp",
+      "illustrationPrompt": "Two playful tailors pretending to sew while a palace helper looks thoughtful.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ንጉሡ መስታወቱ ፊት ቆሞ ጸጥ ብሎ አሰበ። “እውነት መጠየቅ አያሳፍርም” ብሎ በልቡ ተናገረ።",
+      "textEn": "The king quietly wondered whether asking the truth could be brave.",
+      "imageUrl": "assets/images/stories/emperors_new_clothes_page_08.webp",
+      "illustrationPrompt": "Kind king standing thoughtfully before a mirror in a colorful dressing room.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በከተማው አደባባይ ልጆች ቀለም ያላቸውን ጨርቆች አንጠለጠሉ። በዓሉ የሚያምር ነበር፣ ነገር ግን ሰዎች እውነትን በቀስታ መናገር ይፈልጉ ነበር።",
+      "textEn": "At the festival, everyone wanted to speak truth gently.",
+      "imageUrl": "assets/images/stories/emperors_new_clothes_page_09.webp",
+      "illustrationPrompt": "Town square festival with children hanging colorful cloth banners.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ልጁ ቃሉን ከተናገረ በኋላ አደባባዩ ጸጥ አለ። ንጉሡም በቀስታ “እኔም በጥንቃቄ መስማት አለብኝ” አለ።",
+      "textEn": "After the child spoke, the king chose to listen carefully.",
+      "imageUrl": "assets/images/stories/emperors_new_clothes_page_10.webp",
+      "illustrationPrompt": "Child speaking kindly in a festival crowd while the king listens.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ንጉሡ በቤተመንግሥቱ የእውነት ቀን አዘጋጀ። ሁሉም ሰው የሚያስበውን በደግነት መናገር ተማረ።",
+      "textEn": "After that day, the palace practiced kind truth-telling.",
+      "imageUrl": "assets/images/stories/emperors_new_clothes_page_11.webp",
+      "illustrationPrompt": "King and townspeople sharing colorful cloth in a cheerful palace courtyard.",
       "audioUrl": null
     }
   ]

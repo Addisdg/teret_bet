@@ -15,7 +15,11 @@
   },
   "ageMin": 5,
   "ageMax": 6,
-  "themes": ["safety", "listening", "family"],
+  "themes": [
+    "safety",
+    "listening",
+    "family"
+  ],
   "coverImage": "assets/images/stories/wolf_seven_young_kids_cover.webp",
   "audio": {
     "storyAudioUrl": null,
@@ -69,6 +73,46 @@
       "textEn": "When mother goat returned, she hugged the kids and praised their careful choices.",
       "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_06.webp",
       "illustrationPrompt": "Mother goat hugging seven young kids in a cozy cottage, all safe and smiling.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ግልገሎቹ በእናታቸው የተነገራቸውን ደንብ በስዕል ሰሌዳ ላይ አስቀመጡ። “አንድ፣ እንሰማለን፤ ሁለት፣ እንጠይቃለን፤ ሶስት፣ እንጠብቃለን” ብለው ተለማመዱ።",
+      "textEn": "The young kids practiced their three safety rules together.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_07.webp",
+      "illustrationPrompt": "Seven young goats making a simple safety-rule picture board inside a cozy cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ተኩላው ድምፁን ለማለስለስ ሞከረ፣ ግን ግልገሎቹ አልተቸኮሉም። “እናታችን ሲመጣች የምትለውን የቤት ቃል ታውቃለች” አሉ።",
+      "textEn": "The wolf tried a softer voice, but the kids waited for the family password.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_08.webp",
+      "illustrationPrompt": "Small friendly-looking wolf outside a cottage while young goats calmly wait inside.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ትንሹ ግልገል የመስኮቱን መጋረጃ በትንሽ ክፍት አደረገ። በመንገዱ ላይ የጫካ ጠባቂውን አይቶ በጸጥታ እጁን አወዛወዘ።",
+      "textEn": "The smallest kid quietly signaled to the forest keeper.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_09.webp",
+      "illustrationPrompt": "Small young goat peeking from a window and waving to a friendly forest keeper.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ጠባቂው ወደ በሩ መጥቶ “እዚህ ቤት የሚከፈተው በፈቃድ ብቻ ነው” አለ። ተኩላውም ሌሎችን መጠበቅ እንዳለበት ተማረ።",
+      "textEn": "The keeper reminded the wolf to respect other homes.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_10.webp",
+      "illustrationPrompt": "Forest keeper kindly speaking with a small wolf outside a cottage door.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "እናት ፍየል ተመልሳ ስትመጣ ግልገሎቹ ሰሌዳቸውን አሳዩአት። እሷም “ደንብን ማስታወስ ቤታችንን ደህንነት ያደርገዋል” ብላ አመሰገነቻቸው።",
+      "textEn": "Mother goat praised the kids for remembering their safety rules.",
+      "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_11.webp",
+      "illustrationPrompt": "Mother goat admiring a safety-rule board with seven smiling young goats.",
       "audioUrl": null
     }
   ]

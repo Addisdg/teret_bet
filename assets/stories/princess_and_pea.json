@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በዝናብ ምሽት አንዲት እንግዳ ልዕልት ወደ ቤተመንግሥት መጣች።",
-      "textEn": "Page 1 of The Princess and the Pea.",
+      "textEn": "On a rainy evening, a visiting princess came to the palace.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 1: በዝናብ ምሽት አንዲት እንግዳ ልዕልት ወደ ቤተመንግሥት መጣች።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ቤተሰቡ ሙቅ ልብስ፣ ሻይ እና ለስላሳ አልጋ አዘጋጀላት።",
-      "textEn": "Page 2 of The Princess and the Pea.",
+      "textEn": "The family prepared warm clothes, tea, and a soft bed for her.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 2: ቤተሰቡ ሙቅ ልብስ፣ ሻይ እና ለስላሳ አልጋ አዘጋጀላት።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ከአልጋው በታች ትንሽ አተር ተረስቶ ነበር።",
-      "textEn": "Page 3 of The Princess and the Pea.",
+      "textEn": "A tiny pea had been forgotten beneath the bed.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 3: ከአልጋው በታች ትንሽ አተር ተረስቶ ነበር።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ጠዋት ልዕልቷ “አንድ ትንሽ ነገር እንዳለ ተሰማኝ” አለች በቀስታ።",
-      "textEn": "Page 4 of The Princess and the Pea.",
+      "textEn": "In the morning, the princess gently said she had felt something small.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 4: ጠዋት ልዕልቷ “አንድ ትንሽ ነገር እንዳለ ተሰማኝ” አለች በቀስታ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ሁሉም ተገረሙ፣ እሷ በጣም ስሜታዊ እና ጥንቃቄ ያላት መሆኗን ተረዱ።",
-      "textEn": "Page 5 of The Princess and the Pea.",
+      "textEn": "Everyone was surprised and understood that she was very sensitive and careful.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 5: ሁሉም ተገረሙ፣ እሷ በጣም ስሜታዊ እና ጥንቃቄ ያላት መሆኗን ተረዱ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ቤተሰቡ ልዕልቷን በክብር ተቀበለ፣ እሷም ሌሎችን በትኩረት መስማትን አስተማረች።",
-      "textEn": "Page 6 of The Princess and the Pea.",
+      "textEn": "The family welcomed the princess with respect, and she taught them to listen closely to others.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 6: ቤተሰቡ ልዕልቷን በክብር ተቀበለ፣ እሷም ሌሎችን በትኩረት መስማትን አስተማረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ንግሥቲቱ አልጋውን እያዘጋጀች “እንግዳችን ደኅና እንዲያርፍ እንፈልጋለን” አለች። ልጆቹም ለስላሳ መሸፈኛዎችን አመጡ።",
+      "textEn": "The queen and children prepared a warm, soft bed for their guest.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_07.webp",
+      "illustrationPrompt": "Queen and children preparing a soft palace bed with blankets on a rainy night.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ትንሹ አተር በመሸፈኛዎች መካከል ተሸፍኖ ቀረ። ማንም አላየውም፣ ነገር ግን ልዕልቷ ነገሮችን በጥልቅ ትሰማ ነበር።",
+      "textEn": "The tiny pea stayed hidden, though the princess noticed small feelings deeply.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_08.webp",
+      "illustrationPrompt": "Tiny green pea tucked beneath soft palace mattresses.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ሌሊቱ ሲያልፍ ልዕልቷ በጣም ተጨንቃ አልነበረችም። እሷ በቀስታ ተነስታ መስኮቱን ተመለከተች እና ዝናቡን አዳመጠች።",
+      "textEn": "During the night, the princess quietly listened to the rain by the window.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_09.webp",
+      "illustrationPrompt": "Princess in a cozy room listening to rain beside a tall palace window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ጠዋት ሁሉም “እንዴት አደርሽ?” ብለው በትህትና ጠየቋት። ልዕልቷም የተሰማትን ሳትፈራ በደግነት ነገረች።",
+      "textEn": "In the morning, the princess kindly shared what she had felt.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_10.webp",
+      "illustrationPrompt": "Princess speaking gently with the palace family at breakfast.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ቤተሰቡ አተሩን ሲያገኙ ተሳቁ እና ተማሩ። “ትንሽ ነገር ለአንዱ ትልቅ ሊሆን ይችላል” ብለው ተስማሙ።",
+      "textEn": "When the family found the pea, they learned that small things can feel big to someone else.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_11.webp",
+      "illustrationPrompt": "Palace family finding a tiny pea and smiling with understanding.",
       "audioUrl": null
     }
   ]

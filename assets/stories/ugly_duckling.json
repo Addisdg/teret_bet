@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ትንሽ ዳክዬ ከወንድሞቹ ጋር በኩሬ ዳር ተወለደ። ቀለሙ ከሌሎቹ ትንሽ የተለየ ነበር።",
-      "textEn": "Page 1 of The Ugly Duckling.",
+      "textEn": "A small duckling hatched near the pond with his brothers, and he looked a little different.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 1: ትንሽ ዳክዬ ከወንድሞቹ ጋር በኩሬ ዳር ተወለደ። ቀለሙ ከሌሎቹ ትንሽ የተለየ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "አንዳንድ ዳክዬዎች ተገረሙ፣ እሱ ግን በቀስታ መዋኘትን ተማረ።",
-      "textEn": "Page 2 of The Ugly Duckling.",
+      "textEn": "Some ducklings wondered about him, but he slowly learned to swim.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 2: አንዳንድ ዳክዬዎች ተገረሙ፣ እሱ ግን በቀስታ መዋኘትን ተማረ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "አንድ ደግ ወፍ “በተለየ መሆንህ ውበት አለ” ብሎ አጽናናው።",
-      "textEn": "Page 3 of The Ugly Duckling.",
+      "textEn": "A kind bird comforted him and said there is beauty in being different.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 3: አንድ ደግ ወፍ “በተለየ መሆንህ ውበት አለ” ብሎ አጽናናው።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ዳክዬው በቀናት መካከል እየበረታ ሄደ፣ ክንፎቹም በቀስታ ተዘረጉ።",
-      "textEn": "Page 4 of The Ugly Duckling.",
+      "textEn": "As the days passed, the duckling grew stronger and stretched his wings.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 4: ዳክዬው በቀናት መካከል እየበረታ ሄደ፣ ክንፎቹም በቀስታ ተዘረጉ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "በጸደይ ቀን በውሃ ውስጥ ራሱን ሲመለከት ቆንጆ ነጭ ወፍ ሆኖ አየ።",
-      "textEn": "Page 5 of The Ugly Duckling.",
+      "textEn": "On a spring day he saw in the water that he had become a beautiful white bird.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 5: በጸደይ ቀን በውሃ ውስጥ ራሱን ሲመለከት ቆንጆ ነጭ ወፍ ሆኖ አየ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ከዚያ ቀን ጀምሮ ሁሉንም ትንንሽ ወፎች በደግነት ይቀበል ነበር።",
-      "textEn": "Page 6 of The Ugly Duckling.",
+      "textEn": "From then on, he welcomed every small bird with kindness.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 6: ከዚያ ቀን ጀምሮ ሁሉንም ትንንሽ ወፎች በደግነት ይቀበል ነበር።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ዳክዬው አንዳንድ ቀን ብቸኛ ተሰማው። ነገር ግን ኩሬው ዳር ያለች ደግ እናት ዳክዬ “በቀስታ ታድጋለህ” ብላ አበረታታችው።",
+      "textEn": "The duckling felt lonely, and a kind mother duck encouraged him to grow slowly.",
+      "imageUrl": "assets/images/stories/ugly_duckling_page_07.webp",
+      "illustrationPrompt": "Lonely gray duckling beside a pond with a kind mother duck nearby.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በበጋ ፀሐይ ስር ዳክዬው ከትንንሽ ወፎች ጋር ዘር አካፈለ። እነሱም ቀለሙን ከመመልከት ይልቅ ደግ ልቡን አዩ።",
+      "textEn": "In summer, the duckling shared seeds and others noticed his kind heart.",
+      "imageUrl": "assets/images/stories/ugly_duckling_page_08.webp",
+      "illustrationPrompt": "Gray duckling sharing seeds with small birds in warm summer light.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ቅጠሎች ሲወድቁ ክንፎቹ ይበልጥ ተዘረጉ። ውሃውን በድፍረት ሲንሸራተት በራሱ ላይ እምነት ጀመረ።",
+      "textEn": "As leaves fell, his wings grew and his confidence began to shine.",
+      "imageUrl": "assets/images/stories/ugly_duckling_page_09.webp",
+      "illustrationPrompt": "Growing duckling gliding across an autumn pond with falling leaves.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በቀዝቃዛ ሌሊት አንዲት ነጭ ወፍ ከሩቅ በሰላም አየችው። “ጸደይ ሲመጣ ራስህን በአዲስ መንገድ ታያለህ” አለችው።",
+      "textEn": "On a cold night, a white bird gently told him spring would bring a new view of himself.",
+      "imageUrl": "assets/images/stories/ugly_duckling_page_10.webp",
+      "illustrationPrompt": "White swan speaking kindly to a young bird beside a quiet winter pond.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ጸደይ በመጣ ጊዜ ዳክዬው በኩሬው ላይ የሚያበራ ነጭ ክንፍ አየ። ሌሎች ወፎችም “እንኳን ወደ ቤትህ መጣህ” ብለው ተቀበሉት።",
+      "textEn": "When spring came, the white birds welcomed him home.",
+      "imageUrl": "assets/images/stories/ugly_duckling_page_11.webp",
+      "illustrationPrompt": "Beautiful young swan welcomed by other white birds on a spring pond.",
       "audioUrl": null
     }
   ]

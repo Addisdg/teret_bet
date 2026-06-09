@@ -47,6 +47,7 @@
   review
 * First six-page backlog batch expanded with matching page-specific local art
 * Second six-page backlog batch expanded with matching page-specific local art
+* Third six-page backlog batch expanded with matching page-specific local art
 
 ## Next
 
@@ -55,8 +56,8 @@
 * Continue expanding very short stories without a fixed upper page limit
 * Re-audit expanded stories by reading flow, not page count
 * Add matching page-specific local WebP art for every new page
-* Next expansion batch: `wolf_seven_young_kids`, `ugly_duckling`,
-  `emperors_new_clothes`, `thumbelina`, and `princess_and_pea`
+* Next expansion batch: `snow_queen`, `little_match_girl`, `nightingale`,
+  `fir_tree`, and `swineherd`
 * For each expansion batch, run `dart run tool/catalog_qa.dart`,
   `flutter analyze`, `flutter test`, and a launch smoke check
 * Review full 50-story wording with parent/child feedback

@@ -95,6 +95,12 @@ Implemented:
   * fisherman_and_wife: 11 pages
   * elves_and_shoemaker: 11 pages
   * little_red_cap: 11 pages
+* Third six-page backlog expansion batch:
+  * wolf_seven_young_kids: 11 pages
+  * ugly_duckling: 11 pages
+  * emperors_new_clothes: 11 pages
+  * thumbelina: 11 pages
+  * princess_and_pea: 11 pages
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -211,20 +217,20 @@ During MVP review, Firestore and Hive results are supplemented with any missing
 local manifest stories so the full bundled catalog remains visible in the app.
 
 Current expansion priority: continue expanding the remaining very short six-page
-stories. The next recommended batch is `wolf_seven_young_kids`,
-`ugly_duckling`, `emperors_new_clothes`, `thumbelina`, and
-`princess_and_pea`.
+stories. The next recommended batch is `snow_queen`, `little_match_girl`,
+`nightingale`, `fir_tree`, and `swineherd`.
 
-Latest validated content commit: `8758d5d Expand first six-page story batch`.
-After that commit, `dart run tool/catalog_qa.dart`, `flutter analyze`,
-`flutter test`, and a web-server launch smoke check all passed.
+Latest committed content expansion: `72ad6d0 Expand second six-page story batch`.
+After the current third six-page expansion pass, `dart run tool/catalog_qa.dart`,
+`flutter analyze`, `flutter test`, and a web-server launch smoke check all
+passed.
 
 When continuing expansion, decide the page count by reading flow. Add pages only
 where the story needs more setup, transition, emotional beat, or resolution.
 Every added page must have a matching local 1200 x 900 WebP image and the JSON
 page numbers must remain sequential.
 
-There are 21 manifest stories still at six pages after the latest pass. Continue
+There are 16 manifest stories still at six pages after the latest pass. Continue
 processing them in focused batches so story text, images, visual review, and QA
 can stay reliable.
 

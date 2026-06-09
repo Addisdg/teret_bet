@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ታምበሊና በትንሽ አበባ ውስጥ ተነስታ ዓለምን በደስታ ተመለከተች።",
-      "textEn": "Page 1 of Thumbelina.",
+      "textEn": "Thumbelina woke inside a tiny flower and looked at the world with joy.",
       "imageUrl": "assets/images/stories/thumbelina_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 1: ታምበሊና በትንሽ አበባ ውስጥ ተነስታ ዓለምን በደስታ ተመለከተች።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "አንድ ትንሽ ወፍ ከእሷ ጋር ተወዳጀ፣ የሜዳውንም መንገድ አሳያት።",
-      "textEn": "Page 2 of Thumbelina.",
+      "textEn": "A small bird became her friend and showed her the meadow path.",
       "imageUrl": "assets/images/stories/thumbelina_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 2: አንድ ትንሽ ወፍ ከእሷ ጋር ተወዳጀ፣ የሜዳውንም መንገድ አሳያት።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ታምበሊና ዝናብ ሲመጣ በቅጠል ስር ተጠለለች።",
-      "textEn": "Page 3 of Thumbelina.",
+      "textEn": "When rain came, Thumbelina sheltered under a leaf.",
       "imageUrl": "assets/images/stories/thumbelina_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 3: ታምበሊና ዝናብ ሲመጣ በቅጠል ስር ተጠለለች።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "እሷ የተደከመ ቢራቢሮ አገኘች እና በትንሽ ቅጠል አረፈችው።",
-      "textEn": "Page 4 of Thumbelina.",
+      "textEn": "She found a tired butterfly and helped it rest on a small leaf.",
       "imageUrl": "assets/images/stories/thumbelina_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 4: እሷ የተደከመ ቢራቢሮ አገኘች እና በትንሽ ቅጠል አረፈችው።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ቢራቢሮው ኃይሉን ሲመልስ ወደ አበባ ሸለቆ መንገድ አሳያት።",
-      "textEn": "Page 5 of Thumbelina.",
+      "textEn": "When the butterfly felt strong again, it showed her the way to a flower valley.",
       "imageUrl": "assets/images/stories/thumbelina_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 5: ቢራቢሮው ኃይሉን ሲመልስ ወደ አበባ ሸለቆ መንገድ አሳያት።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ታምበሊና በአበባዎች መካከል ደስ የሚል ቤት አገኘች፣ ጓደኞቿንም አመሰገነች።",
-      "textEn": "Page 6 of Thumbelina.",
+      "textEn": "Thumbelina found a happy home among the flowers and thanked her friends.",
       "imageUrl": "assets/images/stories/thumbelina_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 6: ታምበሊና በአበባዎች መካከል ደስ የሚል ቤት አገኘች፣ ጓደኞቿንም አመሰገነች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ታምበሊና በትንሽ የቅጠል ጀልባ ላይ በጸጥታ ተጓዘች። የውሃው ነፋስ ቀስ ብሎ ሲነፍስ ወደ ብሩህ ሜዳ አደረሳት።",
+      "textEn": "Thumbelina traveled on a leaf boat toward a bright meadow.",
+      "imageUrl": "assets/images/stories/thumbelina_page_07.webp",
+      "illustrationPrompt": "Tiny Thumbelina riding a leaf boat on a gentle stream toward a meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በሜዳው ውስጥ ትንንሽ ነፍሳት የምግብ በዓል አዘጋጁ። ታምበሊናም የአበባ ዱቄት እና የማር ጠብታ አካፈለች።",
+      "textEn": "In the meadow, Thumbelina shared pollen and honey drops with tiny friends.",
+      "imageUrl": "assets/images/stories/thumbelina_page_08.webp",
+      "illustrationPrompt": "Thumbelina sharing tiny honey drops with friendly insects in a meadow.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ከዚያ ትንሽ ወፏ እንደገና መጣች። “ቤት የሚሰማሽ ቦታ ወደፊት አለ” ብላ በደስታ መንገዱን አሳየቻት።",
+      "textEn": "Her bird friend returned and showed her the way toward a place that felt like home.",
+      "imageUrl": "assets/images/stories/thumbelina_page_09.webp",
+      "illustrationPrompt": "Small bird guiding Thumbelina along a path between tall flowers.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ታምበሊና በአበባ ሸለቆ ስትደርስ ቀለማት እንደ በዓል ተበራሩ። እሷም “እዚህ ልቤ ተረጋጋ” ብላ ፈገግ አለች።",
+      "textEn": "When Thumbelina reached the flower valley, her heart felt peaceful.",
+      "imageUrl": "assets/images/stories/thumbelina_page_10.webp",
+      "illustrationPrompt": "Thumbelina entering a bright flower valley filled with colorful blossoms.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "አዲሶቹ ጓደኞቿ ትንሽ የአበባ ቤት ሠሩላት። ታምበሊናም ደግነት መንገድን እንደሚያበራ አስታወሰች።",
+      "textEn": "Her new friends made her a tiny flower home, and she remembered that kindness lights the way.",
+      "imageUrl": "assets/images/stories/thumbelina_page_11.webp",
+      "illustrationPrompt": "Tiny flower home for Thumbelina surrounded by friendly birds and insects.",
       "audioUrl": null
     }
   ]

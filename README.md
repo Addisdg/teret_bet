@@ -202,18 +202,24 @@ Expanded from the six-page backlog:
 - `fisherman_and_wife` - 11 pages
 - `elves_and_shoemaker` - 11 pages
 - `little_red_cap` - 11 pages
+- `wolf_seven_young_kids` - 11 pages
+- `ugly_duckling` - 11 pages
+- `emperors_new_clothes` - 11 pages
+- `thumbelina` - 11 pages
+- `princess_and_pea` - 11 pages
 
 Next recommended expansion batch:
 
-- `wolf_seven_young_kids`
-- `ugly_duckling`
-- `emperors_new_clothes`
-- `thumbelina`
-- `princess_and_pea`
+- `snow_queen`
+- `little_match_girl`
+- `nightingale`
+- `fir_tree`
+- `swineherd`
 
-Latest validated expansion commit: `8758d5d Expand first six-page story batch`.
-The latest pass expanded the first five stories from the six-page backlog and
-passed catalog QA, analyzer, tests, and a web-server launch smoke check.
+Latest committed expansion: `72ad6d0 Expand second six-page story batch`.
+The latest working-tree pass expanded the third five-story batch from the
+six-page backlog and passed catalog QA, analyzer, tests, and a web-server launch
+smoke check.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).
