@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "ጎልዲሎክስ በፀሐይ ቀን በጫካ መንገድ ትጓዝ ነበር።",
-      "textEn": "Page 1 of Goldilocks and the Three Bears.",
+      "textEn": "Goldilocks walked along a forest path on a sunny day.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 1: ጎልዲሎክስ በፀሐይ ቀን በጫካ መንገድ ትጓዝ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "በዛፎች መካከል ትንሽ ቆንጆ ቤት አየች።",
-      "textEn": "Page 2 of Goldilocks and the Three Bears.",
+      "textEn": "She saw a pretty little house among the trees.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 2: በዛፎች መካከል ትንሽ ቆንጆ ቤት አየች።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "በሩን አንኳኳች፣ መልስ ሳትሰማ ግን መጠበቅ እንዳለባት አስታወሰች።",
-      "textEn": "Page 3 of Goldilocks and the Three Bears.",
+      "textEn": "She knocked on the door, and when no one answered, she remembered she should wait.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 3: በሩን አንኳኳች፣ መልስ ሳትሰማ ግን መጠበቅ እንዳለባት አስታወሰች።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
-      "textEn": "Page 4 of Goldilocks and the Three Bears.",
+      "textEn": "Through the window, she saw three bowls and three chairs.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 4: በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ሦስቱ ድቦች ሲመለሱ ጎልዲሎክስ በደግነት ይቅርታ ጠየቀች።",
-      "textEn": "Page 5 of Goldilocks and the Three Bears.",
+      "textEn": "When the three bears returned, Goldilocks kindly apologized.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 5: ሦስቱ ድቦች ሲመለሱ ጎልዲሎክስ በደግነት ይቅርታ ጠየቀች።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
-      "textEn": "Page 6 of Goldilocks and the Three Bears.",
+      "textEn": "The bears shared tea with her, and she learned to always ask first.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 6: ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ጎልዲሎክስ በበሩ ፊት ተቀምጣ ጠበቀች። “የሌላ ሰው ቤት የራሱ ደንብ አለው” ብላ አሰበች።",
+      "textEn": "Goldilocks waited by the door and remembered that every home has its own rules.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_07.webp",
+      "illustrationPrompt": "Goldilocks waiting politely outside a small forest cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "በመስኮቱ አጠገብ ትንሽ ወፍ ዘመረች። ጎልዲሎክስም ወፏን ስትሰማ መጠበቅ እንደሚቻል ተረጋጋች።",
+      "textEn": "A bird sang by the window, helping Goldilocks wait calmly.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_08.webp",
+      "illustrationPrompt": "Goldilocks listening to a small bird near a cottage window.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ድቦቹ ሲመጡ በፍርሃት አልተጮኹም። ትልቁ ድብ “እንግዳችን ሆይ፣ ከመግባት በፊት መጠየቅ ይሻላል” አለ።",
+      "textEn": "When the bears returned, they gently explained that asking first is best.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_09.webp",
+      "illustrationPrompt": "Three friendly bears speaking gently with Goldilocks outside their cottage.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ጎልዲሎክስ ይቅርታ ጠይቃ ሳህኖቹን ለማዘጋጀት ረዳች። ትንሹ ድብም ለእሷ ትንሽ ጽዋ አመጣ።",
+      "textEn": "Goldilocks apologized and helped set the table for tea.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_10.webp",
+      "illustrationPrompt": "Goldilocks helping three bears set a small tea table.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከሻዩ በኋላ ጎልዲሎክስ ወደ ቤቷ በደስታ ተመለሰች። በሌላ ቀን ስትመጣ በመጀመሪያ አንኳኳች እና ፈቃድ ጠየቀች።",
+      "textEn": "After tea, Goldilocks went home and remembered to knock and ask next time.",
+      "imageUrl": "assets/images/stories/goldilocks_three_bears_page_11.webp",
+      "illustrationPrompt": "Goldilocks waving goodbye to three bears on a sunny forest path.",
       "audioUrl": null
     }
   ]

@@ -212,17 +212,23 @@ Expanded from the six-page backlog:
 - `nightingale` - 11 pages
 - `fir_tree` - 11 pages
 - `swineherd` - 11 pages
+- `steadfast_tin_soldier` - 11 pages
+- `goldilocks_three_bears` - 11 pages
+- `gingerbread_man` - 11 pages
+- `happy_prince` - 11 pages
+- `anansi_and_turtle` - 11 pages
 
-Next recommended expansion batch:
+Final recommended expansion batch:
 
-- `steadfast_tin_soldier`
-- `goldilocks_three_bears`
-- `gingerbread_man`
-- `happy_prince`
-- `anansi_and_turtle`
+- `anansi_pot_beans`
+- `sun_moon_sky`
+- `monkey_and_shark`
+- `clever_rabbit_lion`
+- `magic_porridge_pot`
+- `cinderella`
 
 Latest committed expansion: `72ad6d0 Expand second six-page story batch`.
-The latest working-tree pass expanded the fourth five-story batch from the
+The latest working-tree pass expanded the fifth five-story batch from the
 six-page backlog and passed catalog QA, analyzer, tests, and a web-server launch
 smoke check.
 

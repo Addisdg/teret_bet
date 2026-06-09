@@ -60,6 +60,9 @@ before external testing.
 * Fourth six-page backlog batch expanded with matching local artwork:
   `snow_queen`, `little_match_girl`, `nightingale`, `fir_tree`, and
   `swineherd`
+* Fifth six-page backlog batch expanded with matching local artwork:
+  `steadfast_tin_soldier`, `goldilocks_three_bears`, `gingerbread_man`,
+  `happy_prince`, and `anansi_and_turtle`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
 
@@ -94,11 +97,12 @@ new page.
 
 Next expansion batch:
 
-* `steadfast_tin_soldier`
-* `goldilocks_three_bears`
-* `gingerbread_man`
-* `happy_prince`
-* `anansi_and_turtle`
+* `anansi_pot_beans`
+* `sun_moon_sky`
+* `monkey_and_shark`
+* `clever_rabbit_lion`
+* `magic_porridge_pot`
+* `cinderella`
 
 For this batch, read each story end to end first. Expand only where the story
 feels rushed, missing setup, missing transitions, or missing resolution. Do not
@@ -107,10 +111,8 @@ target a fixed page count. Each new page needs matching `textAm`, `textEn`,
 `assets/images/stories/`.
 
 Remaining six-page manifest stories after the latest pass:
-`steadfast_tin_soldier`, `goldilocks_three_bears`, `gingerbread_man`,
-`happy_prince`, `anansi_and_turtle`, `anansi_pot_beans`, `sun_moon_sky`,
-`monkey_and_shark`, `clever_rabbit_lion`, `magic_porridge_pot`, and
-`cinderella`.
+`anansi_pot_beans`, `sun_moon_sky`, `monkey_and_shark`,
+`clever_rabbit_lion`, `magic_porridge_pot`, and `cinderella`.
 
 After each expansion batch, run `dart run tool/catalog_qa.dart`,
 `flutter analyze`, and `flutter test`. Use the library search, collection

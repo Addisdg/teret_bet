@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "አንዲት እናት የዝንጅብል እንጀራ ሰው ጋገረች።",
-      "textEn": "Page 1 of The Gingerbread Man.",
+      "textEn": "A mother baked a gingerbread man.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 1: አንዲት እናት የዝንጅብል እንጀራ ሰው ጋገረች።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "እንጀራው በደስታ ከመድቡ ወጥቶ “እሮጣለሁ!” አለ።",
-      "textEn": "Page 2 of The Gingerbread Man.",
+      "textEn": "The gingerbread man jumped happily from the tray and said he would run.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 2: እንጀራው በደስታ ከመድቡ ወጥቶ “እሮጣለሁ!” አለ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "በጓሮ ውስጥ ዶሮ፣ ድመት እና ልጆች በሳቅ ተከተሉት።",
-      "textEn": "Page 3 of The Gingerbread Man.",
+      "textEn": "In the yard, a chicken, a cat, and children followed him with laughter.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 3: በጓሮ ውስጥ ዶሮ፣ ድመት እና ልጆች በሳቅ ተከተሉት።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
-      "textEn": "Page 4 of The Gingerbread Man.",
+      "textEn": "When he reached the river, he stopped and understood he could not cross safely.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 4: ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
-      "textEn": "Page 5 of The Gingerbread Man.",
+      "textEn": "A kind child suggested returning home where they could play safely.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 5: አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
-      "textEn": "Page 6 of The Gingerbread Man.",
+      "textEn": "The gingerbread man returned, and everyone sang and played happily indoors.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 6: እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "እንጀራው በጓሮ ውስጥ ሲሮጥ ነፋሱ ቀስ ብሎ አገፋው። “በደስታ መሮጥ ደስ ይላል፣ ግን መንገዴን ማወቅ አለብኝ” አለ።",
+      "textEn": "The gingerbread man enjoyed running but remembered to know his path.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_07.webp",
+      "illustrationPrompt": "Gingerbread man running happily through a sunny yard.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ዶሮዋ “ቀስ በል፣ እንጀራ ጓደኛ” ብላ ጮኸች። ድመቷም “ከእኛ ጋር በደህና እንጫወት” አለች።",
+      "textEn": "The chicken and cat called for him to slow down and play safely.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_08.webp",
+      "illustrationPrompt": "Chicken and cat kindly calling to a gingerbread man in a yard.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ወንዙ ሲያበራ እንጀራው ውሃውን ተመለከተ። “ብቻዬን መሻገር ጥሩ አይደለም” ብሎ ቆመ።",
+      "textEn": "At the bright river, he stopped and chose not to cross alone.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_09.webp",
+      "illustrationPrompt": "Gingerbread man stopping safely beside a bright river.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ልጆቹ በቅጠል ላይ ትንሽ ድልድይ አሳዩት፣ ግን መጀመሪያ አዋቂን መጠየቅ እንዳለባቸው ተስማሙ።",
+      "textEn": "The children agreed they should ask a grown-up before crossing.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_10.webp",
+      "illustrationPrompt": "Children and a gingerbread man looking at a small bridge near a river.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "በቤት ውስጥ ሁሉም ትንሽ የሩጫ ጨዋታ አዘጋጁ። እንጀራውም መስማት ጨዋታን የበለጠ ደህና እንደሚያደርግ ተማረ።",
+      "textEn": "Back home, everyone made a safe running game, and he learned to listen.",
+      "imageUrl": "assets/images/stories/gingerbread_man_page_11.webp",
+      "illustrationPrompt": "Gingerbread man and children playing a safe indoor running game.",
       "audioUrl": null
     }
   ]

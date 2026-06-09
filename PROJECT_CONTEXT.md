@@ -107,6 +107,12 @@ Implemented:
   * nightingale: 11 pages
   * fir_tree: 11 pages
   * swineherd: 11 pages
+* Fifth six-page backlog expansion batch:
+  * steadfast_tin_soldier: 11 pages
+  * goldilocks_three_bears: 11 pages
+  * gingerbread_man: 11 pages
+  * happy_prince: 11 pages
+  * anansi_and_turtle: 11 pages
 * Audio-ready metadata and UI placeholders
 * 50-story foundation documentation
 * Android release identity: `com.teretbet.app` with launcher label `Teret Bet`
@@ -222,10 +228,10 @@ content, and `LocalStoryService` reads story IDs from
 During MVP review, Firestore and Hive results are supplemented with any missing
 local manifest stories so the full bundled catalog remains visible in the app.
 
-Current expansion priority: continue expanding the remaining very short six-page
-stories. The next recommended batch is `steadfast_tin_soldier`,
-`goldilocks_three_bears`, `gingerbread_man`, `happy_prince`, and
-`anansi_and_turtle`.
+Current expansion priority: finish expanding the remaining very short six-page
+stories. The final recommended batch is `anansi_pot_beans`, `sun_moon_sky`,
+`monkey_and_shark`, `clever_rabbit_lion`, `magic_porridge_pot`, and
+`cinderella`.
 
 Latest committed content expansion: `72ad6d0 Expand second six-page story batch`.
 After the current third six-page expansion pass, `dart run tool/catalog_qa.dart`,
@@ -237,7 +243,7 @@ where the story needs more setup, transition, emotional beat, or resolution.
 Every added page must have a matching local 1200 x 900 WebP image and the JSON
 page numbers must remain sequential.
 
-There are 11 manifest stories still at six pages after the latest pass. Continue
+There are 6 manifest stories still at six pages after the latest pass. Continue
 processing them in focused batches so story text, images, visual review, and QA
 can stay reliable.
 

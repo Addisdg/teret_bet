@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "አናንሲ በዛፍ ጥላ ሥር ምሳ አዘጋጅቶ ነበር።",
-      "textEn": "Page 1 of Anansi and the Turtle.",
+      "textEn": "Anansi prepared lunch under the shade of a tree.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 1: አናንሲ በዛፍ ጥላ ሥር ምሳ አዘጋጅቶ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ኤሊው በቀስታ መጥቶ “እኔም ልካፈል?” ብሎ ጠየቀ።",
-      "textEn": "Page 2 of Anansi and the Turtle.",
+      "textEn": "Turtle slowly came and asked if he could share too.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 2: ኤሊው በቀስታ መጥቶ “እኔም ልካፈል?” ብሎ ጠየቀ።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "አናንሲ ትንሽ ብልሃት አደረገ፣ ኤሊው ግን በጸጥታ አስተዋለ።",
-      "textEn": "Page 3 of Anansi and the Turtle.",
+      "textEn": "Anansi tried a small trick, but Turtle quietly noticed.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 3: አናንሲ ትንሽ ብልሃት አደረገ፣ ኤሊው ግን በጸጥታ አስተዋለ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "በሌላ ቀን ኤሊው አናንሲን ወደ ውሃ ዳር ጋበዘው።",
-      "textEn": "Page 4 of Anansi and the Turtle.",
+      "textEn": "Another day, Turtle invited Anansi to the water’s edge.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 4: በሌላ ቀን ኤሊው አናንሲን ወደ ውሃ ዳር ጋበዘው።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ፣ ፍትሕም አስፈላጊ እንደሆነ ተማረ።",
-      "textEn": "Page 5 of Anansi and the Turtle.",
+      "textEn": "Anansi learned he could not do everything Turtle could, and that fairness matters.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 5: አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ፣ ፍትሕም አስፈላጊ እንደሆነ ተማረ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ሁለቱ በመጨረሻ ምግቡን በእኩል አጋሩ እና በደስታ ተሳቁ።",
-      "textEn": "Page 6 of Anansi and the Turtle.",
+      "textEn": "At last, the two shared the food equally and laughed happily.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 6: ሁለቱ በመጨረሻ ምግቡን በእኩል አጋሩ እና በደስታ ተሳቁ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "አናንሲ ምግቡን በጠረጴዛ ላይ አስቀምጦ “እጆችህን ታጠብ” አለ። ኤሊውም በቀስታ ወደ ውሃ ሄደ፣ ግን ሲመለስ ምግቡ ቀድሞ ተጀምሮ ነበር።",
+      "textEn": "Anansi asked Turtle to wash up, but started eating before Turtle returned.",
+      "imageUrl": "assets/images/stories/anansi_and_turtle_page_07.webp",
+      "illustrationPrompt": "Anansi at a lunch table while Turtle slowly walks toward water.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ኤሊው አልተቆጣም፤ በጸጥታ “በሌላ ቀን እኔም እጋብዝሃለሁ” አለ። አናንሲም በደስታ ተስማማ።",
+      "textEn": "Turtle stayed calm and invited Anansi for another day.",
+      "imageUrl": "assets/images/stories/anansi_and_turtle_page_08.webp",
+      "illustrationPrompt": "Calm Turtle speaking kindly with Anansi under a tree.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "በውሃ ዳር ኤሊው ምግቡን በቅጠል ላይ አዘጋጀ። “ጓደኛ ሲመጣ ሁለታችንም እንጠብቃለን” አለ።",
+      "textEn": "At the water’s edge, Turtle prepared food and said friends wait for each other.",
+      "imageUrl": "assets/images/stories/anansi_and_turtle_page_09.webp",
+      "illustrationPrompt": "Turtle preparing food on a leaf beside a pond while Anansi watches.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "አናንሲ ወደ ውሃ መግባት እንደማይመቸው ተረዳ። ኤሊውም “ሁላችንም የራሳችን መንገድ አለን” ብሎ አስተማረው።",
+      "textEn": "Anansi learned that everyone has different ways and needs.",
+      "imageUrl": "assets/images/stories/anansi_and_turtle_page_10.webp",
+      "illustrationPrompt": "Anansi near a pond learning from Turtle with gentle smiles.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "አናንሲ ይቅርታ ጠይቆ ምግቡን በእኩል አካፈለ። ኤሊውም “ብልሃት ከፍትሕ ጋር ሲሆን ያምራል” አለ።",
+      "textEn": "Anansi apologized and shared equally, learning that cleverness is best with fairness.",
+      "imageUrl": "assets/images/stories/anansi_and_turtle_page_11.webp",
+      "illustrationPrompt": "Anansi and Turtle sharing food equally under a tree near water.",
       "audioUrl": null
     }
   ]

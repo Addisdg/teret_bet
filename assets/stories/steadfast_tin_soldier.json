@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በልጆች ክፍል ውስጥ ትንሽ የብረት ወታደር በቀጥታ ቆሞ ነበር።",
-      "textEn": "Page 1 of The Steadfast Tin Soldier.",
+      "textEn": "A tiny tin soldier stood straight in a children’s room.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 1: በልጆች ክፍል ውስጥ ትንሽ የብረት ወታደር በቀጥታ ቆሞ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "ከመስኮቱ አጠገብ የወረቀት ዳንሰኛ ቆማ ነበር፣ እሷም በደግነት ፈገግ አለች።",
-      "textEn": "Page 2 of The Steadfast Tin Soldier.",
+      "textEn": "A paper dancer stood near the window and smiled kindly.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 2: ከመስኮቱ አጠገብ የወረቀት ዳንሰኛ ቆማ ነበር፣ እሷም በደግነት ፈገግ አለች።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ነፋስ መጣ፣ ወታደሩም በትንሽ ወረቀት ጀልባ ላይ ወደ ክፍሉ ሌላ ጫፍ ተንቀሳቀሰ።",
-      "textEn": "Page 3 of The Steadfast Tin Soldier.",
+      "textEn": "A breeze came, and the soldier moved to the other side of the room on a little paper boat.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 3: ነፋስ መጣ፣ ወታደሩም በትንሽ ወረቀት ጀልባ ላይ ወደ ክፍሉ ሌላ ጫፍ ተንቀሳቀሰ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "በመንገድ ላይ መጫወቻዎች እርዳታ ሰጡት፣ እሱም ጸጥ ብሎ አመሰገነ።",
-      "textEn": "Page 4 of The Steadfast Tin Soldier.",
+      "textEn": "Along the way, toys helped him, and he quietly thanked them.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 4: በመንገድ ላይ መጫወቻዎች እርዳታ ሰጡት፣ እሱም ጸጥ ብሎ አመሰገነ።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "በመጨረሻ ወደ መስኮቱ ተመለሰ እና ዳንሰኛዋን እንደገና አየ።",
-      "textEn": "Page 5 of The Steadfast Tin Soldier.",
+      "textEn": "At last he returned to the window and saw the dancer again.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 5: በመጨረሻ ወደ መስኮቱ ተመለሰ እና ዳንሰኛዋን እንደገና አየ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ሁለቱ በመጫወቻ መደርደሪያ ላይ በሰላም ቆሙ፣ ልጆችም በጥንቃቄ ተጫወቱባቸው።",
-      "textEn": "Page 6 of The Steadfast Tin Soldier.",
+      "textEn": "The two stood peacefully on the toy shelf, and the children played with them carefully.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Steadfast Tin Soldier, page 6: ሁለቱ በመጫወቻ መደርደሪያ ላይ በሰላም ቆሙ፣ ልጆችም በጥንቃቄ ተጫወቱባቸው።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ወታደሩ በወረቀት ጀልባው ላይ ሲንሸራተት “በቀስታ እቀጥላለሁ” ብሎ አሰበ። መንገዱ አዲስ ቢሆንም ልቡ ጸጥ ነበር።",
+      "textEn": "The soldier stayed calm and kept going on the paper boat.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_07.webp",
+      "illustrationPrompt": "Tin soldier riding a little paper boat across a playroom floor.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "አንድ የጨርቅ ድብ ትንሽ መንገድ አሳየው። “እርዳታ መቀበልም ጽናት ነው” ብሎ ወታደሩ አመሰገነ።",
+      "textEn": "A soft toy bear showed him the way, and the soldier accepted help.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_08.webp",
+      "illustrationPrompt": "Soft toy bear pointing the way for a small tin soldier in a playroom.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ዳንሰኛዋ ከመስኮቱ አጠገብ በጸጥታ ትጠብቅ ነበር። ወታደሩን ስታይ በደግ ፈገግታ አበረታታችው።",
+      "textEn": "The dancer waited by the window and encouraged him with a kind smile.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_09.webp",
+      "illustrationPrompt": "Paper dancer by a window smiling at a tin soldier across the room.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "ልጆቹ ተመልሰው መጫወቻዎቹን በጥንቃቄ አነሱ። ወታደሩንም ወደ መደርደሪያው በቀስታ መለሱት።",
+      "textEn": "The children carefully returned the soldier to the shelf.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_10.webp",
+      "illustrationPrompt": "Children carefully placing a tin soldier back on a toy shelf.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከዚያ ቀን በኋላ ወታደሩ እያንዳንዱ ትንሽ እርምጃ ወደ ቤት እንደሚያቀርብ አስታወሰ። ዳንሰኛዋም ከጎኑ በሰላም ቆመች።",
+      "textEn": "After that, the soldier remembered that each small step can bring you home.",
+      "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_11.webp",
+      "illustrationPrompt": "Tin soldier and paper dancer standing peacefully together on a toy shelf.",
       "audioUrl": null
     }
   ]

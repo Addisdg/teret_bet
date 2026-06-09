@@ -30,7 +30,7 @@
     {
       "pageNumber": 1,
       "textAm": "በከተማ መካከል ቆንጆ የልዑል ሐውልት ቆሞ ነበር።",
-      "textEn": "Page 1 of The Happy Prince.",
+      "textEn": "In the middle of the city stood a beautiful statue of a prince.",
       "imageUrl": "assets/images/stories/happy_prince_page_01.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 1: በከተማ መካከል ቆንጆ የልዑል ሐውልት ቆሞ ነበር።",
       "audioUrl": null
@@ -38,7 +38,7 @@
     {
       "pageNumber": 2,
       "textAm": "አንድ ትንሽ ወፍ በሐውልቱ እግር ሥር አረፈች።",
-      "textEn": "Page 2 of The Happy Prince.",
+      "textEn": "A little bird rested at the foot of the statue.",
       "imageUrl": "assets/images/stories/happy_prince_page_02.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 2: አንድ ትንሽ ወፍ በሐውልቱ እግር ሥር አረፈች።",
       "audioUrl": null
@@ -46,7 +46,7 @@
     {
       "pageNumber": 3,
       "textAm": "ልዑሉ ከላይ ሰዎችን ሲያይ ማን እርዳታ እንደሚፈልግ አስተዋለ።",
-      "textEn": "Page 3 of The Happy Prince.",
+      "textEn": "From above, the prince noticed who needed help.",
       "imageUrl": "assets/images/stories/happy_prince_page_03.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 3: ልዑሉ ከላይ ሰዎችን ሲያይ ማን እርዳታ እንደሚፈልግ አስተዋለ።",
       "audioUrl": null
@@ -54,7 +54,7 @@
     {
       "pageNumber": 4,
       "textAm": "ወፏ ትንሽ መልእክቶችን ወደ ቤቶች በደስታ አደረሰች።",
-      "textEn": "Page 4 of The Happy Prince.",
+      "textEn": "The bird happily carried little messages to homes.",
       "imageUrl": "assets/images/stories/happy_prince_page_04.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 4: ወፏ ትንሽ መልእክቶችን ወደ ቤቶች በደስታ አደረሰች።",
       "audioUrl": null
@@ -62,7 +62,7 @@
     {
       "pageNumber": 5,
       "textAm": "ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
-      "textEn": "Page 5 of The Happy Prince.",
+      "textEn": "People began helping one another, and the city filled with warmth.",
       "imageUrl": "assets/images/stories/happy_prince_page_05.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 5: ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
       "audioUrl": null
@@ -70,9 +70,49 @@
     {
       "pageNumber": 6,
       "textAm": "ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
-      "textEn": "Page 6 of The Happy Prince.",
+      "textEn": "The prince and the bird saw that the light of compassion stays in people’s hearts.",
       "imageUrl": "assets/images/stories/happy_prince_page_06.webp",
       "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 6: ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "textAm": "ትንሿ ወፍ ከሐውልቱ ላይ ከተማውን ተመለከተች። በአንድ መስኮት እናት ለልጇ ሞቃት ልብስ እንደምትፈልግ አየች።",
+      "textEn": "The little bird saw a family that needed warm clothes.",
+      "imageUrl": "assets/images/stories/happy_prince_page_07.webp",
+      "illustrationPrompt": "Small bird and prince statue looking over a warm city square.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "textAm": "ልዑሉ “ትንሽ መልእክት ወደ ጎረቤቶች አድርሺ” አለ። ወፏም በፍጥነት በርኅራኄ መልእክቱን አደረሰች።",
+      "textEn": "The prince asked the bird to carry a kind message to neighbors.",
+      "imageUrl": "assets/images/stories/happy_prince_page_08.webp",
+      "illustrationPrompt": "Bird carrying a small message from a prince statue to nearby homes.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "textAm": "ጎረቤቶቹ ሸሚዝ፣ ካልሲ እና ትንሽ ምግብ አመጡ። እናቱም በደስታ አመሰገነች።",
+      "textEn": "Neighbors brought clothes and food, and the mother thanked them.",
+      "imageUrl": "assets/images/stories/happy_prince_page_09.webp",
+      "illustrationPrompt": "Neighbors bringing warm clothes and food to a grateful family.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "textAm": "በሌላ ጎዳና አንድ አዛውንት ብቻውን ተቀምጦ ነበር። ወፏ መልእክት አድርሳ ልጆች እንዲጎበኙት አሳሰበች።",
+      "textEn": "On another street, the bird helped children remember a lonely elder.",
+      "imageUrl": "assets/images/stories/happy_prince_page_10.webp",
+      "illustrationPrompt": "Small bird guiding children to visit an elder on a city street.",
+      "audioUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "textAm": "ከተማው በትንንሽ ደግነቶች መብራት ጀመረ። ልዑሉ እና ወፏ ብርሃኑ በሰዎች ልብ ውስጥ እንዳለ ተደሰቱ።",
+      "textEn": "The city brightened with small kindnesses in many hearts.",
+      "imageUrl": "assets/images/stories/happy_prince_page_11.webp",
+      "illustrationPrompt": "City square glowing warmly as people help one another near the prince statue.",
       "audioUrl": null
     }
   ]
