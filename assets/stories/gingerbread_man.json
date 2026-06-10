@@ -53,18 +53,18 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
-      "textEn": "When he reached the river, he stopped and understood he could not cross safely.",
+      "textAm": "በጓሮው አጥር አጠገብ እንስሳቱ በደግነት እንዲቆም ጠሩት። እሱም መስማት እንዳለበት ተረዳ።",
+      "textEn": "Near the yard fence, the animals kindly called for him to stop, and he understood he should listen.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 4: ወንዝ አጠገብ ሲደርስ ቆመ፣ መሻገር እንደማይችል ተረዳ።",
+      "illustrationPrompt": "Warm storybook illustration of farm animals kindly calling to a gingerbread man near a sunny yard fence.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
-      "textEn": "A kind child suggested returning home where they could play safely.",
+      "textAm": "ወንዙ አጠገብ ሲደርስ ቆመ። “ብቻዬን መሻገር ደህና አይደለም” ብሎ በቀስታ አሰበ።",
+      "textEn": "When he reached the river, he stopped and gently thought that crossing alone was not safe.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 5: አንድ ደግ ልጅ “ወደ ቤት እንመለስ፤ በዚያ በደህና እንጫወታለን” አለ።",
+      "illustrationPrompt": "Warm storybook illustration of a gingerbread man stopping safely beside a bright river.",
       "audioUrl": null
     },
     {
@@ -93,10 +93,10 @@
     },
     {
       "pageNumber": 9,
-      "textAm": "ወንዙ ሲያበራ እንጀራው ውሃውን ተመለከተ። “ብቻዬን መሻገር ጥሩ አይደለም” ብሎ ቆመ።",
-      "textEn": "At the bright river, he stopped and chose not to cross alone.",
+      "textAm": "በአጥሩ አጠገብ ጓደኞቹ እንደገና “ቀስ በል፣ በደህና እንጫወት” አሉት።",
+      "textEn": "By the fence, his friends again called, \"Slow down, and let us play safely.\"",
       "imageUrl": "assets/images/stories/gingerbread_man_page_09.webp",
-      "illustrationPrompt": "Gingerbread man stopping safely beside a bright river.",
+      "illustrationPrompt": "Farm friends kindly reminding a gingerbread man to slow down and play safely by a yard fence.",
       "audioUrl": null
     },
     {

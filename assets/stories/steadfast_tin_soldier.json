@@ -85,10 +85,10 @@
     },
     {
       "pageNumber": 8,
-      "textAm": "አንድ የጨርቅ ድብ ትንሽ መንገድ አሳየው። “እርዳታ መቀበልም ጽናት ነው” ብሎ ወታደሩ አመሰገነ።",
-      "textEn": "A soft toy bear showed him the way, and the soldier accepted help.",
+      "textAm": "የወረቀት ጀልባው በለስላሳ ሞገድ ላይ ቀጠለ። ወታደሩም “ትንሽ እርምጃ ቢሆንም ወደ ቤት ያቀርበኛል” ብሎ አሰበ።",
+      "textEn": "The paper boat kept moving on gentle waves, and the soldier trusted each small step toward home.",
       "imageUrl": "assets/images/stories/steadfast_tin_soldier_page_08.webp",
-      "illustrationPrompt": "Soft toy bear pointing the way for a small tin soldier in a playroom.",
+      "illustrationPrompt": "A small paper boat carrying the tin soldier on gentle playroom waves, showing steady progress toward home.",
       "audioUrl": null
     },
     {

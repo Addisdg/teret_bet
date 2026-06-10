@@ -61,42 +61,42 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "እናቱ “ብቻህን አትቸኩል፤ በጥንቃቄ ወጥተህ ቶሎ ተመለስ” አለችው። ጃክ እጁን በግንዱ ላይ አድርጎ በቀስታ መውጣት ጀመረ።",
-      "textEn": "His mother reminded him to climb carefully and return soon.",
+      "textAm": "በደመናዎች ላይ ጃክ የወርቅ ዝይ እና የሚዘፍን ትንሽ ሐርፕ አየ። ድንቅ ነገር እንኳን በጥንቃቄ መታየት እንዳለበት አስታወሰ።",
+      "textEn": "Above the clouds, Jack saw a golden goose and a little singing harp, and remembered to be careful.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_05.webp",
-      "illustrationPrompt": "Jack carefully climbing the beanstalk while his mother waves from below.",
+      "illustrationPrompt": "Jack discovering a golden goose and a small singing harp in a bright garden above the clouds.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በደመናዎች መካከል ጃክ ሰፊ አትክልት አገኘ። በዚያ ትልቅ ገበሬ በዘር ቦርሳዎች መካከል ይሰራ ነበር።",
-      "textEn": "Above the clouds, Jack found a wide garden and a giant farmer.",
+      "textAm": "በዚያ ደግ ትልቅ ገበሬ አገኘ። ጃክም እናቱ የነገረችውን አስታውሶ መጀመሪያ በትህትና ፈቃድ ጠየቀ።",
+      "textEn": "There he met a gentle giant farmer and politely asked permission first.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_06.webp",
-      "illustrationPrompt": "Jack discovering a cloud garden with a gentle giant farmer.",
+      "illustrationPrompt": "Jack politely speaking with a gentle giant farmer in a bright cloud garden with a golden goose nearby.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ገበሬው ትልቅ ቢሆንም ድምፁ ለስላሳ ነበር። “ዘር ሲካፈል ብዙ ቤቶች ይበራሉ” ብሎ ጃክን አስተማረው።",
-      "textEn": "The gentle giant farmer taught Jack that seeds are for sharing.",
+      "textAm": "ገበሬው “ይህች ዝይ የወርቅ ዘርን ትወዳለች፣ ሐርፑም ለአትክልቱ በለስላሳ ይዘፍናል” ብሎ አሳየው።",
+      "textEn": "The farmer showed Jack how the golden goose and harp helped the garden with music and seeds.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_07.webp",
-      "illustrationPrompt": "A gentle giant farmer showing Jack baskets of seeds in a cloud garden.",
+      "illustrationPrompt": "A gentle giant farmer showing Jack a golden goose and small harp that help a cloud garden grow.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "ጃክ የወርቅ ዘር አልወሰደም፤ ፈቃድ ጠየቀ። ገበሬውም ትንሽ ቦርሳ ሰጠው፣ “ከመንደራችሁ ጋር አጋሩት” አለ።",
-      "textEn": "Jack asked permission, and the farmer gave him seeds to share.",
+      "textAm": "ጃክ ምንም አልወሰደም፤ ፈቃድ ጠየቀ። ገበሬውም ትንሽ የዘር ቦርሳ ሰጠው፣ “ከመንደራችሁ ጋር አጋሩት” አለ።",
+      "textEn": "Jack took nothing without asking, and the farmer gave him a small seed bag to share.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_08.webp",
-      "illustrationPrompt": "Jack receiving a small seed bag from the gentle giant farmer.",
+      "illustrationPrompt": "Jack receiving a small seed bag from the gentle giant farmer while a golden goose stands nearby.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "ጃክ በጥንቃቄ ወደ ታች ተመለሰ። እናቱ ሲያየው “በጥንቃቄ መመለስህ ከሁሉም በላይ ደስ አሰኘኝ” አለች።",
-      "textEn": "Jack climbed home safely and told his mother what he learned.",
+      "textAm": "ጃክ ወደ ቤት ተመልሶ ስለ ደጉ ገበሬ፣ ስለ ዝዩ እና ስለ መጋራት የተማረውን ለእናቱ ነገራት።",
+      "textEn": "Jack returned home and told his mother what he learned about the farmer, the goose, and sharing.",
       "imageUrl": "assets/images/stories/jack_and_beanstalk_page_09.webp",
-      "illustrationPrompt": "Jack safely returning down the beanstalk to his smiling mother.",
+      "illustrationPrompt": "Jack safely telling his mother about the gentle giant farmer, golden goose, and shared seeds.",
       "audioUrl": null
     },
     {

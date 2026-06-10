@@ -53,10 +53,10 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
-      "textEn": "Through the window, she saw three bowls and three chairs.",
+      "textAm": "በመስኮት በኩል ሦስት ትንንሽ አልጋዎችን አየች። ደክሟት ነበር፣ ግን መጠየቅ እንደሚገባ አስታወሰች።",
+      "textEn": "Through the window, she saw three small beds. She was tired, but remembered she should ask first.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 4: በመስኮት ላይ ሦስት ሳህኖች እና ሦስት ወንበሮች አየች።",
+      "illustrationPrompt": "Warm storybook illustration of Goldilocks seeing three small beds through a cottage window and remembering to ask first.",
       "audioUrl": null
     },
     {
@@ -93,10 +93,10 @@
     },
     {
       "pageNumber": 9,
-      "textAm": "ድቦቹ ሲመጡ በፍርሃት አልተጮኹም። ትልቁ ድብ “እንግዳችን ሆይ፣ ከመግባት በፊት መጠየቅ ይሻላል” አለ።",
-      "textEn": "When the bears returned, they gently explained that asking first is best.",
+      "textAm": "በለስላሳው አልጋ አጠገብ ጎልዲሎክስ ቆም ብላ አሰበች። “የሌሎችን ቤት ከመጠቀም በፊት መጠየቅ ይሻላል” አለች።",
+      "textEn": "Beside the soft bed, Goldilocks paused and remembered that asking first is best.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_09.webp",
-      "illustrationPrompt": "Three friendly bears speaking gently with Goldilocks outside their cottage.",
+      "illustrationPrompt": "Warm storybook illustration of Goldilocks beside three small beds, pausing to remember that she should ask first.",
       "audioUrl": null
     },
     {

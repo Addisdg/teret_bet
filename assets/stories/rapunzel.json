@@ -45,10 +45,10 @@
     },
     {
       "pageNumber": 3,
-      "textAm": "አንድ ደግ ተጓዥ ዘፈኗን ሰማ። “ድምፅሽ ጫካውን ደስ አሰኘው” ብሎ ከታች በደግነት ተናገረ።",
-      "textEn": "A kind traveler heard her song and spoke gently from below.",
+      "textAm": "የራፑንዘል ዘፈን በአበቦች እና በወፎች መካከል ወደ ታች ወረደ። ከግንቡ በታች ያለው መንገድ በደስታ ተሞላ።",
+      "textEn": "Rapunzel's song drifted down among flowers and birds, filling the path below with joy.",
       "imageUrl": "assets/images/stories/rapunzel_page_03.webp",
-      "illustrationPrompt": "A kind traveler below the tower listening respectfully to Rapunzel's song.",
+      "illustrationPrompt": "Rapunzel's flower-covered tower with birds and a winding path below, showing her song drifting into the meadow.",
       "audioUrl": null
     },
     {

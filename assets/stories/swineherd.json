@@ -37,10 +37,10 @@
     },
     {
       "pageNumber": 2,
-      "textAm": "ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
-      "textEn": "He brought the princess a flower he had grown with his own hands.",
+      "textAm": "ለልጃገረዷ በእጁ የሠራውን ትንሽ የሙዚቃ ማሰሮ ስጦታ አመጣ።",
+      "textEn": "He brought the princess a small music pot he had made with his own hands.",
       "imageUrl": "assets/images/stories/swineherd_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 2: ለልጃገረዷ በእጁ ያደገ አበባ ስጦታ አመጣ።",
+      "illustrationPrompt": "Warm storybook illustration of a princess looking at a small handmade music pot in a palace room.",
       "audioUrl": null
     },
     {
@@ -77,10 +77,10 @@
     },
     {
       "pageNumber": 7,
-      "textAm": "ወጣቱ አበባውን ሲያቀርብ “ይህን በትዕግሥት አሳድጌዋለሁ” አለ። ልጃገረዷ ግን በፍጥነት ብሩህ ሳጥኖችን ተመለከተች።",
-      "textEn": "The young man offered a flower grown with patience, but the princess looked for shiny boxes.",
+      "textAm": "ልጃገረዷ የሙዚቃ ማሰሮውን ሲታይ ድምፁን ወደደች፣ ግን ከነገሩ በላይ የሠራውን ደግ ልብ ማየት እንዳለባት አስታወሰች።",
+      "textEn": "The princess liked the music pot, then remembered to notice the kind heart that made it.",
       "imageUrl": "assets/images/stories/swineherd_page_07.webp",
-      "illustrationPrompt": "Young man offering a simple flower while a princess notices shiny boxes.",
+      "illustrationPrompt": "Princess thoughtfully listening to a small handmade music pot and remembering the kind heart behind it.",
       "audioUrl": null
     },
     {

@@ -53,10 +53,10 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "በበዓል ቀን ንጉሡ በቀላል ነጭ ልብስ ወጣ፣ ሁሉም በጸጥታ ተመለከተ።",
-      "textEn": "On festival day, the king came out in simple white clothes while everyone watched quietly.",
+      "textAm": "በበዓል ቀን ንጉሡ በብዙ ቀለም ያለው ልብስ ወጣ፣ ሁሉም ግን ልዩ ልብሱ የት እንዳለ በጸጥታ ተመለከተ።",
+      "textEn": "On festival day, the king came out in colorful clothes while everyone quietly wondered about the special outfit.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 4: በበዓል ቀን ንጉሡ በቀላል ነጭ ልብስ ወጣ፣ ሁሉም በጸጥታ ተመለከተ።",
+      "illustrationPrompt": "Warm storybook illustration of a king in colorful festival clothes while townspeople quietly wonder about the promised special outfit.",
       "audioUrl": null
     },
     {
