@@ -29,72 +29,72 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ስኖው ዋይት ደግ እና ረጋ ያለች ልጃገረድ ነበረች። አበቦችን ትንከባከብ፣ ወፎችንም በደስታ ትመግብ ነበር።",
-      "textEn": "Snow White was kind and gentle, caring for flowers and birds.",
+      "textAm": "በስኖው ዋይት መስኮት አጠገብ አበቦች በፀሐይ ይፈኩ ነበር። ወፎችም ደግ ልቧን እንደሚያውቁ በደስታ ይመጡ ነበር።",
+      "textEn": "By Snow White's window, flowers bloomed and birds came as if they knew her kind heart.",
       "imageUrl": "assets/images/stories/snow_white_page_01.webp",
-      "illustrationPrompt": "Snow White caring for flowers and feeding birds in a bright palace garden.",
+      "illustrationPrompt": "Warm storybook illustration of Snow White's window with blooming flowers, a watering can, and friendly birds in bright sunlight.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "አንድ ቀን ለራሷ ጸጥ ያለ ቦታ ለማግኘት ወደ ጫካ ተጓዘች። ጫካው በአረንጓዴ ቅጠሎች ተሞልቶ ነበር።",
-      "textEn": "One day she walked into the forest to find a quiet place.",
+      "textAm": "አንድ ቀን ጸጥ ያለ የጫካ መንገድ በፊቷ ተከፈተ። ወፎች በቀስታ ወደ አዲስ መንገድ እንደሚመሩ በላይዋ በረሩ።",
+      "textEn": "One day, a quiet forest path opened before her, with birds flying gently ahead.",
       "imageUrl": "assets/images/stories/snow_white_page_02.webp",
-      "illustrationPrompt": "Snow White walking calmly through a friendly green forest with soft light.",
+      "illustrationPrompt": "Warm storybook illustration of a quiet green forest path opening ahead, with friendly birds flying gently through soft light.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "በጫካው ውስጥ ትንሽ ንጹህ ቤት አገኘች። በሩን በቀስታ አንኳኳች እና “ሰላም?” አለች።",
-      "textEn": "In the forest she found a small clean house and knocked gently.",
+      "textAm": "በጫካው ውስጥ ትንሽ ንጹህ ቤት በአበቦች መካከል ተገኘ። በሩ በቀስታ ተከፍቶ እንደ “ሰላም” ብርሃን አበራ።",
+      "textEn": "In the forest, a small clean cottage glowed among flowers like a gentle hello.",
       "imageUrl": "assets/images/stories/snow_white_page_03.webp",
-      "illustrationPrompt": "Snow White gently knocking at a tiny cottage door in the woods.",
+      "illustrationPrompt": "Warm storybook illustration of a small clean forest cottage glowing among flowers like a gentle hello.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "በቤቱ ውስጥ ሰባት ትንንሽ ጓደኞች ይኖሩ ነበር። ስኖው ዋይትን በደግነት ተቀበሏት፣ እሷም ቤቱን ለማበጀት ረዳች።",
-      "textEn": "Seven small friends lived there and welcomed her kindly.",
+      "textAm": "በቤቱ ውስጥ ሰባት ትንንሽ መቀመጫዎች እና ሰባት ትንንሽ ኩባያዎች ነበሩ። ቤቱ ለእንግዳ በደግነት የተዘጋጀ ይመስል ነበር።",
+      "textEn": "Inside were seven small seats and cups, as if the cottage was ready to welcome a guest.",
       "imageUrl": "assets/images/stories/snow_white_page_04.webp",
-      "illustrationPrompt": "Seven small friendly forest cottage dwellers welcoming Snow White warmly.",
+      "illustrationPrompt": "Warm storybook illustration of a cozy cottage interior with seven small seats and seven cups ready to welcome a guest.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ሁሉም አብረው ምግብ አዘጋጁ፣ ዘፈኑ፣ ቤቱንም በሳቅ ሞሉት። ስኖው ዋይት ብቻዋን እንዳልሆነች ተሰማት።",
-      "textEn": "Together they cooked, sang, and filled the house with laughter.",
+      "textAm": "የጫካ ጓደኞች በጠረጴዛው ዙሪያ ተሰበሰቡ። ምግብ፣ ዘፈን እና ሳቅ ትንሹን ቤት ሞሉት።",
+      "textEn": "Forest friends gathered around the table, filling the little house with food, song, and laughter.",
       "imageUrl": "assets/images/stories/snow_white_page_05.webp",
-      "illustrationPrompt": "Snow White and seven small friends cooking and singing in a cozy cottage kitchen.",
+      "illustrationPrompt": "Warm storybook illustration of forest friends gathered around a cottage table with food, music, and laughter.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ስኖው ዋይት ከጓደኞቿ ጋር በደስታ ኖረች። ደግነቷም በጫካው ሁሉ ብርሃን ሆነ።",
-      "textEn": "From then on Snow White lived happily with friends, and her kindness shone.",
+      "textAm": "ከዚያ ቀን ጀምሮ ትንሹ ቤት በሞቅ ያለ ብርሃን ተሞላ። ደግነት በጫካው ሁሉ እንደ መስኮት ብርሃን ተሰማ።",
+      "textEn": "From then on, the little cottage glowed warmly, and kindness shone through the forest.",
       "imageUrl": "assets/images/stories/snow_white_page_06.webp",
-      "illustrationPrompt": "Snow White and her seven friends outside the cottage in warm sunset light.",
+      "illustrationPrompt": "Warm storybook illustration of a little forest cottage glowing warmly among flowers and trees.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "በመጀመሪያ ስኖው ዋይት የቤቱን ሥራ በቀስታ ተማረች። አንዱ ጓደኛ እንጨት አመጣ፣ ሌላው ውሃ አመጣ፣ እሷም አበቦችን በመስኮቱ አጠገብ አዘጋጀች።",
-      "textEn": "Snow White learned the rhythm of the little house and helped with flowers.",
+      "textAm": "በመስኮቱ አጠገብ አበቦች በቀስታ ተዘጋጁ። ትንሹ ቤት በየቀኑ የራሱን ሥርዓት እና ሞቅ ያለ ልማድ አገኘ።",
+      "textEn": "By the window, flowers were arranged gently, and the little house found its daily rhythm.",
       "imageUrl": "assets/images/stories/snow_white_page_07.webp",
       "illustrationPrompt": "Cozy forest cottage window with fresh flowers and warm sunlight.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "በየማታው ሁሉም የቀኑን ደስታ ይናገሩ ነበር። ስኖው ዋይት ወፎች የነገሯትን ዘፈን ትዘምር፣ ጓደኞቿም በቀስታ ይቀላቀሉ ነበር።",
-      "textEn": "Each evening they shared stories and songs together.",
+      "textAm": "በየማታው ሰባቱ ትንንሽ ወንበሮች በጠረጴዛው ዙሪያ ይጠብቁ ነበር። በእሳቱ ብርሃን ውስጥ ታሪክና ዘፈን ይካፈሉ ነበር።",
+      "textEn": "Each evening, seven little chairs waited around the table for shared stories and songs.",
       "imageUrl": "assets/images/stories/snow_white_page_08.webp",
       "illustrationPrompt": "Cozy forest cottage fireplace with seven small chairs and warm evening glow.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "አንድ ጠዋት ጫካው በዝናብ ተሸፈነ። ስኖው ዋይት ለወፎች ትንሽ እህል አዘጋጀች፣ ጓደኞቿም የተሰበረውን ትንሽ ድልድይ ጠገኑ።",
-      "textEn": "On a rainy morning, Snow White fed birds while her friends repaired a small bridge.",
+      "textAm": "አንድ ጠዋት ጫካው በዝናብ ተሸፈነ። በቤቱ አጠገብ ትንሽ ድልድይ ተሰብሮ ነበር፣ ጓደኞቹም በቀስታ ለመጠገን ተዘጋጁ።",
+      "textEn": "On a rainy morning, a small bridge near the cottage needed gentle repair.",
       "imageUrl": "assets/images/stories/snow_white_page_09.webp",
       "illustrationPrompt": "Gentle rainy forest with a small wooden bridge being repaired near a cottage path.",
       "audioUrl": null
@@ -109,10 +109,10 @@
     },
     {
       "pageNumber": 11,
-      "textAm": "ከዚያ ቀን ጀምሮ ትንሹ ቤት በደግነት ብርሃን ተሞላ። ስኖው ዋይት ቤት ማለት የሚንከባከቡህ ሰዎች እና አንተም የምትንከባከባቸው ጓደኞች እንደሆኑ ተማረች።",
-      "textEn": "Snow White learned that home is made by caring for one another.",
+      "textAm": "ከዚያ ቀን ጀምሮ ትንሹ ቤት በደግነት ብርሃን ተሞላ። ቤት ማለት እርስ በርስ የሚንከባከቡ ጓደኞች እንደሆነ ሁሉም አወቁ።",
+      "textEn": "From then on, the little cottage glowed with kindness, and everyone knew home is made by caring friends.",
       "imageUrl": "assets/images/stories/snow_white_page_11.webp",
-      "illustrationPrompt": "Snow White and seven small friends outside a glowing forest cottage at sunset.",
+      "illustrationPrompt": "Warm storybook illustration of the little forest cottage glowing at sunset, showing that home is made by caring friends.",
       "audioUrl": null
     }
   ]

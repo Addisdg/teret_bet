@@ -29,34 +29,34 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "ሲንደሬላ በቤት ውስጥ ብዙ ሥራ ትሠራ ነበር፣ ግን ልቧ ደግ ነበር።",
-      "textEn": "Cinderella worked hard at home, but her heart was kind.",
+      "textAm": "በሲንደሬላ ጸጥ ያለ ቤት ውስጥ የቀኑ ሥራ ብዙ ነበር፣ ግን ደግነት ክፍሉን ያሞቀው ነበር።",
+      "textEn": "In Cinderella's quiet home, daily work was heavy, but kindness kept the room warm.",
       "imageUrl": "assets/images/stories/cinderella_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 1: ሲንደሬላ በቤት ውስጥ ብዙ ሥራ ትሠራ ነበር፣ ግን ልቧ ደግ ነበር።",
+      "illustrationPrompt": "Warm storybook illustration of Cinderella's quiet home with a glowing hearth, flowers, and signs of daily work, showing kindness and hope without needing the character in frame.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "አንድ ቀን በመንደሩ ትልቅ የዘፈን በዓል ተዘጋጀ።",
-      "textEn": "One day, the village prepared a big singing festival.",
+      "textAm": "አንድ ቀን ቀላል ሰማያዊ ልብስ ተዘጋጀ። በመንደሩም የዘፈን በዓል ሊጀመር ነበር።",
+      "textEn": "One day, a simple blue dress was prepared as the village singing festival drew near.",
       "imageUrl": "assets/images/stories/cinderella_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 2: አንድ ቀን በመንደሩ ትልቅ የዘፈን በዓል ተዘጋጀ።",
+      "illustrationPrompt": "Warm storybook illustration of a simple blue festival dress by a window with birds and golden light, prepared for Cinderella's village singing festival.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ጓደኛዋ አሮጊት ሴት ቀላል ቆንጆ ልብስ እንድታዘጋጅ ረዳቻት።",
-      "textEn": "Her elderly friend helped her prepare a simple beautiful dress.",
+      "textAm": "በአበቦች መካከል ትንሽ ብሩህ መኪና ተዘጋጀ። ሲንደሬላ በደግነት ወደ በዓሉ እንድትደርስ ጓደኞቿ ረዱ።",
+      "textEn": "Among the flowers, a small bright carriage waited so Cinderella could reach the festival.",
       "imageUrl": "assets/images/stories/cinderella_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 3: ጓደኛዋ አሮጊት ሴት ቀላል ቆንጆ ልብስ እንድታዘጋጅ ረዳቻት።",
+      "illustrationPrompt": "Warm storybook illustration of a bright carriage waiting among flowers on a lamp-lit path to the festival.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "ሲንደሬላ በበዓሉ ላይ በደስታ ዘፈነች እና አዲስ ጓደኞች አገኘች።",
-      "textEn": "Cinderella sang happily at the festival and made new friends.",
+      "textAm": "በበዓሉ ቤት አጠገብ መብራቶች በረቁ፣ አበቦችም እንደ ደስታ ፈኩ። ሲንደሬላ በዚያ ምሽት በልቧ ደስ አላት።",
+      "textEn": "Lights glowed by the festival hall, and flowers brightened the evening for Cinderella.",
       "imageUrl": "assets/images/stories/cinderella_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 4: ሲንደሬላ በበዓሉ ላይ በደስታ ዘፈነች እና አዲስ ጓደኞች አገኘች።",
+      "illustrationPrompt": "Warm storybook illustration of a glowing village festival hall at night with flowers, lanterns, and a welcoming joyful mood.",
       "audioUrl": null
     },
     {
@@ -69,34 +69,34 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ጓደኞቿ ጫማውን መልሰው አመጡላት፣ ሲንደሬላም ደግነት እንደማይጠፋ ተማረች።",
-      "textEn": "Her friends brought the shoe back, and Cinderella learned that kindness is never lost.",
+      "textAm": "በአበባ መንገዱ ላይ ጓደኞቿ ጫማውን መመለስ እንዳለባቸው አስታወሱ። ደግነት እንደማይጠፋ ተማሩ።",
+      "textEn": "On the flowered path, her friends remembered that kindness should always find its way back.",
       "imageUrl": "assets/images/stories/cinderella_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 6: ጓደኞቿ ጫማውን መልሰው አመጡላት፣ ሲንደሬላም ደግነት እንደማይጠፋ ተማረች።",
+      "illustrationPrompt": "Warm storybook illustration of a flowered path near the festival, glowing carriage nearby, suggesting friends remembering to return Cinderella's shoe.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ሲንደሬላ ቀኑን ሥራ ስታደርግ ትንሽ ዘፈን ትዘምር ነበር። ዘፈኗም ቤቱን በተስፋ ያሞቅ ነበር።",
-      "textEn": "Cinderella sang as she worked, filling the house with hope.",
+      "textAm": "ቀላሉ ልብስ በመስኮቱ አጠገብ ተንጠልጥሎ ነበር። ሲንደሬላ ሥራዋን ስታደርግ ተስፋዋ እንደ ብርሃን በቤቱ ተሰማ።",
+      "textEn": "The simple dress waited by the window while Cinderella's hope warmed the house.",
       "imageUrl": "assets/images/stories/cinderella_page_07.webp",
-      "illustrationPrompt": "Cinderella working gently at home while singing with hope.",
+      "illustrationPrompt": "Warm storybook illustration of Cinderella's simple blue dress hanging near a window with birds and soft light, showing hope at home.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "ጓደኛዋ አሮጊት ሴት ትንሽ ጨርቅ፣ ቀለም እና ማሰሪያ አመጣች። ሁለቱም በትዕግሥት ልብሱን አዘጋጁ።",
-      "textEn": "Her elderly friend brought cloth and ribbons, and they prepared the dress patiently.",
+      "textAm": "የበዓሉ መንገድ በብሩህ መብራት ተሞላ። ሲንደሬላ በትዕግሥት የተዘጋጀው ሁሉ ወደ ደስታ እንደሚወስድ ተሰማት።",
+      "textEn": "The festival path glowed, and Cinderella felt that patient preparation could lead to joy.",
       "imageUrl": "assets/images/stories/cinderella_page_08.webp",
-      "illustrationPrompt": "Cinderella and an elderly friend sewing a simple festival dress.",
+      "illustrationPrompt": "Warm storybook illustration of a glowing festival path with lanterns, flowers, and a bright carriage leading toward joy.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "በበዓሉ ላይ ሲንደሬላ ለብቻዋ አልቆመችም። አዲስ ጓደኞች እጇን ይዘው በደስታ አስተናገዷት።",
-      "textEn": "At the festival, new friends welcomed Cinderella warmly.",
+      "textAm": "በበዓሉ መብራቶች መካከል ደግ ጓደኞች እርስ በርሳቸው ተቀባበሉ። ሲንደሬላም በዚያ ሞቅ ያለ ደስታ ተካፈለች።",
+      "textEn": "Among the festival lights, kind friends welcomed one another, and Cinderella shared the warmth.",
       "imageUrl": "assets/images/stories/cinderella_page_09.webp",
-      "illustrationPrompt": "Cinderella welcomed by new friends at a cheerful village festival.",
+      "illustrationPrompt": "Warm storybook illustration of a glowing festival hall with flowers and lanterns where kind friends welcome one another.",
       "audioUrl": null
     },
     {
@@ -104,15 +104,15 @@
       "textAm": "ሲንደሬላ ሲመለስ ጫማዋ እንደቀረ አላወቀችም። አንድ ጓደኛ ጫማውን አግኝቶ “ይህን መመለስ አለብን” አለ።",
       "textEn": "A friend found her shoe and knew it should be returned.",
       "imageUrl": "assets/images/stories/cinderella_page_10.webp",
-      "illustrationPrompt": "Friend finding Cinderella’s small shoe after the festival.",
+      "illustrationPrompt": "Warm storybook illustration of one sparkling glass shoe left on a garden step after the festival.",
       "audioUrl": null
     },
     {
       "pageNumber": 11,
-      "textAm": "ጫማው ሲመለስ ሲንደሬላ በደስታ አመሰገነች። ከዚያ በኋላ በመንደሩ ውስጥ ዘፈንን፣ ሥራን እና ደግነትን ከጓደኞቿ ጋር አጋራች።",
-      "textEn": "When the shoe returned, Cinderella thanked her friends and shared kindness in the village.",
+      "textAm": "በመጨረሻ የመመለሻው መንገድ በአበቦች ተሞላ። ሲንደሬላ ዘፈንን፣ ሥራን እና ደግነትን ከጓደኞቿ ጋር ማካፈል ተማረች።",
+      "textEn": "At the end, the flowered road home reminded Cinderella to share song, work, and kindness.",
       "imageUrl": "assets/images/stories/cinderella_page_11.webp",
-      "illustrationPrompt": "Cinderella thanking friends in a warm village courtyard.",
+      "illustrationPrompt": "Warm storybook illustration of a flowered road home with a glowing carriage, showing kindness, song, work, and hope.",
       "audioUrl": null
     }
   ]

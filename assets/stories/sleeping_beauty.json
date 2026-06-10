@@ -29,56 +29,56 @@
   "pages": [
     {
       "pageNumber": 1,
-      "textAm": "በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር። ቤተሰቧ እና ጓደኞቿ በቀስታ በቀስታ ያሳድጓት ነበር።",
-      "textEn": "A kind princess lived in a beautiful castle.",
+      "textAm": "በቆንጆ ቤተመንግሥት ውስጥ ደግ ልዕልት ትኖር ነበር። የወርቅ አክሊሏ እና አበቦቹ ቤቱ በፍቅር እንደተሞላ ያሳዩ ነበር።",
+      "textEn": "A kind princess lived in a beautiful castle where a golden crown and flowers showed she was loved.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_01.webp",
-      "illustrationPrompt": "A kind young princess with family and friends in a warm castle.",
+      "illustrationPrompt": "Warm storybook illustration of a beautiful castle garden with a golden crown on a bench and flowers showing the princess is loved.",
       "audioUrl": null
     },
     {
       "pageNumber": 2,
-      "textAm": "በበዓል ቀን ሁሉም መልካም ምኞት አመጡላት። አንዱ ጥበብን፣ ሌላው ደግነትን፣ ሌላውም ትዕግሥትን ተመኘላት።",
-      "textEn": "At a celebration, everyone brought kind wishes.",
+      "textAm": "በበዓል ቀን ጠረጴዛው በአበቦች፣ በመብራቶች እና በትንንሽ ስጦታዎች ተሞላ። ሁሉም መልካም ምኞት አመጡላት።",
+      "textEn": "At a celebration, the table filled with flowers, lanterns, gifts, and kind wishes.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_02.webp",
-      "illustrationPrompt": "A gentle castle celebration with people offering kind wishes to the princess.",
+      "illustrationPrompt": "Warm storybook illustration of a castle celebration table filled with flowers, lanterns, gifts, and kind wishes.",
       "audioUrl": null
     },
     {
       "pageNumber": 3,
-      "textAm": "ልዕልቷ እያደገች አበቦችን መንከባከብ እና ለሰዎች በጥሩ ቃል መናገር ትወድ ነበር።",
-      "textEn": "The princess grew up loving flowers and kind words.",
+      "textAm": "በቤተመንግሥቱ መንገዶች አበቦች በቀስታ በቀሉ። ልዕልቷም እያደገች ለአበቦች እና ለደግ ቃላት ፍቅር አሳየች።",
+      "textEn": "Flowers grew along the castle halls as the princess grew to love flowers and kind words.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_03.webp",
-      "illustrationPrompt": "The princess caring for flowers in a sunny castle garden.",
+      "illustrationPrompt": "Warm storybook illustration of flowered castle halls at night, showing the princess growing to love flowers and kind words.",
       "audioUrl": null
     },
     {
       "pageNumber": 4,
-      "textAm": "አንድ ቀን በአትክልቱ ውስጥ ሲዞር በጣም ደከመች። ሐኪሞች እና ቤተሰቧ ‘ረጅም እረፍት ያስፈልጋታል’ አሉ።",
-      "textEn": "One day she became very tired and needed a long rest.",
+      "textAm": "አንድ ቀን ቤተመንግሥቱ በአበቦች መካከል ጸጥ አለ። ልዕልቷ በጣም ደክማ ረጅም እረፍት እንደሚያስፈልጋት ሁሉም ተረዱ።",
+      "textEn": "One day, the flowered castle grew quiet because the princess needed a long rest.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_04.webp",
-      "illustrationPrompt": "The tired princess being cared for gently by family in the castle garden.",
+      "illustrationPrompt": "Warm storybook illustration of a quiet flower-covered castle, suggesting the princess needs a long gentle rest.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ልዕልቷ በጸጥ ያለ ክፍል ውስጥ አረፈች። ቤተመንግሥቱም ድምፁን አሳነሰ፣ ሁሉም በተስፋ ጠበቀ።",
-      "textEn": "The princess rested in a quiet room while everyone waited with hope.",
+      "textAm": "በጸጥ ያለ ክፍል አጠገብ የውሃ ቆርቆሮዎች እና አበቦች ተዘጋጁ። ቤተመንግሥቱም ድምፁን አሳነሰ፣ ሁሉም በተስፋ ጠበቀ።",
+      "textEn": "Near the quiet room, watering cans and flowers waited while the castle grew soft with hope.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_05.webp",
-      "illustrationPrompt": "The princess resting peacefully in a soft quiet castle room.",
+      "illustrationPrompt": "Warm storybook illustration of watering cans and flowers waiting near a quiet castle room while everyone keeps hope.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ከመስኮቷ ውጭ አበቦች በቀስታ በቀሉ። ጓደኞቿ በየቀኑ ውሃ አጠጡአቸው እና ለልዕልቷ መልካም ቃላትን ተናገሩ።",
-      "textEn": "Her friends watered flowers and spoke kind words each day.",
+      "textAm": "ከመስኮቷ ውጭ አበቦች በቀስታ በቀሉ። ወፎች በላይ ሲበሩ፣ ጓደኞቿ በየቀኑ ውሃ አጠጡአቸው።",
+      "textEn": "Outside her window, flowers grew gently while friends watered them each day.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_06.webp",
       "illustrationPrompt": "Friends watering flowers outside the princess's castle window.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ወቅቶች ተቀያየሩ። ፀሐይ ወጣች፣ ዝናብ ወረደ፣ አበቦቹም የተስፋ ቀለም ይዘው ቀጠሉ።",
-      "textEn": "Seasons passed while hope stayed alive.",
+      "textAm": "ወቅቶች ተቀያየሩ። በመስኮቱ ዙሪያ አበቦች በቀለም ተለዋወጡ፣ ተስፋም እንደ ቅጠል በቀስታ ቀጠለ።",
+      "textEn": "Seasons changed around the window, and hope stayed alive like leaves on the vines.",
       "imageUrl": "assets/images/stories/sleeping_beauty_page_07.webp",
       "illustrationPrompt": "Castle flowers through changing seasons, gentle hopeful mood.",
       "audioUrl": null
