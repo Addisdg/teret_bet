@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
-      "textEn": "The bears shared tea with her, and she learned to always ask first.",
+      "textAm": "ድቦቹ ይቅርታዋን በደግነት ሰሙ። “ከሻይ በፊት ትንሽ በበሩ አጠገብ እንጠብቅ” አሉ።",
+      "textEn": "The bears kindly listened to her apology and suggested waiting by the door before tea.",
       "imageUrl": "assets/images/stories/goldilocks_three_bears_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 6: ድቦቹ ከእሷ ጋር ሻይ አጋሩ፣ እሷም ከዚያ በኋላ ሁልጊዜ መጠየቅን ተማረች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Goldilocks and the Three Bears, page 6: the three bears kindly listen to Goldilocks near the cottage door before tea.",
       "audioUrl": null
     },
     {

@@ -69,15 +69,15 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ጥንቸሏ እና ወፏ ጥሩ ጓደኞች ሆኑ። ጥንቸሏም ደግነት ትልቅ ደስታ እንደሚያመጣ ተማረች።",
-      "textEn": "From that day on, the rabbit and the bird became good friends.",
+      "textAm": "ትንሿ ጥንቸል ልቧ በደስታ ሞላ። ጓደኛን መርዳት ቀኑን እንደሚያበራ ተማረች።",
+      "textEn": "The little rabbit felt happy and learned that helping a friend can brighten the day.",
       "imageUrl": "assets/images/stories/little_rabbit_page_06.webp",
       "illustrationPrompt": "The rabbit and little bird play together as happy friends in the warm meadow.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ከዚያ ቀን ጀምሮ ጥንቸሏ እና ወፏ በሜዳው ውስጥ በየጠዋቱ ይገናኙ ነበር። ጥንቸሏ ቅጠሎችን ታመጣ፣ ወፏም ከላይ የሚታየውን መንገድ ትነግራት ነበር።",
+      "textAm": "ከዚያ በኋላ ጥንቸሏ እና ወፏ በሜዳው ውስጥ በየጠዋቱ ይገናኙ ነበር። ጥንቸሏ ቅጠሎችን ታመጣ፣ ወፏም ከላይ ያየችውን መንገድ ትነግራት ነበር።",
       "textEn": "The rabbit and bird began meeting each morning and helping each other.",
       "imageUrl": "assets/images/stories/little_rabbit_page_07.webp",
       "illustrationPrompt": "The rabbit and small blue bird meeting in a sunny meadow morning.",

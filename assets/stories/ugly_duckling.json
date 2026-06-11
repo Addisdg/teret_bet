@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "በጸደይ ቀን በውሃ ውስጥ ራሱን ሲመለከት ቆንጆ ነጭ ወፍ ሆኖ አየ።",
-      "textEn": "On a spring day he saw in the water that he had become a beautiful white bird.",
+      "textAm": "በጸደይ ቀን በውሃ ላይ የሚንሸራተቱ ቆንጆ ነጭ ወፎችን አየ። ልቡም በተስፋ ተሞላ።",
+      "textEn": "On a spring day he saw beautiful white birds gliding on the water, and his heart filled with hope.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 5: በጸደይ ቀን በውሃ ውስጥ ራሱን ሲመለከት ቆንጆ ነጭ ወፍ ሆኖ አየ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 5: a young duckling watching beautiful white birds glide across a spring pond.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ሁሉንም ትንንሽ ወፎች በደግነት ይቀበል ነበር።",
-      "textEn": "From then on, he welcomed every small bird with kindness.",
+      "textAm": "ዳክዬው “እኔም በቀስታ እያደግሁ ነኝ” ብሎ አሰበ። ስለዚህ ሌሎች ትንንሽ ወፎችን በደግነት መቀበል ጀመረ።",
+      "textEn": "The duckling thought, I am growing slowly too, and began welcoming other little birds kindly.",
       "imageUrl": "assets/images/stories/ugly_duckling_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 6: ከዚያ ቀን ጀምሮ ሁሉንም ትንንሽ ወፎች በደግነት ይቀበል ነበር።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Ugly Duckling, page 6: a young duckling gently welcoming smaller birds near a pond.",
       "audioUrl": null
     },
     {

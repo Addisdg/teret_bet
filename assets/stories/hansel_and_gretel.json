@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ብዙም ሳይቆይ የቤታቸውን መብራት አዩ። ቤተሰባቸው በደስታ ተቀበላቸው፣ ልጆቹም ከዚያ ቀን በኋላ አንዳቸው አንዳቸውን በቅርብ ይጠብቁ ነበር።",
-      "textEn": "Soon they saw the light of home and were welcomed with joy.",
+      "textAm": "ብዙም ሳይቆይ የቤታቸውን መብራት አዩ። ቤተሰባቸው በደስታ ተቀበላቸው፣ ልጆቹም የተማሩትን በቀስታ ነገሩ።",
+      "textEn": "Soon they saw the light of home, were welcomed with joy, and calmly shared what they had learned.",
       "imageUrl": "assets/images/stories/hansel_and_gretel_page_06.webp",
       "illustrationPrompt": "The children returning home safely at sunset, family welcoming them warmly.",
       "audioUrl": null

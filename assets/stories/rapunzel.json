@@ -45,10 +45,10 @@
     },
     {
       "pageNumber": 3,
-      "textAm": "የራፑንዘል ዘፈን በአበቦች እና በወፎች መካከል ወደ ታች ወረደ። ከግንቡ በታች ያለው መንገድ በደስታ ተሞላ።",
-      "textEn": "Rapunzel's song drifted down among flowers and birds, filling the path below with joy.",
+      "textAm": "የራፑንዘል ዘፈን በአበቦች እና በወፎች መካከል ወደ ታች ወረደ። አንድ ደግ ተጓዥ ዘፈኑን ሰምቶ በመንገዱ ላይ ቆመ።",
+      "textEn": "Rapunzel's song drifted down among flowers and birds, and a kind traveler stopped to listen.",
       "imageUrl": "assets/images/stories/rapunzel_page_03.webp",
-      "illustrationPrompt": "Rapunzel's flower-covered tower with birds and a winding path below, showing her song drifting into the meadow.",
+      "illustrationPrompt": "Rapunzel's flower-covered tower with birds and a kind traveler listening on the winding path below.",
       "audioUrl": null
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ራፑንዘል ሜዳውን ስትመለከት በደስታ ፈገግ አለች። ዘፈኗም አሁን ከጓደኞቿ ጋር በነፃ ይሰማ ነበር።",
-      "textEn": "Rapunzel smiled as she saw the meadow and sang freely with friends.",
+      "textAm": "ራፑንዘል ሜዳውን ስትመለከት በደስታ ፈገግ አለች። ከግንቡ ውጭ ያለውን ዓለም በቀስታ መመርመር ጀመረች።",
+      "textEn": "Rapunzel smiled as she saw the meadow and began exploring the world outside the tower slowly.",
       "imageUrl": "assets/images/stories/rapunzel_page_06.webp",
       "illustrationPrompt": "Rapunzel standing in a meadow with friends and birds, singing happily in golden light.",
       "audioUrl": null

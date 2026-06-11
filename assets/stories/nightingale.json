@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ቤተመንግሥቱ በተፈጥሮ ዘፈን እና በምስጋና ተሞላ።",
-      "textEn": "From that day on, the palace was filled with natural song and gratitude.",
+      "textAm": "በዚያ ቀን ቤተመንግሥቱ በተፈጥሮ ዘፈን ተሞላ። ንጉሡም ዘፈኑ ከየት እንደሚመጣ በደግነት ለማወቅ ፈለገ።",
+      "textEn": "That day, the palace filled with natural song, and the king kindly wanted to learn where it came from.",
       "imageUrl": "assets/images/stories/nightingale_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 6: ከዚያ ቀን ጀምሮ ቤተመንግሥቱ በተፈጥሮ ዘፈን እና በምስጋና ተሞላ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 6: a palace garden filled with natural birdsong while the king listens curiously.",
       "audioUrl": null
     },
     {

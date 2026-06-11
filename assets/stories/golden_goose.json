@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ልጁ ስጦታውን ለሰዎች ደስታ ለማምጣት ተጠቀመበት። መንደሩም ደግነት ሲካፈል እንደሚያድግ ተማረ።",
-      "textEn": "From then on, the boy used the gift to bring joy to others.",
+      "textAm": "ልጁ ስጦታው ሰዎችን ማሳቅ እና ማቀራረብ እንደሚችል አየ። መንደሩም ይህን ብርሃን በደስታ መከተል ፈለገ።",
+      "textEn": "The boy saw that the gift could make people smile and come together.",
       "imageUrl": "assets/images/stories/golden_goose_page_06.webp",
       "illustrationPrompt": "The kind boy and golden goose surrounded by happy villagers in warm evening light.",
       "audioUrl": null

@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ከዚያ ቀን ጀምሮ ትንሹ ቤት በሞቅ ያለ ብርሃን ተሞላ። ደግነት በጫካው ሁሉ እንደ መስኮት ብርሃን ተሰማ።",
-      "textEn": "From then on, the little cottage glowed warmly, and kindness shone through the forest.",
+      "textAm": "በዚያ ምሽት ትንሹ ቤት በሞቅ ያለ ብርሃን ተሞላ። ደግነት በመስኮቱ ላይ እንደ ብርሃን ታየ።",
+      "textEn": "That evening, the little cottage glowed warmly, and kindness shone at the window.",
       "imageUrl": "assets/images/stories/snow_white_page_06.webp",
       "illustrationPrompt": "Warm storybook illustration of a little forest cottage glowing warmly among flowers and trees.",
       "audioUrl": null

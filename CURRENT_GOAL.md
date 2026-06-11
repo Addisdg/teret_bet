@@ -68,6 +68,12 @@ before external testing.
   `clever_rabbit_lion`, `magic_porridge_pot`, and `cinderella`
 * Tests and catalog QA now allow stories to grow beyond fixed page counts; story
   length is content-driven with no hard upper page limit
+* First full-catalog flow review pass started. Early-ending expansion artifacts
+  were smoothed into bridge pages for:
+  `little_rabbit`, `hansel_and_gretel`, `rapunzel`, `snow_white`,
+  `ugly_duckling`, `nightingale`, `fir_tree`, `golden_goose`,
+  `goldilocks_three_bears`, `sun_moon_sky`, `rumpelstiltskin`, and
+  `elves_and_shoemaker`
 
 ## Current Release Identity
 
@@ -77,11 +83,11 @@ before external testing.
 
 ## Latest Validation
 
-Latest committed content expansion:
+Latest committed asset refresh:
 
-* `089abbc Expand fifth six-page story batch`
+* `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the current final six-page expansion pass:
+Quality gates passed after the first catalog flow review pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

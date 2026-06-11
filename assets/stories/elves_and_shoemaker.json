@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ረዳቶቹ ስጦታውን ሲያዩ በደስታ ዘፈኑ። ጫማ ሰፊውም ከዚያ በኋላ ሥራውን በምስጋና እና በደግነት ቀጠለ።",
-      "textEn": "The helpers sang with joy, and the shoemaker kept working with gratitude.",
+      "textAm": "ረዳቶቹ ስጦታውን ሲያዩ በደስታ ዘፈኑ። ጫማ ሰፊውም ምስጋና ሥራውን ይበልጥ ሞቃት እንደሚያደርገው ተሰማው።",
+      "textEn": "The helpers sang with joy, and the shoemaker felt how gratitude made the work warmer.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_06.webp",
       "illustrationPrompt": "Tiny helpers dancing happily in new clothes while the shoemaker and wife smile.",
       "audioUrl": null

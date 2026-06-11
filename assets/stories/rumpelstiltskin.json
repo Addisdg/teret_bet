@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "“ሩምፐልስቲልትስኪን!” ብላ በደስታ አለች። እንግዳው ፈገግ ብሎ ተሰናበተ። ልጃገረዷም ከዚያ በኋላ ቃል ከመስጠት በፊት በጥንቃቄ ታስብ ነበር።",
-      "textEn": "Rumpelstiltskin! she said happily, and the stranger smiled goodbye.",
+      "textAm": "“ሩምፐልስቲልትስኪን!” ብላ በደስታ አለች። እንግዳው ፈገግ ብሎ ተሰናበተ፣ እሷም ቃል ስለመስጠት ብዙ ለማሰብ ተዘጋጀች።",
+      "textEn": "Rumpelstiltskin! she said happily, and the stranger smiled goodbye as she prepared to think more about promises.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_06.webp",
       "illustrationPrompt": "The young woman smiling as the tiny helper waves goodbye under warm lantern light.",
       "audioUrl": null
