@@ -81,6 +81,11 @@ before external testing.
   `princess_and_pea`, `snow_queen`, `anansi_and_turtle`,
   `anansi_pot_beans`, `cinderella`, `magic_porridge_pot`,
   `monkey_and_shark`, `steadfast_tin_soldier`, and `swineherd`
+* Third full-catalog flow review pass completed across the remaining manifest
+  stories. Most remaining stories already read cleanly; final bridge-page
+  polish was applied to:
+  `little_match_girl`, `gingerbread_man`, `happy_prince`, and
+  `clever_rabbit_lion`
 
 ## Current Release Identity
 
@@ -94,7 +99,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the second catalog flow review pass:
+Quality gates passed after the third catalog flow review pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

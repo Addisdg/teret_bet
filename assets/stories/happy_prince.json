@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
-      "textEn": "People began helping one another, and the city filled with warmth.",
+      "textAm": "ወፏ መልእክቱን ስታደርስ ሰዎች በመስኮቶቻቸው ተመለከቱ። “ማንን መርዳት እንችላለን?” ብለው በቀስታ ጠየቁ።",
+      "textEn": "As the bird carried the message, people looked from their windows and gently asked who they could help.",
       "imageUrl": "assets/images/stories/happy_prince_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 5: ሰዎች እርስ በርሳቸው መርዳት ጀመሩ፣ ከተማውም በሙቀት ተሞላ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 5: city neighbors looking from warm windows as a little bird carries a kind message.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
-      "textEn": "The prince and the bird saw that the light of compassion stays in people’s hearts.",
+      "textAm": "ልዑሉ እና ወፏ ከላይ ተመለከቱ። ትንሽ መልእክት ብዙ ደግ እጆችን ሊያነቃ እንደሚችል ተስፋ አዩ።",
+      "textEn": "The prince and the bird watched from above and hoped one small message could awaken many kind hands.",
       "imageUrl": "assets/images/stories/happy_prince_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 6: ልዑሉ እና ወፏ የርኅራኄ ብርሃን በሰዎች ልብ ውስጥ እንደሚቆይ አዩ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Happy Prince, page 6: prince statue and little bird watching hopeful city lights from above.",
       "audioUrl": null
     },
     {

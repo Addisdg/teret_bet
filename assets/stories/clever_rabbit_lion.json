@@ -53,10 +53,10 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "አንበሳው በውሃ ውስጥ የራሱን ጥላ አየ እና ድምፁ ሌሎችን እንደሚያስፈራ ተረዳ።",
-      "textEn": "The lion saw his reflection in the water and understood his voice frightened others.",
+      "textAm": "አንበሳው በውሃ ውስጥ የራሱን ጥላ አየ። ውሃው ጸጥ ስለነበር የራሱን ፊት በግልጽ ማየት ቻለ።",
+      "textEn": "The lion saw his reflection in the quiet water and could look clearly at his own face.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 4: አንበሳው በውሃ ውስጥ የራሱን ጥላ አየ እና ድምፁ ሌሎችን እንደሚያስፈራ ተረዳ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 4: lion looking at his reflection in a quiet pool beside Rabbit.",
       "audioUrl": null
     },
     {
@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "አንበሳው በቀስታ መናገር ጀመረ፣ ሜዳውም እንደገና በሰላም ተሞላ።",
-      "textEn": "The lion began speaking softly, and the meadow became peaceful again.",
+      "textAm": "አንበሳው በቀስታ መናገር ለመሞከር ተስማማ። ጥንቸሉም “መጀመሪያ እንተንፍስ” ብሎ አሳየው።",
+      "textEn": "The lion agreed to try speaking softly, and Rabbit showed him how to breathe first.",
       "imageUrl": "assets/images/stories/clever_rabbit_lion_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 6: አንበሳው በቀስታ መናገር ጀመረ፣ ሜዳውም እንደገና በሰላም ተሞላ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Clever Rabbit and the Lion, page 6: Rabbit teaching a lion to breathe calmly before speaking softly.",
       "audioUrl": null
     },
     {

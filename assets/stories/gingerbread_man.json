@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
-      "textEn": "The gingerbread man returned, and everyone sang and played happily indoors.",
+      "textAm": "እንጀራው ቆሞ ጓደኞቹን ጠበቀ። “እንዴት በደህና መጫወት እንደምችል አሳዩኝ” ብሎ ጠየቀ።",
+      "textEn": "The gingerbread man stopped and waited for his friends, asking them to show him how to play safely.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 6: እንጀራው ተመለሰ፣ ሁሉም በቤት ውስጥ ዘፈኑ እና በደስታ ተጫወቱ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Gingerbread Man, page 6: gingerbread man waiting for friends and asking how to play safely.",
       "audioUrl": null
     },
     {

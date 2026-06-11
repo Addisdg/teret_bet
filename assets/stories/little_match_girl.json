@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
-      "textEn": "The next day, the girl played with new friends in warmth and safety.",
+      "textAm": "ልጅቷ በሞቃት ቤት ውስጥ በቀስታ ተረጋጋች። ደጉ ቤተሰብም “ዛሬ ምን ያስፈልግሻል?” ብሎ በክብር ጠየቃት።",
+      "textEn": "The girl slowly felt calm in the warm home, and the kind family respectfully asked what she needed that day.",
       "imageUrl": "assets/images/stories/little_match_girl_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 6: በሚቀጥለው ቀን ልጅቷ ከአዲስ ጓደኞቿ ጋር በሙቀት እና በደህንነት ተጫወተች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Little Match Girl, page 6: a little girl calming down in a warm home while a kind family asks what she needs.",
       "audioUrl": null
     },
     {
