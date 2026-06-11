@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "እሷ በሩጫ ስትመለስ ትንሽ ጫማዋን ተወች።",
-      "textEn": "As she hurried home, she left one small shoe behind.",
+      "textAm": "ሲንደሬላ በበዓሉ ውስጥ ዘፈንን እና ደግ ቃላትን ተካፈለች። ምሽቱ ሲጠጋ ወደ ቤት መመለስ እንዳለባት አስታወሰች።",
+      "textEn": "At the festival, Cinderella shared songs and kind words, and as evening grew late she remembered to return home.",
       "imageUrl": "assets/images/stories/cinderella_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 5: እሷ በሩጫ ስትመለስ ትንሽ ጫማዋን ተወች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Cinderella, page 5: Cinderella enjoying songs and kind friends at a glowing village festival.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በአበባ መንገዱ ላይ ጓደኞቿ ትንሹን ጫማ በብርሃን ሲያበራ አዩ። “ይህ ጫማ ወደ ባለቤቱ መመለስ አለበት” አሉ።",
-      "textEn": "On the flowered path, her friends saw the little shoe shining and said it should return to its owner.",
+      "textAm": "በአበባ መንገዱ ላይ ጓደኞቿ በቀስታ መንገዷን አበሩላት። “በደህና ወደ ቤት እንመራሻለን” አሉ።",
+      "textEn": "On the flowered path, her friends gently lit the way and helped her return home safely.",
       "imageUrl": "assets/images/stories/cinderella_page_06.webp",
-      "illustrationPrompt": "Warm storybook illustration of a flowered path near the festival, glowing carriage nearby, suggesting friends remembering to return Cinderella's shoe.",
+      "illustrationPrompt": "Warm storybook illustration of friends lighting a flowered path near the festival so Cinderella can return home safely.",
       "audioUrl": null
     },
     {
@@ -85,26 +85,26 @@
     },
     {
       "pageNumber": 8,
-      "textAm": "የበዓሉ መንገድ በብሩህ መብራት ተሞላ። ሲንደሬላ በትዕግሥት የተዘጋጀው ሁሉ ወደ ደስታ እንደሚወስድ ተሰማት።",
-      "textEn": "The festival path glowed, and Cinderella felt that patient preparation could lead to joy.",
+      "textAm": "በማግሥቱ የበዓሉ መንገድ አሁንም በትንሽ ብርሃን ይበራ ነበር። ጓደኞቿም ሁሉ በደህና እንደተመለሰ ለማየት ተመለሱ።",
+      "textEn": "The next morning, the festival path still glowed softly, and her friends returned to check that everyone had gone home safely.",
       "imageUrl": "assets/images/stories/cinderella_page_08.webp",
-      "illustrationPrompt": "Warm storybook illustration of a glowing festival path with lanterns, flowers, and a bright carriage leading toward joy.",
+      "illustrationPrompt": "Warm storybook illustration of a softly glowing festival path the next morning with friends checking the garden steps.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "በበዓሉ መብራቶች መካከል ደግ ጓደኞች እርስ በርሳቸው ተቀባበሉ። ሲንደሬላም በዚያ ሞቅ ያለ ደስታ ተካፈለች።",
-      "textEn": "Among the festival lights, kind friends welcomed one another, and Cinderella shared the warmth.",
+      "textAm": "በበዓሉ መብራቶች አጠገብ አንድ ጓደኛ ትንሽ የሚያበራ ጫማ አየ። ጫማው በአበባ ደረጃ ላይ ብቻውን ቀርቶ ነበር።",
+      "textEn": "Near the festival lights, a friend noticed a small shining shoe left alone on a flowered step.",
       "imageUrl": "assets/images/stories/cinderella_page_09.webp",
-      "illustrationPrompt": "Warm storybook illustration of a glowing festival hall with flowers and lanterns where kind friends welcome one another.",
+      "illustrationPrompt": "Warm storybook illustration of a small shining shoe on a flowered festival step near soft lantern light.",
       "audioUrl": null
     },
     {
       "pageNumber": 10,
-      "textAm": "ሲንደሬላ ሲመለስ ጫማዋ እንደቀረ አላወቀችም። አንድ ጓደኛ ጫማውን አግኝቶ “ይህን መመለስ አለብን” አለ።",
-      "textEn": "A friend found her shoe and knew it should be returned.",
+      "textAm": "ጓደኛው ጫማውን በጥንቃቄ አነሳ። “ሲንደሬላ ስትመለስ እንደቀረ አላወቀችም፤ እንመልሰው” አለ።",
+      "textEn": "The friend carefully picked up the shoe and said Cinderella must not have noticed it was left behind.",
       "imageUrl": "assets/images/stories/cinderella_page_10.webp",
-      "illustrationPrompt": "Warm storybook illustration of one sparkling glass shoe left on a garden step after the festival.",
+      "illustrationPrompt": "Warm storybook illustration of a friend carefully picking up one sparkling shoe from a garden step after the festival.",
       "audioUrl": null
     },
     {

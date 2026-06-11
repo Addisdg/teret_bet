@@ -86,6 +86,10 @@ before external testing.
   polish was applied to:
   `little_match_girl`, `gingerbread_man`, `happy_prince`, and
   `clever_rabbit_lion`
+* Strict story-order consistency pass completed for expanded stories with
+  old-short-version artifacts still interleaved into the page flow:
+  `anansi_and_turtle`, `anansi_pot_beans`, `sun_moon_sky`,
+  `magic_porridge_pot`, and `cinderella`
 
 ## Current Release Identity
 
@@ -99,7 +103,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the third catalog flow review pass:
+Quality gates passed after the strict story-order consistency pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

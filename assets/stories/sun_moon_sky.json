@@ -53,26 +53,26 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "ውሃ በደስታ ገባ፣ ግን ቤቱን ሁሉ በቀስታ ሞላው።",
-      "textEn": "Water came in happily and gently filled the whole house.",
+      "textAm": "ውሃ በመጀመሪያ በትንሽ ጠብታዎች በደስታ ገባ። ግን ፀሐይ እና ጨረቃ ቤቱ ለጓደኛቸው ገና ትንሽ እንደሆነ አዩ።",
+      "textEn": "Water first came in as little happy drops, and Sun and Moon saw their home was still too small for their friend.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 4: ውሃ በደስታ ገባ፣ ግን ቤቱን ሁሉ በቀስታ ሞላው።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 4: happy water drops entering a house while Sun and Moon notice it is still too small.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "ፀሐይ እና ጨረቃ ወደ ላይ ተነሱ እና በሰማይ ሰፊ ቦታ አገኙ።",
-      "textEn": "Sun and Moon rose upward and found wide space in the sky.",
+      "textAm": "ፀሐይ እና ጨረቃ ከቤታቸው ውጭ ቆመው ወደ ላይ ተመለከቱ። “ምናልባት ለሁላችንም ሰፊ ቦታ እንፈልጋለን” አሉ።",
+      "textEn": "Sun and Moon stood outside, looked upward, and wondered if they needed a wider place for everyone.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 5: ፀሐይ እና ጨረቃ ወደ ላይ ተነሱ እና በሰማይ ሰፊ ቦታ አገኙ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 5: Sun and Moon standing outside their house and looking thoughtfully toward the wide sky.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በሰማይ ላይ ፀሐይ እና ጨረቃ ለጓደኛቸው ትልቅ ቦታ እንደሚያስፈልግ ተረዱ። ስለዚህ እንደገና በጥንቃቄ ለመዘጋጀት ወሰኑ።",
-      "textEn": "In the sky, Sun and Moon understood that their friend needed a wide space, so they chose to prepare carefully.",
+      "textAm": "በሰፊው ቦታ ሥር ፀሐይ እና ጨረቃ ለጓደኛቸው ትልቅ ቦታ እንደሚያስፈልግ ተረዱ። ስለዚህ እንደገና በጥንቃቄ ለመዘጋጀት ወሰኑ።",
+      "textEn": "Under the wide open space, Sun and Moon understood their friend needed room and chose to prepare carefully again.",
       "imageUrl": "assets/images/stories/sun_moon_sky_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 6: Sun and Moon in the sky thoughtfully planning a wider home for Water.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Why the Sun and Moon Live in the Sky, page 6: Sun and Moon under a wide open sky planning more room for Water.",
       "audioUrl": null
     },
     {

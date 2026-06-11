@@ -53,26 +53,26 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "ጓደኛው ተመልሶ “እባክህ በግልጽ ንገረኝ” አለው።",
-      "textEn": "His friend returned and asked him to speak clearly.",
+      "textAm": "ጓደኛው “ትንሽ ሳህኖች ልወስድ እመለሳለሁ፤ መጠበቅ ካስቸገረህ በግልጽ ንገረኝ” አለው።",
+      "textEn": "His friend said he would return with bowls and asked Anansi to speak clearly if waiting felt hard.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 4: ጓደኛው ተመልሶ “እባክህ በግልጽ ንገረኝ” አለው።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 4: Anansi's friend leaving briefly to bring small bowls while kindly asking Anansi to speak clearly.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "አናንሲ “መጠበቅ አስቸጋሪ ሆነብኝ” ብሎ እውነቱን ተናገረ።",
-      "textEn": "Anansi honestly said waiting had been hard for him.",
+      "textAm": "አናንሲ “መጠበቅ አስቸጋሪ ሆነብኝ” ብሎ ለራሱ በቀስታ ተናገረ። ነገር ግን ጓደኛውን መጠበቅ እንደሚገባ አስታወሰ።",
+      "textEn": "Anansi quietly told himself that waiting was hard, but remembered he should wait for his friend.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 5: አናንሲ “መጠበቅ አስቸጋሪ ሆነብኝ” ብሎ እውነቱን ተናገረ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 5: Anansi speaking softly to himself beside a warm bean pot while trying to wait.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ጓደኞቹ ባቄላውን ለመካፈል ሳህኖችን አዘጋጁ። አናንሲም ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ መረዳት ጀመረ።",
-      "textEn": "The friends prepared bowls to share the beans, and Anansi began to understand that patience makes food sweeter.",
+      "textAm": "አናንሲ ሳህኖቹን ለማዘጋጀት ቦታ አጸዳ። ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ መረዳት ጀመረ።",
+      "textEn": "Anansi cleared a place for the bowls and began to understand that patience makes food sweeter.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 6: friends preparing bowls beside a warm pot while Anansi begins to wait patiently.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 6: Anansi clearing a place for bowls beside a warm bean pot while practicing patience.",
       "audioUrl": null
     },
     {

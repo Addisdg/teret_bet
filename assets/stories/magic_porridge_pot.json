@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "አንድ ጊዜ ሰው የማቆሚያውን ቃል ረሳ፣ ገንፎውም ትንሽ ብዙ ሆነ።",
-      "textEn": "Once someone forgot the stopping words, and there was a little too much porridge.",
+      "textAm": "ብዙ ሰዎች ሲመጡ አንድ ሰው “የማቆሚያውን ቃል ብንረሳ ምን እናደርጋለን?” ብሎ ጠየቀ።",
+      "textEn": "When many people came, someone asked what they should do if the stopping words were forgotten.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 5: አንድ ጊዜ ሰው የማቆሚያውን ቃል ረሳ፣ ገንፎውም ትንሽ ብዙ ሆነ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 5: neighbors near a small porridge pot asking how to remember the stopping words.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ልጁ በቀስታ ቃሉን አስታወሰ። ሁሉም የማቆሚያውን ቃል በቀላሉ ለማስታወስ መንገድ መፈለግ ጀመሩ።",
-      "textEn": "The child calmly remembered the words, and everyone began looking for an easy way to remember the stopping words.",
+      "textAm": "ልጁ በቀስታ የማቆሚያውን ቃል ደገመ። ሁሉም ቃሉን በቀላሉ ለማስታወስ መንገድ መፈለግ ጀመሩ።",
+      "textEn": "The child calmly repeated the stopping words, and everyone began looking for an easy way to remember them.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: a child calmly remembering the stopping words while family looks for a reminder.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: a child calmly repeating the stopping words while family looks for a reminder.",
       "audioUrl": null
     },
     {

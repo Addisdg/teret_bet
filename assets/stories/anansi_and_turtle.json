@@ -53,58 +53,58 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "በሌላ ቀን ኤሊው አናንሲን ወደ ውሃ ዳር ጋበዘው።",
-      "textEn": "Another day, Turtle invited Anansi to the water’s edge.",
+      "textAm": "ኤሊው እጆቹን ለመታጠብ በቀስታ ወደ ውሃ ሄደ። አናንሲ ግን በጠረጴዛው አጠገብ ብቻውን ቆይቶ ምግቡን ተመለከተ።",
+      "textEn": "Turtle slowly went to wash his hands while Anansi waited alone beside the food.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 4: በሌላ ቀን ኤሊው አናንሲን ወደ ውሃ ዳር ጋበዘው።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 4: Turtle slowly walking to wash his hands while Anansi waits beside the lunch table.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
-      "textAm": "አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ። ኤሊውም “ጓደኞች የእያንዳንዳቸውን መንገድ ይከብራሉ” አለው።",
-      "textEn": "Anansi realized he could not do everything Turtle could, and Turtle reminded him that friends respect each other's ways.",
+      "textAm": "ኤሊው ሲመለስ ምግቡ ቀድሞ ተጀምሮ ነበር። አናንሲ ይህ ለጓደኛው እንደማይመች በልቡ ተሰማው።",
+      "textEn": "When Turtle returned, the food had already been started, and Anansi felt that this was not fair to his friend.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 5: Turtle kindly reminding Anansi that friends respect each other's ways near the water.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 5: Turtle returning to the lunch table while Anansi realizes the food was started too soon.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ሁለቱ ምግቡን በእኩል ለማካፈል ተዘጋጁ። አናንሲ ግን መጀመሪያ መጠበቅን መለማመድ እንዳለበት አየ።",
-      "textEn": "The two prepared to share equally, and Anansi saw that he first needed to practice waiting.",
+      "textAm": "ኤሊው አልተቆጣም። “በሌላ ቀን እኔም እጋብዝሃለሁ፤ እንግዲህ ሁለታችንም መጠበቅን እንለማመድ” አለ።",
+      "textEn": "Turtle did not get angry; he invited Anansi for another day so they could both practice waiting.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 6: Anansi and Turtle preparing food to share equally under a tree.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 6: calm Turtle kindly inviting Anansi for another day after the lunch table mix-up.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "አናንሲ ምግቡን በጠረጴዛ ላይ አስቀምጦ “እጆችህን ታጠብ” አለ። ኤሊውም በቀስታ ወደ ውሃ ሄደ፣ ግን ሲመለስ ምግቡ ቀድሞ ተጀምሮ ነበር።",
-      "textEn": "Anansi asked Turtle to wash up, but started eating before Turtle returned.",
+      "textAm": "በሌላ ቀን አናንሲ ወደ ውሃ ዳር መጣ። ኤሊው ምግቡን በቅጠል ላይ አዘጋጀ እና “ጓደኛ ሲመጣ እንጠብቃለን” አለ።",
+      "textEn": "Another day, Anansi came to the water’s edge, where Turtle prepared food and said friends wait for each other.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_07.webp",
-      "illustrationPrompt": "Anansi at a lunch table while Turtle slowly walks toward water.",
+      "illustrationPrompt": "Anansi arriving at the water's edge while Turtle prepares food on a leaf and speaks about waiting for friends.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "ኤሊው አልተቆጣም፤ በጸጥታ “በሌላ ቀን እኔም እጋብዝሃለሁ” አለ። አናንሲም በደስታ ተስማማ።",
-      "textEn": "Turtle stayed calm and invited Anansi for another day.",
+      "textAm": "አናንሲ ወደ ውሃ መቅረብ እንደማይመቸው ተናገረ። ኤሊውም “ሁላችንም የራሳችን መንገድ አለን” ብሎ በደግነት መለሰ።",
+      "textEn": "Anansi said the water did not feel easy for him, and Turtle kindly said everyone has their own way.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_08.webp",
-      "illustrationPrompt": "Calm Turtle speaking kindly with Anansi under a tree.",
+      "illustrationPrompt": "Calm Turtle speaking kindly with Anansi at the water's edge about everyone having their own way.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "በውሃ ዳር ኤሊው ምግቡን በቅጠል ላይ አዘጋጀ። “ጓደኛ ሲመጣ ሁለታችንም እንጠብቃለን” አለ።",
-      "textEn": "At the water’s edge, Turtle prepared food and said friends wait for each other.",
+      "textAm": "ኤሊው ምግቡን ወደ ዛፉ ጥላ ትንሽ አቀረበ። አናንሲም ከውሃ ሳይገባ ከጓደኛው ጋር መብላት ቻለ።",
+      "textEn": "Turtle moved the food a little closer to the tree shade so Anansi could share without going into the water.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_09.webp",
-      "illustrationPrompt": "Turtle preparing food on a leaf beside a pond while Anansi watches.",
+      "illustrationPrompt": "Turtle moving food on a leaf toward tree shade so Anansi can share comfortably near the water.",
       "audioUrl": null
     },
     {
       "pageNumber": 10,
-      "textAm": "አናንሲ ወደ ውሃ መግባት እንደማይመቸው ተረዳ። ኤሊውም “ሁላችንም የራሳችን መንገድ አለን” ብሎ አስተማረው።",
-      "textEn": "Anansi learned that everyone has different ways and needs.",
+      "textAm": "አናንሲ ሁሉም ጓደኛ በተመቸው ቦታ መካፈል እንደሚችል ተረዳ። ኤሊውም “ፍትሕ ማለት ሁሉንም መጠበቅ ነው” አለ።",
+      "textEn": "Anansi learned that friends can share in a place that works for everyone, and Turtle said fairness means waiting for all.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_10.webp",
-      "illustrationPrompt": "Anansi near a pond learning from Turtle with gentle smiles.",
+      "illustrationPrompt": "Anansi and Turtle near a pond learning that fair sharing means waiting for everyone.",
       "audioUrl": null
     },
     {
