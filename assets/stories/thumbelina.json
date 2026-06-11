@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ታምበሊና በአበባዎች መካከል ደስ የሚል ቤት አገኘች፣ ጓደኞቿንም አመሰገነች።",
-      "textEn": "Thumbelina found a happy home among the flowers and thanked her friends.",
+      "textAm": "ታምበሊና ከአበባዎች መካከል ብሩህ መንገድ አየች። ጓደኞቿን አመሰገነችና የልቧን ቤት መፈለግ ቀጠለች።",
+      "textEn": "Thumbelina saw a bright path among the flowers, thanked her friends, and kept looking for the home of her heart.",
       "imageUrl": "assets/images/stories/thumbelina_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 6: ታምበሊና በአበባዎች መካከል ደስ የሚል ቤት አገኘች፣ ጓደኞቿንም አመሰገነች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Thumbelina, page 6: Thumbelina thanking flower friends beside a bright path through tall blossoms.",
       "audioUrl": null
     },
     {

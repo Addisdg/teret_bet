@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
-      "textEn": "Kai smiled, and they returned home to play among their flowers again.",
+      "textAm": "ካይ የጌርዳን መዝሙር ሲሰማ ትንሽ ፈገግ አለ። ጌርዳም የቤታቸውን አበቦች እንዲያስታውስ በቀስታ ቀጠለች።",
+      "textEn": "When Kai heard Gerda's song, he smiled a little, and she gently kept reminding him of their flowers at home.",
       "imageUrl": "assets/images/stories/snow_queen_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 6: ካይ ፈገግ አለ፣ ሁለቱም ወደ ቤት ተመለሱ፣ በአበቦቻቸውም እንደገና ተጫወቱ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Snow Queen, page 6: Gerda singing gently while Kai begins to smile in a soft snow house.",
       "audioUrl": null
     },
     {

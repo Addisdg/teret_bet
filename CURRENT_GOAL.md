@@ -74,6 +74,13 @@ before external testing.
   `ugly_duckling`, `nightingale`, `fir_tree`, `golden_goose`,
   `goldilocks_three_bears`, `sun_moon_sky`, `rumpelstiltskin`, and
   `elves_and_shoemaker`
+* Second full-catalog flow review pass completed. Additional early-ending and
+  duplicated resolution beats were smoothed into bridge pages for:
+  `bremen_town_musicians`, `fisherman_and_wife`, `little_red_cap`,
+  `wolf_seven_young_kids`, `emperors_new_clothes`, `thumbelina`,
+  `princess_and_pea`, `snow_queen`, `anansi_and_turtle`,
+  `anansi_pot_beans`, `cinderella`, `magic_porridge_pot`,
+  `monkey_and_shark`, `steadfast_tin_soldier`, and `swineherd`
 
 ## Current Release Identity
 
@@ -87,7 +94,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the first catalog flow review pass:
+Quality gates passed after the second catalog flow review pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

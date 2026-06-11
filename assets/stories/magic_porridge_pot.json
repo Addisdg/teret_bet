@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ልጁ በቀስታ ቃሉን አስታወሰ፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
-      "textEn": "The child calmly remembered the words, and everyone learned to listen carefully.",
+      "textAm": "ልጁ በቀስታ ቃሉን አስታወሰ። ሁሉም የማቆሚያውን ቃል በቀላሉ ለማስታወስ መንገድ መፈለግ ጀመሩ።",
+      "textEn": "The child calmly remembered the words, and everyone began looking for an easy way to remember the stopping words.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: ልጁ በቀስታ ቃሉን አስታወሰ፣ ሁሉም ማዳመጥ እንደሚያስፈልግ ተማሩ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: a child calmly remembering the stopping words while family looks for a reminder.",
       "audioUrl": null
     },
     {

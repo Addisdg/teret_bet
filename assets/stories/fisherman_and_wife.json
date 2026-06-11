@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "በመጨረሻ ሁለቱ በቀላል ቤታቸው ውስጥ ሻይ ጠጡ። ሚስቱም “ያለንን ስናመሰግን ቤታችን ይሞቃል” አለች።",
-      "textEn": "At last they drank tea at home and felt grateful for what they had.",
+      "textAm": "ሁለቱ በቀላል ቤታቸው ውስጥ ሻይ ጠጡ። ሚስቱም “ያለንን በቀስታ ብንመለከት ምን ያህል ይሞቃል?” ብላ ጠየቀች።",
+      "textEn": "They drank tea in their simple home, and the wife wondered how warm it might feel if they noticed what they already had.",
       "imageUrl": "assets/images/stories/fisherman_and_wife_page_06.webp",
       "illustrationPrompt": "The fisherman and wife sharing tea in a warm simple seaside home.",
       "audioUrl": null

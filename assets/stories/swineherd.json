@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
-      "textEn": "The princess learned that a kind heart is worth more than a shiny gift.",
+      "textAm": "ልጃገረዷ ወጣቱ እንስሳቱን በርኅራኄ ሲያነጋግር ተመለከተች። ብሩህ ስጦታ ብቻ ሳይሆን ደግ ልብም ሊታይ እንደሚገባ አሰበች።",
+      "textEn": "The princess watched the young man speak kindly to the animals and began to notice the value of a kind heart.",
       "imageUrl": "assets/images/stories/swineherd_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 5: ልጃገረዷ ደግ ልብ ከብሩህ ስጦታ በላይ ዋጋ እንዳለው ተማረች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 5: princess watching a kind swineherd gently care for animals near a garden.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
-      "textEn": "She planted the flower in the garden and began to look at people by their hearts.",
+      "textAm": "እሷ አበባውን በአትክልት ውስጥ ተከለች። አበባው ቀላል ቢሆንም በየጠዋቱ ሞቃት መዓዛ ይሰጥ ነበር።",
+      "textEn": "She planted the flower in the garden, and though it was simple, it gave a warm scent each morning.",
       "imageUrl": "assets/images/stories/swineherd_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 6: እሷ አበባውን በአትክልት ውስጥ ተከለች፣ ከዚያም ሰዎችን በልባቸው መመልከት ጀመረች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Swineherd, page 6: princess planting a simple flower in a palace garden with warm morning light.",
       "audioUrl": null
     },
     {

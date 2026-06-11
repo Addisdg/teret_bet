@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ፣ ፍትሕም አስፈላጊ እንደሆነ ተማረ።",
-      "textEn": "Anansi learned he could not do everything Turtle could, and that fairness matters.",
+      "textAm": "አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ። ኤሊውም “ጓደኞች የእያንዳንዳቸውን መንገድ ይከብራሉ” አለው።",
+      "textEn": "Anansi realized he could not do everything Turtle could, and Turtle reminded him that friends respect each other's ways.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 5: አናንሲ እንደ ኤሊ ማድረግ እንደማይችል ተረዳ፣ ፍትሕም አስፈላጊ እንደሆነ ተማረ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 5: Turtle kindly reminding Anansi that friends respect each other's ways near the water.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ሁለቱ በመጨረሻ ምግቡን በእኩል አጋሩ እና በደስታ ተሳቁ።",
-      "textEn": "At last, the two shared the food equally and laughed happily.",
+      "textAm": "ሁለቱ ምግቡን በእኩል ለማካፈል ተዘጋጁ። አናንሲ ግን መጀመሪያ መጠበቅን መለማመድ እንዳለበት አየ።",
+      "textEn": "The two prepared to share equally, and Anansi saw that he first needed to practice waiting.",
       "imageUrl": "assets/images/stories/anansi_and_turtle_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 6: ሁለቱ በመጨረሻ ምግቡን በእኩል አጋሩ እና በደስታ ተሳቁ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Turtle, page 6: Anansi and Turtle preparing food to share equally under a tree.",
       "audioUrl": null
     },
     {

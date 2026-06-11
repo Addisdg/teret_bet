@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ቀይ ኮፍያ ከአያቷ ጋር ተቀምጣ እንጀራውን አጋራች። “መንገድን መከተል ጥሩ ነው” ብላ ተማረች።",
-      "textEn": "Little Red Cap shared bread with grandmother and learned to follow the path.",
+      "textAm": "ቀይ ኮፍያ ከአያቷ ጋር ተቀምጣ እንጀራውን አጋራች። ቅርጫቷንም አጠገቧ አስቀመጠች፣ ልቧም ተረጋጋ።",
+      "textEn": "Little Red Cap shared bread with grandmother, set her basket nearby, and felt calm.",
       "imageUrl": "assets/images/stories/little_red_cap_page_06.webp",
       "illustrationPrompt": "Little Red Cap and grandmother sharing bread in a warm cottage kitchen.",
       "audioUrl": null

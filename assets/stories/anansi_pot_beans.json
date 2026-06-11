@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ጓደኞቹ ባቄላውን አጋሩ እና አናንሲ ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ ተማረ።",
-      "textEn": "The friends shared the beans, and Anansi learned that patience makes food sweeter.",
+      "textAm": "ጓደኞቹ ባቄላውን ለመካፈል ሳህኖችን አዘጋጁ። አናንሲም ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ መረዳት ጀመረ።",
+      "textEn": "The friends prepared bowls to share the beans, and Anansi began to understand that patience makes food sweeter.",
       "imageUrl": "assets/images/stories/anansi_pot_beans_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 6: ጓደኞቹ ባቄላውን አጋሩ እና አናንሲ ትዕግሥት ምግብን የበለጠ እንደሚያጣፍጥ ተማረ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for Anansi and the Pot of Beans, page 6: friends preparing bowls beside a warm pot while Anansi begins to wait patiently.",
       "audioUrl": null
     },
     {

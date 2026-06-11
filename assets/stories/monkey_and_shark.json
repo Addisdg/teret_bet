@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ሻርኩ ተረዳ፣ ከዚያም የተለየ ቦታ ያላቸው ጓደኞችም መከባበር እንደሚችሉ ተማሩ።",
-      "textEn": "The shark understood, and they learned that friends in different places can respect one another.",
+      "textAm": "ሻርኩ ትንሽ ቆም ብሎ አሰበ። “እንግዲህ እያንዳንዳችን ከደህና ቦታችን መጫወት እንችላለን” አለ።",
+      "textEn": "The shark paused and suggested that each friend could play from a safe place.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 6: ሻርኩ ተረዳ፣ ከዚያም የተለየ ቦታ ያላቸው ጓደኞችም መከባበር እንደሚችሉ ተማሩ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 6: shark and monkey calmly agreeing to play from their own safe places.",
       "audioUrl": null
     },
     {

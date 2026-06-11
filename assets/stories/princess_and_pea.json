@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ቤተሰቡ ልዕልቷን በክብር ተቀበለ፣ እሷም ሌሎችን በትኩረት መስማትን አስተማረች።",
-      "textEn": "The family welcomed the princess with respect, and she taught them to listen closely to others.",
+      "textAm": "ቤተሰቡ የልዕልቷን ቃል በክብር ሰማ። “እንግዳችን በምቾት እንድታርፍ እንደገና እንመልከት” አሉ።",
+      "textEn": "The family listened respectfully and decided to look again so their guest could rest comfortably.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 6: ቤተሰቡ ልዕልቷን በክብር ተቀበለ፣ እሷም ሌሎችን በትኩረት መስማትን አስተማረች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 6: palace family listening respectfully to their guest in a warm room.",
       "audioUrl": null
     },
     {

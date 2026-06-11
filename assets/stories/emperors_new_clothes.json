@@ -61,26 +61,26 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "አንድ ልጅ “እኔ የማየውን በደግነት እናገራለሁ” ብሎ እውነቱን ጠቆመ።",
-      "textEn": "A child kindly said what they saw and pointed to the truth.",
+      "textAm": "አንድ ልጅ በአደባባዩ ውስጥ ቆሞ “የማየውን በደግነት መናገር እችላለሁ?” ብሎ አሰበ።",
+      "textEn": "A child stood in the square and wondered if they could kindly say what they saw.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 5: አንድ ልጅ “እኔ የማየውን በደግነት እናገራለሁ” ብሎ እውነቱን ጠቆመ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 5: a thoughtful child in a colorful town square wondering how to speak kindly.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "ንጉሡ ፈገግ ብሎ “እውነት መስማት ጥሩ ነው” አለ፣ ከዚያም ቀለማትን ለሁሉም አጋራ።",
-      "textEn": "The king smiled, listened to the truth, and shared colors with everyone.",
+      "textAm": "ንጉሡ የሰዎቹን ጸጥታ አየ። “ምናልባት እኔም በቀስታ መጠየቅ አለብኝ” ብሎ አሰበ።",
+      "textEn": "The king noticed the quiet crowd and wondered if he also needed to ask gently.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 6: ንጉሡ ፈገግ ብሎ “እውነት መስማት ጥሩ ነው” አለ፣ ከዚያም ቀለማትን ለሁሉም አጋራ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Emperor's New Clothes, page 6: a colorful king noticing a quiet crowd and thinking carefully.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
-      "textAm": "ሰፊዎቹ ባዶ እጆቻቸውን እያንቀሳቀሱ “እጅግ የሚያምር ነው” አሉ። አንድ አገልጋይ ግን በልቡ “የማየው ምንድን ነው?” ብሎ ጠየቀ።",
-      "textEn": "The tailors pretended to sew, and a helper wondered what was really there.",
+      "textAm": "ሰፊዎቹ ባዶ እጆቻቸውን በቀስታ አውርደው ጸጥ አሉ። አንድ አገልጋይ በልቡ “እውነትን በደግነት መናገር ይቻላል” ብሎ አሰበ።",
+      "textEn": "The tailors slowly lowered their empty hands, and a helper thought that truth could be spoken kindly.",
       "imageUrl": "assets/images/stories/emperors_new_clothes_page_07.webp",
-      "illustrationPrompt": "Two playful tailors pretending to sew while a palace helper looks thoughtful.",
+      "illustrationPrompt": "Two playful tailors lowering their empty hands while a palace helper looks thoughtful.",
       "audioUrl": null
     },
     {

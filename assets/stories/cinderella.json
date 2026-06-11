@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "በአበባ መንገዱ ላይ ጓደኞቿ ጫማውን መመለስ እንዳለባቸው አስታወሱ። ደግነት እንደማይጠፋ ተማሩ።",
-      "textEn": "On the flowered path, her friends remembered that kindness should always find its way back.",
+      "textAm": "በአበባ መንገዱ ላይ ጓደኞቿ ትንሹን ጫማ በብርሃን ሲያበራ አዩ። “ይህ ጫማ ወደ ባለቤቱ መመለስ አለበት” አሉ።",
+      "textEn": "On the flowered path, her friends saw the little shoe shining and said it should return to its owner.",
       "imageUrl": "assets/images/stories/cinderella_page_06.webp",
       "illustrationPrompt": "Warm storybook illustration of a flowered path near the festival, glowing carriage nearby, suggesting friends remembering to return Cinderella's shoe.",
       "audioUrl": null

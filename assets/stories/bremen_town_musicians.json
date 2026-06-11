@@ -69,8 +69,8 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "እንስሳቱ በዚያ ቤት ተቀመጡ። በየቀኑ ሙዚቃ ይጫወቱ፣ ጓደኝነታቸውንም ይከብሩ ነበር።",
-      "textEn": "The animals stayed there, playing music and celebrating friendship.",
+      "textAm": "እንስሳቱ በዚያ ቤት ለማረፍ ተቀመጡ። “ነገ ቤቱን በመተባበር የሙዚቃ ቤት እናደርገዋለን” አሉ።",
+      "textEn": "The animals rested there and decided to make the house into a music home together the next day.",
       "imageUrl": "assets/images/stories/bremen_town_musicians_page_06.webp",
       "illustrationPrompt": "Four animal friends happily living in a cozy cottage filled with music notes and warmth.",
       "audioUrl": null
