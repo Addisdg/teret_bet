@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "ትንሿ ጥንቸል ልቧ በደስታ ሞላ። ጓደኛን መርዳት ቀኑን እንደሚያበራ ተማረች።",
-      "textEn": "The little rabbit felt happy and learned that helping a friend can brighten the day.",
+      "textAm": "ትንሿ ጥንቸል ልቧ በደስታ ሞላ። ወፏ እና እናቷ በዛፉ ላይ ሲቀመጡ ጥንቸሏ እንደገና ሊጎበኛቸው ፈለገች።",
+      "textEn": "The little rabbit felt happy, and as the bird and her mother settled in the tree, Rabbit wanted to visit them again.",
       "imageUrl": "assets/images/stories/little_rabbit_page_06.webp",
-      "illustrationPrompt": "The rabbit and little bird play together as happy friends in the warm meadow.",
+      "illustrationPrompt": "The rabbit looking happily up at the little bird and mother bird settling safely in a meadow tree.",
       "audioUrl": null
     },
     {

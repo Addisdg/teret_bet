@@ -90,6 +90,11 @@ before external testing.
   old-short-version artifacts still interleaved into the page flow:
   `anansi_and_turtle`, `anansi_pot_beans`, `sun_moon_sky`,
   `magic_porridge_pot`, and `cinderella`
+* Duplicate mini-ending review pass completed for stories where expanded pages
+  still repeated a lesson/resolution beat before the final page:
+  `little_rabbit`, `selfish_giant`, `clever_rabbit_lion`,
+  `monkey_and_shark`, `wolf_seven_young_kids`, `princess_and_pea`,
+  `gingerbread_man`, and `nightingale`
 
 ## Current Release Identity
 
@@ -103,7 +108,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the strict story-order consistency pass:
+Quality gates passed after the duplicate mini-ending review pass:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

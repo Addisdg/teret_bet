@@ -61,18 +61,18 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "ንጉሡ ወፏን “በነፃ ዘምሪ፣ አትክልቱንም አብሪ” አለ።",
-      "textEn": "The king told the bird to sing freely and brighten the garden.",
+      "textAm": "ንጉሡ ሁሉንም ቆም ብለው እንዲያዳምጡ ጠየቀ። “ይህ ሰላማዊ ዘፈን ከየት ይመጣል?” ብሎ ተገረመ።",
+      "textEn": "The king asked everyone to pause and listen, wondering where the peaceful song came from.",
       "imageUrl": "assets/images/stories/nightingale_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 5: ንጉሡ ወፏን “በነፃ ዘምሪ፣ አትክልቱንም አብሪ” አለ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 5: the king pausing in a palace garden to listen for a peaceful bird song.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
-      "textAm": "በዚያ ቀን ቤተመንግሥቱ በተፈጥሮ ዘፈን ተሞላ። ንጉሡም ዘፈኑ ከየት እንደሚመጣ በደግነት ለማወቅ ፈለገ።",
-      "textEn": "That day, the palace filled with natural song, and the king kindly wanted to learn where it came from.",
+      "textAm": "በዚያ ቀን ቤተመንግሥቱ በተፈጥሮ ዘፈን ተሞላ። አትክልተኛውም በፈገግታ “መንገዱን አሳይዎታለሁ” አለ።",
+      "textEn": "That day, the palace filled with natural song, and the gardener smiled and offered to show the way.",
       "imageUrl": "assets/images/stories/nightingale_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 6: a palace garden filled with natural birdsong while the king listens curiously.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Nightingale, page 6: a palace garden filled with natural birdsong while the gardener offers to guide the king.",
       "audioUrl": null
     },
     {

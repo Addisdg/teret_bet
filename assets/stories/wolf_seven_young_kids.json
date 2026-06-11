@@ -69,10 +69,10 @@
     },
     {
       "pageNumber": 6,
-      "textAm": "እናት ፍየል ስትመለስ ግልገሎቿ የተማሩትን ነገሯት። እሷም “ይህን ደንብ በየቀኑ እንለማመድ” ብላ አቀፈቻቸው።",
-      "textEn": "When mother goat returned, the kids shared what they had learned, and she suggested practicing the rule every day.",
+      "textAm": "እናታቸውን ሲጠብቁ ግልገሎቹ ያደረጉትን አንድ በአንድ ተነጋገሩ። “ደንቡን በየቀኑ እንለማመድ” ብለው ተስማሙ።",
+      "textEn": "While they waited for Mother Goat, the kids talked through what they had done and agreed to practice the rule every day.",
       "imageUrl": "assets/images/stories/wolf_seven_young_kids_page_06.webp",
-      "illustrationPrompt": "Mother goat hugging seven young kids in a cozy cottage, all safe and smiling.",
+      "illustrationPrompt": "Seven young goats safely gathered in a cozy cottage, talking through their door safety rules together.",
       "audioUrl": null
     },
     {

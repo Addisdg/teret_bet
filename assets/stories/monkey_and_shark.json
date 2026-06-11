@@ -53,10 +53,10 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "አንድ ቀን ሻርኩ ዝንጀሮውን ወደ ውሃ ሊወስደው ፈለገ።",
-      "textEn": "One day, the shark wanted to take the monkey into the water.",
+      "textAm": "አንድ ቀን ሻርኩ በውሃ ውስጥ ያሉ ቀለማትን ለዝንጀሮው ሊነግረው ፈለገ። ዝንጀሮውም በጉጉት አዳመጠ።",
+      "textEn": "One day, the shark wanted to tell the monkey about the colors under the water, and the monkey listened with curiosity.",
       "imageUrl": "assets/images/stories/monkey_and_shark_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 4: አንድ ቀን ሻርኩ ዝንጀሮውን ወደ ውሃ ሊወስደው ፈለገ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Monkey and the Shark, page 4: friendly shark describing colorful sea wonders while monkey listens from a tree.",
       "audioUrl": null
     },
     {

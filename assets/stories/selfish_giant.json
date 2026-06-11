@@ -53,8 +53,8 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "ወፎች አልዘመሩም፣ አበቦችም አልተከፈቱም። ግዙፉ ብቻውን ተቀምጦ ‘ለምን እንዲህ ጸጥ አለ?’ ብሎ አሰበ።",
-      "textEn": "The garden became quiet, and the giant wondered why.",
+      "textAm": "ቀናት ሲያልፉ ወፎች አልዘመሩም፣ አበቦችም አልተከፈቱም። ግዙፉ ብቻውን ተቀምጦ ‘ለምን እንዲህ ጸጥ አለ?’ ብሎ አሰበ።",
+      "textEn": "As days passed, the birds did not sing and the flowers did not open, so the giant wondered why.",
       "imageUrl": "assets/images/stories/selfish_giant_page_04.webp",
       "illustrationPrompt": "The giant sitting alone in a quiet garden, thoughtful and gentle.",
       "audioUrl": null

@@ -53,8 +53,8 @@
     },
     {
       "pageNumber": 4,
-      "textAm": "በጓሮው አጥር አጠገብ እንስሳቱ በደግነት እንዲቆም ጠሩት። እሱም መስማት እንዳለበት ተረዳ።",
-      "textEn": "Near the yard fence, the animals kindly called for him to stop, and he understood he should listen.",
+      "textAm": "በጓሮው አጥር አጠገብ እንስሳቱ በደግነት እንዲቆም ጠሩት። እሱ ግን ገና በደስታ ይሮጥ ነበር።",
+      "textEn": "Near the yard fence, the animals kindly called for him to stop, but he was still running with excitement.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_04.webp",
       "illustrationPrompt": "Warm storybook illustration of farm animals kindly calling to a gingerbread man near a sunny yard fence.",
       "audioUrl": null
@@ -77,26 +77,26 @@
     },
     {
       "pageNumber": 7,
-      "textAm": "እንጀራው በጓሮ ውስጥ ሲሮጥ ነፋሱ ቀስ ብሎ አገፋው። “በደስታ መሮጥ ደስ ይላል፣ ግን መንገዴን ማወቅ አለብኝ” አለ።",
-      "textEn": "The gingerbread man enjoyed running but remembered to know his path.",
+      "textAm": "ጓደኞቹ መጀመሪያ የጓሮውን መንገድ አሳዩት። “በደስታ መሮጥ ደስ ይላል፣ ግን መንገድን ማወቅ ያስፈልጋል” አሉ።",
+      "textEn": "His friends first showed him the yard path and said running is fun, but knowing the path matters.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_07.webp",
-      "illustrationPrompt": "Gingerbread man running happily through a sunny yard.",
+      "illustrationPrompt": "Gingerbread man and friends looking at a safe running path through a sunny yard.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
-      "textAm": "ዶሮዋ “ቀስ በል፣ እንጀራ ጓደኛ” ብላ ጮኸች። ድመቷም “ከእኛ ጋር በደህና እንጫወት” አለች።",
-      "textEn": "The chicken and cat called for him to slow down and play safely.",
+      "textAm": "ዶሮዋ “በዚህ መስመር እንሮጣለን” አለች። ድመቷም “ማቆሚያ ምልክት ሲመጣ ሁላችንም እንቆማለን” ብላ አሳየች።",
+      "textEn": "The chicken marked the running line, and the cat showed everyone where to stop.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_08.webp",
-      "illustrationPrompt": "Chicken and cat kindly calling to a gingerbread man in a yard.",
+      "illustrationPrompt": "Chicken and cat setting a safe running line and stop sign for the gingerbread man in a yard.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
-      "textAm": "በአጥሩ አጠገብ ጓደኞቹ እንደገና “ቀስ በል፣ በደህና እንጫወት” አሉት።",
-      "textEn": "By the fence, his friends again called, \"Slow down, and let us play safely.\"",
+      "textAm": "በአጥሩ አጠገብ ሁሉም በተራ መሮጥን ተለማመዱ። እንጀራውም መስማት ጨዋታን የበለጠ ደስ እንደሚያሰኝ አየ።",
+      "textEn": "By the fence, everyone practiced taking turns, and the gingerbread man saw that listening made the game happier.",
       "imageUrl": "assets/images/stories/gingerbread_man_page_09.webp",
-      "illustrationPrompt": "Farm friends kindly reminding a gingerbread man to slow down and play safely by a yard fence.",
+      "illustrationPrompt": "Farm friends and the gingerbread man practicing taking turns in a safe running game by a yard fence.",
       "audioUrl": null
     },
     {

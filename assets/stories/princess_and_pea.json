@@ -61,10 +61,10 @@
     },
     {
       "pageNumber": 5,
-      "textAm": "ሁሉም ተገረሙ፣ እሷ በጣም ስሜታዊ እና ጥንቃቄ ያላት መሆኗን ተረዱ።",
-      "textEn": "Everyone was surprised and understood that she was very sensitive and careful.",
+      "textAm": "ሁሉም ተገረሙ፣ ግን ማንም አልሳቀባትም። “ትንሽ ነገር እንኳን ለአንዳንድ ሰው ሊሰማ ይችላል” ብለው አሰቡ።",
+      "textEn": "Everyone was surprised, but no one laughed; they wondered if even a small thing could feel strong to someone else.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 5: ሁሉም ተገረሙ፣ እሷ በጣም ስሜታዊ እና ጥንቃቄ ያላት መሆኗን ተረዱ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 5: palace family listening thoughtfully to the princess without laughing.",
       "audioUrl": null
     },
     {
