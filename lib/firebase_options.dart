@@ -52,7 +52,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: _webApiKey,
+    apiKey: 'AIzaSyBlgXWzlIU0BXbwxKp1fpaV4MbCVODPq1A',
     appId: '1:391218282653:web:89f03e84bf7740d5bb9474',
     messagingSenderId: '391218282653',
     projectId: 'teret-bet',
@@ -62,15 +62,15 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: _androidApiKey,
-    appId: '1:391218282653:android:bc2cc6282b721779bb9474',
+    apiKey: 'AIzaSyCmLXZTHxXhHrblodhtyXqjUmkDdY42NXA',
+    appId: '1:391218282653:android:fd5955c8f7475445bb9474',
     messagingSenderId: '391218282653',
     projectId: 'teret-bet',
     storageBucket: 'teret-bet.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: _iosApiKey,
+    apiKey: 'AIzaSyB_Mtc6DkfNoHQCtUvCkdLS9gfjqdsBiMc',
     appId: '1:391218282653:ios:434e750f0c7d39a0bb9474',
     messagingSenderId: '391218282653',
     projectId: 'teret-bet',
@@ -79,7 +79,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: _macosApiKey,
+    apiKey: 'AIzaSyB_Mtc6DkfNoHQCtUvCkdLS9gfjqdsBiMc',
     appId: '1:391218282653:ios:434e750f0c7d39a0bb9474',
     messagingSenderId: '391218282653',
     projectId: 'teret-bet',
@@ -88,7 +88,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: _windowsApiKey,
+    apiKey: 'AIzaSyBlgXWzlIU0BXbwxKp1fpaV4MbCVODPq1A',
     appId: '1:391218282653:web:9701a1cbf6e9522ebb9474',
     messagingSenderId: '391218282653',
     projectId: 'teret-bet',
@@ -96,4 +96,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'teret-bet.firebasestorage.app',
     measurementId: 'G-402T2G16D4',
   );
+
 }
