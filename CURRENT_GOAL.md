@@ -103,6 +103,12 @@ before external testing.
   `gingerbread_man_page_04`, `gingerbread_man_page_07`,
   `gingerbread_man_page_08`, `gingerbread_man_page_09`,
   `nightingale_page_05`, and `nightingale_page_06`
+* Matching page artwork refreshed for the strict story-order consistency pass:
+  `anansi_and_turtle_page_04` through `page_10`,
+  `anansi_pot_beans_page_04` through `page_06`,
+  `magic_porridge_pot_page_05` and `page_06`,
+  `sun_moon_sky_page_04` through `page_06`, and
+  `cinderella_page_05`, `page_06`, `page_08`, `page_09`, and `page_10`
 
 ## Current Release Identity
 
@@ -116,7 +122,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the duplicate mini-ending artwork refresh:
+Quality gates passed after the strict story-order artwork refresh:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`
