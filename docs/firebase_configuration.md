@@ -47,6 +47,26 @@ When `android/key.properties` exists, Gradle signs release builds with that
 keystore. Without it, release builds fall back to the debug key for local smoke
 testing only.
 
+## Firestore Catalog Export
+
+Generate a reviewed-catalog payload from the local manifest before writing the
+catalog to Firestore:
+
+```bash
+dart tool/export_firestore_catalog.dart
+```
+
+The default output is ignored by Git:
+
+```text
+build/firestore/catalog_export.json
+```
+
+The export contains story documents for `stories/{storyId}` and page documents
+for `stories/{storyId}/pages/page_XX`. It is an app-specific staging payload for
+a later Admin SDK or scripted upload step, not a Firebase managed
+export/import backup.
+
 ## Local Examples
 
 Web:

@@ -111,6 +111,9 @@ before external testing.
   `cinderella_page_05`, `page_06`, `page_08`, `page_09`, and `page_10`
 * Catalog QA now validates bundled story image format and dimensions so every
   manifest cover/page asset stays as a readable 1200 x 900 WebP file
+* Offline Firestore catalog export tool added for the reviewed local manifest,
+  writing an ignored app-specific staging payload to
+  `build/firestore/catalog_export.json`
 
 ## Current Release Identity
 
@@ -124,7 +127,7 @@ Latest committed asset refresh:
 
 * `3b23935 Refresh artwork for strict story order pass`
 
-Quality gates passed after the story image QA hardening:
+Quality gates passed after the Firestore catalog export preparation:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

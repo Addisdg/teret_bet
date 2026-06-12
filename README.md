@@ -280,6 +280,14 @@ dart run tool/catalog_qa.dart
 Catalog QA also verifies that manifest cover/page images are readable local
 1200 x 900 WebP files.
 
+Generate an ignored Firestore staging payload from the reviewed local catalog:
+
+```bash
+dart tool/export_firestore_catalog.dart
+```
+
+The default output is `build/firestore/catalog_export.json`.
+
 Run on web server:
 
 ```bash

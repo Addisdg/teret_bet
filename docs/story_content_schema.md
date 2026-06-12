@@ -164,13 +164,38 @@ illustrationPrompt: string
 audioUrl: string | null
 ```
 
+## Firestore Export Payload
+
+After reviewing the local catalog, generate a Firestore-ready staging payload:
+
+```bash
+dart tool/export_firestore_catalog.dart
+```
+
+By default this writes:
+
+```text
+build/firestore/catalog_export.json
+```
+
+The generated file is ignored by Git. Each item includes the target document
+path plus the data to write:
+
+```text
+stories/{storyId}
+stories/{storyId}/pages/page_XX
+```
+
+Use this payload as input for a later Admin SDK or scripted upload step.
+
 ## Publishing Checklist
 
 1. Add or update the story JSON file in `assets/stories/`.
 2. Add the story ID to `assets/stories/story_manifest.json`.
 3. Add local cover and page images in `assets/images/stories/` or confirm hosted URLs are valid.
-4. Run `flutter test` to confirm local stories can be discovered and loaded.
-5. Copy the story-level fields into `stories/{storyId}` in Firestore.
-6. Copy each page into `stories/{storyId}/pages/{pageId}`.
-7. Confirm Firestore page documents have increasing `pageNumber` values.
-8. Run the app and open the story from the library.
+4. Run `dart run tool/catalog_qa.dart`.
+5. Run `dart tool/export_firestore_catalog.dart`.
+6. Copy the story-level fields into `stories/{storyId}` in Firestore.
+7. Copy each page into `stories/{storyId}/pages/{pageId}`.
+8. Confirm Firestore page documents have increasing `pageNumber` values.
+9. Run the app and open the story from the library.
