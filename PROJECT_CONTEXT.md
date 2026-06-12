@@ -239,15 +239,17 @@ Current content priority: re-audit the full 50-story catalog by reading flow,
 age fit, Amharic wording, and illustration match. The documented six-page
 backlog has been expanded.
 
-Latest committed content expansion: `089abbc Expand fifth six-page story batch`.
-After the current final six-page expansion pass, `dart run tool/catalog_qa.dart`,
-`flutter analyze`, `flutter test`, and a web-server launch smoke check all
-passed.
+Latest committed catalog artwork refresh:
+`3b23935 Refresh artwork for strict story order pass`.
+After the current strict story-order artwork refresh, `dart run
+tool/catalog_qa.dart`, `flutter analyze`, `flutter test`, and a web-server
+launch smoke check all passed.
 
 When continuing expansion, decide the page count by reading flow. Add pages only
 where the story needs more setup, transition, emotional beat, or resolution.
 Every added page must have a matching local 1200 x 900 WebP image and the JSON
-page numbers must remain sequential.
+page numbers must remain sequential. Catalog QA validates local story image
+format and dimensions for the manifest.
 
 There are no manifest stories left in the documented six-page backlog after the
 latest pass. Continue future content work in focused review batches so story

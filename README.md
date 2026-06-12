@@ -224,9 +224,11 @@ Expanded from the six-page backlog:
 - `magic_porridge_pot` - 11 pages
 - `cinderella` - 11 pages
 
-Latest committed expansion: `089abbc Expand fifth six-page story batch`.
-The latest working-tree pass completed the documented six-page backlog and
-passed catalog QA, analyzer, tests, and a web-server launch smoke check.
+Latest committed catalog artwork refresh:
+`3b23935 Refresh artwork for strict story order pass`.
+The latest catalog review and artwork passes completed the documented six-page
+backlog and passed catalog QA, analyzer, tests, and a web-server launch smoke
+check.
 
 Story JSON and Firestore fields are documented in
 [`docs/story_content_schema.md`](docs/story_content_schema.md).
@@ -274,6 +276,9 @@ Run catalog QA before feedback sessions or Firestore upload:
 ```bash
 dart run tool/catalog_qa.dart
 ```
+
+Catalog QA also verifies that manifest cover/page images are readable local
+1200 x 900 WebP files.
 
 Run on web server:
 

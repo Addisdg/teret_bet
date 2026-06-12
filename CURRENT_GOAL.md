@@ -109,6 +109,8 @@ before external testing.
   `magic_porridge_pot_page_05` and `page_06`,
   `sun_moon_sky_page_04` through `page_06`, and
   `cinderella_page_05`, `page_06`, `page_08`, `page_09`, and `page_10`
+* Catalog QA now validates bundled story image format and dimensions so every
+  manifest cover/page asset stays as a readable 1200 x 900 WebP file
 
 ## Current Release Identity
 
@@ -120,9 +122,9 @@ before external testing.
 
 Latest committed asset refresh:
 
-* `fcb26e8 Refresh story illustration assets`
+* `3b23935 Refresh artwork for strict story order pass`
 
-Quality gates passed after the strict story-order artwork refresh:
+Quality gates passed after the story image QA hardening:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`

@@ -1,7 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 const _manifestPath = 'assets/stories/story_manifest.json';
+const _storyImageWidth = 1200;
+const _storyImageHeight = 900;
 const _riskTerms = [
   'ገደለ',
   'ሞተ',
@@ -77,7 +80,7 @@ void _reviewStory(String storyId, CatalogQaReport report) {
 
   final coverImage = story['coverImage'];
   if (coverImage is String && coverImage.startsWith('assets/')) {
-    _expectExistingAsset(storyId, coverImage, report);
+    _expectStoryImageAsset(storyId, coverImage, report);
   } else {
     report.addWarning('$storyId: coverImage should be a bundled asset path.');
   }
@@ -125,7 +128,7 @@ void _reviewStory(String storyId, CatalogQaReport report) {
 
     final imageUrl = page['imageUrl'];
     if (imageUrl is String && imageUrl.startsWith('assets/')) {
-      _expectExistingAsset(storyId, imageUrl, report);
+      _expectStoryImageAsset(storyId, imageUrl, report);
     } else {
       report.addWarning(
         '$storyId page $pageNumber: imageUrl should be a bundled asset path.',
@@ -188,6 +191,108 @@ void _expectExistingAsset(
   if (!File(path).existsSync()) {
     report.addError('$storyId: missing asset $path');
   }
+}
+
+void _expectStoryImageAsset(
+  String storyId,
+  String path,
+  CatalogQaReport report,
+) {
+  _expectExistingAsset(storyId, path, report);
+
+  final file = File(path);
+  if (!file.existsSync()) {
+    return;
+  }
+
+  if (!path.endsWith('.webp')) {
+    report.addError('$storyId: story image should be WebP: $path');
+    return;
+  }
+
+  final size = _readWebpSize(file);
+  if (size == null) {
+    report.addError('$storyId: could not read WebP dimensions for $path');
+    return;
+  }
+
+  if (size.width != _storyImageWidth || size.height != _storyImageHeight) {
+    report.addError(
+      '$storyId: $path is ${size.width}x${size.height}; '
+      'expected ${_storyImageWidth}x$_storyImageHeight.',
+    );
+  }
+}
+
+_ImageSize? _readWebpSize(File file) {
+  final bytes = file.readAsBytesSync();
+  if (bytes.length < 16) {
+    return null;
+  }
+
+  final data = ByteData.sublistView(Uint8List.fromList(bytes));
+  if (_ascii(bytes, 0, 4) != 'RIFF' || _ascii(bytes, 8, 4) != 'WEBP') {
+    return null;
+  }
+
+  var offset = 12;
+  while (offset + 8 <= bytes.length) {
+    final chunkType = _ascii(bytes, offset, 4);
+    final chunkSize = data.getUint32(offset + 4, Endian.little);
+    final chunkData = offset + 8;
+    if (chunkData + chunkSize > bytes.length) {
+      return null;
+    }
+
+    if (chunkType == 'VP8X' && chunkSize >= 10) {
+      final width = _readUint24(bytes, chunkData + 4) + 1;
+      final height = _readUint24(bytes, chunkData + 7) + 1;
+      return _ImageSize(width, height);
+    }
+
+    if (chunkType == 'VP8 ' && chunkSize >= 10) {
+      final hasStartCode = bytes[chunkData + 3] == 0x9d &&
+          bytes[chunkData + 4] == 0x01 &&
+          bytes[chunkData + 5] == 0x2a;
+      if (!hasStartCode) {
+        return null;
+      }
+
+      final width = data.getUint16(chunkData + 6, Endian.little) & 0x3fff;
+      final height = data.getUint16(chunkData + 8, Endian.little) & 0x3fff;
+      return _ImageSize(width, height);
+    }
+
+    if (chunkType == 'VP8L' && chunkSize >= 5 && bytes[chunkData] == 0x2f) {
+      final bits = data.getUint32(chunkData + 1, Endian.little);
+      final width = (bits & 0x3fff) + 1;
+      final height = ((bits >> 14) & 0x3fff) + 1;
+      return _ImageSize(width, height);
+    }
+
+    offset = chunkData + chunkSize + (chunkSize.isOdd ? 1 : 0);
+  }
+
+  return null;
+}
+
+String _ascii(List<int> bytes, int offset, int length) {
+  if (offset + length > bytes.length) {
+    return '';
+  }
+
+  return String.fromCharCodes(bytes.sublist(offset, offset + length));
+}
+
+int _readUint24(List<int> bytes, int offset) {
+  return bytes[offset] | (bytes[offset + 1] << 8) | (bytes[offset + 2] << 16);
+}
+
+class _ImageSize {
+  final int width;
+  final int height;
+
+  const _ImageSize(this.width, this.height);
 }
 
 List<String> _readStringList(File file) {

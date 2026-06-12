@@ -56,5 +56,5 @@ Firestore.
 * No scary prompts.
 * No copied copyrighted adaptations.
 * Local JSON validates.
-* Local images exist.
+* Local images exist and pass the 1200 x 900 WebP catalog QA check.
 * Story can be loaded through the current fallback chain.
