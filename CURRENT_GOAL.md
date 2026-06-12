@@ -95,6 +95,14 @@ before external testing.
   `little_rabbit`, `selfish_giant`, `clever_rabbit_lion`,
   `monkey_and_shark`, `wolf_seven_young_kids`, `princess_and_pea`,
   `gingerbread_man`, and `nightingale`
+* Matching page artwork refreshed for the duplicate mini-ending review pass so
+  revised story beats and bundled WebP assets stay aligned:
+  `little_rabbit_page_06`, `selfish_giant_page_04`,
+  `clever_rabbit_lion_page_05`, `monkey_and_shark_page_04`,
+  `wolf_seven_young_kids_page_06`, `princess_and_pea_page_05`,
+  `gingerbread_man_page_04`, `gingerbread_man_page_07`,
+  `gingerbread_man_page_08`, `gingerbread_man_page_09`,
+  `nightingale_page_05`, and `nightingale_page_06`
 
 ## Current Release Identity
 
@@ -108,7 +116,7 @@ Latest committed asset refresh:
 
 * `fcb26e8 Refresh story illustration assets`
 
-Quality gates passed after the duplicate mini-ending review pass:
+Quality gates passed after the duplicate mini-ending artwork refresh:
 
 * `dart run tool/catalog_qa.dart`
 * `flutter analyze`
