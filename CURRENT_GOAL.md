@@ -114,6 +114,9 @@ before external testing.
 * Offline Firestore catalog export tool added for the reviewed local manifest,
   writing an ignored app-specific staging payload to
   `build/firestore/catalog_export.json`
+* Android release preflight tool added to check app identity, version, Firebase
+  option wiring, local release signing readiness, and Firestore catalog export
+  status before external testing
 
 ## Current Release Identity
 
@@ -127,12 +130,14 @@ Latest committed asset refresh:
 
 * `3b23935 Refresh artwork for strict story order pass`
 
-Quality gates passed after the Firestore catalog export preparation:
+Quality gates passed after the Android release preflight preparation:
 
 * `dart run tool/catalog_qa.dart`
+* `dart tool/release_preflight.dart`
 * `flutter analyze`
 * `flutter test`
 * `timeout 90s flutter run -d web-server --web-port 0`
+* `flutter build apk --release`
 
 The smoke run served the app locally before timeout.
 

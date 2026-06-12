@@ -90,6 +90,18 @@ flutter build apk --release \
   --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
+Before building for external Android testing, run the local release preflight:
+
+```bash
+dart tool/release_preflight.dart
+```
+
+The preflight checks Android identity, app version format, Firebase option
+wiring, release signing file readiness, and the Firestore catalog export. Missing
+real signing credentials or `FIREBASE_ANDROID_API_KEY` are warnings in normal
+mode because those values stay outside Git. Use `--strict` when you want those
+warnings to fail a CI or release checklist run.
+
 Keep real values in a local shell, password manager, CI secret, or ignored
 `.env` file. Do not paste real keys into tracked Dart, JSON, Gradle, plist, or
 documentation files.

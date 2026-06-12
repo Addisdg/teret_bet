@@ -333,6 +333,15 @@ flutter build apk --release \
   --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
+Run release preflight before external Android testing:
+
+```bash
+dart tool/release_preflight.dart
+```
+
+Use `--strict` when release signing credentials and `FIREBASE_ANDROID_API_KEY`
+are expected to be present.
+
 ## Current Roadmap
 
 Current goal:
