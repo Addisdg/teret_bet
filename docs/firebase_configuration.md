@@ -27,9 +27,19 @@ The Android release package name is:
 com.teretbet.app
 ```
 
-Register this exact Android package in Firebase before building a Firestore-backed
-release, then apply any Android API key restrictions to the same package name and
-the release signing certificate SHA fingerprints.
+This Android app has been registered in Firebase. The release SHA-1 and SHA-256
+fingerprints have been added for this package. Keep any API key restrictions
+aligned with the same package name and release signing certificate fingerprints.
+
+Current Android Firebase app ID:
+
+```text
+1:391218282653:android:fd5955c8f7475445bb9474
+```
+
+`android/app/google-services.json` is intentionally ignored by Git. Keep
+`lib/firebase_options.dart` free of literal API keys; it should continue reading
+keys from the `FIREBASE_*_API_KEY` `--dart-define` values.
 
 ## Android Release Signing
 
@@ -45,7 +55,7 @@ keyPassword=your_key_password
 
 When `android/key.properties` exists, Gradle signs release builds with that
 keystore. Without it, release builds fall back to the debug key for local smoke
-testing only.
+testing only. The local release signing files are intentionally ignored by Git.
 
 ## Firestore Catalog Export
 
@@ -105,6 +115,28 @@ warnings to fail a CI or release checklist run.
 Keep real values in a local shell, password manager, CI secret, or ignored
 `.env` file. Do not paste real keys into tracked Dart, JSON, Gradle, plist, or
 documentation files.
+
+## Firestore Rules
+
+External test builds use public read-only access to the reviewed story catalog:
+
+```js
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /stories/{storyId} {
+      allow read: if true;
+      allow write: if false;
+
+      match /pages/{pageId} {
+        allow read: if true;
+        allow write: if false;
+      }
+    }
+  }
+}
+```
 
 ## Secret Alert Cleanup
 

@@ -2,6 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 const _expectedAndroidPackage = 'com.teretbet.app';
+const _expectedAndroidFirebaseAppId =
+    '1:391218282653:android:fd5955c8f7475445bb9474';
 const _expectedAppName = 'Teret Bet';
 const _catalogExportPath = 'build/firestore/catalog_export.json';
 const _catalogManifestPath = 'assets/stories/story_manifest.json';
@@ -112,7 +114,7 @@ void _checkFirebaseOptions(_PreflightReport report) {
   _expectContains(
     report,
     text,
-    "appId: '1:391218282653:android:bc2cc6282b721779bb9474'",
+    "appId: '$_expectedAndroidFirebaseAppId'",
     'Android Firebase app ID is configured.',
     'Android Firebase app ID is missing or changed.',
   );

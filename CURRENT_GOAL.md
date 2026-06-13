@@ -117,6 +117,16 @@ before external testing.
 * Android release preflight tool added to check app identity, version, Firebase
   option wiring, local release signing readiness, and Firestore catalog export
   status before external testing
+* Firebase Android app registration completed for `com.teretbet.app`
+  (`1:391218282653:android:fd5955c8f7475445bb9474`)
+* Release SHA-1 and SHA-256 fingerprints added to Firebase
+* Android release signing configured locally outside Git
+* Signed release APK and AAB builds completed successfully
+* Signed release APK installed and ran on a real Android phone
+* Firestore rules locked down to public read-only access for `stories` and
+  nested `pages`
+* Tracked Firebase options restored to read API keys from `--dart-define` after
+  local Firebase registration generated ignored platform config
 
 ## Current Release Identity
 
@@ -130,39 +140,31 @@ Latest committed asset refresh:
 
 * `3b23935 Refresh artwork for strict story order pass`
 
-Quality gates passed after the Android release preflight preparation:
+Quality gates passed after Firebase Android registration and release signing:
 
 * `dart run tool/catalog_qa.dart`
 * `dart tool/release_preflight.dart`
+* tracked-file scan for accidental literal Firebase API keys
 * `flutter analyze`
 * `flutter test`
 * `timeout 90s flutter run -d web-server --web-port 0`
 * `flutter build apk --release`
+* signed Android release APK install/run on a real phone
+* signed Android release AAB build
 
 The smoke run served the app locally before timeout.
 
 ## Next Recommended Task
 
-Continue catalog review before broad feedback review. The documented six-page
-backlog has now been expanded; the current priority is to re-audit the full
-50-story catalog by reading flow, age fit, Amharic wording, and illustration
-match. Keep using as many pages as each story needs if any longer story still
-feels compressed.
-
-After each expansion batch, run `dart run tool/catalog_qa.dart`,
-`flutter analyze`, and `flutter test`. Use the library search, collection
-filters, and favorites filter to review by collection, theme, and story title
-during feedback sessions.
-
-Release signing also remains before external Android testing: create release
-signing credentials outside the repository, add the matching local/CI secret
-values, then run:
+Upload the reviewed 50-story catalog export to Firestore, then run a
+Firebase-backed signed Android build against the read-only production rules:
 
 ```bash
-flutter analyze
-flutter test
-flutter build apk --release --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
+dart run tool/catalog_qa.dart
+dart tool/export_firestore_catalog.dart
+dart tool/release_preflight.dart --strict
+flutter build appbundle --release --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
-Before a Firestore-backed external test, register `com.teretbet.app` in Firebase
-and apply Android API key restrictions for the release signing certificate.
+After Firestore upload is verified on device, prepare the first closed/internal
+tester rollout and collect parent/child feedback on the full catalog.

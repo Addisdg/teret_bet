@@ -333,6 +333,13 @@ flutter build apk --release \
   --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
+Build a Play-ready Android App Bundle:
+
+```bash
+flutter build appbundle --release \
+  --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
+```
+
 Run release preflight before external Android testing:
 
 ```bash
@@ -352,6 +359,6 @@ Current goal:
 
 Next recommended goal:
 
-- Complete full-catalog content QA and illustration QA, prepare release signing
-  credentials outside the repository, then upload the reviewed catalog to
-  Firestore for external testing.
+- Upload the reviewed catalog export to Firestore, verify the signed
+  Firebase-backed build on device, then prepare the first closed/internal tester
+  rollout.
