@@ -73,9 +73,35 @@ build/firestore/catalog_export.json
 ```
 
 The export contains story documents for `stories/{storyId}` and page documents
-for `stories/{storyId}/pages/page_XX`. It is an app-specific staging payload for
-a later Admin SDK or scripted upload step, not a Firebase managed
-export/import backup.
+for `stories/{storyId}/pages/page_XX`. It is an app-specific staging payload,
+not a Firebase managed export/import backup.
+
+Preview the upload plan without writing to Firestore:
+
+```bash
+dart tool/upload_firestore_catalog.dart
+```
+
+The upload tool reads the project ID from `firebase.json` by default and prints
+the number of story/page document writes it would send. To write the catalog,
+provide a short-lived OAuth access token from a local authenticated Google Cloud
+session and pass `--commit`:
+
+```bash
+export FIRESTORE_ACCESS_TOKEN="$(gcloud auth print-access-token)"
+dart tool/upload_firestore_catalog.dart --commit
+```
+
+You can override defaults when needed:
+
+```bash
+dart tool/upload_firestore_catalog.dart \
+  --project=teret-bet \
+  --database='(default)' \
+  --export=build/firestore/catalog_export.json
+```
+
+The token is read only from the local environment and must not be committed.
 
 ## Local Examples
 

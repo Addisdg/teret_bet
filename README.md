@@ -161,7 +161,8 @@ Current local manifest:
 - `sleeping_beauty`
 
 All 50 manifest stories have bundled local cover/page images and do not depend
-on placeholder image URLs.
+on placeholder image URLs. Page-specific art is preferred, but a page may reuse
+another bundled image when that keeps recurring characters visually consistent.
 
 ### Catalog Expansion Status
 
@@ -287,6 +288,19 @@ dart tool/export_firestore_catalog.dart
 ```
 
 The default output is `build/firestore/catalog_export.json`.
+
+Preview the Firestore upload without writing:
+
+```bash
+dart tool/upload_firestore_catalog.dart
+```
+
+Upload with a short-lived local OAuth token:
+
+```bash
+export FIRESTORE_ACCESS_TOKEN="$(gcloud auth print-access-token)"
+dart tool/upload_firestore_catalog.dart --commit
+```
 
 Run on web server:
 

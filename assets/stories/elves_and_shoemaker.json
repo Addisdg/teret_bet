@@ -32,7 +32,7 @@
       "textAm": "አንድ ጫማ ሰፊ ከሚስቱ ጋር ትንሽ ሱቅ ውስጥ ይሠራ ነበር። እጆቹ ደክመው ነበር፣ ግን ልቡ ደግ ነበር።",
       "textEn": "A shoemaker and his wife worked in a small shop with kind hearts.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_01.webp",
-      "illustrationPrompt": "A kind shoemaker and wife in a cozy small shoe shop with leather and tools.",
+      "illustrationPrompt": "The same kind Black shoemaker and his wife in a cozy small shoe shop with leather and tools.",
       "audioUrl": null
     },
     {
@@ -56,7 +56,7 @@
       "textAm": "በሌላ ሌሊት እሱና ሚስቱ በጸጥታ ተመለከቱ። ሁለት ትንንሽ ደግ ረዳቶች መጡና በደስታ መስፋት ጀመሩ።",
       "textEn": "Another night they quietly saw two tiny helpers sewing happily.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_04.webp",
-      "illustrationPrompt": "Two tiny friendly helpers sewing shoes at night while the couple watches kindly.",
+      "illustrationPrompt": "Two tiny friendly helpers sewing shoes at night while the same Black shoemaker and wife watch kindly.",
       "audioUrl": null
     },
     {
@@ -64,7 +64,7 @@
       "textAm": "ጫማ ሰፊው እና ሚስቱ ለረዳቶቹ ትንንሽ ሞቃት ልብሶችን ሠሩ። “እናመሰግናለን” ብለው በጠረጴዛው ላይ አኖሩ።",
       "textEn": "The shoemaker and his wife made warm tiny clothes to say thank you.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_05.webp",
-      "illustrationPrompt": "Tiny warm clothes placed on the shoemaker's table as a thank-you gift.",
+      "illustrationPrompt": "Tiny warm clothes placed on the same shoemaker table as a thank-you gift.",
       "audioUrl": null
     },
     {
@@ -72,7 +72,7 @@
       "textAm": "ረዳቶቹ ስጦታውን ሲያዩ በደስታ ዘፈኑ። ጫማ ሰፊውም ምስጋና ሥራውን ይበልጥ ሞቃት እንደሚያደርገው ተሰማው።",
       "textEn": "The helpers sang with joy, and the shoemaker felt how gratitude made the work warmer.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_06.webp",
-      "illustrationPrompt": "Tiny helpers dancing happily in new clothes while the shoemaker and wife smile.",
+      "illustrationPrompt": "Tiny helpers dancing happily in new clothes while the same Black shoemaker and wife smile.",
       "audioUrl": null
     },
     {
@@ -80,7 +80,7 @@
       "textAm": "በማግሥቱ ጫማ ሰፊው እና ሚስቱ ጠረጴዛውን በንጽሕና አዘጋጁ። እነሱ ረዳቶቹ ቢመጡም ባይመጡም ሥራውን በፍቅር መቀጠል ወሰኑ።",
       "textEn": "The shoemaker and his wife prepared the table and chose to keep working with love.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_07.webp",
-      "illustrationPrompt": "Shoemaker and wife preparing a tidy worktable in a warm shoe shop.",
+      "illustrationPrompt": "The same Black shoemaker and wife preparing a tidy worktable in a warm shoe shop.",
       "audioUrl": null
     },
     {
@@ -95,8 +95,8 @@
       "pageNumber": 9,
       "textAm": "ጫማ ሰፊው አዲስ ጫማ ሲሠራ እያንዳንዱን በጥንቃቄ አጠናቀቀ። ሚስቱም “ምስጋና እጆችን ያበረታታል” አለች።",
       "textEn": "The shoemaker worked carefully, strengthened by gratitude.",
-      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_09.webp",
-      "illustrationPrompt": "Shoemaker carefully stitching a beautiful pair of shoes in warm lamplight.",
+      "imageUrl": "assets/images/stories/elves_and_shoemaker_page_07.webp",
+      "illustrationPrompt": "The same Black shoemaker carefully stitching a beautiful pair of shoes in warm lamplight.",
       "audioUrl": null
     },
     {
@@ -104,7 +104,7 @@
       "textAm": "በመንደሩ ውስጥ ጫማዎቹ በደስታ ተለበሱ። ልጆች በአዲስ ጫማ በቀስታ ተመላለሱ፣ አዋቂዎችም ለጫማ ሰፊው አመሰገኑ።",
       "textEn": "The village wore the shoes happily and thanked the shoemaker.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_10.webp",
-      "illustrationPrompt": "Villagers and children happily trying new shoes outside a small shoe shop.",
+      "illustrationPrompt": "Villagers and children happily trying new shoes outside the same Black shoemaker small shoe shop.",
       "audioUrl": null
     },
     {
@@ -112,7 +112,7 @@
       "textAm": "ከዚያ ቀን በኋላ ጫማ ሰፊው ትንሽ እርዳታ ትልቅ ምስጋና እንደሚያስፈልጋት አስታወሰ። እሱና ሚስቱም የተረፈውን ቆዳ ለሚፈልጉ ሰዎች አጋሩ።",
       "textEn": "The shoemaker remembered to share gratitude and leftover materials with others.",
       "imageUrl": "assets/images/stories/elves_and_shoemaker_page_11.webp",
-      "illustrationPrompt": "Shoemaker and wife sharing extra leather pieces with neighbors in a cozy shop.",
+      "illustrationPrompt": "The same Black shoemaker and wife sharing extra leather pieces with neighbors in a cozy shop.",
       "audioUrl": null
     }
   ]

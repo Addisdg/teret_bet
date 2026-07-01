@@ -32,7 +32,7 @@
       "textAm": "ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለ።",
       "textEn": "A little child received a small pot from a kind grandmother.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 1: ትንሽ ልጅ ከደግ አያት ትንሽ ማሰሮ ተቀበለ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 1: the same young Black child receives a small pot from the same kind grandmother in a cozy kitchen.",
       "audioUrl": null
     },
     {
@@ -40,7 +40,7 @@
       "textAm": "“በደግ ቃል ገንፎ ይበስላል፣ በደግ ቃልም ይቆማል” አለቻት አያቷ።",
       "textEn": "Grandmother said kind words would make porridge start and stop.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 2: “በደግ ቃል ገንፎ ይበስላል፣ በደግ ቃልም ይቆማል” አለቻት አያቷ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 2: the same kind grandmother explains the magic words to the same young Black child beside the small pot.",
       "audioUrl": null
     },
     {
@@ -48,7 +48,7 @@
       "textAm": "ልጁ ቃሉን አለ፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
       "textEn": "The child said the words, and warm porridge filled the pot.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_03.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 3: ልጁ ቃሉን አለ፣ ሞቃት ገንፎም በማሰሮው ተሞላ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 3: the same young Black child says the words as warm porridge fills the small pot.",
       "audioUrl": null
     },
     {
@@ -56,23 +56,23 @@
       "textAm": "ቤተሰቡ ገንፎውን ከጎረቤቶች ጋር አጋራ።",
       "textEn": "The family shared the porridge with neighbors.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 4: ቤተሰቡ ገንፎውን ከጎረቤቶች ጋር አጋራ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 4: the same Black family shares porridge with neighbors around the small pot.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
       "textAm": "ብዙ ሰዎች ሲመጡ አንድ ሰው “የማቆሚያውን ቃል ብንረሳ ምን እናደርጋለን?” ብሎ ጠየቀ።",
       "textEn": "When many people came, someone asked what they should do if the stopping words were forgotten.",
-      "imageUrl": "assets/images/stories/magic_porridge_pot_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 5: neighbors near a small porridge pot asking how to remember the stopping words.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_04.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 5: the same Black family and neighbors near a small porridge pot asking how to remember the stopping words.",
       "audioUrl": null
     },
     {
       "pageNumber": 6,
       "textAm": "ልጁ በቀስታ የማቆሚያውን ቃል ደገመ። ሁሉም ቃሉን በቀላሉ ለማስታወስ መንገድ መፈለግ ጀመሩ።",
       "textEn": "The child calmly repeated the stopping words, and everyone began looking for an easy way to remember them.",
-      "imageUrl": "assets/images/stories/magic_porridge_pot_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: a child calmly repeating the stopping words while family looks for a reminder.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_08.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Magic Porridge Pot, page 6: the same young Black child calmly repeating the stopping words while family and neighbors look for a reminder.",
       "audioUrl": null
     },
     {
@@ -80,7 +80,7 @@
       "textAm": "ልጁ ቃላቱን በትንሽ ወረቀት ላይ ጻፈ። አያቱም “አስፈላጊ ቃል በጥንቃቄ ይጠበቃል” አለች።",
       "textEn": "The child drew the words on a little paper so he could remember them.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_07.webp",
-      "illustrationPrompt": "Little child drawing reminder words beside a small porridge pot.",
+      "illustrationPrompt": "The same young Black child drawing reminder words beside a small porridge pot.",
       "audioUrl": null
     },
     {
@@ -88,15 +88,15 @@
       "textAm": "ገንፎው ሲበስል ቤቱ በሞቃት ሽታ ተሞላ። ልጁ መጀመሪያ ለአያቱ ትንሽ ሳህን አቀረበ።",
       "textEn": "When the porridge cooked, he served his grandmother first.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_08.webp",
-      "illustrationPrompt": "Little child serving a small bowl of porridge to grandmother.",
+      "illustrationPrompt": "The same young Black child serving a small bowl of porridge to the same grandmother.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
       "textAm": "ጎረቤቶች ሲመጡ ሁሉም ለማጋራት ሳህን አመጡ። ማሰሮውም ለሁሉም በቂ ሞቃት ገንፎ ሰጠ።",
       "textEn": "Neighbors brought bowls, and the pot made enough warm porridge for all.",
-      "imageUrl": "assets/images/stories/magic_porridge_pot_page_09.webp",
-      "illustrationPrompt": "Neighbors with bowls sharing warm porridge around a small pot.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_04.webp",
+      "illustrationPrompt": "The same neighbors with bowls sharing warm porridge around a small pot.",
       "audioUrl": null
     },
     {
@@ -104,15 +104,15 @@
       "textAm": "በተረሳው ቀን ገንፎው ከማሰሮው በላይ በቀስታ ወጣ። ሰዎቹ አልተጨነቁም፤ ልጁን ጠሩ።",
       "textEn": "When the words were forgotten, the porridge rose gently and everyone called the child.",
       "imageUrl": "assets/images/stories/magic_porridge_pot_page_10.webp",
-      "illustrationPrompt": "Porridge gently rising from a pot while family calls for the little child.",
+      "illustrationPrompt": "Porridge gently rising from a pot while the same family calls for the same young Black child.",
       "audioUrl": null
     },
     {
       "pageNumber": 11,
       "textAm": "ልጁ የማቆሚያውን ቃል በጸጥታ አለ። ገንፎው ቆመ፣ ሁሉም ቃልን መስማት እና ማስታወስ እንደሚጠቅም ተማሩ።",
       "textEn": "The child calmly said the stopping words, and everyone learned to listen and remember.",
-      "imageUrl": "assets/images/stories/magic_porridge_pot_page_11.webp",
-      "illustrationPrompt": "Little child calmly stopping a magic porridge pot while everyone smiles.",
+      "imageUrl": "assets/images/stories/magic_porridge_pot_page_08.webp",
+      "illustrationPrompt": "The same young Black child calmly stopping a magic porridge pot while everyone smiles.",
       "audioUrl": null
     }
   ]

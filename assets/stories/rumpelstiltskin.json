@@ -32,7 +32,7 @@
       "textAm": "አንዲት ብልህ ልጃገረድ በመንደር ውስጥ በእጅ ሥራዋ ትታወቅ ነበር። ነገር ግን አንድ ቀን ከባድ ሥራ ተጠየቀች።",
       "textEn": "A clever young woman was known for her handwork, but one day she was given a hard task.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_01.webp",
-      "illustrationPrompt": "A clever young woman in a warm village room with baskets of straw and craft tools.",
+      "illustrationPrompt": "A clever young Black craftswoman in a warm village room with baskets of straw and craft tools.",
       "audioUrl": null
     },
     {
@@ -40,7 +40,7 @@
       "textAm": "“እኔ ብቻዬን ይህን ማድረግ አልችልም” ብላ በሐቀኝነት ተናገረች። በዚያ ጊዜ ትንሽ እንግዳ መጣ።",
       "textEn": "I cannot do this alone, she said honestly. Then a small stranger arrived.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_02.webp",
-      "illustrationPrompt": "A tiny mysterious but not scary helper appearing near a lantern-lit craft room.",
+      "illustrationPrompt": "The same clever young Black craftswoman as a tiny mysterious but not scary helper appears near a lantern-lit craft room.",
       "audioUrl": null
     },
     {
@@ -48,7 +48,7 @@
       "textAm": "እንግዳው “እረዳሻለሁ፣ ግን ቃል መስጠት በጥንቃቄ ነው” አለ። ልጃገረዷም በመጀመሪያ ማሰብ ጀመረች።",
       "textEn": "I can help, said the stranger, but promises need care.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_03.webp",
-      "illustrationPrompt": "The young woman thinking carefully while the tiny helper points to a simple promise token.",
+      "illustrationPrompt": "The same young Black craftswoman thinking carefully while the tiny helper points to a simple promise token.",
       "audioUrl": null
     },
     {
@@ -56,7 +56,7 @@
       "textAm": "እሷ አንድ ትንሽ ደወል ሰጠችው፣ እንግዳውም ሥራውን ለማቀላጠፍ ረዳት። ግን ልጃገረዷ ቃልን በቀላሉ መስጠት እንደማይገባ ተማረች።",
       "textEn": "She gave him a small bell, and he helped with the work.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_04.webp",
-      "illustrationPrompt": "A tiny helper and young woman working together with glowing thread and a small bell.",
+      "illustrationPrompt": "A tiny helper and the same young Black craftswoman working together with glowing thread and a small bell.",
       "audioUrl": null
     },
     {
@@ -64,7 +64,7 @@
       "textAm": "በኋላ እንግዳው ስሙን እንድታውቅ ጨዋታ አደረገ። ልጃገረዷ በትዕግሥት ጠየቀች፣ አዳመጠች፣ እና መልሱን አገኘች።",
       "textEn": "Later the stranger made a name-guessing game, and she listened patiently.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_05.webp",
-      "illustrationPrompt": "The young woman listening thoughtfully during a playful name-guessing scene.",
+      "illustrationPrompt": "The same young Black craftswoman listening thoughtfully during a playful name-guessing scene.",
       "audioUrl": null
     },
     {
@@ -72,15 +72,15 @@
       "textAm": "“ሩምፐልስቲልትስኪን!” ብላ በደስታ አለች። እንግዳው ፈገግ ብሎ ተሰናበተ፣ እሷም ቃል ስለመስጠት ብዙ ለማሰብ ተዘጋጀች።",
       "textEn": "Rumpelstiltskin! she said happily, and the stranger smiled goodbye as she prepared to think more about promises.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_06.webp",
-      "illustrationPrompt": "The young woman smiling as the tiny helper waves goodbye under warm lantern light.",
+      "illustrationPrompt": "The same young Black craftswoman smiling as the tiny helper waves goodbye under warm lantern light.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
       "textAm": "በማግሥቱ ልጃገረዷ በመስኮቷ አጠገብ ተቀምጣ ያለፈውን ቀን አሰበች። “እርዳታ መቀበል ጥሩ ነው፣ ግን ቃል በጥንቃቄ መስጠት አለብኝ” አለች።",
       "textEn": "The girl thought about help, promises, and careful choices.",
-      "imageUrl": "assets/images/stories/rumpelstiltskin_page_07.webp",
-      "illustrationPrompt": "A thoughtful young craftswoman sitting by a sunny window beside a spinning wheel.",
+      "imageUrl": "assets/images/stories/rumpelstiltskin_page_01.webp",
+      "illustrationPrompt": "The same young Black craftswoman sitting thoughtfully by a sunny window beside a spinning wheel.",
       "audioUrl": null
     },
     {
@@ -88,7 +88,7 @@
       "textAm": "እሷ ለመንደሩ ልጆች ትንሽ የቃል ጨዋታ አዘጋጀች። ልጆቹ “ቃል ከመስጠታችን በፊት እንጠይቃለን” ብለው በደስታ ተማሩ።",
       "textEn": "She made a promise game so children could practice asking questions first.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_08.webp",
-      "illustrationPrompt": "Village children playing a gentle promise game with a young craftswoman.",
+      "illustrationPrompt": "Village children playing a gentle promise game with the same young Black craftswoman.",
       "audioUrl": null
     },
     {
@@ -96,7 +96,7 @@
       "textAm": "ከዚያ በኋላ ማንም እርዳታ ሲጠይቅ እሷ “እሺ፣ ነገር ግን በግልጽ እንነጋገር” ትል ነበር። ሰዎችም ሐቀኛ ንግግር እንደሚያረጋጋ አዩ።",
       "textEn": "She practiced clear and honest agreements with neighbors.",
       "imageUrl": "assets/images/stories/rumpelstiltskin_page_09.webp",
-      "illustrationPrompt": "Neighbors talking kindly with a young craftswoman in a village workshop.",
+      "illustrationPrompt": "Neighbors talking kindly with the same young Black craftswoman in a village workshop.",
       "audioUrl": null
     },
     {

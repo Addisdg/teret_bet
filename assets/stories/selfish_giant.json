@@ -31,8 +31,8 @@
       "pageNumber": 1,
       "textAm": "አንድ ግዙፍ በትልቅ አትክልት ያለው ቤት ይኖር ነበር። አትክልቱ በአበቦች፣ በዛፎች እና በወፎች ድምፅ የተሞላ ነበር።",
       "textEn": "A giant lived beside a beautiful garden.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_01.webp",
-      "illustrationPrompt": "A gentle-looking giant near a large beautiful garden full of flowers.",
+      "imageUrl": "assets/images/stories/selfish_giant_cover.webp",
+      "illustrationPrompt": "Consistent storybook illustration of the same gentle Black giant from this story near a large beautiful garden full of flowers.",
       "audioUrl": null
     },
     {
@@ -48,7 +48,7 @@
       "textAm": "ግዙፉ ግን ‘ይህ አትክልት ለእኔ ብቻ ነው’ ብሎ በሩን ዘጋ። አትክልቱም በቀስታ ጸጥ መሆን ጀመረ።",
       "textEn": "The giant closed the gate, and the garden grew quiet.",
       "imageUrl": "assets/images/stories/selfish_giant_page_03.webp",
-      "illustrationPrompt": "The giant closing a garden gate while the garden becomes quiet, not scary.",
+      "illustrationPrompt": "The same gentle Black giant closing a garden gate while the garden becomes quiet, not scary.",
       "audioUrl": null
     },
     {
@@ -56,7 +56,7 @@
       "textAm": "ቀናት ሲያልፉ ወፎች አልዘመሩም፣ አበቦችም አልተከፈቱም። ግዙፉ ብቻውን ተቀምጦ ‘ለምን እንዲህ ጸጥ አለ?’ ብሎ አሰበ።",
       "textEn": "As days passed, the birds did not sing and the flowers did not open, so the giant wondered why.",
       "imageUrl": "assets/images/stories/selfish_giant_page_04.webp",
-      "illustrationPrompt": "The giant sitting alone in a quiet garden, thoughtful and gentle.",
+      "illustrationPrompt": "The same gentle Black giant sitting alone in a quiet garden, thoughtful and gentle.",
       "audioUrl": null
     },
     {
@@ -64,7 +64,7 @@
       "textAm": "አንድ ጠዋት ከበሩ ውጭ ልጆች በቀስታ ሲስቁ ሰማ። ድምፃቸው እንደ ትንሽ ወፍ ዘፈን ወደ ልቡ ገባ።",
       "textEn": "One morning he heard children laughing softly outside.",
       "imageUrl": "assets/images/stories/selfish_giant_page_05.webp",
-      "illustrationPrompt": "The giant hearing children laughing softly outside the garden gate.",
+      "illustrationPrompt": "The same gentle Black giant hearing children laughing softly outside the garden gate.",
       "audioUrl": null
     },
     {
@@ -72,55 +72,55 @@
       "textAm": "ግዙፉ በመስኮት ተመለከተ። ልጆች አበቦቹን ሳይነኩ በናፍቆት ይመለከቱ ነበር።",
       "textEn": "He saw children looking lovingly at the flowers.",
       "imageUrl": "assets/images/stories/selfish_giant_page_06.webp",
-      "illustrationPrompt": "Children admiring flowers from outside while the giant watches from a window.",
+      "illustrationPrompt": "Children admiring flowers from outside while the same gentle Black giant watches from a window.",
       "audioUrl": null
     },
     {
       "pageNumber": 7,
       "textAm": "‘ደስታ ሲካፈል ነው የሚበቅለው’ ብሎ ግዙፉ ተረዳ። በሩን ከፈተና ‘እባካችሁ በጥንቃቄ ግቡ’ አለ።",
       "textEn": "The giant opened the gate and invited the children in kindly.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_07.webp",
-      "illustrationPrompt": "The giant opening the garden gate kindly for children.",
+      "imageUrl": "assets/images/stories/selfish_giant_cover.webp",
+      "illustrationPrompt": "The same gentle Black giant opening the garden gate kindly for the same group of children.",
       "audioUrl": null
     },
     {
       "pageNumber": 8,
       "textAm": "ልጆቹ በአትክልቱ ውስጥ በቀስታ ተጓዙ። አንዱ ዛፍ ሥር ተቀመጠ፣ ሌላውም ወፎችን ተመለከተ።",
       "textEn": "The children entered carefully and enjoyed the garden.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_08.webp",
-      "illustrationPrompt": "Children walking carefully through the giant's garden with flowers and birds.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_05.webp",
+      "illustrationPrompt": "The same group of children walking carefully through the giant garden with flowers and birds.",
       "audioUrl": null
     },
     {
       "pageNumber": 9,
       "textAm": "በጥቂት ጊዜ አበቦች ተከፈቱ፣ ወፎችም ዘመሩ። ግዙፉ በፈገግታ ውሃ አመጣና ልጆቹን አገዘ።",
       "textEn": "Flowers opened and birds sang as the giant helped.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_09.webp",
-      "illustrationPrompt": "The giant watering flowers while children play gently in the garden.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_06.webp",
+      "illustrationPrompt": "The same gentle Black giant watering flowers while the same children play gently in the garden.",
       "audioUrl": null
     },
     {
       "pageNumber": 10,
       "textAm": "ግዙፉ ከልጆቹ ጋር በአበቦች መካከል ተቀመጠ። አንዱ ቢራቢሮ አሳየው፣ ሌላውም የወፎችን ዘፈን በደስታ አዳመጠ።",
       "textEn": "The giant sat among the flowers with the children and listened happily.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_10.webp",
-      "illustrationPrompt": "The giant and children enjoying a blooming shared garden together.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_06.webp",
+      "illustrationPrompt": "The same gentle Black giant and the same children enjoying a blooming shared garden together.",
       "audioUrl": null
     },
     {
       "pageNumber": 11,
       "textAm": "ዝናብ ሲወርድ ግዙፉ ትልቅ ቅጠል እንደ ጃንጥላ ይይዝላቸው ነበር። ፀሐይ ሲወጣም ሁሉም አበቦችን አጠጡ።",
       "textEn": "In rain and sunshine, the giant and children cared for the garden together.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_11.webp",
-      "illustrationPrompt": "A gentle giant holding a large leaf like an umbrella for children in a garden rain.",
+      "imageUrl": "assets/images/stories/selfish_giant_cover.webp",
+      "illustrationPrompt": "The same gentle Black giant holding a large leaf like an umbrella for the same children in a garden rain.",
       "audioUrl": null
     },
     {
       "pageNumber": 12,
       "textAm": "ከዚያ ቀን በኋላ አትክልቱ ለሁሉም የደስታ ቦታ ሆነ። ግዙፉም ቦታን ሲካፈል ልብ እንደሚሞቅ፣ ደስታም እንደ አበባ እንደሚበቅል ተማረ።",
       "textEn": "The garden became a shared place of joy, and the giant learned to share his heart.",
-      "imageUrl": "assets/images/stories/selfish_giant_page_12.webp",
-      "illustrationPrompt": "The gentle giant and children in a blooming shared garden full of flowers and warm light.",
+      "imageUrl": "assets/images/stories/selfish_giant_page_06.webp",
+      "illustrationPrompt": "The same gentle Black giant and the same children in a blooming shared garden full of flowers and warm light.",
       "audioUrl": null
     }
   ]

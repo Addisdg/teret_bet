@@ -84,8 +84,8 @@ placeholders but still needs human review or final artwork.
 
 `coverImage` and `imageUrl` may be local asset paths or hosted image URLs. Local
 paths should start with `assets/` so the app can load them offline. For bundled
-stories, prefer optimized WebP assets with one cover image plus one unique image
-per story page:
+stories, prefer optimized WebP assets with one cover image plus page images that
+match the story beats:
 
 ```text
 assets/images/stories/story_id_cover.webp
@@ -98,14 +98,16 @@ Firestore/Hive text data but uses the bundled local image paths. This prevents
 stale cached placeholder URLs from hiding packaged artwork during MVP testing.
 
 For feedback builds, every manifest story should avoid `placehold.co` or other
-temporary placeholder URLs. Each story page should reference a unique local
-cover-style image path instead of reusing the cover image or lower-quality
-temporary art, and each referenced asset must exist in `assets/images/stories/`.
+temporary placeholder URLs. Each story page should reference a local bundled
+image asset, and each referenced asset must exist in `assets/images/stories/`.
+Prefer page-specific art when it matches the beat, but deliberate reuse of a
+cover or page image is acceptable when it keeps recurring characters visually
+consistent.
 Story length should be driven by the story, not by a fixed upper page count.
 Six pages and ten pages are not targets or limits. When adding pages during
 expansion, add only the pages needed for clear setup, transitions, emotional
-beats, and resolution. Add a matching page-specific local WebP asset for every
-new page and keep page numbers sequential.
+beats, and resolution. Add matching local WebP artwork for every new page and
+keep page numbers sequential.
 
 ## Illustration Style
 

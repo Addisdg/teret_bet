@@ -32,7 +32,7 @@
       "textAm": "በዝናብ ምሽት አንዲት እንግዳ ልዕልት ወደ ቤተመንግሥት መጣች።",
       "textEn": "On a rainy evening, a visiting princess came to the palace.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_01.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 1: በዝናብ ምሽት አንዲት እንግዳ ልዕልት ወደ ቤተመንግሥት መጣች።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 1: the same visiting Black princess arrives at the palace on a rainy evening.",
       "audioUrl": null
     },
     {
@@ -40,7 +40,7 @@
       "textAm": "ቤተሰቡ ሙቅ ልብስ፣ ሻይ እና ለስላሳ አልጋ አዘጋጀላት።",
       "textEn": "The family prepared warm clothes, tea, and a soft bed for her.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_02.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 2: ቤተሰቡ ሙቅ ልብስ፣ ሻይ እና ለስላሳ አልጋ አዘጋጀላት።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 2: the same palace family prepares warm clothes, tea, and a soft bed for the same visiting Black princess.",
       "audioUrl": null
     },
     {
@@ -56,15 +56,15 @@
       "textAm": "ጠዋት ልዕልቷ “አንድ ትንሽ ነገር እንዳለ ተሰማኝ” አለች በቀስታ።",
       "textEn": "In the morning, the princess gently said she had felt something small.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_04.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 4: ጠዋት ልዕልቷ “አንድ ትንሽ ነገር እንዳለ ተሰማኝ” አለች በቀስታ።",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 4: the same visiting Black princess gently says she felt something small in the bed.",
       "audioUrl": null
     },
     {
       "pageNumber": 5,
       "textAm": "ሁሉም ተገረሙ፣ ግን ማንም አልሳቀባትም። “ትንሽ ነገር እንኳን ለአንዳንድ ሰው ሊሰማ ይችላል” ብለው አሰቡ።",
       "textEn": "Everyone was surprised, but no one laughed; they wondered if even a small thing could feel strong to someone else.",
-      "imageUrl": "assets/images/stories/princess_and_pea_page_05.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 5: palace family listening thoughtfully to the princess without laughing.",
+      "imageUrl": "assets/images/stories/princess_and_pea_page_06.webp",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 5: the same palace family listens thoughtfully to the same visiting Black princess without laughing.",
       "audioUrl": null
     },
     {
@@ -72,7 +72,7 @@
       "textAm": "ቤተሰቡ የልዕልቷን ቃል በክብር ሰማ። “እንግዳችን በምቾት እንድታርፍ እንደገና እንመልከት” አሉ።",
       "textEn": "The family listened respectfully and decided to look again so their guest could rest comfortably.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_06.webp",
-      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 6: palace family listening respectfully to their guest in a warm room.",
+      "illustrationPrompt": "Child-friendly warm storybook illustration for The Princess and the Pea, page 6: the same palace family listens respectfully to the same visiting Black princess in a warm room.",
       "audioUrl": null
     },
     {
@@ -80,7 +80,7 @@
       "textAm": "ንግሥቲቱ አልጋውን እያዘጋጀች “እንግዳችን ደኅና እንዲያርፍ እንፈልጋለን” አለች። ልጆቹም ለስላሳ መሸፈኛዎችን አመጡ።",
       "textEn": "The queen and children prepared a warm, soft bed for their guest.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_07.webp",
-      "illustrationPrompt": "Queen and children preparing a soft palace bed with blankets on a rainy night.",
+      "illustrationPrompt": "The same queen and children preparing a soft palace bed with blankets on a rainy night.",
       "audioUrl": null
     },
     {
@@ -96,7 +96,7 @@
       "textAm": "ሌሊቱ ሲያልፍ ልዕልቷ በጣም ተጨንቃ አልነበረችም። እሷ በቀስታ ተነስታ መስኮቱን ተመለከተች እና ዝናቡን አዳመጠች።",
       "textEn": "During the night, the princess quietly listened to the rain by the window.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_09.webp",
-      "illustrationPrompt": "Princess in a cozy room listening to rain beside a tall palace window.",
+      "illustrationPrompt": "The same visiting Black princess in a cozy room listening to rain beside a tall palace window.",
       "audioUrl": null
     },
     {
@@ -104,7 +104,7 @@
       "textAm": "ጠዋት ሁሉም “እንዴት አደርሽ?” ብለው በትህትና ጠየቋት። ልዕልቷም የተሰማትን ሳትፈራ በደግነት ነገረች።",
       "textEn": "In the morning, the princess kindly shared what she had felt.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_10.webp",
-      "illustrationPrompt": "Princess speaking gently with the palace family at breakfast.",
+      "illustrationPrompt": "The same visiting Black princess speaking gently with the same palace family at breakfast.",
       "audioUrl": null
     },
     {
@@ -112,7 +112,7 @@
       "textAm": "ቤተሰቡ አተሩን ሲያገኙ ተሳቁ እና ተማሩ። “ትንሽ ነገር ለአንዱ ትልቅ ሊሆን ይችላል” ብለው ተስማሙ።",
       "textEn": "When the family found the pea, they learned that small things can feel big to someone else.",
       "imageUrl": "assets/images/stories/princess_and_pea_page_11.webp",
-      "illustrationPrompt": "Palace family finding a tiny pea and smiling with understanding.",
+      "illustrationPrompt": "The same palace family finding a tiny pea and smiling with understanding beside the same visiting Black princess.",
       "audioUrl": null
     }
   ]

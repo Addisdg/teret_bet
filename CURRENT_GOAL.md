@@ -114,6 +114,8 @@ before external testing.
 * Offline Firestore catalog export tool added for the reviewed local manifest,
   writing an ignored app-specific staging payload to
   `build/firestore/catalog_export.json`
+* Firestore catalog upload tool added with dry-run-by-default behavior and
+  explicit `--commit` upload using a local `FIRESTORE_ACCESS_TOKEN`
 * Android release preflight tool added to check app identity, version, Firebase
   option wiring, local release signing readiness, and Firestore catalog export
   status before external testing
@@ -127,6 +129,8 @@ before external testing.
   nested `pages`
 * Tracked Firebase options restored to read API keys from `--dart-define` after
   local Firebase registration generated ignored platform config
+* Firestore catalog export regenerated from the reviewed local manifest after
+  the latest visual consistency fixes: 50 stories, 521 pages
 
 ## Current Release Identity
 
@@ -154,14 +158,34 @@ Quality gates passed after Firebase Android registration and release signing:
 
 The smoke run served the app locally before timeout.
 
+Latest local Firestore export/preflight check after the visual consistency
+fixes:
+
+* `dart tool/export_firestore_catalog.dart` regenerated
+  `build/firestore/catalog_export.json`
+* `dart tool/upload_firestore_catalog.dart` dry-run confirmed the export would
+  write 571 story/page documents to project `teret-bet`
+* Export summary: 50 stories, 521 pages
+* `dart tool/release_preflight.dart` passed with 10 passes, 0 failures, and the
+  expected warning that `FIREBASE_ANDROID_API_KEY` is not set in the shell
+* `dart tool/release_preflight.dart --strict` reports the same 10 passes and 0
+  failures, but exits non-zero because strict mode treats the missing
+  `FIREBASE_ANDROID_API_KEY` warning as release-blocking
+* `flutter build appbundle --release` completed successfully and produced
+  `build/app/outputs/bundle/release/app-release.aab`
+
 ## Next Recommended Task
 
-Upload the reviewed 50-story catalog export to Firestore, then run a
-Firebase-backed signed Android build against the read-only production rules:
+Upload the regenerated 50-story catalog export to Firestore, then run a
+Firebase-backed signed Android build against the read-only production rules with
+the real Android API key:
 
 ```bash
 dart run tool/catalog_qa.dart
 dart tool/export_firestore_catalog.dart
+dart tool/upload_firestore_catalog.dart
+export FIRESTORE_ACCESS_TOKEN="$(gcloud auth print-access-token)"
+dart tool/upload_firestore_catalog.dart --commit
 dart tool/release_preflight.dart --strict
 flutter build appbundle --release --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```

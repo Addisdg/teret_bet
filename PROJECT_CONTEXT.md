@@ -197,14 +197,15 @@ Local story images are stored in:
 
 assets/images/stories/
 
-All current manifest stories reference local image assets. Each reader page uses
-a unique bundled WebP image path so stories do not repeat the same picture across
-pages.
+All current manifest stories reference local image assets. Reader pages should
+use bundled WebP art that matches the story beat. Page-specific art is preferred,
+but deliberate image reuse is allowed when it keeps recurring characters
+visually consistent.
 
 Story length is content-driven. Do not force stories into a six-page or ten-page
 shape. Ten pages is not an upper limit; longer stories should continue beyond it
-when the narrative needs more room. Add matching page-specific local WebP art
-for every new page.
+when the narrative needs more room. Add matching local WebP artwork for every
+new page.
 
 Firestore structure:
 

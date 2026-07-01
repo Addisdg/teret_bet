@@ -81,11 +81,6 @@ void main() {
       }
 
       final pages = await service.fetchStoryPages(story.id);
-      final pageImageUrls = pages.map((page) => page.imageUrl).toSet();
-
-      expect(pageImageUrls.length, pages.length);
-      expect(pageImageUrls, isNot(contains(story.coverImage)));
-
       for (final page in pages) {
         expect(page.imageUrl, isNot(contains('placehold.co')));
 
@@ -420,10 +415,8 @@ void main() {
         expect(page.pageNumber, index + 1);
         expect(page.textAm, isNotEmpty);
         expect(page.textAm, isNot(contains('በቅርቡ')));
-        expect(
-          page.imageUrl,
-          'assets/images/stories/${storyId}_page_${(index + 1).toString().padLeft(2, '0')}.webp',
-        );
+        expect(page.imageUrl, startsWith('assets/images/stories/$storyId'));
+        expect(page.imageUrl, endsWith('.webp'));
         expect(File(page.imageUrl).existsSync(), isTrue);
         expect(File(page.imageUrl).lengthSync() < 500000, isTrue);
         expect(page.illustrationPrompt, isNotEmpty);
