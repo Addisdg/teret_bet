@@ -64,6 +64,12 @@ persistent Amharic/English settings, same-page reader switching, safe Amharic
 fallbacks for incomplete English records, and removal of unfinished audio UI.
 The pilot content remains outside the application pending family review.
 
+The remaining Batch A model work is also implemented: optional origin,
+adaptation, cultural-context, and review fields parse safely across older data.
+The app shows their origin chip and “About this story” section only when a
+future reviewed record supplies display metadata; no current catalogue claims
+were added or changed.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

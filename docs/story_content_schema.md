@@ -47,7 +47,15 @@ Target launch story fields:
     "type": "public_domain",
     "name": "Source collection",
     "sourceUrl": "",
-    "notes": "Create original Amharic adaptation."
+    "notes": "Internal provenance note.",
+    "originLabelAm": "ከኢትዮጵያ የተገኘ ተረት",
+    "originLabelEn": "A story from Ethiopia",
+    "originCommunity": "Specific region, people, or tradition",
+    "adaptationBasisAm": "አጭር የአማርኛ ማብራሪያ",
+    "adaptationBasisEn": "Short explanation of the adaptation basis",
+    "culturalContextAm": "አጭር የአማርኛ ባህላዊ አውድ",
+    "culturalContextEn": "Short cultural context for families",
+    "reviewStatus": "Culturally reviewed — 2026-07"
   },
   "ageMin": 3,
   "ageMax": 6,
@@ -80,10 +88,11 @@ Hive cache entries, and local JSON files continue to load. New content should
 include the full schema so future audio, review, and collection workflows have
 the data they need.
 
-`summaryEn` and `moralEn` are approved launch fields but are not yet parsed by
-the current Dart model. Add them through a backward-compatible model/export
-change before integrating the bilingual pilot; their absence in the existing
-review corpus is expected until then.
+`summaryEn`, `moralEn`, and the expanded `source` fields are optional and parsed
+backward-compatibly. Their absence in the existing review corpus is expected.
+Do not populate public origin or review claims until the evidence is recorded in
+the provenance register. The app reveals the family-facing “About this story”
+section only when at least one expanded source field is present.
 
 Use `draft` only for incomplete placeholders. Use `ready_for_review` when a
 story has complete child-friendly text, metadata, page prompts, and audio
@@ -144,6 +153,8 @@ Fields:
 titleAm: string
 titleEn: string
 summaryAm: string
+moralEn: string
+summaryEn: string
 moralAm: string
 collection: string
 status: string

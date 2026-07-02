@@ -23,6 +23,9 @@ Settings.
   to Amharic.
 - Audio is post-launch. Disabled headphones and "coming soon" audio controls
   are not shown in the release interface.
+- A child-facing origin chip and parent-facing “About this story” section are
+  shown only for records with reviewed display metadata. Existing records stay
+  unchanged and do not gain implied provenance claims.
 
 ## Verification
 

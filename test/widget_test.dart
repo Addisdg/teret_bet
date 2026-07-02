@@ -130,6 +130,7 @@ void main() {
     expect(story.summaryAm, 'Old summary field');
     expect(story.summaryEn, isEmpty);
     expect(story.moralEn, isEmpty);
+    expect(story.source.hasDisplayMetadata, isFalse);
     expect(story.collection, '');
     expect(story.status, 'published');
     expect(story.ageMin, 3);
@@ -838,6 +839,18 @@ void main() {
               coverImage: '',
               summaryAm: 'የሙከራ ማጠቃለያ',
               moralAm: 'ትንሽ ደግነት ትልቅ እርዳታ ይሆናል።',
+              source: const StorySource(
+                type: 'traditional',
+                name: 'Reviewed oral tradition record',
+                sourceUrl: '',
+                notes: 'Internal note',
+                originLabelAm: 'ከኢትዮጵያ የተገኘ ተረት',
+                originLabelEn: 'A story from Ethiopia',
+                originCommunity: 'የወላይታ ባህል',
+                adaptationBasisAm: 'ከባህላዊ ተረት በአዲስ ቃላት የተዘጋጀ።',
+                culturalContextAm: 'ለቤተሰብ ንባብ የተስማማ።',
+                reviewStatus: 'በባህል አዋቂ ተገምግሟል።',
+              ),
               ageMin: 4,
               ageMax: 6,
             ),
@@ -849,6 +862,15 @@ void main() {
     expect(find.text('ዕድሜ 4-6'), findsOneWidget);
     expect(find.text('ተረት እና ትምህርት'), findsOneWidget);
     expect(find.text('ትንሽ ደግነት ትልቅ እርዳታ ይሆናል።'), findsOneWidget);
+    expect(find.text('ከኢትዮጵያ የተገኘ ተረት'), findsOneWidget);
+    expect(find.text('ስለዚህ ታሪክ'), findsOneWidget);
+
+    await tester.tap(find.text('ስለዚህ ታሪክ'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('የወላይታ ባህል'), findsOneWidget);
+    expect(find.text('ከባህላዊ ተረት በአዲስ ቃላት የተዘጋጀ።'), findsOneWidget);
+    expect(find.text('በባህል አዋቂ ተገምግሟል።'), findsOneWidget);
 
     await tester.pumpWidget(const SizedBox.shrink());
   });

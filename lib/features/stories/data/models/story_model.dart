@@ -165,13 +165,39 @@ class StorySource {
   final String name;
   final String sourceUrl;
   final String notes;
+  final String originLabelAm;
+  final String originLabelEn;
+  final String originCommunity;
+  final String adaptationBasisAm;
+  final String adaptationBasisEn;
+  final String culturalContextAm;
+  final String culturalContextEn;
+  final String reviewStatus;
 
   const StorySource({
     required this.type,
     required this.name,
     required this.sourceUrl,
     required this.notes,
+    this.originLabelAm = '',
+    this.originLabelEn = '',
+    this.originCommunity = '',
+    this.adaptationBasisAm = '',
+    this.adaptationBasisEn = '',
+    this.culturalContextAm = '',
+    this.culturalContextEn = '',
+    this.reviewStatus = '',
   });
+
+  bool get hasDisplayMetadata =>
+      originLabelAm.isNotEmpty ||
+      originLabelEn.isNotEmpty ||
+      originCommunity.isNotEmpty ||
+      adaptationBasisAm.isNotEmpty ||
+      adaptationBasisEn.isNotEmpty ||
+      culturalContextAm.isNotEmpty ||
+      culturalContextEn.isNotEmpty ||
+      reviewStatus.isNotEmpty;
 
   factory StorySource.empty() {
     return const StorySource(
@@ -188,6 +214,14 @@ class StorySource {
       name: Story._readString(data['name']),
       sourceUrl: Story._readString(data['sourceUrl']),
       notes: Story._readString(data['notes']),
+      originLabelAm: Story._readString(data['originLabelAm']),
+      originLabelEn: Story._readString(data['originLabelEn']),
+      originCommunity: Story._readString(data['originCommunity']),
+      adaptationBasisAm: Story._readString(data['adaptationBasisAm']),
+      adaptationBasisEn: Story._readString(data['adaptationBasisEn']),
+      culturalContextAm: Story._readString(data['culturalContextAm']),
+      culturalContextEn: Story._readString(data['culturalContextEn']),
+      reviewStatus: Story._readString(data['reviewStatus']),
     );
   }
 
@@ -197,6 +231,14 @@ class StorySource {
       'name': name,
       'sourceUrl': sourceUrl,
       'notes': notes,
+      'originLabelAm': originLabelAm,
+      'originLabelEn': originLabelEn,
+      'originCommunity': originCommunity,
+      'adaptationBasisAm': adaptationBasisAm,
+      'adaptationBasisEn': adaptationBasisEn,
+      'culturalContextAm': culturalContextAm,
+      'culturalContextEn': culturalContextEn,
+      'reviewStatus': reviewStatus,
     };
   }
 }

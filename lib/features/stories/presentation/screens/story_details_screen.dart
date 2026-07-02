@@ -86,6 +86,10 @@ class StoryDetailsScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 16),
                       _StoryInfo(story: story, language: language),
+                      if (story.source.hasDisplayMetadata) ...[
+                        const SizedBox(height: 16),
+                        _AboutStory(source: story.source, language: language),
+                      ],
                     ],
                   ),
                 ),
@@ -129,6 +133,10 @@ class _StoryInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final collectionLabel = _collectionLabel(story.collection, language);
+    final originLabel =
+        language == AppLanguage.english && story.source.originLabelEn.isNotEmpty
+            ? story.source.originLabelEn
+            : story.source.originLabelAm;
     final moral = language == AppLanguage.english && story.moralEn.isNotEmpty
         ? story.moralEn
         : story.moralAm;
@@ -152,6 +160,11 @@ class _StoryInfo extends StatelessWidget {
               _InfoChip(
                 icon: Icons.auto_stories,
                 label: collectionLabel,
+              ),
+            if (originLabel.isNotEmpty)
+              _InfoChip(
+                icon: Icons.public,
+                label: originLabel,
               ),
           ],
         ),
@@ -184,6 +197,88 @@ class _StoryInfo extends StatelessWidget {
       'african_folktales' => 'የአፍሪካ ተረቶች',
       _ => null,
     };
+  }
+}
+
+class _AboutStory extends StatelessWidget {
+  final StorySource source;
+  final AppLanguage language;
+
+  const _AboutStory({required this.source, required this.language});
+
+  @override
+  Widget build(BuildContext context) {
+    final adaptation =
+        language == AppLanguage.english && source.adaptationBasisEn.isNotEmpty
+            ? source.adaptationBasisEn
+            : source.adaptationBasisAm;
+    final culturalContext =
+        language == AppLanguage.english && source.culturalContextEn.isNotEmpty
+            ? source.culturalContextEn
+            : source.culturalContextAm;
+
+    return Card(
+      margin: EdgeInsets.zero,
+      child: ExpansionTile(
+        leading: const Icon(Icons.info_outline),
+        title: Text(language.choose(
+          amharic: 'ስለዚህ ታሪክ',
+          english: 'About this story',
+        )),
+        childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+        expandedCrossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (source.originCommunity.isNotEmpty)
+            _AboutRow(
+              label: language.choose(amharic: 'መነሻ', english: 'Origin'),
+              value: source.originCommunity,
+            ),
+          if (adaptation.isNotEmpty)
+            _AboutRow(
+              label: language.choose(
+                amharic: 'የታሪኩ መሠረት',
+                english: 'Adaptation basis',
+              ),
+              value: adaptation,
+            ),
+          if (culturalContext.isNotEmpty)
+            _AboutRow(
+              label: language.choose(
+                amharic: 'ባህላዊ አውድ',
+                english: 'Cultural context',
+              ),
+              value: culturalContext,
+            ),
+          if (source.reviewStatus.isNotEmpty)
+            _AboutRow(
+              label: language.choose(amharic: 'ግምገማ', english: 'Review'),
+              value: source.reviewStatus,
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _AboutRow extends StatelessWidget {
+  final String label;
+  final String value;
+
+  const _AboutRow({required this.label, required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(label, style: const TextStyle(fontWeight: FontWeight.bold)),
+          const SizedBox(height: 4),
+          Text(value, style: const TextStyle(height: 1.45)),
+        ],
+      ),
+    );
   }
 }
 
