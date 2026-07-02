@@ -29,7 +29,7 @@ The manifest is an ordered JSON list of story IDs:
 ]
 ```
 
-Required story fields:
+Target launch story fields:
 
 ```json
 {
@@ -40,7 +40,9 @@ Required story fields:
   "titleAm": "Amharic title",
   "titleEn": "English title",
   "summaryAm": "Short Amharic summary",
+  "summaryEn": "Short natural English summary",
   "moralAm": "Short Amharic moral",
+  "moralEn": "Short natural English theme",
   "source": {
     "type": "public_domain",
     "name": "Source collection",
@@ -66,7 +68,7 @@ Required page fields:
 {
   "pageNumber": 1,
   "textAm": "Amharic page text",
-  "textEn": "Optional English helper text",
+  "textEn": "Complete natural English page text",
   "imageUrl": "assets/images/stories/story_id_page_01.webp",
   "illustrationPrompt": "Short prompt for future image generation",
   "audioUrl": null
@@ -77,6 +79,11 @@ New metadata fields are optional in Dart parsing so older Firestore documents,
 Hive cache entries, and local JSON files continue to load. New content should
 include the full schema so future audio, review, and collection workflows have
 the data they need.
+
+`summaryEn` and `moralEn` are approved launch fields but are not yet parsed by
+the current Dart model. Add them through a backward-compatible model/export
+change before integrating the bilingual pilot; their absence in the existing
+review corpus is expected until then.
 
 Use `draft` only for incomplete placeholders. Use `ready_for_review` when a
 story has complete child-friendly text, metadata, page prompts, and audio
@@ -103,11 +110,11 @@ image asset, and each referenced asset must exist in `assets/images/stories/`.
 Prefer page-specific art when it matches the beat, but deliberate reuse of a
 cover or page image is acceptable when it keeps recurring characters visually
 consistent.
-Story length should be driven by the story, not by a fixed upper page count.
-Six pages and ten pages are not targets or limits. When adding pages during
-expansion, add only the pages needed for clear setup, transitions, emotional
-beats, and resolution. Add matching local WebP artwork for every new page and
-keep page numbers sequential.
+Story length should be driven by the story, not by screen size or a fixed page
+count. Six pages and ten pages are neither targets nor limits. Read the complete
+story for continuity, adding pages for clear setup, transitions, emotional
+beats, action, and resolution. Add matching local WebP artwork whenever existing
+art does not accurately support a new page, and keep page numbers sequential.
 
 ## Illustration Style
 

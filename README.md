@@ -23,7 +23,7 @@ offline access, and safe public-domain-inspired adaptations.
 - Favorite stories with local persistence and a library favorites filter
 - Library search across Amharic titles, English titles, summaries,
   collections, and themes
-- Audio-ready metadata and placeholder UI
+- Audio-ready metadata; unfinished playback controls are scheduled for removal
 - Android release package and launcher label configured for Teret Bet
 - Web, iOS, and macOS display metadata configured with the Teret Bet name
 - Branded launcher icons for Android, iOS, macOS, and web
@@ -96,7 +96,7 @@ To add a story:
 
 1. Create `assets/stories/story_id.json`.
 2. Add complete metadata, pages, audio placeholders, and illustration prompts.
-3. Add cover/page images to `assets/images/stories/` or use temporary hosted placeholder URLs.
+3. Add approved cover/page images to `assets/images/stories/`.
 4. Add `story_id` to `assets/stories/story_manifest.json`.
 5. Run `flutter test`.
 6. Run the app and open the story from the library.
@@ -166,10 +166,11 @@ another bundled image when that keeps recurring characters visually consistent.
 
 ### Catalog Expansion Status
 
-Story length is content-driven. Do not force stories into a six-page or
-ten-page shape; ten pages is not an upper limit. Use as many pages as each
-story needs. Every added page must include matching local WebP artwork and a
-complete page entry in the story JSON.
+Story length is content-driven. Never force stories into a six-page, ten-page,
+or screen-sized shape. Read the whole narrative for continuity and add as many
+pages as its setup, transitions, emotion, action, and resolution require. Every
+added page needs a complete JSON entry and matching local WebP artwork whenever
+existing art does not accurately support the new beat.
 
 Expanded so far:
 
@@ -249,21 +250,22 @@ locations.
 
 ## Reading Progress And Settings
 
-The reader saves the last opened page for each story in Hive. When the story is
-opened again, it starts from that saved page. Readers can move with swipes,
-previous/next buttons, or the page slider.
+The reader currently saves the last opened page for each story in Hive. When
+the story is opened again, it starts from that saved page. Readers can move
+with swipes, previous/next buttons, or the page slider.
 
-Reader font size is also stored in Hive from the Settings screen. The language
-toggle is shown as a disabled placeholder for a future multilingual release.
-The reader also includes text-size buttons so parents can adjust the story while
-reading.
+Reader font size is also stored in Hive. Launch planning now requires Amharic
+and English selection with same-page switching; that behavior is not yet
+implemented. The reader includes text-size buttons so parents can adjust the
+story while reading.
 
 Favorite story IDs are stored locally in Hive so children and parents can keep a
 small personal shelf even when the app is offline. The home library can switch
 between all stories and favorite stories.
 
-Stories now include nullable audio metadata. The details and reader screens show
-audio placeholders, but playback packages are intentionally deferred.
+Stories include nullable audio metadata. Playback packages are intentionally
+deferred, and the unfinished details/reader audio placeholders are scheduled
+for removal before release.
 
 All current manifest stories use local image assets so web and mobile feedback
 builds do not depend on placeholder image URLs. Each story page has its own

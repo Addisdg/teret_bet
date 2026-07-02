@@ -1,84 +1,69 @@
 # Roadmap
 
-## Completed
+Quality gates, not dates, determine movement between phases.
 
-* Flutter setup
-* Firebase setup
-* Firestore integration
-* Local JSON fallback
-* Hive caching
-* First story
-* Multiple local JSON stories
-* Reading progress persistence
-* Settings screen with font size control
-* StoryRepository, FirestoreStoryService, and LocalStoryService split
-* Local story cover illustrations
-* Local per-page story illustrations
-* Optimized bundled WebP story assets
-* Story content schema documentation
-* More polished reader controls
-* Better illustrations
-* More local story content
-* 50-story foundation documentation
-* Story schema upgrade for content roadmap
-* Manifest-based 50-story local catalog
-* Audio-ready UI placeholders
-* First Batch 1 story adaptation: lion_and_mouse
-* Second Batch 1 story adaptation: tortoise_and_hare
-* Third Batch 1 story adaptation: fox_and_grapes
-* Fourth Batch 1 story adaptation: ant_and_grasshopper
-* Fifth Batch 1 story adaptation: crow_and_pitcher
-* Sixth Batch 1 story adaptation: boy_who_cried_wolf
-* Seventh Batch 1 story adaptation: north_wind_and_sun
-* Eighth Batch 1 story adaptation: dog_and_reflection
-* Ninth Batch 1 story adaptation: goose_golden_eggs
-* Feedback-ready local MVP catalog
-* Local cover illustrations for all current manifest stories
-* Removed placeholder image URLs from local story JSON
-* Cover-style local page illustrations for all current manifest stories
-* Favorite stories with local persistence and library filtering
-* Library search for Amharic titles, English titles, summaries, collections,
-  and themes
-* First catalog expansion batch with longer adaptations and page-specific local
-  artwork
-* Second catalog expansion batch with longer adaptations and page-specific local
-  artwork
-* Expanded selected narrative-heavy stories beyond 10 pages after story-length
-  review
-* First six-page backlog batch expanded with matching page-specific local art
-* Second six-page backlog batch expanded with matching page-specific local art
-* Third six-page backlog batch expanded with matching page-specific local art
-* Fourth six-page backlog batch expanded with matching page-specific local art
-* Fifth six-page backlog batch expanded with matching page-specific local art
-* Final six-page backlog batch expanded with matching page-specific local art
+## Phase 0 — Product foundation
 
-## Next
+- Reconcile project instructions and planning documents.
+- Establish product definition, editorial style, illustration system,
+  provenance register, story board, decision log, and release checklists.
+- Audit the live app, data model, bundle size, accessibility, and stale claims.
 
-### Phase 1
+Exit: owner approves the foundation documents and first pilot plan.
 
-* Re-audit the full 50-story catalog by reading flow, not page count
-* Check Amharic wording, age fit, and illustration match across expanded stories
-* Add matching page-specific local WebP art for any future new page
-* For each expansion batch, run `dart run tool/catalog_qa.dart`,
-  `flutter analyze`, `flutter test`, and a launch smoke check
-* Review full 50-story wording with parent/child feedback
-* Polish story wording and page art based on feedback
-* Resolve any final launch-blocking UI issues found during catalog review
-* Upload reviewed 50-story catalog to Firestore
-* Prepare Android release signing credentials outside the repository
+## Phase 1 — Five-story pilot
 
-### Phase 2
+- Research and approve three Ethiopian-origin candidates and two international
+  repairs.
+- Draft independent natural Amharic and English adaptations.
+- Let narrative continuity determine page count; add pages and new image scope
+  wherever a beat feels cramped.
+- Complete read-aloud, cultural, age-fit, text-lock, illustration, offline, and
+  app QA gates.
 
-* Audio narration
-* Language toggle
+Exit: all five pilot stories are `Release ready` and the workflow is proven.
 
-### Phase 3
+## Phase 2 — Product shell
 
-* Downloads
-* Parent dashboard
-* Analytics
+- First-launch language selection and same-page switching.
+- Discover, Favourites, and Settings navigation.
+- Search plus age and theme filters.
+- Continue Reading and latest-20 Recently Read with clear-history action.
+- Manual bedtime mode and removal of unfinished audio controls.
+- Accessibility, portrait/landscape, and responsive-device improvements.
 
-### Phase 4
+Exit: approved pilot stories work in the complete release interaction model.
 
-* Monetization
-* Publishing
+## Phase 3 — Remaining catalogue
+
+- Process the remaining 45 slots in owner-approved five-story batches.
+- Reach at least 10 verified Ethiopian-origin stories while keeping 50 total.
+- Maintain provenance and illustration logs for every story and asset.
+- Keep the catalogue frozen beyond 50.
+
+Exit: every story is `Release ready`.
+
+## Phase 4 — Release hardening
+
+- Reduce the current approximately 180 MB release bundle toward 100 MB without
+  visibly harming illustrations.
+- Complete airplane-mode first-launch, Pixel 8a, emulator, accessibility,
+  performance, signed-build, and Firestore verification.
+- Create support email, domain/site, privacy policy, store assets, and accurate
+  Play Families/Data safety declarations.
+
+Exit: all product and store release gates pass.
+
+## Phase 5 — Testing and launch
+
+- Internal test, then controlled Google Play closed test with at least 12 parent
+  testers.
+- Collect parent-only feedback without child identity.
+- Resolve release blockers before public production.
+
+## Post-launch
+
+- Decide human versus reviewed synthetic narration and implement audio.
+- Consider minimal crash reporting only after privacy/SDK review.
+- Resume catalogue growth only after launch feedback is resolved.
+- Consider iOS and other languages after Android quality is stable.

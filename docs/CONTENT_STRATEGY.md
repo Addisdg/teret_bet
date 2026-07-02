@@ -19,7 +19,7 @@ Secondary audiences:
 
 * Early childhood teachers
 * Community language programs
-* Families who want bilingual Amharic/English support later
+* Families who want natural bilingual Amharic/English support at launch
 
 ## Amharic-First Strategy
 
@@ -27,8 +27,9 @@ Teret Bet should treat Amharic as the primary experience, not a translation
 afterthought. Story titles, summaries, page text, reader controls, and audio
 planning should start from natural Amharic.
 
-English can support parents and future bilingual mode, but the main reading
-flow should remain simple, warm, and Amharic-led.
+English supports parents and diaspora children at launch, but the main reading
+flow should remain simple, warm, and Amharic-led. Each language must be a
+complete natural adaptation rather than a literal translation or summary.
 
 ## Ethiopian Diaspora Use Case
 

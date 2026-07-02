@@ -5,16 +5,21 @@
 Stories for the MVP should be short enough for bedtime reading but long enough
 to feel like complete stories instead of summaries:
 
-* At least 6 pages per story for ages 3-6
-* Use as many pages as the story needs; do not force a 6-page or 10-page limit
+* Use as many pages as the story needs; there is no fixed minimum shape or upper
+  page limit
+* Add pages whenever setup, transition, emotion, action, or resolution feels
+  cramped
 * 1-3 short sentences per page
 * One clear action or emotional beat per page
 * Simple page endings that invite the child to continue
+* Matching artwork for every new page when existing art does not accurately
+  support the beat
 
 ## Language
 
-Use simple, natural Amharic. The goal is not literal translation. The goal is a
-warm Amharic story that a parent can comfortably read aloud.
+Use simple, natural Amharic and English. The goal is not literal translation.
+Each language should be a warm complete story that a parent can comfortably
+read aloud while preserving the same page beats.
 
 Prefer:
 
