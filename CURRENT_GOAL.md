@@ -45,6 +45,14 @@ research.
 - Every page has accurate, consistent, provenance-recorded artwork.
 - Catalogue, accessibility, offline, app, and Pixel 8a checks pass.
 
+## Current checkpoint
+
+All five pilot drafts have provisional owner language approval. The active gate
+is privacy-safe family read-aloud and age-fit review using
+`docs/PILOT_FAMILY_REVIEW_GUIDE.md`. Do not lock text or begin final
+illustrations until material family findings are resolved and the owner gives
+explicit approval.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

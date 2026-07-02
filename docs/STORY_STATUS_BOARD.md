@@ -35,3 +35,7 @@ The three Ethiopian candidates are proposed replacements for `little_match_girl`
 | Stories at `Release ready` | 0 | 50 |
 
 Update this board after every owner approval and completed quality gate.
+
+Family-test instructions, scorecards, and de-identified results are maintained
+in `PILOT_FAMILY_REVIEW_GUIDE.md`, `PILOT_FAMILY_REVIEW_SCORECARD.md`, and
+`PILOT_FAMILY_REVIEW_RESULTS.md`.
