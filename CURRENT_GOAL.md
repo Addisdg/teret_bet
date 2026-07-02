@@ -53,6 +53,11 @@ is privacy-safe family read-aloud and age-fit review using
 illustrations until material family findings are resolved and the owner gives
 explicit approval.
 
+The independent app baseline is recorded in `docs/APP_BASELINE_AUDIT.md`.
+While family testing is external, the next recommended implementation batch is
+the release-contract foundation: persistent bilingual state and removal of
+unfinished audio UI, without integrating unapproved pilot text.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
