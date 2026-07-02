@@ -7,7 +7,9 @@ class Story {
   final String titleEn;
   final String coverImage;
   final String summaryAm;
+  final String summaryEn;
   final String moralAm;
+  final String moralEn;
   final StorySource source;
   final int ageMin;
   final int ageMax;
@@ -23,7 +25,9 @@ class Story {
     required this.titleEn,
     required this.coverImage,
     required this.summaryAm,
+    this.summaryEn = '',
     this.moralAm = '',
+    this.moralEn = '',
     StorySource? source,
     required this.ageMin,
     required this.ageMax,
@@ -52,7 +56,9 @@ class Story {
       coverImage: _readString(data['coverImage']),
       summaryAm: _readString(data['summaryAm'],
           fallback: _readString(data['summary'])),
+      summaryEn: _readString(data['summaryEn']),
       moralAm: _readString(data['moralAm']),
+      moralEn: _readString(data['moralEn']),
       source: StorySource.fromMap(_readMap(data['source'])),
       ageMin: _readInt(data['ageMin'], fallback: 3),
       ageMax: _readInt(data['ageMax'], fallback: 6),
@@ -73,7 +79,9 @@ class Story {
       titleEn: titleEn,
       coverImage: coverImage ?? this.coverImage,
       summaryAm: summaryAm,
+      summaryEn: summaryEn,
       moralAm: moralAm,
+      moralEn: moralEn,
       source: source,
       ageMin: ageMin,
       ageMax: ageMax,
@@ -92,7 +100,9 @@ class Story {
       'titleEn': titleEn,
       'coverImage': coverImage,
       'summaryAm': summaryAm,
+      'summaryEn': summaryEn,
       'moralAm': moralAm,
+      'moralEn': moralEn,
       'source': source.toJson(),
       'ageMin': ageMin,
       'ageMax': ageMax,

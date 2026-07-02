@@ -58,6 +58,12 @@ While family testing is external, the next recommended implementation batch is
 the release-contract foundation: persistent bilingual state and removal of
 unfinished audio UI, without integrating unapproved pilot text.
 
+The bilingual release contract is now implemented on its feature branch and
+recorded in `docs/BILINGUAL_RELEASE_CONTRACT.md`: first-launch selection,
+persistent Amharic/English settings, same-page reader switching, safe Amharic
+fallbacks for incomplete English records, and removal of unfinished audio UI.
+The pilot content remains outside the application pending family review.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

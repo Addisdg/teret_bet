@@ -10,6 +10,7 @@ import 'package:teret_bet_app/features/stories/data/models/story_page_model.dart
 import 'package:teret_bet_app/features/stories/data/repositories/story_repository.dart';
 import 'package:teret_bet_app/features/stories/data/services/firestore_story_service.dart';
 import 'package:teret_bet_app/features/stories/data/services/local_story_service.dart';
+import 'package:teret_bet_app/features/stories/presentation/localization/app_language.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/story_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
@@ -127,6 +128,8 @@ void main() {
 
     expect(story.id, 'old_story');
     expect(story.summaryAm, 'Old summary field');
+    expect(story.summaryEn, isEmpty);
+    expect(story.moralEn, isEmpty);
     expect(story.collection, '');
     expect(story.status, 'published');
     expect(story.ageMin, 3);
@@ -533,6 +536,22 @@ void main() {
     await box.deleteFromDisk();
   });
 
+  test('settings provider persists the selected language', () async {
+    final box = await Hive.openBox('settings_language_test');
+    final settings = SettingsProvider(settingsBox: box);
+
+    expect(settings.hasSelectedLanguage, isFalse);
+    expect(settings.language, AppLanguage.amharic);
+
+    await settings.selectLanguage(AppLanguage.english);
+
+    final restored = SettingsProvider(settingsBox: box);
+    expect(restored.hasSelectedLanguage, isTrue);
+    expect(restored.language, AppLanguage.english);
+
+    await box.deleteFromDisk();
+  });
+
   test('story provider saves and restores favorite stories', () async {
     final cache = await Hive.openBox('favorites_story_cache_test');
     final settings = await Hive.openBox('favorites_settings_test');
@@ -745,7 +764,7 @@ void main() {
     await settings.deleteFromDisk();
   });
 
-  testWidgets('story details shows audio coming soon when audio is missing',
+  testWidgets('story details does not show unfinished audio controls',
       (tester) async {
     final repository = StoryRepository(
       firestoreService: _ThrowingFirestoreStoryService(),
@@ -754,11 +773,18 @@ void main() {
     );
 
     await tester.pumpWidget(
-      ChangeNotifierProvider(
-        create: (_) => StoryProvider(
-          repository: repository,
-          settingsBox: widgetSettingsBox,
-        ),
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (_) => StoryProvider(
+              repository: repository,
+              settingsBox: widgetSettingsBox,
+            ),
+          ),
+          ChangeNotifierProvider(
+            create: (_) => SettingsProvider(settingsBox: widgetSettingsBox),
+          ),
+        ],
         child: MaterialApp(
           home: StoryDetailsScreen(
             story: Story(
@@ -775,8 +801,8 @@ void main() {
       ),
     );
 
-    expect(find.text('ድምፅ በቅርቡ'), findsOneWidget);
-    expect(find.byIcon(Icons.headphones), findsOneWidget);
+    expect(find.text('ድምፅ በቅርቡ'), findsNothing);
+    expect(find.byIcon(Icons.headphones), findsNothing);
 
     await tester.pumpWidget(const SizedBox.shrink());
   });
@@ -790,11 +816,18 @@ void main() {
     );
 
     await tester.pumpWidget(
-      ChangeNotifierProvider(
-        create: (_) => StoryProvider(
-          repository: repository,
-          settingsBox: widgetSettingsBox,
-        ),
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (_) => StoryProvider(
+              repository: repository,
+              settingsBox: widgetSettingsBox,
+            ),
+          ),
+          ChangeNotifierProvider(
+            create: (_) => SettingsProvider(settingsBox: widgetSettingsBox),
+          ),
+        ],
         child: MaterialApp(
           home: StoryDetailsScreen(
             story: Story(

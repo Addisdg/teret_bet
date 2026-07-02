@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../localization/app_language.dart';
+import '../providers/settings_provider.dart';
 import '../providers/story_provider.dart';
 import 'settings_screen.dart';
 import '../widgets/story_card.dart';
@@ -29,14 +31,15 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<StoryProvider>(context);
+    final language = context.watch<SettingsProvider>().language;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ተረት ቤት'),
+        title: Text(language.choose(amharic: 'ተረት ቤት', english: 'Teret Bet')),
         centerTitle: true,
         actions: [
           IconButton(
-            tooltip: 'Settings',
+            tooltip: language.choose(amharic: 'ቅንብሮች', english: 'Settings'),
             icon: const Icon(Icons.settings),
             onPressed: () {
               Navigator.push(
@@ -51,16 +54,18 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: provider.isLoading
           ? const Center(child: CircularProgressIndicator())
-          : _StoryLibraryBody(provider: provider),
+          : _StoryLibraryBody(provider: provider, language: language),
     );
   }
 }
 
 class _StoryLibraryBody extends StatefulWidget {
   final StoryProvider provider;
+  final AppLanguage language;
 
   const _StoryLibraryBody({
     required this.provider,
+    required this.language,
   });
 
   @override
@@ -71,6 +76,7 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
   late final TextEditingController _searchController;
 
   StoryProvider get provider => widget.provider;
+  AppLanguage get language => widget.language;
 
   @override
   void initState() {
@@ -97,15 +103,21 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
   Widget build(BuildContext context) {
     if (provider.errorMessage != null) {
       return _LibraryMessage(
-        message: provider.errorMessage!,
-        actionText: 'እንደገና ሞክር',
+        message: language.choose(
+          amharic: 'ታሪኮችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።',
+          english: 'Stories could not be loaded. Please try again.',
+        ),
+        actionText: language.choose(amharic: 'እንደገና ሞክር', english: 'Try again'),
         onPressed: provider.loadStories,
       );
     }
 
     if (provider.stories.isEmpty) {
-      return const _LibraryMessage(
-        message: 'እስካሁን ታሪኮች አልተገኙም።',
+      return _LibraryMessage(
+        message: language.choose(
+          amharic: 'እስካሁን ታሪኮች አልተገኙም።',
+          english: 'No stories have been found yet.',
+        ),
       );
     }
 
@@ -123,11 +135,13 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
                 textInputAction: TextInputAction.search,
                 onChanged: provider.setSearchQuery,
                 decoration: InputDecoration(
-                  hintText: 'ታሪክ ፈልግ',
+                  hintText: language.choose(
+                      amharic: 'ታሪክ ፈልግ', english: 'Search stories'),
                   prefixIcon: const Icon(Icons.search),
                   suffixIcon: hasSearch
                       ? IconButton(
-                          tooltip: 'ፍለጋን አጥፋ',
+                          tooltip: language.choose(
+                              amharic: 'ፍለጋን አጥፋ', english: 'Clear search'),
                           icon: const Icon(Icons.close),
                           onPressed: () {
                             _searchController.clear();
@@ -140,16 +154,18 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
               ),
               const SizedBox(height: 10),
               SegmentedButton<bool>(
-                segments: const [
+                segments: [
                   ButtonSegment(
                     value: false,
-                    icon: Icon(Icons.menu_book),
-                    label: Text('ሁሉም'),
+                    icon: const Icon(Icons.menu_book),
+                    label:
+                        Text(language.choose(amharic: 'ሁሉም', english: 'All')),
                   ),
                   ButtonSegment(
                     value: true,
-                    icon: Icon(Icons.favorite),
-                    label: Text('የተወደዱ'),
+                    icon: const Icon(Icons.favorite),
+                    label: Text(language.choose(
+                        amharic: 'የተወደዱ', english: 'Favorites')),
                   ),
                 ],
                 selected: {provider.showFavoritesOnly},
@@ -159,13 +175,14 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
               ),
               if (provider.availableCollections.isNotEmpty) ...[
                 const SizedBox(height: 10),
-                _CollectionFilter(provider: provider),
+                _CollectionFilter(provider: provider, language: language),
               ],
               const SizedBox(height: 8),
               _LibraryStatusBar(
                 visibleCount: visibleStories.length,
                 totalCount: provider.stories.length,
                 hasActiveFilters: provider.hasActiveFilters,
+                language: language,
                 onClearFilters: () {
                   _searchController.clear();
                   provider.clearFilters();
@@ -210,30 +227,44 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
     final hasCollection = provider.selectedCollection != null;
 
     if (hasSearch && provider.showFavoritesOnly && hasCollection) {
-      return 'በዚህ ምድብ እና በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'በዚህ ምድብ እና በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።',
+          english: 'No matching favorite story was found in this collection.');
     }
 
     if (hasSearch && provider.showFavoritesOnly) {
-      return 'በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'በተወደዱ ታሪኮች ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።',
+          english: 'No matching favorite story was found.');
     }
 
     if (hasSearch && hasCollection) {
-      return 'በዚህ ምድብ ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'በዚህ ምድብ ውስጥ ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።',
+          english: 'No matching story was found in this collection.');
     }
 
     if (hasSearch) {
-      return 'ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'ይህን ፍለጋ የሚመስል ታሪክ አልተገኘም።',
+          english: 'No matching story was found.');
     }
 
     if (hasCollection && provider.showFavoritesOnly) {
-      return 'በዚህ ምድብ ውስጥ የተወደደ ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'በዚህ ምድብ ውስጥ የተወደደ ታሪክ አልተገኘም።',
+          english: 'There are no favorite stories in this collection.');
     }
 
     if (hasCollection) {
-      return 'በዚህ ምድብ ውስጥ ታሪክ አልተገኘም።';
+      return language.choose(
+          amharic: 'በዚህ ምድብ ውስጥ ታሪክ አልተገኘም።',
+          english: 'No stories were found in this collection.');
     }
 
-    return 'እስካሁን የተወደዱ ታሪኮች የሉም።';
+    return language.choose(
+        amharic: 'እስካሁን የተወደዱ ታሪኮች የሉም።',
+        english: 'You have no favorite stories yet.');
   }
 }
 
@@ -242,20 +273,26 @@ class _LibraryStatusBar extends StatelessWidget {
   final int totalCount;
   final bool hasActiveFilters;
   final VoidCallback onClearFilters;
+  final AppLanguage language;
 
   const _LibraryStatusBar({
     required this.visibleCount,
     required this.totalCount,
     required this.hasActiveFilters,
     required this.onClearFilters,
+    required this.language,
   });
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final countText = hasActiveFilters
-        ? '$visibleCount / $totalCount ታሪኮች'
-        : '$totalCount ታሪኮች';
+    final countText = language == AppLanguage.english
+        ? (hasActiveFilters
+            ? '$visibleCount / $totalCount stories'
+            : '$totalCount stories')
+        : (hasActiveFilters
+            ? '$visibleCount / $totalCount ታሪኮች'
+            : '$totalCount ታሪኮች');
 
     return Row(
       children: [
@@ -271,7 +308,8 @@ class _LibraryStatusBar extends StatelessWidget {
           TextButton.icon(
             onPressed: onClearFilters,
             icon: const Icon(Icons.clear_all),
-            label: const Text('ማጣሪያ አጥፋ'),
+            label: Text(
+                language.choose(amharic: 'ማጣሪያ አጥፋ', english: 'Clear filters')),
           ),
       ],
     );
@@ -280,9 +318,11 @@ class _LibraryStatusBar extends StatelessWidget {
 
 class _CollectionFilter extends StatelessWidget {
   final StoryProvider provider;
+  final AppLanguage language;
 
   const _CollectionFilter({
     required this.provider,
+    required this.language,
   });
 
   @override
@@ -297,7 +337,8 @@ class _CollectionFilter extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(right: 8),
             child: FilterChip(
-              label: const Text('ሁሉም ምድቦች'),
+              label: Text(language.choose(
+                  amharic: 'ሁሉም ምድቦች', english: 'All collections')),
               selected: selectedCollection == null,
               onSelected: (_) {
                 provider.setSelectedCollection(null);
@@ -308,7 +349,7 @@ class _CollectionFilter extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 8),
               child: FilterChip(
-                label: Text(_collectionLabel(collection)),
+                label: Text(_collectionLabel(collection, language)),
                 selected: selectedCollection == collection,
                 onSelected: (_) {
                   provider.setSelectedCollection(collection);
@@ -320,7 +361,19 @@ class _CollectionFilter extends StatelessWidget {
     );
   }
 
-  String _collectionLabel(String collection) {
+  String _collectionLabel(String collection, AppLanguage language) {
+    if (language == AppLanguage.english) {
+      return switch (collection) {
+        'original' => 'Original',
+        'aesop' => 'Aesop',
+        'grimm' => 'Grimm',
+        'andersen' => 'Andersen',
+        'world_classics' => 'World classics',
+        'world_folktales' => 'World folktales',
+        'african_folktales' => 'African',
+        _ => collection,
+      };
+    }
     return switch (collection) {
       'original' => 'ኦሪጅናል',
       'aesop' => 'ኤሶፕ',

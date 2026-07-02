@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
+import '../localization/app_language.dart';
+
 class SettingsProvider with ChangeNotifier {
   static const double minFontSize = 20;
   static const double maxFontSize = 34;
   static const double defaultFontSize = 25;
   static const double fontSizeStep = 2;
+  static const String _languageKey = 'app_language';
 
   final Box _settingsBox;
 
@@ -24,6 +27,19 @@ class SettingsProvider with ChangeNotifier {
     }
 
     return defaultFontSize;
+  }
+
+  AppLanguage? get selectedLanguage {
+    return AppLanguage.fromStorage(_settingsBox.get(_languageKey));
+  }
+
+  AppLanguage get language => selectedLanguage ?? AppLanguage.amharic;
+
+  bool get hasSelectedLanguage => selectedLanguage != null;
+
+  Future<void> selectLanguage(AppLanguage language) async {
+    await _settingsBox.put(_languageKey, language.storageValue);
+    notifyListeners();
   }
 
   Future<void> updateFontSize(double value) async {

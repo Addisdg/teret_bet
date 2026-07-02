@@ -158,6 +158,7 @@ class StoryProvider with ChangeNotifier {
       story.titleAm,
       story.titleEn,
       story.summaryAm,
+      story.summaryEn,
       story.collection,
       ...story.themes,
     ].join(' ').toLowerCase();

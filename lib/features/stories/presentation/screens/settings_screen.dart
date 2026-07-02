@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../localization/app_language.dart';
 import '../providers/settings_provider.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -9,22 +10,27 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final settings = Provider.of<SettingsProvider>(context);
+    final language = settings.language;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ቅንብሮች'),
+        title: Text(language.choose(amharic: 'ቅንብሮች', english: 'Settings')),
         centerTitle: true,
       ),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: [
           Text(
-            'የጽሑፍ መጠን',
+            language.choose(amharic: 'የጽሑፍ መጠን', english: 'Text size'),
             style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(height: 8),
           Text(
-            'አባትና እናት ለልጆች ሲያነቡ ጽሑፉን ትልቅ ወይም ትንሽ ማድረግ ይችላሉ።',
+            language.choose(
+              amharic: 'አባትና እናት ለልጆች ሲያነቡ ጽሑፉን ትልቅ ወይም ትንሽ ማድረግ ይችላሉ።',
+              english:
+                  'Make the story text larger or smaller for reading together.',
+            ),
             style: TextStyle(
               fontSize: settings.fontSize,
               height: 1.5,
@@ -43,16 +49,27 @@ class SettingsScreen extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: TextButton(
               onPressed: settings.resetFontSize,
-              child: const Text('ወደ መደበኛ መልስ'),
+              child: Text(language.choose(
+                amharic: 'ወደ መደበኛ መልስ',
+                english: 'Reset text size',
+              )),
             ),
           ),
           const Divider(height: 36),
-          SwitchListTile(
-            value: false,
-            onChanged: null,
-            title: const Text('ቋንቋ'),
-            subtitle:
-                const Text('Amharic only for MVP. Language toggle later.'),
+          Text(
+            language.choose(amharic: 'ቋንቋ', english: 'Language'),
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          const SizedBox(height: 10),
+          SegmentedButton<AppLanguage>(
+            segments: const [
+              ButtonSegment(value: AppLanguage.amharic, label: Text('አማርኛ')),
+              ButtonSegment(value: AppLanguage.english, label: Text('English')),
+            ],
+            selected: {language},
+            onSelectionChanged: (selection) {
+              settings.selectLanguage(selection.first);
+            },
           ),
         ],
       ),

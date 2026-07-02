@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../data/models/story_model.dart';
+import '../localization/app_language.dart';
+import '../providers/settings_provider.dart';
 import '../providers/story_provider.dart';
 import '../screens/story_details_screen.dart';
 import 'story_image.dart';
@@ -17,7 +19,11 @@ class StoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final storyProvider = context.watch<StoryProvider>();
+    final language = context.watch<SettingsProvider>().language;
     final isFavorite = storyProvider.isFavorite(story.id);
+    final title = language == AppLanguage.english && story.titleEn.isNotEmpty
+        ? story.titleEn
+        : story.titleAm;
 
     return InkWell(
       borderRadius: BorderRadius.circular(18),
@@ -57,8 +63,11 @@ class StoryCard extends StatelessWidget {
                         shape: BoxShape.circle,
                       ),
                       child: IconButton(
-                        tooltip:
-                            isFavorite ? 'Remove favorite' : 'Add favorite',
+                        tooltip: language.choose(
+                          amharic: isFavorite ? 'ከተወዳጅ አስወግድ' : 'ወደ ተወዳጅ ጨምር',
+                          english:
+                              isFavorite ? 'Remove favorite' : 'Add favorite',
+                        ),
                         icon: Icon(
                           isFavorite ? Icons.favorite : Icons.favorite_border,
                         ),
@@ -77,7 +86,7 @@ class StoryCard extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(10),
               child: Text(
-                story.titleAm,
+                title,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 17,

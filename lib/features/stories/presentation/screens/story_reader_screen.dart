@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../../data/models/story_model.dart';
 import '../../data/models/story_page_model.dart';
 import '../../data/repositories/story_repository.dart';
+import '../localization/app_language.dart';
 import '../providers/settings_provider.dart';
 import '../widgets/story_image.dart';
 
@@ -114,6 +115,11 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
   @override
   Widget build(BuildContext context) {
     final settings = Provider.of<SettingsProvider>(context);
+    final language = settings.language;
+    final title =
+        language == AppLanguage.english && widget.story.titleEn.isNotEmpty
+            ? widget.story.titleEn
+            : widget.story.titleAm;
 
     if (_isLoading) {
       return const Scaffold(
@@ -123,10 +129,14 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
 
     if (_errorMessage != null) {
       return Scaffold(
-        appBar: AppBar(title: Text(widget.story.titleAm)),
+        appBar: AppBar(title: Text(title)),
         body: _ReaderMessage(
-          message: _errorMessage!,
-          actionText: 'እንደገና ሞክር',
+          message: language.choose(
+            amharic: 'ታሪኩን መክፈት አልተቻለም። እባክዎ እንደገና ይሞክሩ።',
+            english: 'The story could not be opened. Please try again.',
+          ),
+          actionText:
+              language.choose(amharic: 'እንደገና ሞክር', english: 'Try again'),
           onPressed: _loadPages,
         ),
       );
@@ -134,9 +144,12 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
 
     if (_pages.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: Text(widget.story.titleAm)),
-        body: const _ReaderMessage(
-          message: 'ለዚህ ታሪክ ገጾች አልተገኙም።',
+        appBar: AppBar(title: Text(title)),
+        body: _ReaderMessage(
+          message: language.choose(
+            amharic: 'ለዚህ ታሪክ ገጾች አልተገኙም።',
+            english: 'No pages were found for this story.',
+          ),
         ),
       );
     }
@@ -144,8 +157,19 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFFFF8E7),
       appBar: AppBar(
-        title: Text(widget.story.titleAm),
+        title: Text(title),
         centerTitle: true,
+        actions: [
+          TextButton(
+            onPressed: () {
+              final next = language == AppLanguage.amharic
+                  ? AppLanguage.english
+                  : AppLanguage.amharic;
+              settings.selectLanguage(next);
+            },
+            child: Text(language == AppLanguage.amharic ? 'EN' : 'አማ'),
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -172,6 +196,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                   child: _ReaderPage(
                     page: page,
                     fontSize: settings.fontSize,
+                    language: language,
                   ),
                 );
               },
@@ -190,6 +215,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                     onPageSelected: _goToPage,
                     onDecreaseFontSize: settings.decreaseFontSize,
                     onIncreaseFontSize: settings.increaseFontSize,
+                    language: language,
                   )
                 : const SizedBox.shrink(),
           ),
@@ -202,10 +228,12 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
 class _ReaderPage extends StatelessWidget {
   final StoryPage page;
   final double fontSize;
+  final AppLanguage language;
 
   const _ReaderPage({
     required this.page,
     required this.fontSize,
+    required this.language,
   });
 
   @override
@@ -230,7 +258,10 @@ class _ReaderPage extends StatelessWidget {
             flex: 3,
             child: SingleChildScrollView(
               child: Text(
-                page.textAm,
+                language == AppLanguage.english &&
+                        (page.textEn?.trim().isNotEmpty ?? false)
+                    ? page.textEn!
+                    : page.textAm,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: fontSize,
@@ -255,6 +286,7 @@ class _ReaderControls extends StatelessWidget {
   final ValueChanged<int> onPageSelected;
   final VoidCallback onDecreaseFontSize;
   final VoidCallback onIncreaseFontSize;
+  final AppLanguage language;
 
   const _ReaderControls({
     required this.currentPageIndex,
@@ -265,6 +297,7 @@ class _ReaderControls extends StatelessWidget {
     required this.onPageSelected,
     required this.onDecreaseFontSize,
     required this.onIncreaseFontSize,
+    required this.language,
   });
 
   @override
@@ -284,25 +317,28 @@ class _ReaderControls extends StatelessWidget {
             Row(
               children: [
                 IconButton.filledTonal(
-                  tooltip: 'ጽሑፍ አሳንስ',
+                  tooltip: language.choose(
+                    amharic: 'ጽሑፍ አሳንስ',
+                    english: 'Decrease text size',
+                  ),
                   onPressed: canDecreaseFontSize ? onDecreaseFontSize : null,
                   icon: const Icon(Icons.text_decrease),
                 ),
                 const SizedBox(width: 8),
                 IconButton.filledTonal(
-                  tooltip: 'ጽሑፍ አሳድግ',
+                  tooltip: language.choose(
+                    amharic: 'ጽሑፍ አሳድግ',
+                    english: 'Increase text size',
+                  ),
                   onPressed: canIncreaseFontSize ? onIncreaseFontSize : null,
                   icon: const Icon(Icons.text_increase),
                 ),
-                const SizedBox(width: 8),
-                const IconButton.filledTonal(
-                  tooltip: 'ድምፅ በቅርቡ',
-                  onPressed: null,
-                  icon: Icon(Icons.headphones),
-                ),
                 const Spacer(),
                 Text(
-                  'ገጽ ${currentPageIndex + 1} / $pageCount',
+                  language.choose(
+                    amharic: 'ገጽ ${currentPageIndex + 1} / $pageCount',
+                    english: 'Page ${currentPageIndex + 1} / $pageCount',
+                  ),
                   style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
@@ -326,9 +362,9 @@ class _ReaderControls extends StatelessWidget {
                   child: ElevatedButton.icon(
                     onPressed: canGoBack ? onBack : null,
                     icon: const Icon(Icons.arrow_back),
-                    label: const Text(
-                      'ተመለስ',
-                      style: TextStyle(fontSize: 20),
+                    label: Text(
+                      language.choose(amharic: 'ተመለስ', english: 'Back'),
+                      style: const TextStyle(fontSize: 20),
                     ),
                   ),
                 ),
@@ -337,9 +373,9 @@ class _ReaderControls extends StatelessWidget {
                   child: ElevatedButton.icon(
                     onPressed: canGoNext ? onNext : null,
                     icon: const Icon(Icons.arrow_forward),
-                    label: const Text(
-                      'ቀጣይ',
-                      style: TextStyle(fontSize: 20),
+                    label: Text(
+                      language.choose(amharic: 'ቀጣይ', english: 'Next'),
+                      style: const TextStyle(fontSize: 20),
                     ),
                   ),
                 ),

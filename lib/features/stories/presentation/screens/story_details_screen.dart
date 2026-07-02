@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../data/models/story_model.dart';
+import '../localization/app_language.dart';
+import '../providers/settings_provider.dart';
 import '../providers/story_provider.dart';
 import '../widgets/story_image.dart';
 import 'story_reader_screen.dart';
@@ -17,15 +19,26 @@ class StoryDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final storyProvider = context.watch<StoryProvider>();
+    final language = context.watch<SettingsProvider>().language;
     final isFavorite = storyProvider.isFavorite(story.id);
+    final title = language == AppLanguage.english && story.titleEn.isNotEmpty
+        ? story.titleEn
+        : story.titleAm;
+    final summary =
+        language == AppLanguage.english && story.summaryEn.isNotEmpty
+            ? story.summaryEn
+            : story.summaryAm;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(story.titleAm),
+        title: Text(title),
         centerTitle: true,
         actions: [
           IconButton(
-            tooltip: isFavorite ? 'Remove favorite' : 'Add favorite',
+            tooltip: language.choose(
+              amharic: isFavorite ? 'ከተወዳጅ አስወግድ' : 'ወደ ተወዳጅ ጨምር',
+              english: isFavorite ? 'Remove favorite' : 'Add favorite',
+            ),
             icon: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
             ),
@@ -55,7 +68,7 @@ class StoryDetailsScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 24),
                       Text(
-                        story.titleAm,
+                        title,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                           fontSize: 28,
@@ -64,7 +77,7 @@ class StoryDetailsScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 12),
                       Text(
-                        story.summaryAm,
+                        summary,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                           fontSize: 18,
@@ -72,11 +85,7 @@ class StoryDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 16),
-                      _StoryInfo(story: story),
-                      const SizedBox(height: 16),
-                      _AudioStatus(
-                        audioAvailable: story.audio.storyAudioUrl != null,
-                      ),
+                      _StoryInfo(story: story, language: language),
                     ],
                   ),
                 ),
@@ -94,9 +103,9 @@ class StoryDetailsScreen extends StatelessWidget {
                       ),
                     );
                   },
-                  child: const Text(
-                    'ጀምር',
-                    style: TextStyle(fontSize: 22),
+                  child: Text(
+                    language.choose(amharic: 'ጀምር', english: 'Start'),
+                    style: const TextStyle(fontSize: 22),
                   ),
                 ),
               ),
@@ -110,15 +119,20 @@ class StoryDetailsScreen extends StatelessWidget {
 
 class _StoryInfo extends StatelessWidget {
   final Story story;
+  final AppLanguage language;
 
   const _StoryInfo({
     required this.story,
+    required this.language,
   });
 
   @override
   Widget build(BuildContext context) {
-    final collectionLabel = _collectionLabel(story.collection);
-    final hasMoral = story.moralAm.trim().isNotEmpty;
+    final collectionLabel = _collectionLabel(story.collection, language);
+    final moral = language == AppLanguage.english && story.moralEn.isNotEmpty
+        ? story.moralEn
+        : story.moralAm;
+    final hasMoral = moral.trim().isNotEmpty;
 
     return Column(
       children: [
@@ -129,7 +143,10 @@ class _StoryInfo extends StatelessWidget {
           children: [
             _InfoChip(
               icon: Icons.child_care,
-              label: 'ዕድሜ ${story.ageMin}-${story.ageMax}',
+              label: language.choose(
+                amharic: 'ዕድሜ ${story.ageMin}-${story.ageMax}',
+                english: 'Ages ${story.ageMin}-${story.ageMax}',
+              ),
             ),
             if (collectionLabel != null)
               _InfoChip(
@@ -140,13 +157,23 @@ class _StoryInfo extends StatelessWidget {
         ),
         if (hasMoral) ...[
           const SizedBox(height: 14),
-          _MoralBox(moral: story.moralAm),
+          _MoralBox(moral: moral),
         ],
       ],
     );
   }
 
-  String? _collectionLabel(String collection) {
+  String? _collectionLabel(String collection, AppLanguage language) {
+    if (language == AppLanguage.english) {
+      return switch (collection) {
+        'original' => 'Original stories',
+        'aesop' => 'Fables',
+        'grimm' || 'andersen' => 'Classic tales',
+        'world_classics' || 'world_folktales' => 'World tales',
+        'african_folktales' => 'African tales',
+        _ => null,
+      };
+    }
     return switch (collection) {
       'original' => 'ኦሪጅናል',
       'aesop' => 'ተረት እና ትምህርት',
@@ -240,47 +267,6 @@ class _MoralBox extends StatelessWidget {
                   fontSize: 16,
                   height: 1.5,
                 ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _AudioStatus extends StatelessWidget {
-  final bool audioAvailable;
-
-  const _AudioStatus({
-    required this.audioAvailable,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        color: colorScheme.secondaryContainer,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              audioAvailable ? Icons.volume_up : Icons.headphones,
-              size: 20,
-              color: colorScheme.onSecondaryContainer,
-            ),
-            const SizedBox(width: 8),
-            Text(
-              audioAvailable ? 'ድምፅ ዝግጁ ነው' : 'ድምፅ በቅርቡ',
-              style: TextStyle(
-                color: colorScheme.onSecondaryContainer,
-                fontWeight: FontWeight.w600,
               ),
             ),
           ],
