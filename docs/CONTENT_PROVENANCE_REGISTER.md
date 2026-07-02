@@ -26,9 +26,11 @@ permission. Verify current terms at:
 
 | Story ID | Display title | Origin/community | Primary source | Corroborating source | Adaptation rights | Cultural reviewer | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| _pilot pending_ | The Mouse Deer Who Was Cold at Noon | Wolayita | Ethiopian Story Collecting Project; Yisihak Aldade | Required | Retell motif in original words; do not copy site wording/art | Required | Candidate |
-| _pilot pending_ | The Cub and the Kid | Amhara | Ethiopian Story Collecting Project; Magabi Enyew Gessesse | Required | Retell motif in original words; do not copy site wording/art | Required | Candidate |
-| _pilot pending_ | The Rat King's Son | Oromia | Ethiopian Story Collecting Project; Merga Debelo | Required | Retell motif in original words; do not copy site wording/art | Required | Candidate |
+| _pilot pending_ | The Mouse Deer Who Was Cold at Noon | Wolayita | Ethiopian Story Collecting Project; Yisihak Aldade | Not independently located | Retell motif in original words; do not copy site wording/art | Required | Researched; conditional |
+| _pilot pending_ | The Cub and the Kid | Amhara | Ethiopian Story Collecting Project; Magabi Enyew Gessesse | English Reader from same project; not independent | Retell motif in original words; do not copy site wording/art | Required | Researched; high editorial risk |
+| _pilot pending_ | The Rat King's Son | Oromia | Ethiopian Story Collecting Project; Merga Debelo | African Storybook CC BY 4.0 derivative; not independent origin evidence | New retelling, or comply with full CC BY 4.0 attribution | Required | Researched |
+| lion_and_mouse | The Lion and the Mouse | Aesopic tradition | Library of Congress Aesop collection | Project Gutenberg eBook 28 | Public-domain basis; write new expression and art | Owner language review | Researched |
+| stone_soup | Stone Soup | European/international ATU 1548 | D. L. Ashliman ATU 1548 source map | Early variants listed in source map | Traditional plot only; do not copy modern editions | Owner language review | Researched |
 
 Add current catalogue entries during the full provenance audit. Blank source
 URLs or generic labels such as `public_domain` do not satisfy the release gate.

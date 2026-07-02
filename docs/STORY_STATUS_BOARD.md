@@ -13,11 +13,11 @@ JSON means technically available for review, not editorially approved.
 
 | Slot | Story | Work type | Current status | Next evidence |
 | --- | --- | --- | --- | --- |
-| 1 | The Mouse Deer Who Was Cold at Noon | Ethiopian candidate | Candidate | Corroborating source and age-fit screen |
-| 2 | The Cub and the Kid | Ethiopian candidate | Candidate | Corroborating source and age-fit screen |
-| 3 | The Rat King's Son | Ethiopian candidate | Candidate | Corroborating source and age-fit screen |
-| 4 | The Lion and the Mouse | Existing repair | Candidate | Provenance audit and bilingual flow review |
-| 5 | Stone Soup | Existing repair | Candidate | Provenance audit and bilingual flow review |
+| 1 | The Rat Who Prepared Early | Ethiopian candidate | Language reviewed; provisional | Family read-aloud and age-fit review |
+| 2 | The Cub and the Kid | Ethiopian candidate | Language reviewed; provisional | Family read-aloud and trust/safety review |
+| 3 | The Rat King's Son | Ethiopian candidate | Language reviewed; provisional | Family read-aloud and age-fit review |
+| 4 | The Lion and the Mouse | Existing repair | Language reviewed; provisional | Family read-aloud and age-fit review |
+| 5 | Stone Soup | Existing repair | Language reviewed; provisional | Family read-aloud and age-fit review |
 
 The three Ethiopian candidates are proposed replacements for `little_match_girl`,
 `steadfast_tin_soldier`, and `swineherd`. No manifest change is approved yet.

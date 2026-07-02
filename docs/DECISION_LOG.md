@@ -24,3 +24,4 @@ architecture, privacy, release, or collaboration.
 | 2026-07-02 | Work in owner-approved five-story batches | Human approvals remain explicit; commits and remote actions require permission. |
 | 2026-07-02 | Pixel 8a is the primary physical test device | Supplement with small-phone, older-Android, and tablet emulators. |
 | 2026-07-02 | Teret Bet is the public-facing publisher name initially | Domain, support email, website, and privacy-policy hosting are pre-release tasks. |
+| 2026-07-02 | Approve the five-story pilot selections | Draft three Ethiopian stories plus repairs of The Lion and the Mouse and Stone Soup; provisionally replace The Little Match Girl, The Steadfast Tin Soldier, and The Swineherd. |
