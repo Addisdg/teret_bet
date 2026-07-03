@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -32,7 +34,9 @@ Future<void> _initializeFirebase() async {
   try {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
-    );
+    ).timeout(const Duration(milliseconds: 1200));
+  } on TimeoutException {
+    debugPrint('Firebase initialization timed out; using offline content.');
   } catch (error) {
     // Linux/desktop can still run the MVP from Hive/local JSON assets.
     debugPrint('Firebase unavailable on this platform: $error');

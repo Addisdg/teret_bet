@@ -8,21 +8,27 @@ import '../services/firestore_story_service.dart';
 import '../services/local_story_service.dart';
 
 class StoryRepository {
+  static const defaultCloudTimeout = Duration(milliseconds: 1200);
+
   final FirestoreStoryService _firestoreService;
   final LocalStoryService _localStoryService;
   final Box _cache;
+  final Duration _cloudTimeout;
 
   StoryRepository({
     FirestoreStoryService? firestoreService,
     LocalStoryService? localStoryService,
     Box? cache,
+    Duration cloudTimeout = defaultCloudTimeout,
   })  : _firestoreService = firestoreService ?? FirestoreStoryService(),
         _localStoryService = localStoryService ?? LocalStoryService(),
-        _cache = cache ?? Hive.box('story_cache');
+        _cache = cache ?? Hive.box('story_cache'),
+        _cloudTimeout = cloudTimeout;
 
   Future<List<Story>> fetchStories() async {
     try {
-      final stories = await _firestoreService.fetchStories();
+      final stories =
+          await _firestoreService.fetchStories().timeout(_cloudTimeout);
 
       if (stories.isNotEmpty) {
         final combinedStories = await _combineWithBundledStories(stories);
@@ -44,7 +50,9 @@ class StoryRepository {
 
   Future<List<StoryPage>> fetchStoryPages(String storyId) async {
     try {
-      final pages = await _firestoreService.fetchStoryPages(storyId);
+      final pages = await _firestoreService
+          .fetchStoryPages(storyId)
+          .timeout(_cloudTimeout);
 
       if (pages.isNotEmpty) {
         final pagesWithLocalImages = await _useBundledPageImages(

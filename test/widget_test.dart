@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
@@ -445,6 +446,28 @@ void main() {
 
     expect(stories.single.id, 'local_story');
     expect(pages.single.pageNumber, 1);
+
+    await cache.deleteFromDisk();
+  });
+
+  test('repository bounds unavailable cloud reads before local fallback',
+      () async {
+    final cache = await Hive.openBox('bounded_cloud_fallback_test');
+    final repository = StoryRepository(
+      firestoreService: _NeverCompletingFirestoreStoryService(),
+      localStoryService: _FakeLocalStoryService(),
+      cache: cache,
+      cloudTimeout: const Duration(milliseconds: 20),
+    );
+    final stopwatch = Stopwatch()..start();
+
+    final stories = await repository.fetchStories();
+    final pages = await repository.fetchStoryPages('local_story');
+
+    stopwatch.stop();
+    expect(stories.single.id, 'local_story');
+    expect(pages.single.textAm, 'የሙከራ ገጽ');
+    expect(stopwatch.elapsed, lessThan(const Duration(seconds: 1)));
 
     await cache.deleteFromDisk();
   });
@@ -1066,6 +1089,15 @@ class _ThrowingFirestoreStoryService extends FirestoreStoryService {
   Future<List<StoryPage>> fetchStoryPages(String storyId) {
     throw Exception('Firestore unavailable in test');
   }
+}
+
+class _NeverCompletingFirestoreStoryService extends FirestoreStoryService {
+  @override
+  Future<List<Story>> fetchStories() => Completer<List<Story>>().future;
+
+  @override
+  Future<List<StoryPage>> fetchStoryPages(String storyId) =>
+      Completer<List<StoryPage>>().future;
 }
 
 class _StaleImageFirestoreStoryService extends FirestoreStoryService {

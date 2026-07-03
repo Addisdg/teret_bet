@@ -90,6 +90,11 @@ and Settings remain available in one persistent navigation bar. Favourites is
 a stable destination scope, while search, collection, age, and theme remain
 clearable refinements.
 
+Offline startup now has bounded cloud waits while preserving Firestore -> Hive
+-> bundled JSON order. Firebase initialization and Firestore catalogue/page
+reads fall through after 1.2 seconds instead of waiting indefinitely. Pixel 8a
+clean-install and airplane-mode timing still require device measurement.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
