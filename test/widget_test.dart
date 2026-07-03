@@ -18,6 +18,7 @@ import 'package:teret_bet_app/features/stories/presentation/screens/home_screen.
 import 'package:teret_bet_app/features/stories/presentation/screens/settings_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_reader_screen.dart';
+import 'package:teret_bet_app/features/stories/presentation/widgets/story_image.dart';
 import 'package:teret_bet_app/theme/teret_bet_theme.dart';
 
 void main() {
@@ -1039,6 +1040,8 @@ void main() {
     expect(tester.takeException(), isNull);
     expect(find.byTooltip('ቀጣይ'), findsOneWidget);
     expect(find.byTooltip('ጽሑፍ አሳንስ'), findsOneWidget);
+    expect(
+        tester.widget<StoryImage>(find.byType(StoryImage)).fit, BoxFit.contain);
     await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
     await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
 

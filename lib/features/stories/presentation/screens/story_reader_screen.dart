@@ -290,12 +290,18 @@ class _ReaderPage extends StatelessWidget {
             amharic: 'የታሪኩ ምስል፣ ገጽ ${page.pageNumber}',
             english: 'Story illustration, page ${page.pageNumber}',
           ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(20),
-            child: StoryImage(
-              imagePath: page.imageUrl,
-              width: double.infinity,
-              fit: BoxFit.cover,
+          child: DecoratedBox(
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.surfaceContainerLow,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: StoryImage(
+                imagePath: page.imageUrl,
+                width: double.infinity,
+                fit: horizontal ? BoxFit.contain : BoxFit.cover,
+              ),
             ),
           ),
         );

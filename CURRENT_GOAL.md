@@ -107,6 +107,13 @@ stabilized for the available WSL memory, but the provisional 100 MB target is
 not met; illustration optimization requires a separately approved visual QA
 batch.
 
+Physical Pixel 8a validation is recorded in
+`docs/PIXEL_8A_ACCEPTANCE_2026-07-03.md`. Cold activity launch measured 491 ms
+and the owner approved the product shell, typography rendering, themes, and
+reader controls. Owner review found landscape illustration cropping; the reader
+now preserves the complete image with `BoxFit.contain`, with automated coverage.
+Post-fix device confirmation remains pending after WSL build memory is reset.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
