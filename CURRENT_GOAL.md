@@ -100,6 +100,13 @@ Bedtime mode dims interface surfaces without modifying illustrations, and both
 theme variants pass automated Settings text-contrast guidance. Font bundling
 remains blocked on choosing and reviewing a licensed Ethiopic font asset.
 
+Release-size hardening now has fresh evidence in
+`docs/RELEASE_SIZE_AUDIT_2026-07-03.md`. The normal AAB builds at 181,025,712
+bytes and the arm64 analysis attributes 122 MB compressed to assets. Gradle is
+stabilized for the available WSL memory, but the provisional 100 MB target is
+not met; illustration optimization requires a separately approved visual QA
+batch.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
