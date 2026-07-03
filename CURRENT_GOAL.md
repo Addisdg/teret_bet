@@ -75,6 +75,11 @@ landscape/short-height layout, compact reachable controls, localized semantics,
 and large-text accessibility widget evidence. Pixel 8a and TalkBack checks
 remain manual release gates.
 
+Batch C local history is now implemented on its feature branch. The newest 20
+on-device records power Continue Reading and Recently Read tabs, retain
+completion and page progress, and can be cleared after confirmation. No child
+identity, account, analytics, or cloud-history path was introduced.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

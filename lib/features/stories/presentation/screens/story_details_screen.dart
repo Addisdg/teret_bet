@@ -103,7 +103,16 @@ class StoryDetailsScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (_) => StoryReaderScreen(story: story),
+                        builder: (_) => StoryReaderScreen(
+                          story: story,
+                          onProgress: (pageIndex, pageCount) {
+                            return storyProvider.recordReadingProgress(
+                              storyId: story.id,
+                              pageIndex: pageIndex,
+                              pageCount: pageCount,
+                            );
+                          },
+                        ),
                       ),
                     );
                   },

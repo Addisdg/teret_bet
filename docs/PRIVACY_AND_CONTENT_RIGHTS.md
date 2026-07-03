@@ -11,6 +11,10 @@ entries remain on device. Version 1 contains no ads, purchases, analytics, or
 crash-reporting SDK. Any future SDK requires a documented data-flow and child-
 privacy review before dependency approval.
 
+Implemented history records contain only story ID, last page, page count,
+completion state, and UTC last-read time. Families can clear all history from
+the library after a confirmation step.
+
 ## Pre-release privacy register
 
 | Component | Data handled | Location | Third party | Release action |

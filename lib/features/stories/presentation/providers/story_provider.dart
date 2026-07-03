@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
+import '../../data/models/reading_history_entry.dart';
 import '../../data/models/story_model.dart';
 import '../../data/repositories/story_repository.dart';
 
 class StoryProvider with ChangeNotifier {
   static const String _favoriteStoryIdsKey = 'favorite_story_ids';
+  static const String _readingHistoryKey = 'reading_history';
+  static const int readingHistoryLimit = 20;
 
   final StoryRepository _repository;
   final Box _settingsBox;
@@ -17,6 +20,7 @@ class StoryProvider with ChangeNotifier {
   String _searchQuery = '';
   String? _selectedCollection;
   String? _errorMessage;
+  List<ReadingHistoryEntry> _readingHistory = [];
 
   StoryProvider({
     StoryRepository? repository,
@@ -24,6 +28,7 @@ class StoryProvider with ChangeNotifier {
   })  : _repository = repository ?? StoryRepository(),
         _settingsBox = settingsBox ?? Hive.box('settings') {
     _favoriteStoryIds = _readFavoriteStoryIds();
+    _readingHistory = _readReadingHistory();
   }
 
   List<Story> get stories => _stories;
@@ -80,6 +85,12 @@ class StoryProvider with ChangeNotifier {
       _selectedCollection != null;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
+  List<ReadingHistoryEntry> get readingHistory =>
+      List.unmodifiable(_readingHistory);
+  List<Story> get recentlyReadStories => _storiesForHistory(_readingHistory);
+  List<Story> get continueReadingStories => _storiesForHistory(
+        _readingHistory.where((entry) => !entry.isCompleted),
+      );
 
   bool isFavorite(String storyId) {
     return _favoriteStoryIds.contains(storyId);
@@ -112,6 +123,46 @@ class StoryProvider with ChangeNotifier {
       _favoriteStoryIdsKey,
       _favoriteStoryIds.toList()..sort(),
     );
+    notifyListeners();
+  }
+
+  Future<void> recordReadingProgress({
+    required String storyId,
+    required int pageIndex,
+    required int pageCount,
+  }) async {
+    if (storyId.isEmpty || pageCount <= 0) {
+      return;
+    }
+
+    final safePageIndex = pageIndex.clamp(0, pageCount - 1).toInt();
+    _readingHistory.removeWhere((entry) => entry.storyId == storyId);
+    _readingHistory.insert(
+      0,
+      ReadingHistoryEntry(
+        storyId: storyId,
+        lastPageIndex: safePageIndex,
+        pageCount: pageCount,
+        lastReadAt: DateTime.now().toUtc(),
+        isCompleted: safePageIndex == pageCount - 1,
+      ),
+    );
+
+    if (_readingHistory.length > readingHistoryLimit) {
+      _readingHistory = _readingHistory.take(readingHistoryLimit).toList();
+    }
+
+    await _saveReadingHistory();
+    notifyListeners();
+  }
+
+  Future<void> clearReadingHistory() async {
+    if (_readingHistory.isEmpty) {
+      return;
+    }
+
+    _readingHistory = [];
+    await _settingsBox.delete(_readingHistoryKey);
     notifyListeners();
   }
 
@@ -180,6 +231,42 @@ class StoryProvider with ChangeNotifier {
     }
 
     return {};
+  }
+
+  List<ReadingHistoryEntry> _readReadingHistory() {
+    final savedHistory = _settingsBox.get(
+      _readingHistoryKey,
+      defaultValue: const <dynamic>[],
+    );
+
+    if (savedHistory is! List) {
+      return [];
+    }
+
+    final entries = savedHistory
+        .whereType<Map>()
+        .map((item) => ReadingHistoryEntry.fromMap(
+              Map<String, dynamic>.from(item),
+            ))
+        .where((entry) => entry.storyId.isNotEmpty)
+        .toList();
+    entries.sort((left, right) => right.lastReadAt.compareTo(left.lastReadAt));
+    return entries.take(readingHistoryLimit).toList();
+  }
+
+  Future<void> _saveReadingHistory() {
+    return _settingsBox.put(
+      _readingHistoryKey,
+      _readingHistory.map((entry) => entry.toMap()).toList(),
+    );
+  }
+
+  List<Story> _storiesForHistory(Iterable<ReadingHistoryEntry> entries) {
+    final storiesById = {for (final story in _stories) story.id: story};
+    return entries
+        .map((entry) => storiesById[entry.storyId])
+        .whereType<Story>()
+        .toList();
   }
 
   static const _collectionSortOrder = [

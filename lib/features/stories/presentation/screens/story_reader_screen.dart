@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,11 +13,13 @@ import '../widgets/story_image.dart';
 class StoryReaderScreen extends StatefulWidget {
   final Story story;
   final StoryRepository? repository;
+  final FutureOr<void> Function(int pageIndex, int pageCount)? onProgress;
 
   const StoryReaderScreen({
     super.key,
     required this.story,
     this.repository,
+    this.onProgress,
   });
 
   @override
@@ -65,6 +69,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
         _pageController = PageController(initialPage: safePageIndex);
         _isLoading = false;
       });
+      await widget.onProgress?.call(safePageIndex, pages.length);
     } catch (_) {
       if (!mounted) {
         return;
@@ -204,6 +209,7 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
                     });
                     _storyRepository.saveLastReadPageIndex(
                         widget.story.id, index);
+                    widget.onProgress?.call(index, _pages.length);
                   },
                   itemBuilder: (context, index) {
                     final page = _pages[index];

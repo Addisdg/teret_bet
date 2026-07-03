@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../data/models/story_model.dart';
 import '../localization/app_language.dart';
 import '../providers/settings_provider.dart';
 import '../providers/story_provider.dart';
@@ -126,6 +127,8 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
 
     return Column(
       children: [
+        if (!provider.hasActiveFilters && provider.readingHistory.isNotEmpty)
+          _HistoryShelves(provider: provider, language: language),
         Padding(
           padding: const EdgeInsets.fromLTRB(12, 12, 12, 8),
           child: Column(
@@ -265,6 +268,126 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
     return language.choose(
         amharic: 'እስካሁን የተወደዱ ታሪኮች የሉም።',
         english: 'You have no favorite stories yet.');
+  }
+}
+
+class _HistoryShelves extends StatelessWidget {
+  final StoryProvider provider;
+  final AppLanguage language;
+
+  const _HistoryShelves({required this.provider, required this.language});
+
+  @override
+  Widget build(BuildContext context) {
+    final continueStories = provider.continueReadingStories;
+    final recentStories = provider.recentlyReadStories;
+    final hasContinueStories = continueStories.isNotEmpty;
+
+    return DefaultTabController(
+      length: hasContinueStories ? 2 : 1,
+      child: SizedBox(
+        height: 285,
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 8, 12, 0),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: TabBar(
+                      isScrollable: true,
+                      tabAlignment: TabAlignment.start,
+                      tabs: [
+                        if (hasContinueStories)
+                          Tab(
+                            text: language.choose(
+                              amharic: 'ንባብዎን ይቀጥሉ',
+                              english: 'Continue Reading',
+                            ),
+                          ),
+                        Tab(
+                          text: language.choose(
+                            amharic: 'በቅርብ የተነበቡ',
+                            english: 'Recently Read',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  IconButton(
+                    tooltip: language.choose(
+                      amharic: 'የንባብ ታሪክ አጥፋ',
+                      english: 'Clear reading history',
+                    ),
+                    onPressed: () => _confirmClearHistory(context),
+                    icon: const Icon(Icons.delete_outline),
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: TabBarView(
+                children: [
+                  if (hasContinueStories) _StoryShelf(stories: continueStories),
+                  _StoryShelf(stories: recentStories),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _confirmClearHistory(BuildContext context) async {
+    final shouldClear = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(language.choose(
+          amharic: 'የንባብ ታሪክ ይጥፋ?',
+          english: 'Clear reading history?',
+        )),
+        content: Text(language.choose(
+          amharic: 'በቅርብ የተነበቡ ታሪኮች እና የመቀጠያ ዝርዝር ከዚህ መሣሪያ ይጠፋሉ።',
+          english:
+              'Recently read and Continue Reading will be cleared from this device.',
+        )),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text(language.choose(amharic: 'ተው', english: 'Cancel')),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: Text(language.choose(amharic: 'አጥፋ', english: 'Clear')),
+          ),
+        ],
+      ),
+    );
+
+    if (shouldClear == true) {
+      await provider.clearReadingHistory();
+    }
+  }
+}
+
+class _StoryShelf extends StatelessWidget {
+  final List<Story> stories;
+
+  const _StoryShelf({required this.stories});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.separated(
+      padding: const EdgeInsets.fromLTRB(12, 10, 12, 8),
+      scrollDirection: Axis.horizontal,
+      itemCount: stories.length,
+      separatorBuilder: (_, __) => const SizedBox(width: 10),
+      itemBuilder: (context, index) => SizedBox(
+        width: 150,
+        child: StoryCard(story: stories[index]),
+      ),
+    );
   }
 }
 

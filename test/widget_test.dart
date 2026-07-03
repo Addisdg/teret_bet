@@ -584,6 +584,50 @@ void main() {
     await settings.deleteFromDisk();
   });
 
+  test('story provider keeps the latest 20 local reading-history entries',
+      () async {
+    final cache = await Hive.openBox('history_story_cache_test');
+    final settings = await Hive.openBox('history_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _FakeLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+
+    for (var index = 0; index < 22; index++) {
+      await provider.recordReadingProgress(
+        storyId: 'story_$index',
+        pageIndex: index == 21 ? 4 : 1,
+        pageCount: 5,
+      );
+    }
+
+    expect(provider.readingHistory, hasLength(20));
+    expect(provider.readingHistory.first.storyId, 'story_21');
+    expect(provider.readingHistory.first.isCompleted, isTrue);
+    expect(provider.readingHistory.last.storyId, 'story_2');
+
+    final restored = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _FakeLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+    expect(restored.readingHistory, hasLength(20));
+    expect(restored.readingHistory.first.storyId, 'story_21');
+
+    await restored.clearReadingHistory();
+    expect(restored.readingHistory, isEmpty);
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   test('story provider filters visible stories to favorites', () async {
     final cache = await Hive.openBox('favorites_filter_cache_test');
     final settings = await Hive.openBox('favorites_filter_settings_test');
