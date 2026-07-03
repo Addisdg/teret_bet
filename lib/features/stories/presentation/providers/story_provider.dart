@@ -101,11 +101,11 @@ class StoryProvider with ChangeNotifier {
   Set<String> get selectedThemes => Set.unmodifiable(_selectedThemes);
   int get discoveryFilterCount =>
       _selectedAgeBands.length + _selectedThemes.length;
-  bool get hasActiveFilters =>
-      _showFavoritesOnly ||
+  bool get hasDiscoveryRefinements =>
       _searchQuery.trim().isNotEmpty ||
       _selectedCollection != null ||
       discoveryFilterCount > 0;
+  bool get hasActiveFilters => _showFavoritesOnly || hasDiscoveryRefinements;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
   List<ReadingHistoryEntry> get readingHistory =>
@@ -238,6 +238,17 @@ class StoryProvider with ChangeNotifier {
     if (discoveryFilterCount == 0) {
       return;
     }
+    _selectedAgeBands = {};
+    _selectedThemes = {};
+    notifyListeners();
+  }
+
+  void clearDiscoveryRefinements() {
+    if (!hasDiscoveryRefinements) {
+      return;
+    }
+    _searchQuery = '';
+    _selectedCollection = null;
     _selectedAgeBands = {};
     _selectedThemes = {};
     notifyListeners();

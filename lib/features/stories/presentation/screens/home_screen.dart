@@ -16,6 +16,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  int _selectedDestination = 0;
+
   @override
   void initState() {
     super.initState();
@@ -33,29 +35,50 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final provider = Provider.of<StoryProvider>(context);
     final language = context.watch<SettingsProvider>().language;
+    final title = switch (_selectedDestination) {
+      1 => language.choose(amharic: 'የተወደዱ', english: 'Favourites'),
+      2 => language.choose(amharic: 'ቅንብሮች', english: 'Settings'),
+      _ => language.choose(amharic: 'ተረት ቤት', english: 'Teret Bet'),
+    };
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(language.choose(amharic: 'ተረት ቤት', english: 'Teret Bet')),
+        title: Text(title),
         centerTitle: true,
-        actions: [
-          IconButton(
-            tooltip: language.choose(amharic: 'ቅንብሮች', english: 'Settings'),
-            icon: const Icon(Icons.settings),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => const SettingsScreen(),
-                ),
-              );
-            },
+      ),
+      body: _selectedDestination == 2
+          ? const SettingsScreen(embedded: true)
+          : provider.isLoading
+              ? const Center(child: CircularProgressIndicator())
+              : _StoryLibraryBody(provider: provider, language: language),
+      bottomNavigationBar: NavigationBar(
+        selectedIndex: _selectedDestination,
+        onDestinationSelected: (index) {
+          if (index < 2) {
+            provider.setShowFavoritesOnly(index == 1);
+          }
+          setState(() {
+            _selectedDestination = index;
+          });
+        },
+        destinations: [
+          NavigationDestination(
+            icon: const Icon(Icons.explore_outlined),
+            selectedIcon: const Icon(Icons.explore),
+            label: language.choose(amharic: 'ፈልግ', english: 'Discover'),
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.favorite_border),
+            selectedIcon: const Icon(Icons.favorite),
+            label: language.choose(amharic: 'የተወደዱ', english: 'Favourites'),
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings),
+            label: language.choose(amharic: 'ቅንብሮች', english: 'Settings'),
           ),
         ],
       ),
-      body: provider.isLoading
-          ? const Center(child: CircularProgressIndicator())
-          : _StoryLibraryBody(provider: provider, language: language),
     );
   }
 }
@@ -155,27 +178,6 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
                   border: const OutlineInputBorder(),
                 ),
               ),
-              const SizedBox(height: 10),
-              SegmentedButton<bool>(
-                segments: [
-                  ButtonSegment(
-                    value: false,
-                    icon: const Icon(Icons.menu_book),
-                    label:
-                        Text(language.choose(amharic: 'ሁሉም', english: 'All')),
-                  ),
-                  ButtonSegment(
-                    value: true,
-                    icon: const Icon(Icons.favorite),
-                    label: Text(language.choose(
-                        amharic: 'የተወደዱ', english: 'Favorites')),
-                  ),
-                ],
-                selected: {provider.showFavoritesOnly},
-                onSelectionChanged: (selection) {
-                  provider.setShowFavoritesOnly(selection.first);
-                },
-              ),
               if (provider.availableCollections.isNotEmpty) ...[
                 const SizedBox(height: 10),
                 _CollectionFilter(provider: provider, language: language),
@@ -205,11 +207,12 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
               _LibraryStatusBar(
                 visibleCount: visibleStories.length,
                 totalCount: provider.stories.length,
-                hasActiveFilters: provider.hasActiveFilters,
+                isScoped: provider.hasActiveFilters,
+                canClear: provider.hasDiscoveryRefinements,
                 language: language,
                 onClearFilters: () {
                   _searchController.clear();
-                  provider.clearFilters();
+                  provider.clearDiscoveryRefinements();
                 },
               ),
             ],
@@ -530,14 +533,16 @@ class _StoryShelf extends StatelessWidget {
 class _LibraryStatusBar extends StatelessWidget {
   final int visibleCount;
   final int totalCount;
-  final bool hasActiveFilters;
+  final bool isScoped;
+  final bool canClear;
   final VoidCallback onClearFilters;
   final AppLanguage language;
 
   const _LibraryStatusBar({
     required this.visibleCount,
     required this.totalCount,
-    required this.hasActiveFilters,
+    required this.isScoped,
+    required this.canClear,
     required this.onClearFilters,
     required this.language,
   });
@@ -546,12 +551,10 @@ class _LibraryStatusBar extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final countText = language == AppLanguage.english
-        ? (hasActiveFilters
+        ? (isScoped
             ? '$visibleCount / $totalCount stories'
             : '$totalCount stories')
-        : (hasActiveFilters
-            ? '$visibleCount / $totalCount ታሪኮች'
-            : '$totalCount ታሪኮች');
+        : (isScoped ? '$visibleCount / $totalCount ታሪኮች' : '$totalCount ታሪኮች');
 
     return Row(
       children: [
@@ -563,7 +566,7 @@ class _LibraryStatusBar extends StatelessWidget {
           ),
         ),
         const Spacer(),
-        if (hasActiveFilters)
+        if (canClear)
           TextButton.icon(
             onPressed: onClearFilters,
             icon: const Icon(Icons.clear_all),

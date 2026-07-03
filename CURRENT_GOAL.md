@@ -85,6 +85,11 @@ ages 3-4 and 5-6 plus catalogue-driven theme filters in a scrollable parent
 sheet. These combine predictably with search, collection, and favourites and do
 not modify story metadata.
 
+The three-destination product shell is now implemented: Discover, Favourites,
+and Settings remain available in one persistent navigation bar. Favourites is
+a stable destination scope, while search, collection, age, and theme remain
+clearable refinements.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

@@ -13,6 +13,7 @@ import 'package:teret_bet_app/features/stories/data/services/local_story_service
 import 'package:teret_bet_app/features/stories/presentation/localization/app_language.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/story_provider.dart';
+import 'package:teret_bet_app/features/stories/presentation/screens/home_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_reader_screen.dart';
 
@@ -1016,6 +1017,43 @@ void main() {
       () => settings.selectLanguage(AppLanguage.amharic),
     );
   });
+
+  testWidgets('primary navigation opens favourites and embedded settings',
+      (tester) async {
+    final storyProvider = StoryProvider(
+      repository: _NavigationStoryRepository(widgetCacheBox),
+      settingsBox: widgetSettingsBox,
+    );
+    final settings = SettingsProvider(settingsBox: widgetSettingsBox);
+
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: storyProvider),
+          ChangeNotifierProvider.value(value: settings),
+        ],
+        child: const MaterialApp(home: HomeScreen()),
+      ),
+    );
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+
+    expect(find.text('ፈልግ'), findsOneWidget);
+    expect(find.text('ቅንብሮች'), findsOneWidget);
+
+    await tester.tap(find.text('የተወደዱ'));
+    await tester.pump();
+    expect(storyProvider.showFavoritesOnly, isTrue);
+    expect(find.text('የተወደዱ'), findsNWidgets(2));
+
+    await tester.tap(find.text('ቅንብሮች'));
+    await tester.pump();
+    expect(find.text('የጽሑፍ መጠን'), findsOneWidget);
+    expect(find.byType(BottomNavigationBar), findsNothing);
+    expect(find.byType(NavigationBar), findsOneWidget);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
 }
 
 class _ThrowingFirestoreStoryService extends FirestoreStoryService {
@@ -1129,6 +1167,25 @@ class _ReaderStoryRepository extends StoryRepository {
 
   @override
   Future<void> saveLastReadPageIndex(String storyId, int pageIndex) async {}
+}
+
+class _NavigationStoryRepository extends StoryRepository {
+  _NavigationStoryRepository(Box cache) : super(cache: cache);
+
+  @override
+  Future<List<Story>> fetchStories() async {
+    return [
+      Story(
+        id: 'navigation_story',
+        titleAm: 'የአሰሳ ታሪክ',
+        titleEn: 'Navigation Story',
+        coverImage: '',
+        summaryAm: '',
+        ageMin: 3,
+        ageMax: 6,
+      ),
+    ];
+  }
 }
 
 class _TwoStoryLocalStoryService extends LocalStoryService {
