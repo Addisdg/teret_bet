@@ -180,6 +180,27 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
                 const SizedBox(height: 10),
                 _CollectionFilter(provider: provider, language: language),
               ],
+              const SizedBox(height: 10),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: OutlinedButton.icon(
+                  onPressed: _openDiscoveryFilters,
+                  icon: const Icon(Icons.tune),
+                  label: Text(
+                    provider.discoveryFilterCount == 0
+                        ? language.choose(
+                            amharic: 'ዕድሜ እና ጭብጥ',
+                            english: 'Age and themes',
+                          )
+                        : language.choose(
+                            amharic:
+                                'ዕድሜ እና ጭብጥ (${provider.discoveryFilterCount})',
+                            english:
+                                'Age and themes (${provider.discoveryFilterCount})',
+                          ),
+                  ),
+                ),
+              ),
               const SizedBox(height: 8),
               _LibraryStatusBar(
                 visibleCount: visibleStories.length,
@@ -269,6 +290,121 @@ class _StoryLibraryBodyState extends State<_StoryLibraryBody> {
         amharic: 'እስካሁን የተወደዱ ታሪኮች የሉም።',
         english: 'You have no favorite stories yet.');
   }
+
+  Future<void> _openDiscoveryFilters() {
+    return showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (context) => Consumer<StoryProvider>(
+        builder: (context, storyProvider, _) => DraggableScrollableSheet(
+          expand: false,
+          initialChildSize: 0.72,
+          minChildSize: 0.45,
+          maxChildSize: 0.92,
+          builder: (context, scrollController) => ListView(
+            controller: scrollController,
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      language.choose(
+                        amharic: 'ዕድሜ እና ጭብጥ',
+                        english: 'Age and themes',
+                      ),
+                      style: Theme.of(context).textTheme.headlineSmall,
+                    ),
+                  ),
+                  if (storyProvider.discoveryFilterCount > 0)
+                    TextButton(
+                      onPressed: storyProvider.clearDiscoveryFilters,
+                      child: Text(language.choose(
+                        amharic: 'ሁሉን አጥፋ',
+                        english: 'Clear all',
+                      )),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 20),
+              Text(
+                language.choose(amharic: 'ዕድሜ', english: 'Age'),
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              const SizedBox(height: 8),
+              Wrap(
+                spacing: 8,
+                children: [
+                  for (final ageBand in const ['3-4', '5-6'])
+                    FilterChip(
+                      label: Text(language.choose(
+                        amharic: 'ዕድሜ $ageBand',
+                        english: 'Ages $ageBand',
+                      )),
+                      selected:
+                          storyProvider.selectedAgeBands.contains(ageBand),
+                      onSelected: (_) => storyProvider.toggleAgeBand(ageBand),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 20),
+              Text(
+                language.choose(amharic: 'ጭብጦች', english: 'Themes'),
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              const SizedBox(height: 8),
+              Wrap(
+                spacing: 8,
+                runSpacing: 4,
+                children: [
+                  for (final theme in storyProvider.availableThemes)
+                    FilterChip(
+                      label: Text(_themeLabel(theme, language)),
+                      selected: storyProvider.selectedThemes.contains(theme),
+                      onSelected: (_) => storyProvider.toggleTheme(theme),
+                    ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+String _themeLabel(String theme, AppLanguage language) {
+  const amharicLabels = {
+    'kindness': 'ደግነት',
+    'friendship': 'ጓደኝነት',
+    'family': 'ቤተሰብ',
+    'helping': 'መረዳዳት',
+    'courage': 'ድፍረት',
+    'bravery': 'ጀግንነት',
+    'honesty': 'ሐቀኝነት',
+    'patience': 'ትዕግሥት',
+    'community': 'ማኅበረሰብ',
+    'nature': 'ተፈጥሮ',
+    'love': 'ፍቅር',
+    'respect': 'አክብሮት',
+    'generosity': 'ለጋስነት',
+    'gratitude': 'ምስጋና',
+    'creativity': 'ፈጠራ',
+    'problem_solving': 'ችግኝ መፍታት',
+    'planning': 'እቅድ',
+    'listening': 'ማዳመጥ',
+    'fairness': 'ፍትሐዊነት',
+    'confidence': 'በራስ መተማመን',
+  };
+  final english = theme
+      .split('_')
+      .map((word) =>
+          word.isEmpty ? word : '${word[0].toUpperCase()}${word.substring(1)}')
+      .join(' ');
+  return language == AppLanguage.amharic
+      ? amharicLabels[theme] ?? english
+      : english;
 }
 
 class _HistoryShelves extends StatelessWidget {

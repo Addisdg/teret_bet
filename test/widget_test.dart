@@ -744,6 +744,39 @@ void main() {
     await settings.deleteFromDisk();
   });
 
+  test('story provider applies overlapping age and theme filters', () async {
+    final cache = await Hive.openBox('discovery_filter_cache_test');
+    final settings = await Hive.openBox('discovery_filter_settings_test');
+    final provider = StoryProvider(
+      repository: StoryRepository(
+        firestoreService: _ThrowingFirestoreStoryService(),
+        localStoryService: _SearchableLocalStoryService(),
+        cache: cache,
+      ),
+      settingsBox: settings,
+    );
+    await provider.loadStories();
+
+    provider.toggleAgeBand('3-4');
+    expect(provider.visibleStories.map((story) => story.id), ['flower_story']);
+
+    provider.toggleAgeBand('5-6');
+    expect(provider.visibleStories, hasLength(2));
+
+    provider.clearDiscoveryFilters();
+    provider.toggleTheme('friendship');
+    expect(provider.visibleStories.map((story) => story.id), ['forest_story']);
+    expect(provider.discoveryFilterCount, 1);
+
+    provider.clearFilters();
+    expect(provider.selectedAgeBands, isEmpty);
+    expect(provider.selectedThemes, isEmpty);
+    expect(provider.visibleStories, hasLength(2));
+
+    await cache.deleteFromDisk();
+    await settings.deleteFromDisk();
+  });
+
   test('story provider combines collection with search and favorites',
       () async {
     final cache = await Hive.openBox('collection_search_favorites_cache_test');
@@ -1136,7 +1169,7 @@ class _SearchableLocalStoryService extends LocalStoryService {
         coverImage: 'assets/images/stories/flower.webp',
         summaryAm: 'ስለ ደግነት የሚናገር ታሪክ',
         ageMin: 3,
-        ageMax: 6,
+        ageMax: 4,
         themes: const ['kindness'],
       ),
       Story(
@@ -1146,7 +1179,7 @@ class _SearchableLocalStoryService extends LocalStoryService {
         titleEn: 'Forest Story',
         coverImage: 'assets/images/stories/forest.webp',
         summaryAm: 'ስለ ጓደኝነት የሚናገር ታሪክ',
-        ageMin: 3,
+        ageMin: 5,
         ageMax: 6,
         themes: const ['friendship'],
       ),

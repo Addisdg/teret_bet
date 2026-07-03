@@ -19,6 +19,8 @@ class StoryProvider with ChangeNotifier {
   bool _showFavoritesOnly = false;
   String _searchQuery = '';
   String? _selectedCollection;
+  Set<String> _selectedAgeBands = {};
+  Set<String> _selectedThemes = {};
   String? _errorMessage;
   List<ReadingHistoryEntry> _readingHistory = [];
 
@@ -42,6 +44,16 @@ class StoryProvider with ChangeNotifier {
     if (_selectedCollection != null) {
       filteredStories = filteredStories.where(
         (story) => story.collection == _selectedCollection,
+      );
+    }
+
+    if (_selectedAgeBands.isNotEmpty) {
+      filteredStories = filteredStories.where(_matchesSelectedAgeBand);
+    }
+
+    if (_selectedThemes.isNotEmpty) {
+      filteredStories = filteredStories.where(
+        (story) => story.themes.any(_selectedThemes.contains),
       );
     }
 
@@ -76,13 +88,24 @@ class StoryProvider with ChangeNotifier {
     return collections;
   }
 
+  List<String> get availableThemes {
+    final themes = _stories.expand((story) => story.themes).toSet().toList();
+    themes.sort();
+    return themes;
+  }
+
   bool get showFavoritesOnly => _showFavoritesOnly;
   String get searchQuery => _searchQuery;
   String? get selectedCollection => _selectedCollection;
+  Set<String> get selectedAgeBands => Set.unmodifiable(_selectedAgeBands);
+  Set<String> get selectedThemes => Set.unmodifiable(_selectedThemes);
+  int get discoveryFilterCount =>
+      _selectedAgeBands.length + _selectedThemes.length;
   bool get hasActiveFilters =>
       _showFavoritesOnly ||
       _searchQuery.trim().isNotEmpty ||
-      _selectedCollection != null;
+      _selectedCollection != null ||
+      discoveryFilterCount > 0;
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
   List<ReadingHistoryEntry> get readingHistory =>
@@ -193,6 +216,33 @@ class StoryProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void toggleAgeBand(String ageBand) {
+    if (_selectedAgeBands.contains(ageBand)) {
+      _selectedAgeBands.remove(ageBand);
+    } else {
+      _selectedAgeBands.add(ageBand);
+    }
+    notifyListeners();
+  }
+
+  void toggleTheme(String theme) {
+    if (_selectedThemes.contains(theme)) {
+      _selectedThemes.remove(theme);
+    } else {
+      _selectedThemes.add(theme);
+    }
+    notifyListeners();
+  }
+
+  void clearDiscoveryFilters() {
+    if (discoveryFilterCount == 0) {
+      return;
+    }
+    _selectedAgeBands = {};
+    _selectedThemes = {};
+    notifyListeners();
+  }
+
   void clearFilters() {
     if (!hasActiveFilters) {
       return;
@@ -201,7 +251,20 @@ class StoryProvider with ChangeNotifier {
     _showFavoritesOnly = false;
     _searchQuery = '';
     _selectedCollection = null;
+    _selectedAgeBands = {};
+    _selectedThemes = {};
     notifyListeners();
+  }
+
+  bool _matchesSelectedAgeBand(Story story) {
+    return _selectedAgeBands.any((ageBand) {
+      final (minAge, maxAge) = switch (ageBand) {
+        '3-4' => (3, 4),
+        '5-6' => (5, 6),
+        _ => (0, 0),
+      };
+      return story.ageMin <= maxAge && story.ageMax >= minAge;
+    });
   }
 
   bool _storyMatchesSearch(Story story, String normalizedQuery) {

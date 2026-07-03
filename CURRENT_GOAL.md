@@ -80,6 +80,11 @@ on-device records power Continue Reading and Recently Read tabs, retain
 completion and page progress, and can be cleared after confirmation. No child
 identity, account, analytics, or cloud-history path was introduced.
 
+Batch C discovery filtering is also implemented: the library offers overlapping
+ages 3-4 and 5-6 plus catalogue-driven theme filters in a scrollable parent
+sheet. These combine predictably with search, collection, and favourites and do
+not modify story metadata.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
