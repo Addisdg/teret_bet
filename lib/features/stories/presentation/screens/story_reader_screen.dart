@@ -163,7 +163,6 @@ class _StoryReaderScreenState extends State<StoryReaderScreen> {
     }
 
     return Scaffold(
-      backgroundColor: const Color(0xFFFFF8E7),
       appBar: AppBar(
         title: Text(title),
         centerTitle: true,

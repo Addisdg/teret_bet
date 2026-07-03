@@ -95,6 +95,11 @@ Offline startup now has bounded cloud waits while preserving Firestore -> Hive
 reads fall through after 1.2 seconds instead of waiting indefinitely. Pixel 8a
 clean-install and airplane-mode timing still require device measurement.
 
+The warm day palette and manual persistent bedtime mode are now implemented.
+Bedtime mode dims interface surfaces without modifying illustrations, and both
+theme variants pass automated Settings text-contrast guidance. Font bundling
+remains blocked on choosing and reviewing a licensed Ethiopic font asset.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

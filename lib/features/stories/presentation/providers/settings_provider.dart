@@ -9,6 +9,7 @@ class SettingsProvider with ChangeNotifier {
   static const double defaultFontSize = 25;
   static const double fontSizeStep = 2;
   static const String _languageKey = 'app_language';
+  static const String _bedtimeModeKey = 'bedtime_mode';
 
   final Box _settingsBox;
 
@@ -37,8 +38,16 @@ class SettingsProvider with ChangeNotifier {
 
   bool get hasSelectedLanguage => selectedLanguage != null;
 
+  bool get bedtimeMode =>
+      _settingsBox.get(_bedtimeModeKey, defaultValue: false) == true;
+
   Future<void> selectLanguage(AppLanguage language) async {
     await _settingsBox.put(_languageKey, language.storageValue);
+    notifyListeners();
+  }
+
+  Future<void> updateBedtimeMode(bool enabled) async {
+    await _settingsBox.put(_bedtimeModeKey, enabled);
     notifyListeners();
   }
 

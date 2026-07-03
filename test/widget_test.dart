@@ -15,8 +15,10 @@ import 'package:teret_bet_app/features/stories/presentation/localization/app_lan
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/story_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/home_screen.dart';
+import 'package:teret_bet_app/features/stories/presentation/screens/settings_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_reader_screen.dart';
+import 'package:teret_bet_app/theme/teret_bet_theme.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -578,6 +580,24 @@ void main() {
     await box.deleteFromDisk();
   });
 
+  test('settings provider persists manual bedtime mode', () async {
+    final box = await Hive.openBox('settings_bedtime_test');
+    final settings = SettingsProvider(settingsBox: box);
+
+    expect(settings.bedtimeMode, isFalse);
+    await settings.updateBedtimeMode(true);
+
+    final restored = SettingsProvider(settingsBox: box);
+    expect(restored.bedtimeMode, isTrue);
+    expect(TeretBetTheme.day.brightness, Brightness.light);
+    expect(TeretBetTheme.bedtime.brightness, Brightness.dark);
+
+    await restored.updateBedtimeMode(false);
+    expect(restored.bedtimeMode, isFalse);
+
+    await box.deleteFromDisk();
+  });
+
   test('story provider saves and restores favorite stories', () async {
     final cache = await Hive.openBox('favorites_story_cache_test');
     final settings = await Hive.openBox('favorites_settings_test');
@@ -1072,8 +1092,30 @@ void main() {
     await tester.tap(find.text('ቅንብሮች'));
     await tester.pump();
     expect(find.text('የጽሑፍ መጠን'), findsOneWidget);
+    expect(find.text('የመኝታ ሰዓት ሁነታ'), findsOneWidget);
     expect(find.byType(BottomNavigationBar), findsNothing);
     expect(find.byType(NavigationBar), findsOneWidget);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
+
+  testWidgets('day and bedtime settings surfaces meet text contrast guidance',
+      (tester) async {
+    final settings = SettingsProvider(settingsBox: widgetSettingsBox);
+
+    for (final theme in [TeretBetTheme.day, TeretBetTheme.bedtime]) {
+      await tester.pumpWidget(
+        ChangeNotifierProvider.value(
+          value: settings,
+          child: MaterialApp(
+            theme: theme,
+            home: const Scaffold(body: SettingsScreen(embedded: true)),
+          ),
+        ),
+      );
+      await tester.pump();
+      await expectLater(tester, meetsGuideline(textContrastGuideline));
+    }
 
     await tester.pumpWidget(const SizedBox.shrink());
   });

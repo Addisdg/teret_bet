@@ -68,6 +68,23 @@ class SettingsScreen extends StatelessWidget {
             settings.selectLanguage(selection.first);
           },
         ),
+        const Divider(height: 36),
+        SwitchListTile(
+          contentPadding: EdgeInsets.zero,
+          secondary: Icon(
+            settings.bedtimeMode ? Icons.bedtime : Icons.light_mode,
+          ),
+          value: settings.bedtimeMode,
+          onChanged: settings.updateBedtimeMode,
+          title: Text(language.choose(
+            amharic: 'የመኝታ ሰዓት ሁነታ',
+            english: 'Bedtime mode',
+          )),
+          subtitle: Text(language.choose(
+            amharic: 'ማታ ለማንበብ የመተግበሪያውን ቀለሞች ያደበዝዛል።',
+            english: 'Dims the interface colors for evening reading.',
+          )),
+        ),
       ],
     );
 
