@@ -114,6 +114,12 @@ reader controls. Owner review found landscape illustration cropping; the reader
 now preserves the complete image with `BoxFit.contain`, with automated coverage.
 Post-fix device confirmation remains pending after WSL build memory is reset.
 
+A reversible full-catalogue image pilot is recorded in
+`docs/IMAGE_OPTIMIZATION_PILOT_2026-07-03.md`. Quality 80 at 960 x 720 reduces
+the temporary image set by 48.53% and projects an approximately 85.8 MB arm64
+bundle. Repository illustrations remain unchanged pending Pixel 8a visual
+approval of representative fine detail.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
