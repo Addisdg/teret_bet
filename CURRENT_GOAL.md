@@ -70,6 +70,11 @@ The app shows their origin chip and “About this story” section only when a
 future reviewed record supplies display metadata; no current catalogue claims
 were added or changed.
 
+Batch B reader work is now underway. The first slice adds a side-by-side
+landscape/short-height layout, compact reachable controls, localized semantics,
+and large-text accessibility widget evidence. Pixel 8a and TalkBack checks
+remain manual release gates.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

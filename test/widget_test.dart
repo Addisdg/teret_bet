@@ -14,6 +14,7 @@ import 'package:teret_bet_app/features/stories/presentation/localization/app_lan
 import 'package:teret_bet_app/features/stories/presentation/providers/settings_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/providers/story_provider.dart';
 import 'package:teret_bet_app/features/stories/presentation/screens/story_details_screen.dart';
+import 'package:teret_bet_app/features/stories/presentation/screens/story_reader_screen.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -866,13 +867,77 @@ void main() {
     expect(find.text('ስለዚህ ታሪክ'), findsOneWidget);
 
     await tester.tap(find.text('ስለዚህ ታሪክ'));
-    await tester.pumpAndSettle();
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+    // Progress markers make asynchronous accessibility failures diagnosable.
 
     expect(find.text('የወላይታ ባህል'), findsOneWidget);
     expect(find.text('ከባህላዊ ተረት በአዲስ ቃላት የተዘጋጀ።'), findsOneWidget);
     expect(find.text('በባህል አዋቂ ተገምግሟል።'), findsOneWidget);
 
     await tester.pumpWidget(const SizedBox.shrink());
+  });
+
+  testWidgets('reader stays usable in landscape with large text',
+      (tester) async {
+    tester.view.physicalSize = const Size(800, 400);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    final settings = SettingsProvider(settingsBox: widgetSettingsBox);
+    final repository = _ReaderStoryRepository(widgetCacheBox);
+
+    await tester.pumpWidget(
+      ChangeNotifierProvider.value(
+        value: settings,
+        child: MaterialApp(
+          home: MediaQuery(
+            data: const MediaQueryData(
+              size: Size(800, 400),
+              textScaler: TextScaler.linear(1.6),
+            ),
+            child: StoryReaderScreen(
+              repository: repository,
+              story: Story(
+                id: 'reader_test',
+                titleAm: 'የንባብ ሙከራ',
+                titleEn: 'Reader Test',
+                coverImage: '',
+                summaryAm: '',
+                ageMin: 3,
+                ageMax: 6,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+
+    expect(tester.takeException(), isNull);
+    expect(find.byTooltip('ቀጣይ'), findsOneWidget);
+    expect(find.byTooltip('ጽሑፍ አሳንስ'), findsOneWidget);
+    await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
+    await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
+
+    await tester.tap(find.byTooltip('ቀጣይ'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
+    expect(find.text('ሁለተኛ ገጽ'), findsOneWidget);
+
+    expect(find.byKey(const Key('reader_language_switch')), findsOneWidget);
+    await tester.runAsync(
+      () => settings.selectLanguage(AppLanguage.english),
+    );
+    await tester.pump();
+    expect(find.text('Second page'), findsOneWidget);
+    expect(find.text('Page 1'), findsNothing);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+    await tester.runAsync(
+      () => settings.selectLanguage(AppLanguage.amharic),
+    );
   });
 }
 
@@ -959,6 +1024,34 @@ class _FakeLocalStoryService extends LocalStoryService {
       ),
     ];
   }
+}
+
+class _ReaderStoryRepository extends StoryRepository {
+  _ReaderStoryRepository(Box cache) : super(cache: cache);
+
+  @override
+  Future<List<StoryPage>> fetchStoryPages(String storyId) async {
+    return [
+      StoryPage(
+        pageNumber: 1,
+        textAm: 'የመጀመሪያ ገጽ ለትልቅ ጽሑፍ እና ለመሬት አቀማመጥ ሙከራ።',
+        textEn: 'First page for large text and landscape testing.',
+        imageUrl: '',
+      ),
+      StoryPage(
+        pageNumber: 2,
+        textAm: 'ሁለተኛ ገጽ',
+        textEn: 'Second page',
+        imageUrl: '',
+      ),
+    ];
+  }
+
+  @override
+  Future<int> getLastReadPageIndex(String storyId) async => 0;
+
+  @override
+  Future<void> saveLastReadPageIndex(String storyId, int pageIndex) async {}
 }
 
 class _TwoStoryLocalStoryService extends LocalStoryService {
