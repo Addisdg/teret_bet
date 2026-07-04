@@ -15,6 +15,8 @@
 8. Generate and review the complete set; correct consistency failures.
 9. Integrate the approved batch and run catalogue, app, accessibility, offline,
    and device QA.
+   Run `dart run tool/catalog_qa.dart --strict-editorial --story=story_id` for
+   each story before assigning `release_ready`.
 10. Owner approves any commit, push, or merge.
 
 ## Story flow review

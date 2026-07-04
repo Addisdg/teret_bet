@@ -98,6 +98,30 @@ Use `draft` only for incomplete placeholders. Use `ready_for_review` when a
 story has complete child-friendly text, metadata, page prompts, and audio
 placeholders but still needs human review or final artwork.
 
+Use `release_ready` only after the full status-board sequence is complete and
+the review evidence is recorded. `published` is retained as a legacy technical
+status; it is not evidence of editorial approval.
+
+Run normal technical catalogue checks with:
+
+```bash
+dart run tool/catalog_qa.dart
+```
+
+Before marking one story release-ready, run the stricter bilingual, age,
+provenance, review-evidence, and status gate:
+
+```bash
+dart run tool/catalog_qa.dart --strict-editorial --story=story_id
+```
+
+Strict mode requires `summaryEn`, `moralEn`, complete English page text,
+`release_ready` status, source and adaptation metadata, and `reviewStatus`.
+Non-original stories also require a source URL. Stories with an
+`originCommunity` additionally require bilingual origin labels and cultural
+context. This machine gate supplements, but cannot replace, human language,
+cultural, read-aloud, age-fit, and visual approval.
+
 `coverImage` and `imageUrl` may be local asset paths or hosted image URLs. Local
 paths should start with `assets/` so the app can load them offline. For bundled
 stories, prefer optimized WebP assets with one cover image plus page images that

@@ -6,6 +6,7 @@
 - [ ] Every page has natural Amharic and English text and accurate artwork.
 - [ ] Provenance, rights, review evidence, and image logs are complete.
 - [ ] `dart run tool/catalog_qa.dart`
+- [ ] Strict editorial QA passes for every story assigned `release_ready`.
 - [ ] `flutter analyze`
 - [ ] `flutter test`
 - [ ] App launches and all five stories open from bundled assets.

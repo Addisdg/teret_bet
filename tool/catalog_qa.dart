@@ -16,8 +16,10 @@ const _riskTerms = [
   'አስፈሪ',
 ];
 
-void main() {
+void main(List<String> args) {
   final report = CatalogQaReport();
+  final strictEditorial = args.contains('--strict-editorial');
+  final selectedStoryId = _readStorySelection(args, report);
   final manifestFile = File(_manifestPath);
 
   if (!manifestFile.existsSync()) {
@@ -29,18 +31,25 @@ void main() {
 
   final manifest = _readStringList(manifestFile);
   final seenIds = <String>{};
+  final storiesToReview = selectedStoryId == null
+      ? manifest
+      : manifest.where((storyId) => storyId == selectedStoryId).toList();
 
   if (manifest.length != 50) {
     report.addWarning('Manifest has ${manifest.length} stories, expected 50.');
   }
 
-  for (final storyId in manifest) {
+  if (selectedStoryId != null && storiesToReview.isEmpty) {
+    report.addError('$selectedStoryId: story is not listed in the manifest.');
+  }
+
+  for (final storyId in storiesToReview) {
     if (!seenIds.add(storyId)) {
       report.addError('Duplicate story ID in manifest: $storyId');
       continue;
     }
 
-    _reviewStory(storyId, report);
+    _reviewStory(storyId, report, strictEditorial: strictEditorial);
   }
 
   report.printSummary();
@@ -49,7 +58,31 @@ void main() {
   }
 }
 
-void _reviewStory(String storyId, CatalogQaReport report) {
+String? _readStorySelection(List<String> args, CatalogQaReport report) {
+  final selections = args.where((arg) => arg.startsWith('--story=')).toList();
+  if (selections.length > 1) {
+    report.addError('Use at most one --story=story_id argument.');
+    return null;
+  }
+
+  if (selections.isEmpty) {
+    return null;
+  }
+
+  final storyId = selections.single.substring('--story='.length).trim();
+  if (storyId.isEmpty) {
+    report.addError('--story requires a non-empty story ID.');
+    return null;
+  }
+
+  return storyId;
+}
+
+void _reviewStory(
+  String storyId,
+  CatalogQaReport report, {
+  required bool strictEditorial,
+}) {
   final storyFile = File('assets/stories/$storyId.json');
   if (!storyFile.existsSync()) {
     report.addError('$storyId: missing story JSON file.');
@@ -62,15 +95,44 @@ void _reviewStory(String storyId, CatalogQaReport report) {
     return;
   }
 
-  _expectNonEmptyString(storyId, story, 'titleAm', report);
-  _expectNonEmptyString(storyId, story, 'titleEn', report);
-  _expectNonEmptyString(storyId, story, 'summaryAm', report);
-  _expectNonEmptyString(storyId, story, 'moralAm', report);
-  _expectNonEmptyString(storyId, story, 'collection', report);
-  _expectNonEmptyString(storyId, story, 'status', report);
+  if (story['id'] != storyId) {
+    report.addError('$storyId: JSON id must match the manifest story ID.');
+  }
 
-  if (story['status'] == 'draft') {
+  _expectNonEmptyString(storyId, story, 'titleAm', report, required: true);
+  _expectNonEmptyString(storyId, story, 'titleEn', report, required: true);
+  _expectNonEmptyString(storyId, story, 'summaryAm', report, required: true);
+  _expectNonEmptyString(storyId, story, 'moralAm', report, required: true);
+  _expectNonEmptyString(storyId, story, 'collection', report, required: true);
+  _expectNonEmptyString(storyId, story, 'status', report, required: true);
+  if (strictEditorial) {
+    _expectNonEmptyString(storyId, story, 'summaryEn', report, required: true);
+    _expectNonEmptyString(storyId, story, 'moralEn', report, required: true);
+  }
+
+  const validStatuses = {
+    'draft',
+    'ready_for_review',
+    'release_ready',
+    'published',
+  };
+  final status = story['status'];
+  if (status is String && !validStatuses.contains(status)) {
+    report.addError('$storyId: unsupported status "$status".');
+  }
+
+  if (status == 'draft') {
     report.addError('$storyId: manifest stories should not use draft status.');
+  }
+  if (strictEditorial && status != 'release_ready') {
+    report.addError(
+      '$storyId: strict editorial QA requires status release_ready.',
+    );
+  }
+
+  _reviewAgeRange(storyId, story, report);
+  if (strictEditorial) {
+    _reviewSource(storyId, story['source'], report);
   }
 
   final themes = story['themes'];
@@ -118,12 +180,27 @@ void _reviewStory(String storyId, CatalogQaReport report) {
       _reviewPageText(storyId, pageNumber, textAm, report);
     }
 
+    final textEn = page['textEn'];
+    if (textEn is! String || textEn.trim().isEmpty) {
+      _addRequirement(
+        report,
+        '$storyId page $pageNumber: textEn is required.',
+        required: strictEditorial,
+      );
+    } else if (textEn.length > 280) {
+      report.addWarning(
+        '$storyId page $pageNumber: English text is ${textEn.length} '
+        'characters; check read-aloud length.',
+      );
+    }
+
     _expectNonEmptyString(
       storyId,
       page,
       'illustrationPrompt',
       report,
       location: 'page $pageNumber',
+      required: true,
     );
 
     final imageUrl = page['imageUrl'];
@@ -132,6 +209,96 @@ void _reviewStory(String storyId, CatalogQaReport report) {
     } else {
       report.addWarning(
         '$storyId page $pageNumber: imageUrl should be a bundled asset path.',
+      );
+    }
+  }
+}
+
+void _reviewAgeRange(
+  String storyId,
+  Map<String, dynamic> story,
+  CatalogQaReport report,
+) {
+  final ageMin = story['ageMin'];
+  final ageMax = story['ageMax'];
+  if (ageMin is! int || ageMax is! int) {
+    report.addError('$storyId: ageMin and ageMax must be integers.');
+    return;
+  }
+
+  if (ageMin < 3 || ageMax > 6 || ageMin > ageMax) {
+    report.addError(
+      '$storyId: age range $ageMin-$ageMax must stay within 3-6 and be ordered.',
+    );
+  }
+}
+
+void _reviewSource(
+  String storyId,
+  dynamic source,
+  CatalogQaReport report,
+) {
+  if (source is! Map<String, dynamic>) {
+    _addRequirement(
+      report,
+      '$storyId: source must be an object.',
+      required: true,
+    );
+    return;
+  }
+
+  for (final field in ['type', 'name', 'notes']) {
+    _expectNonEmptyString(
+      storyId,
+      source,
+      field,
+      report,
+      location: 'source',
+      required: true,
+    );
+  }
+
+  if (source['type'] != 'original') {
+    _expectNonEmptyString(
+      storyId,
+      source,
+      'sourceUrl',
+      report,
+      location: 'source',
+      required: true,
+    );
+  }
+
+  for (final field in [
+    'adaptationBasisAm',
+    'adaptationBasisEn',
+    'reviewStatus',
+  ]) {
+    _expectNonEmptyString(
+      storyId,
+      source,
+      field,
+      report,
+      location: 'source',
+      required: true,
+    );
+  }
+
+  final originCommunity = source['originCommunity'];
+  if (originCommunity is String && originCommunity.trim().isNotEmpty) {
+    for (final field in [
+      'originLabelAm',
+      'originLabelEn',
+      'culturalContextAm',
+      'culturalContextEn',
+    ]) {
+      _expectNonEmptyString(
+        storyId,
+        source,
+        field,
+        report,
+        location: 'source',
+        required: true,
       );
     }
   }
@@ -173,6 +340,7 @@ void _expectNonEmptyString(
   String field,
   CatalogQaReport report, {
   String? location,
+  bool required = false,
 }) {
   final value = data[field];
   if (value is String && value.trim().isNotEmpty) {
@@ -180,7 +348,23 @@ void _expectNonEmptyString(
   }
 
   final prefix = location == null ? storyId : '$storyId $location';
-  report.addWarning('$prefix: $field should be a non-empty string.');
+  _addRequirement(
+    report,
+    '$prefix: $field should be a non-empty string.',
+    required: required,
+  );
+}
+
+void _addRequirement(
+  CatalogQaReport report,
+  String message, {
+  required bool required,
+}) {
+  if (required) {
+    report.addError(message);
+  } else {
+    report.addWarning(message);
+  }
 }
 
 void _expectExistingAsset(

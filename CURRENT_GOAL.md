@@ -186,6 +186,12 @@ baseline. It fails if known ad, analytics, authentication, crash-reporting, or
 tracking SDKs appear, or if the release inputs declare advertising-ID, location,
 camera, microphone, contacts, phone, or Bluetooth-scan access.
 
+Catalogue QA now has a single-story `--strict-editorial` gate for future
+release-ready content. It enforces bilingual summaries, morals, and page text;
+valid 3-6 age ranges and machine status; source/adaptation metadata; review
+status; and additional bilingual cultural context for community-specific work.
+Normal QA remains backward-compatible with the unapproved legacy catalogue.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
