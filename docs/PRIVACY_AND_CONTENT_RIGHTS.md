@@ -11,6 +11,11 @@ entries remain on device. Version 1 contains no ads, purchases, analytics, or
 crash-reporting SDK. Any future SDK requires a documented data-flow and child-
 privacy review before dependency approval.
 
+Android application backup is explicitly disabled. Reinstalling Teret Bet must
+not restore favourites, reading history, language, settings, or reading position
+from Android cloud backup or device-transfer state. This keeps the stated local-
+only model accurate and ensures a genuine new installation asks for language.
+
 Implemented history records contain only story ID, last page, page count,
 completion state, and UTC last-read time. Families can clear all history from
 the library after a confirmation step.
@@ -19,7 +24,7 @@ the library after a confirmation step.
 
 | Component | Data handled | Location | Third party | Release action |
 | --- | --- | --- | --- | --- |
-| Hive preferences | Favourites, history, position, language, settings | Device | None | Verify deletion/clear controls |
+| Hive preferences | Favourites, history, position, language, settings | Device; Android backup disabled | None | Verify deletion/clear controls |
 | Firestore story reads | Public catalogue request | Firebase | Google | Document network access and configuration |
 | Feedback form | Parent ratings and optional comments | To be selected | To be selected | No child identity; publish retention rules |
 | Support email | Parent support correspondence | To be selected | Email provider | Publish contact and retention process |

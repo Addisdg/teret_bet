@@ -93,7 +93,8 @@ clearable refinements.
 Offline startup now has bounded cloud waits while preserving Firestore -> Hive
 -> bundled JSON order. Firebase initialization and Firestore catalogue/page
 reads fall through after 1.2 seconds instead of waiting indefinitely. Pixel 8a
-clean-install and airplane-mode timing still require device measurement.
+clean-install airplane-mode validation now passes: the language chooser appears,
+all 50 bundled stories and images load, and first launch measures 721 ms.
 
 The warm day palette and manual persistent bedtime mode are now implemented.
 Bedtime mode dims interface surfaces without modifying illustrations, and both
@@ -141,6 +142,11 @@ Release-signing integrity is now hardened. Gradle no longer substitutes the
 debug key when release credentials are absent: release tasks fail explicitly,
 while debug builds remain unaffected. Release preflight checks this policy and
 the current locally signed 119.9 MB AAB builds successfully.
+
+Android application backup is now explicitly disabled so favourites, reading
+history, settings, language, and position remain device-local as promised. The
+backup-disabled manifest is covered by release preflight and was confirmed on
+the clean-installed Pixel package.
 
 ## Deferred until approved content exists
 

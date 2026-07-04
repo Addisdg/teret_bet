@@ -61,6 +61,50 @@ void _checkAndroidIdentity(_PreflightReport report) {
       'Android label uses @string/app_name.',
       'Android label should use @string/app_name.',
     );
+    _expectContains(
+      report,
+      manifestText,
+      'android:allowBackup="false"',
+      'Android backup is disabled for private local reading state.',
+      'Android backup should be disabled for private local reading state.',
+    );
+    _expectContains(
+      report,
+      manifestText,
+      'android:fullBackupContent="false"',
+      'Android full-backup content is disabled.',
+      'Android full-backup content should be disabled.',
+    );
+    _expectContains(
+      report,
+      manifestText,
+      'android:dataExtractionRules="@xml/data_extraction_rules"',
+      'Android 12+ data extraction rules are declared.',
+      'Android 12+ backup and device-transfer rules should be declared.',
+    );
+
+    final extractionRules = File(
+      'android/app/src/main/res/xml/data_extraction_rules.xml',
+    );
+    final extractionText = _readOptional(extractionRules);
+    if (extractionText == null) {
+      report.fail('Missing Android data extraction rules.');
+    } else {
+      _expectContains(
+        report,
+        extractionText,
+        '<cloud-backup>',
+        'Android cloud-backup exclusions are present.',
+        'Android cloud-backup exclusions are missing.',
+      );
+      _expectContains(
+        report,
+        extractionText,
+        '<device-transfer>',
+        'Android device-transfer exclusions are present.',
+        'Android device-transfer exclusions are missing.',
+      );
+    }
   }
 
   final stringsText = _readOptional(strings);

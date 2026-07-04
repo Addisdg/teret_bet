@@ -79,9 +79,26 @@ This reconfirms the three-second activity-launch gate. An earlier 3,039 ms
 measurement from the same installation was excluded because Android's keyguard
 was covering the activity during launch.
 
+## Clean-install airplane-mode validation — 2026-07-04
+
+After owner approval to erase app data, the signed backup-disabled release was
+installed and tested with airplane mode enabled and Wi-Fi off. A transition
+install initially restored an old language preference created by the previous
+backup-enabled build; clearing that transition data on the corrected build
+established the intended clean state.
+
+Passed:
+
+- Genuine first launch showed the bilingual language chooser.
+- Clean offline launch measured 721 ms total / 723 ms wait.
+- Amharic selection opened the library with all 50 bundled stories and images.
+- The language choice persisted after force-stop and cold offline restart.
+- Cold offline restart measured 315 ms total / 323 ms wait.
+- Android package flags confirm application backup is disabled.
+- Airplane mode, mobile data, Wi-Fi state, rotation, and normal screen sleep
+  were restored after testing.
+
 ## Pending device checks
 
-- Perform a clean-install airplane-mode launch only after explicit approval to
-  erase existing app data.
 - Complete TalkBack traversal and maximum Android display/text-size checks.
 - Confirm the durable udev rule survives USB detach and reattach.
