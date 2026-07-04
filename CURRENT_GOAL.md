@@ -176,6 +176,11 @@ children's privacy posture, and future support correspondence. It remains
 non-public and deliberately contains placeholders for the legal publisher,
 support email, retention period, effective date, and jurisdictional review.
 
+The bilingual Google Play listing copy and preview-asset plan are now drafted in
+`docs/PLAY_STORE_LISTING_DRAFT.md`. The existing 1254×1254 icon source is suitable
+for a dedicated Play export. Final screenshot capture and feature-graphic work
+remain gated on approved story content and the exact signed release candidate.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

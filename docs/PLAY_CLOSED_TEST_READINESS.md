@@ -77,6 +77,7 @@ that no network request occurs.
   Start from `PRIVACY_POLICY_DRAFT.md`; do not publish it with placeholders.
 - [ ] Dedicated support email exists and its retention process is documented.
 - [ ] Store listing, screenshots, icon, feature graphic, and content declarations are ready.
+  Use `PLAY_STORE_LISTING_DRAFT.md` for bilingual copy and the capture brief.
 - [ ] A parent-only feedback channel is available; it requests no child identity.
 
 ## Closed-test cohort

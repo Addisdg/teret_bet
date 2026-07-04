@@ -44,6 +44,8 @@ provisional declaration map, tester instructions, and privacy-safe evidence log.
       accurate and reviewed against current policy.
 - [ ] Privacy policy, website, support email, publisher identity, screenshots,
       descriptions, and support process are ready.
+      Bilingual draft copy and the asset/capture plan are in
+      `PLAY_STORE_LISTING_DRAFT.md`.
 - [ ] Parent-only feedback form collects no child identity.
 - [ ] At least 12 parent testers receive instructions covering language,
       story flow, age fit, illustrations, usability, and offline use.
