@@ -113,13 +113,15 @@ Physical Pixel 8a validation is recorded in
 and the owner approved the product shell, typography rendering, themes, and
 reader controls. Owner review found landscape illustration cropping; the reader
 now preserves the complete image with `BoxFit.contain`, with automated coverage.
-Post-fix device confirmation remains pending after WSL build memory is reset.
+The font-inclusive optimized release was subsequently confirmed on the Pixel:
+the full composition remains visible in landscape, controls and text fit, and
+an unlocked cold activity launch measured 371 ms.
 
 A reversible full-catalogue image pilot is recorded in
 `docs/IMAGE_OPTIMIZATION_PILOT_2026-07-03.md`. Quality 80 at 960 x 720 reduces
 the temporary image set by 48.53% and projects an approximately 85.8 MB arm64
-bundle. Repository illustrations remain unchanged pending Pixel 8a visual
-approval of representative fine detail.
+bundle. The owner approved this option and the optimized assets have since
+replaced the live catalogue after the originals were archived and verified.
 
 The owner approved the 960 x 720 quality-80 option on 2026-07-04. All 585
 originals were archived and checksum-verified in Windows Documents before the
@@ -127,8 +129,9 @@ live assets were replaced. The optimized catalogue totals 65,424,746 image
 bytes. The fresh multi-ABI release AAB is 119.3 MB, down from 181.0 MB. Pixel
 8a-targeted bundletool measurement is 74.8 MB compressed (85.8 MB in selected
 split APK entries), below the provisional 100 MB user-download target. Pixel
-visual verification and final Play Console processing remain active gates; the
-normal upload artifact is 119.3 MB because it serves multiple device variants.
+visual verification now passes; final Play Console processing remains an active
+gate. The normal upload artifact is 119.3 MB because it serves multiple device
+variants.
 
 After bundling Noto Sans Ethiopic, the fresh release AAB is 119.9 MB and the
 font-inclusive Pixel 8a compressed download is 75.4 MB. Typography consistency

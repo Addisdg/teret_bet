@@ -50,10 +50,37 @@ Correction:
   cropping.
 - The 800 x 400 large-text reader test now asserts `BoxFit.contain`.
 
+## Post-fix release validation — 2026-07-04
+
+The font-inclusive, optimized-image release was installed over the existing app
+with the release key, preserving local data. Screenshot inspection on the
+physical Pixel confirmed:
+
+- Noto Sans Ethiopic renders Amharic cleanly in the library and reader.
+- Optimized 960 x 720 covers and story pages retain clear colour and fine
+  illustration detail.
+- Portrait story art, text, progress, language, and navigation controls render
+  without overlap.
+- Landscape uses `BoxFit.contain`; the complete 4:3 composition remains visible
+  with intentional themed side space instead of cropping.
+- Landscape Amharic text and the compact reader controls remain reachable and
+  unclipped.
+
+After the device was unlocked and the rotation settings were restored, a fresh
+activity-manager cold launch measured:
+
+```text
+LaunchState: COLD
+TotalTime: 371 ms
+WaitTime: 372 ms
+```
+
+This reconfirms the three-second activity-launch gate. An earlier 3,039 ms
+measurement from the same installation was excluded because Android's keyguard
+was covering the activity during launch.
+
 ## Pending device checks
 
-- Install a post-fix release after WSL memory is reset and visually confirm the
-  landscape correction.
 - Perform a clean-install airplane-mode launch only after explicit approval to
   erase existing app data.
 - Complete TalkBack traversal and maximum Android display/text-size checks.
