@@ -120,6 +120,13 @@ the temporary image set by 48.53% and projects an approximately 85.8 MB arm64
 bundle. Repository illustrations remain unchanged pending Pixel 8a visual
 approval of representative fine detail.
 
+The owner approved the 960 x 720 quality-80 option on 2026-07-04. All 585
+originals were archived and checksum-verified in Windows Documents before the
+live assets were replaced. The optimized catalogue totals 65,424,746 image
+bytes. The fresh multi-ABI release AAB is 119.3 MB, down from 181.0 MB. Pixel
+visual verification and Play-delivered download measurement remain active
+gates; the normal upload artifact is still above the provisional 100 MB target.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

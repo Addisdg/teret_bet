@@ -24,7 +24,7 @@ create a matching image unless deliberate reuse is clearly stronger.
 
 ## Asset requirements
 
-- Bundled 1200 x 900 WebP for every cover and page.
+- Bundled 960 x 720 quality-80 WebP for every cover and page.
 - No embedded text, signatures, watermarks, brands, or copied characters.
 - Warm expressions and age-appropriate danger.
 - The image must show the current page beat, not merely generic cover art.

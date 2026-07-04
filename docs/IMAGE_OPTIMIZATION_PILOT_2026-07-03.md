@@ -61,7 +61,31 @@ option projected below 100 MB for the Pixel arm64 delivery. It does not project
 the normal multi-ABI upload below 100 MB, so the project must distinguish Play
 delivered download size from upload bundle size.
 
-## Approval required
+## Approval status
 
-Repository image replacement remains explicitly unapproved. Owner visual
-approval is required before applying either option to bundled illustrations.
+Repository replacement was held until explicit owner visual approval, as
+required by the illustration workflow.
+
+## Owner approval and application
+
+Approved on 2026-07-04. Before replacement, all 585 original 1200 x 900 WebPs
+were archived outside the repository at:
+
+`C:\Users\Len23\Documents\TeretBetBackups\teret_bet_story_images_original_1200x900_2026-07-04.tar`
+
+Archive SHA-256:
+
+`98a571220878d5ceb034b801e0cdd7466db3f2c4aeba49001130a1d72992e8a4`
+
+The archive checksum and 585-file count were verified before repository images
+were replaced. Git history remains a second recovery path. The live catalogue
+now uses the approved 960 x 720 quality-80 assets.
+
+Post-application verification:
+
+- 585 filenames matched the pilot set exactly;
+- all 585 images reported 960 x 720 dimensions;
+- total live image size: 65,424,746 bytes;
+- Flutter analysis and all 38 tests passed;
+- catalogue QA passed with zero errors and zero warnings;
+- fresh multi-ABI release AAB: 119.3 MB.

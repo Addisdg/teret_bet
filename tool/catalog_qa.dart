@@ -3,8 +3,8 @@ import 'dart:io';
 import 'dart:typed_data';
 
 const _manifestPath = 'assets/stories/story_manifest.json';
-const _storyImageWidth = 1200;
-const _storyImageHeight = 900;
+const _storyImageWidth = 960;
+const _storyImageHeight = 720;
 const _riskTerms = [
   'ገደለ',
   'ሞተ',

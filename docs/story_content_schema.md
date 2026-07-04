@@ -136,7 +136,7 @@ as small thumbnails. Prefer:
 * No text inside the image, because titles are rendered by Flutter
 * Optimized WebP files under about 500 KB each
 
-The current cover set uses 1200 x 900 WebP images so the same asset works well
+The current cover set uses 960 x 720 quality-80 WebP images so the same asset works well
 on mobile, desktop, and web during MVP testing.
 
 ## Firestore Shape

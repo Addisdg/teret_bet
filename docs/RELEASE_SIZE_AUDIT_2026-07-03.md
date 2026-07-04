@@ -66,3 +66,22 @@ change and visual comparison, not a harmless cleanup. Before that work:
 5. optimize in a reversible batch and rerun catalogue/image QA.
 
 The 100 MB target remains unmet and visible; release size is not claimed ready.
+
+## Approved optimization result — 2026-07-04
+
+After owner visual approval, all 585 images were resized to 960 x 720 and
+encoded at WebP quality 80. The originals were archived and checksum-verified
+outside the repository before replacement.
+
+Fresh normal multi-ABI build:
+
+```text
+flutter build appbundle --release
+app-release.aab: 119.3 MB
+```
+
+This is approximately 61.7 MB smaller than the measured 181.0 MB baseline and
+matches the pilot projection. The normal upload artifact remains above the
+provisional 100 MB target. Based on the prior arm64 analysis and measured asset
+savings, Pixel delivery is projected near 85.8 MB; verify the actual delivered
+download in Play Console before declaring the size gate complete.
