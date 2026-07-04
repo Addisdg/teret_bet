@@ -148,6 +148,12 @@ history, settings, language, and position remain device-local as promised. The
 backup-disabled manifest is covered by release preflight and was confirmed on
 the clean-installed Pixel package.
 
+Accessibility automation now covers the complete product shell at 200 percent
+system text scale. A labelled-target audit found and fixed the story-card tap
+surface, which now announces a localized “title, open story” action separately
+from its favourite button. Physical Pixel maximum-text and TalkBack traversal
+remain the active accessibility gates.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

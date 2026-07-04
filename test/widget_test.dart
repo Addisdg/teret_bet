@@ -1117,6 +1117,59 @@ void main() {
     await tester.pumpWidget(const SizedBox.shrink());
   });
 
+  testWidgets('product shell remains usable at 200 percent system text scale',
+      (tester) async {
+    tester.view.physicalSize = const Size(411, 914);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    final storyProvider = StoryProvider(
+      repository: _NavigationStoryRepository(widgetCacheBox),
+      settingsBox: widgetSettingsBox,
+    );
+    final settings = SettingsProvider(settingsBox: widgetSettingsBox);
+
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: storyProvider),
+          ChangeNotifierProvider.value(value: settings),
+        ],
+        child: const MaterialApp(
+          home: MediaQuery(
+            data: MediaQueryData(
+              size: Size(411, 914),
+              textScaler: TextScaler.linear(2),
+            ),
+            child: HomeScreen(),
+          ),
+        ),
+      ),
+    );
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 100));
+
+    expect(tester.takeException(), isNull);
+    expect(find.text('ተረት ቤት'), findsOneWidget);
+    expect(find.text('ቅንብሮች'), findsOneWidget);
+    await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
+    await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
+
+    await tester.tap(find.text('ቅንብሮች'));
+    await tester.pump();
+
+    expect(tester.takeException(), isNull);
+    expect(find.text('የጽሑፍ መጠን'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('ወደ መደበኛ መልስ'),
+      200,
+      scrollable: find.byType(Scrollable).last,
+    );
+    expect(find.text('ወደ መደበኛ መልስ'), findsOneWidget);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
+
   testWidgets('day and bedtime settings surfaces meet text contrast guidance',
       (tester) async {
     final settings = SettingsProvider(settingsBox: widgetSettingsBox);

@@ -64,15 +64,17 @@ remain for post-launch work.
 - No overlapping age 3-4/5-6 filters.
 - No theme filters; only collection filters exist.
 
-### P0 — Accessibility evidence is absent
+### Resolved in automation — Accessibility evidence
 
-- No explicit `Semantics` widgets or accessibility guideline tests were found.
-- Only two of 30 tests are widget tests; neither covers the reader, library,
-  settings, navigation, text scaling, contrast, focus order, or orientation.
-- Several tooltips are English while the visible app is Amharic-only.
-- The controls-hidden tap gesture has no explicit semantic description.
+- Reader illustrations, control toggles, language switching, navigation, text
+  sizing, and story-card actions now expose localized semantics.
+- Widget tests cover reader and full-shell text scaling, portrait/landscape
+  responsiveness, labelled targets, Android touch targets, contrast, navigation,
+  and reachable below-fold Settings controls.
+- The shell passes a Pixel-sized 200 percent system text-scale test; the reader
+  separately passes a 160 percent short-landscape test.
 
-Built-in Material semantics may help, but release evidence is still required.
+Physical Pixel maximum-text and TalkBack traversal remain manual release gates.
 
 ### P0 — Reader layout is likely cramped in landscape and large text
 
