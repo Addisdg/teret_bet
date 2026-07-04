@@ -36,6 +36,9 @@
 
 ## Closed test and production
 
+Use `PLAY_CLOSED_TEST_READINESS.md` for the current policy references,
+provisional declaration map, tester instructions, and privacy-safe evidence log.
+
 - [ ] Signed release APK and AAB build successfully.
 - [ ] Play target audience, content rating, Data safety, and Families answers are
       accurate and reviewed against current policy.

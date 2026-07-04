@@ -163,6 +163,13 @@ labelled controls, and Android touch targets. The app declares API 24 (Android
 because this WSL SDK currently has neither the emulator package nor system
 images installed.
 
+Play closed-test preparation is now defined in
+`docs/PLAY_CLOSED_TEST_READINESS.md`. It maps the current child-directed,
+ad-free, account-free, local-state product to provisional Console answers and
+provides privacy-safe adult tester instructions and evidence fields. Policy
+answers, uploads, tester contact, domain, support email, and public hosting
+remain owner-controlled pre-release actions.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

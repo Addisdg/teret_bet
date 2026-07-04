@@ -58,6 +58,9 @@ Exit: all product and store release gates pass.
 
 - Internal test, then controlled Google Play closed test with at least 12 parent
   testers.
+- Recruit at least 15 adults to protect the 12-person continuous cohort from
+  attrition; if the new-personal-account rule applies, keep at least 12 opted in
+  continuously for the current required period before applying for production.
 - Collect parent-only feedback without child identity.
 - Resolve release blockers before public production.
 
