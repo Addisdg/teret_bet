@@ -170,6 +170,12 @@ provides privacy-safe adult tester instructions and evidence fields. Policy
 answers, uploads, tester contact, domain, support email, and public hosting
 remain owner-controlled pre-release actions.
 
+A publication-oriented privacy-policy draft now records the implemented local
+reading state, Firestore catalogue access, absent data/monetization features,
+children's privacy posture, and future support correspondence. It remains
+non-public and deliberately contains placeholders for the legal publisher,
+support email, retention period, effective date, and jurisdictional review.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

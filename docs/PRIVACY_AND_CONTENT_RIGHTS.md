@@ -44,7 +44,7 @@ GDPR, and applicable regional requirements with appropriate professional advice.
 
 ## Public documents required before release
 
-- Privacy policy at a stable public URL.
+- Complete `PRIVACY_POLICY_DRAFT.md`, then publish it at a stable public URL.
 - Dedicated Teret Bet support email.
 - Simple public website.
 - Accurate Play Data safety declaration and Families-policy responses.

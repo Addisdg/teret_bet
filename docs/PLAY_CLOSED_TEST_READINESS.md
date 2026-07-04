@@ -74,6 +74,7 @@ that no network request occurs.
 - [ ] Signed release AAB builds and its merged manifest/SDK list is audited.
 - [ ] Pixel 8a, small-phone, API-24, and tablet checks are complete.
 - [ ] Privacy policy text is approved and hosted at a stable public URL.
+  Start from `PRIVACY_POLICY_DRAFT.md`; do not publish it with placeholders.
 - [ ] Dedicated support email exists and its retention process is documented.
 - [ ] Store listing, screenshots, icon, feature graphic, and content declarations are ready.
 - [ ] A parent-only feedback channel is available; it requests no child identity.
