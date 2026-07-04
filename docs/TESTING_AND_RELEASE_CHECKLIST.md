@@ -29,10 +29,10 @@
 - [ ] Favourites, language, settings, history, and position persist on device.
 - [ ] Pixel 8a is usable within 3 seconds.
 - [ ] Page turns show no blank frame.
-- [ ] Small-phone, older-supported-Android, and 10-inch-tablet emulator checks pass.
-  Automated shell preflight covers 320 x 568 and 1280 x 800 logical viewports;
-  physical/emulator validation is still required. The declared minimum Android
-  version is API 24 (Android 7.0).
+- [x] Small-phone, older-supported-Android, and 10-inch-tablet emulator checks pass.
+  Automated viewport coverage is supplemented by release-APK passes on an API
+  24 720×1280 phone and API 35 1280×800 10-inch tablet. Evidence is recorded in
+  `EMULATOR_MATRIX_2026-07-04.md`.
 - [ ] APK/AAB size is measured; investigate anything above the 100 MB target.
 
 ## Closed test and production

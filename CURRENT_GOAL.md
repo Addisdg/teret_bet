@@ -159,9 +159,13 @@ remains the active accessibility gate.
 Responsive device-matrix preflight now covers 320 x 568 small-phone and
 1280 x 800 tablet viewports in widget tests, including adaptive library columns,
 labelled controls, and Android touch targets. The app declares API 24 (Android
-7.0) as its minimum. Real older-Android and tablet emulator runs remain pending
-because this WSL SDK currently has neither the emulator package nor system
-images installed.
+7.0) as its minimum.
+
+The real emulator matrix is now complete using Windows-hosted AVDs. The release
+APK passes offline first launch, the 50-story Amharic library, story entry, and
+reader usability on an API-24 720×1280 small phone and API-35 1280×800 10-inch
+tablet. Evidence and the WSL/Windows ADB ownership procedure are recorded in
+`docs/EMULATOR_MATRIX_2026-07-04.md`.
 
 Play closed-test preparation is now defined in
 `docs/PLAY_CLOSED_TEST_READINESS.md`. It maps the current child-directed,
