@@ -52,12 +52,23 @@ android {
 
     buildTypes {
         release {
-            signingConfig = if (hasReleaseKeystore) {
-                signingConfigs.getByName("release")
-            } else {
-                signingConfigs.getByName("debug")
+            if (hasReleaseKeystore) {
+                signingConfig = signingConfigs.getByName("release")
             }
         }
+    }
+}
+
+gradle.taskGraph.whenReady {
+    val releaseTaskRequested = allTasks.any { task ->
+        task.name.contains("release", ignoreCase = true)
+    }
+    if (releaseTaskRequested && !hasReleaseKeystore) {
+        throw GradleException(
+            "Release builds require android/key.properties and the configured " +
+                "keystore. Debug signing is intentionally not allowed for " +
+                "release artifacts.",
+        )
     }
 }
 

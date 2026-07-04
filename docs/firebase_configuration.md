@@ -54,8 +54,10 @@ keyPassword=your_key_password
 ```
 
 When `android/key.properties` exists, Gradle signs release builds with that
-keystore. Without it, release builds fall back to the debug key for local smoke
-testing only. The local release signing files are intentionally ignored by Git.
+keystore. Without it, Gradle fails release tasks with an explicit error; it
+never creates a debug-signed artifact labelled as a release. Debug builds remain
+available without release credentials. The local release signing files are
+intentionally ignored by Git.
 
 ## Firestore Catalog Export
 
@@ -133,10 +135,11 @@ dart tool/release_preflight.dart
 ```
 
 The preflight checks Android identity, app version format, Firebase option
-wiring, release signing file readiness, and the Firestore catalog export. Missing
-real signing credentials or `FIREBASE_ANDROID_API_KEY` are warnings in normal
-mode because those values stay outside Git. Use `--strict` when you want those
-warnings to fail a CI or release checklist run.
+wiring, release signing file readiness, and the Firestore catalog export.
+Missing signing credentials or `FIREBASE_ANDROID_API_KEY` are warnings in normal
+preflight mode because those values stay outside Git, although Gradle itself
+will refuse a release build without signing credentials. Use `--strict` when
+you want all preflight warnings to fail a CI or release checklist run.
 
 Keep real values in a local shell, password manager, CI secret, or ignored
 `.env` file. Do not paste real keys into tracked Dart, JSON, Gradle, plist, or

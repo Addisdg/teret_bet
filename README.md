@@ -334,8 +334,9 @@ flutter run -d <device-id> \
   --dart-define=FIREBASE_ANDROID_API_KEY=your_android_key
 ```
 
-Build a local Android release smoke APK. If `android/key.properties` is missing,
-Gradle uses the debug signing fallback documented in
+Build a locally signed Android release smoke APK. Gradle requires the ignored
+`android/key.properties` file and configured keystore; it will not silently
+substitute debug signing for a release artifact. See
 [`docs/firebase_configuration.md`](docs/firebase_configuration.md):
 
 ```bash

@@ -131,11 +131,31 @@ void _checkFirebaseOptions(_PreflightReport report) {
 }
 
 void _checkAndroidSigning(_PreflightReport report) {
+  final buildGradle = File('android/app/build.gradle.kts');
+  final gradleText = _readOptional(buildGradle);
+  if (gradleText == null) {
+    report.fail('Missing Android Gradle config: ${buildGradle.path}');
+  } else {
+    _expectContains(
+      report,
+      gradleText,
+      'Debug signing is intentionally not allowed',
+      'Gradle blocks unsigned or debug-signed release artifacts.',
+      'Gradle should explicitly block release builds without a keystore.',
+    );
+    if (gradleText.contains('signingConfigs.getByName("debug")')) {
+      report
+          .fail('Android release signing must not fall back to the debug key.');
+    } else {
+      report.pass('Android release signing has no debug-key fallback.');
+    }
+  }
+
   final keyPropertiesFile = File('android/key.properties');
   if (!keyPropertiesFile.existsSync()) {
     report.warn(
-      'android/key.properties is absent; release builds will use debug signing '
-      'fallback for local smoke tests only.',
+      'android/key.properties is absent; Android release builds will fail until '
+      'release signing is configured.',
     );
     return;
   }

@@ -137,6 +137,11 @@ After bundling Noto Sans Ethiopic, the fresh release AAB is 119.9 MB and the
 font-inclusive Pixel 8a compressed download is 75.4 MB. Typography consistency
 therefore adds only about 0.54 MB and does not threaten the download-size gate.
 
+Release-signing integrity is now hardened. Gradle no longer substitutes the
+debug key when release credentials are absent: release tasks fail explicitly,
+while debug builds remain unaffected. Release preflight checks this policy and
+the current locally signed 119.9 MB AAB builds successfully.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
