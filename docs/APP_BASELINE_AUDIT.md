@@ -73,8 +73,13 @@ remain for post-launch work.
   and reachable below-fold Settings controls.
 - The shell passes a Pixel-sized 200 percent system text-scale test; the reader
   separately passes a 160 percent short-landscape test.
+- The shell also has responsive preflight coverage at 320 x 568 (two-column
+  small-phone library) and 1280 x 800 (five-column 10-inch-tablet library).
+  Real API-24 and tablet emulator checks remain release gates because this WSL
+  Android SDK currently has no emulator package or system images installed.
 
-Physical Pixel maximum-text and TalkBack traversal remain manual release gates.
+Physical Pixel maximum-text and TalkBack hierarchy checks pass. Parent listening
+review of Amharic TalkBack pronunciation remains a manual release gate.
 
 ### P0 — Reader layout is likely cramped in landscape and large text
 

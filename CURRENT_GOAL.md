@@ -156,6 +156,13 @@ and the active TalkBack hierarchy confirms ordered localized controls without a
 duplicate visible-title stop. Parent listening review of Amharic pronunciation
 remains the active accessibility gate.
 
+Responsive device-matrix preflight now covers 320 x 568 small-phone and
+1280 x 800 tablet viewports in widget tests, including adaptive library columns,
+labelled controls, and Android touch targets. The app declares API 24 (Android
+7.0) as its minimum. Real older-Android and tablet emulator runs remain pending
+because this WSL SDK currently has neither the emulator package nor system
+images installed.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

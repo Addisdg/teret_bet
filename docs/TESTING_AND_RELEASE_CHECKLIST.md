@@ -29,6 +29,9 @@
 - [ ] Pixel 8a is usable within 3 seconds.
 - [ ] Page turns show no blank frame.
 - [ ] Small-phone, older-supported-Android, and 10-inch-tablet emulator checks pass.
+  Automated shell preflight covers 320 x 568 and 1280 x 800 logical viewports;
+  physical/emulator validation is still required. The declared minimum Android
+  version is API 24 (Android 7.0).
 - [ ] APK/AAB size is measured; investigate anything above the 100 MB target.
 
 ## Closed test and production

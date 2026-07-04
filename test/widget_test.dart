@@ -1174,6 +1174,55 @@ void main() {
     await tester.pumpWidget(const SizedBox.shrink());
   });
 
+  testWidgets('product shell adapts to small-phone and tablet viewports',
+      (tester) async {
+    const viewportCases = <({Size size, int columns})>[
+      (size: Size(320, 568), columns: 2),
+      (size: Size(1280, 800), columns: 5),
+    ];
+
+    for (final viewportCase in viewportCases) {
+      tester.view.physicalSize = viewportCase.size;
+      tester.view.devicePixelRatio = 1;
+      final storyProvider = StoryProvider(
+        repository: _NavigationStoryRepository(widgetCacheBox),
+        settingsBox: widgetSettingsBox,
+      );
+      final settings = SettingsProvider(settingsBox: widgetSettingsBox);
+      await storyProvider.loadStories();
+
+      await tester.pumpWidget(
+        MultiProvider(
+          providers: [
+            ChangeNotifierProvider.value(value: storyProvider),
+            ChangeNotifierProvider.value(value: settings),
+          ],
+          child: MaterialApp(
+            home: MediaQuery(
+              data: MediaQueryData(size: viewportCase.size),
+              child: const HomeScreen(),
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+
+      expect(tester.takeException(), isNull);
+      expect(find.text('ተረት ቤት'), findsOneWidget);
+      expect(find.text('ቅንብሮች'), findsOneWidget);
+      final grid = tester.widget<GridView>(find.byType(GridView));
+      final delegate =
+          grid.gridDelegate as SliverGridDelegateWithFixedCrossAxisCount;
+      expect(delegate.crossAxisCount, viewportCase.columns);
+      await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
+      await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
+    }
+
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    await tester.pumpWidget(const SizedBox.shrink());
+  });
+
   testWidgets('day and bedtime settings surfaces meet text contrast guidance',
       (tester) async {
     final settings = SettingsProvider(settingsBox: widgetSettingsBox);
