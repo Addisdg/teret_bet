@@ -82,6 +82,25 @@ app-release.aab: 119.3 MB
 
 This is approximately 61.7 MB smaller than the measured 181.0 MB baseline and
 matches the pilot projection. The normal upload artifact remains above the
-provisional 100 MB target. Based on the prior arm64 analysis and measured asset
-savings, Pixel delivery is projected near 85.8 MB; verify the actual delivered
-download in Play Console before declaring the size gate complete.
+provisional 100 MB upload target.
+
+## Pixel 8a delivery measurement — 2026-07-04
+
+Bundletool 1.18.3 generated device-specific splits from the optimized AAB using
+the physical test device profile: Android 16 / SDK 36, `arm64-v8a`, 420 dpi,
+and Amharic plus English locales. `bundletool get-size total` reported:
+
+| Measurement | Bytes | Decimal MB |
+| --- | ---: | ---: |
+| Compressed Pixel 8a download | 74,822,039 | 74.8 MB |
+| Selected split APK entries | 85,808,276 | 85.8 MB |
+
+The generated set contains the base master, arm64, xxhdpi, Amharic, and English
+splits. It used the local debug key because this was a measurement-only package;
+the signing-key difference is immaterial at this scale and no test package is a
+release artifact.
+
+The measured Pixel delivery is below the provisional 100 MB user-download
+target. The 119.3 MB multi-device AAB remains the Play upload artifact, not the
+per-device family download. Play Console should still be checked before rollout
+because Google Play's final processing is authoritative.

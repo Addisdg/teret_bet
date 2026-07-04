@@ -124,8 +124,10 @@ The owner approved the 960 x 720 quality-80 option on 2026-07-04. All 585
 originals were archived and checksum-verified in Windows Documents before the
 live assets were replaced. The optimized catalogue totals 65,424,746 image
 bytes. The fresh multi-ABI release AAB is 119.3 MB, down from 181.0 MB. Pixel
-visual verification and Play-delivered download measurement remain active
-gates; the normal upload artifact is still above the provisional 100 MB target.
+8a-targeted bundletool measurement is 74.8 MB compressed (85.8 MB in selected
+split APK entries), below the provisional 100 MB user-download target. Pixel
+visual verification and final Play Console processing remain active gates; the
+normal upload artifact is 119.3 MB because it serves multiple device variants.
 
 ## Deferred until approved content exists
 
