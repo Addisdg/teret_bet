@@ -192,6 +192,12 @@ valid 3-6 age ranges and machine status; source/adaptation metadata; review
 status; and additional bilingual cultural context for community-specific work.
 Normal QA remains backward-compatible with the unapproved legacy catalogue.
 
+Reviewer operations are now defined without creating a roster in Git. The plan
+sets family, language, cultural, and owner roles; anonymous codes; pilot coverage
+targets; recruitment waves; privacy-safe evidence handling; and escalation
+rules. Actual reviewer contact and scheduling remain owner-controlled external
+work.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

@@ -10,6 +10,9 @@ Do not record names, contact details, exact birth dates, photos, audio, video,
 medical information, or anything else that could identify a child. Use only an
 anonymous session code and the broad age band `3-4` or `5-6`.
 
+Reviewer roles, anonymous coding, recruitment order, evidence handling, and
+escalation are defined in `REVIEWER_OPERATIONS.md`.
+
 ## Pilot stories
 
 1. The Rat Who Prepared Early — ages 3-4 and 5-6.

@@ -48,6 +48,8 @@ provisional declaration map, tester instructions, and privacy-safe evidence log.
       Bilingual draft copy and the asset/capture plan are in
       `PLAY_STORE_LISTING_DRAFT.md`.
 - [ ] Parent-only feedback form collects no child identity.
+- [ ] Reviewer contact mapping and raw scorecards remain outside Git; committed
+      findings use the anonymous process in `REVIEWER_OPERATIONS.md`.
 - [ ] At least 12 parent testers receive instructions covering language,
       story flow, age fit, illustrations, usability, and offline use.
 - [ ] Feedback is triaged; no release blocker remains open.
