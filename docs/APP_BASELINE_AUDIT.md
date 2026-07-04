@@ -95,11 +95,12 @@ The fallback order must remain Firestore -> Hive -> bundled JSON, but the UI
 needs measured behavior so airplane mode does not leave a child staring at a
 spinner while a network call expires.
 
-### P1 — Typeface configuration is incomplete
+### Resolved — Typeface configuration
 
-The theme requests `NotoSansEthiopic`, but `pubspec.yaml` declares no bundled
-font family. Rendering therefore depends on platform fallback instead of a
-controlled, testable launch typeface.
+The theme's `NotoSansEthiopic` family is now backed by the official Google Fonts
+variable asset bundled in `pubspec.yaml`. Regular, medium, and bold application
+weights resolve to the same variable file, so Amharic rendering no longer
+depends on an Android platform fallback.
 
 ### P1 — Release size exceeds the provisional target
 

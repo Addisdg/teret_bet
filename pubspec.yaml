@@ -30,3 +30,13 @@ flutter:
   assets:
     - assets/stories/
     - assets/images/stories/
+
+  fonts:
+    - family: NotoSansEthiopic
+      fonts:
+        - asset: assets/fonts/NotoSansEthiopic-Variable.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansEthiopic-Variable.ttf
+          weight: 500
+        - asset: assets/fonts/NotoSansEthiopic-Variable.ttf
+          weight: 700

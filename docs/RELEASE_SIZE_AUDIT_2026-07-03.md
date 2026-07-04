@@ -104,3 +104,11 @@ The measured Pixel delivery is below the provisional 100 MB user-download
 target. The 119.3 MB multi-device AAB remains the Play upload artifact, not the
 per-device family download. Play Console should still be checked before rollout
 because Google Play's final processing is authoritative.
+
+## Font-inclusive update — 2026-07-04
+
+Bundling the official Noto Sans Ethiopic variable font produced a fresh
+119,865,456-byte AAB. The font is present once in the bundle and increased the
+AAB by 542,819 bytes. Repeating the same Pixel 8a bundletool measurement gave a
+75,359,671-byte compressed download, an increase of 537,632 bytes. The measured
+device download remains below the provisional 100 MB target.

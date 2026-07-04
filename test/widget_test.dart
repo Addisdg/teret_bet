@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
@@ -37,6 +38,20 @@ void main() {
   tearDownAll(() async {
     await Hive.close();
     tempDir.deleteSync(recursive: true);
+  });
+
+  test('bundled Ethiopic typeface is available to the app theme', () async {
+    final font = await rootBundle.load(
+      'assets/fonts/NotoSansEthiopic-Variable.ttf',
+    );
+
+    expect(font.lengthInBytes, greaterThan(1000000));
+    expect(
+        TeretBetTheme.day.textTheme.bodyMedium?.fontFamily, 'NotoSansEthiopic');
+    expect(
+      TeretBetTheme.bedtime.textTheme.bodyMedium?.fontFamily,
+      'NotoSansEthiopic',
+    );
   });
 
   test('local story service loads stories from the story manifest', () async {

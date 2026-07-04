@@ -97,8 +97,9 @@ clean-install and airplane-mode timing still require device measurement.
 
 The warm day palette and manual persistent bedtime mode are now implemented.
 Bedtime mode dims interface surfaces without modifying illustrations, and both
-theme variants pass automated Settings text-contrast guidance. Font bundling
-remains blocked on choosing and reviewing a licensed Ethiopic font asset.
+theme variants pass automated Settings text-contrast guidance. The official
+Google Fonts Noto Sans Ethiopic variable typeface and its SIL Open Font License
+are now bundled, removing the device-dependent Amharic font fallback.
 
 Release-size hardening now has fresh evidence in
 `docs/RELEASE_SIZE_AUDIT_2026-07-03.md`. The normal AAB builds at 181,025,712
@@ -128,6 +129,10 @@ bytes. The fresh multi-ABI release AAB is 119.3 MB, down from 181.0 MB. Pixel
 split APK entries), below the provisional 100 MB user-download target. Pixel
 visual verification and final Play Console processing remain active gates; the
 normal upload artifact is 119.3 MB because it serves multiple device variants.
+
+After bundling Noto Sans Ethiopic, the fresh release AAB is 119.9 MB and the
+font-inclusive Pixel 8a compressed download is 75.4 MB. Typography consistency
+therefore adds only about 0.54 MB and does not threaten the download-size gate.
 
 ## Deferred until approved content exists
 
