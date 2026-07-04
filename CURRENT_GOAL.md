@@ -181,6 +181,11 @@ The bilingual Google Play listing copy and preview-asset plan are now drafted in
 for a dedicated Play export. Final screenshot capture and feature-graphic work
 remain gated on approved story content and the exact signed release candidate.
 
+Release preflight now enforces the child-directed dependency and permission
+baseline. It fails if known ad, analytics, authentication, crash-reporting, or
+tracking SDKs appear, or if the release inputs declare advertising-ID, location,
+camera, microphone, contacts, phone, or Bluetooth-scan access.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

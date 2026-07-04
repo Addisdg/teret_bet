@@ -13,6 +13,7 @@ void main(List<String> args) {
   final report = _PreflightReport();
 
   _checkAndroidIdentity(report);
+  _checkChildDirectedPrivacy(report);
   _checkPubspecVersion(report);
   _checkFirebaseOptions(report);
   _checkAndroidSigning(report);
@@ -22,6 +23,77 @@ void main(List<String> args) {
 
   if (report.failures.isNotEmpty || (strict && report.warnings.isNotEmpty)) {
     exitCode = 1;
+  }
+}
+
+void _checkChildDirectedPrivacy(_PreflightReport report) {
+  const forbiddenPackages = <String>{
+    'app_tracking_transparency',
+    'firebase_analytics',
+    'firebase_auth',
+    'firebase_crashlytics',
+    'google_mobile_ads',
+  };
+  const sensitivePermissions = <String>{
+    'android.permission.ACCESS_COARSE_LOCATION',
+    'android.permission.ACCESS_FINE_LOCATION',
+    'android.permission.AD_ID',
+    'android.permission.BLUETOOTH_SCAN',
+    'android.permission.CAMERA',
+    'android.permission.READ_CONTACTS',
+    'android.permission.READ_PHONE_NUMBERS',
+    'android.permission.READ_PHONE_STATE',
+    'android.permission.RECORD_AUDIO',
+  };
+
+  final lockText = _readOptional(File('pubspec.lock'));
+  if (lockText == null) {
+    report.fail('Missing pubspec.lock for child-directed SDK review.');
+  } else {
+    final foundPackages = forbiddenPackages
+        .where(
+          (package) => RegExp(
+            '^  ${RegExp.escape(package)}:',
+            multiLine: true,
+          ).hasMatch(lockText),
+        )
+        .toList()
+      ..sort();
+
+    if (foundPackages.isEmpty) {
+      report.pass('No prohibited ad, analytics, auth, or crash SDK is locked.');
+    } else {
+      report.fail(
+        'Child-directed SDK review required for: ${foundPackages.join(', ')}.',
+      );
+    }
+  }
+
+  final manifestFiles = <File>[
+    File('android/app/src/main/AndroidManifest.xml'),
+    File(
+      'build/app/intermediates/merged_manifests/release/'
+      'processReleaseManifest/AndroidManifest.xml',
+    ),
+  ].where((file) => file.existsSync()).toList();
+
+  final foundPermissions = <String>{};
+  for (final manifest in manifestFiles) {
+    final text = manifest.readAsStringSync();
+    foundPermissions.addAll(sensitivePermissions.where(text.contains));
+  }
+
+  if (foundPermissions.isEmpty) {
+    report.pass(
+      'No advertising ID, location, camera, microphone, contacts, phone, or '
+      'Bluetooth-scan permission is declared.',
+    );
+  } else {
+    final sortedPermissions = foundPermissions.toList()..sort();
+    report.fail(
+      'Child-directed permission review required for: '
+      '${sortedPermissions.join(', ')}.',
+    );
   }
 }
 

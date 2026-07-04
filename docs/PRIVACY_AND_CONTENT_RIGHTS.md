@@ -11,6 +11,12 @@ entries remain on device. Version 1 contains no ads, purchases, analytics, or
 crash-reporting SDK. Any future SDK requires a documented data-flow and child-
 privacy review before dependency approval.
 
+Release preflight enforces the current baseline by rejecting known advertising,
+analytics, authentication, crash-reporting, and tracking packages, plus Android
+advertising-ID, location, camera, microphone, contacts, phone, and Bluetooth-scan
+permissions. This guard supplements rather than replaces review of the exact
+signed artifact and provider disclosures.
+
 Android application backup is explicitly disabled. Reinstalling Teret Bet must
 not restore favourites, reading history, language, settings, or reading position
 from Android cloud backup or device-transfer state. This keeps the stated local-

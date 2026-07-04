@@ -71,6 +71,8 @@ that no network request occurs.
 - [ ] `dart run tool/catalog_qa.dart` passes.
 - [ ] `flutter analyze` and `flutter test` pass.
 - [ ] Strict release preflight passes with the intended Firebase configuration.
+- [ ] Preflight confirms no prohibited ad/analytics/auth/crash SDK or sensitive
+      child-directed permission has entered the signed release inputs.
 - [ ] Signed release AAB builds and its merged manifest/SDK list is audited.
 - [ ] Pixel 8a, small-phone, API-24, and tablet checks are complete.
 - [ ] Privacy policy text is approved and hosted at a stable public URL.
