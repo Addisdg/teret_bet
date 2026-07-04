@@ -151,8 +151,10 @@ the clean-installed Pixel package.
 Accessibility automation now covers the complete product shell at 200 percent
 system text scale. A labelled-target audit found and fixed the story-card tap
 surface, which now announces a localized “title, open story” action separately
-from its favourite button. Physical Pixel maximum-text and TalkBack traversal
-remain the active accessibility gates.
+from its favourite button. Physical Pixel maximum-text inspection now passes,
+and the active TalkBack hierarchy confirms ordered localized controls without a
+duplicate visible-title stop. Parent listening review of Amharic pronunciation
+remains the active accessibility gate.
 
 ## Deferred until approved content exists
 

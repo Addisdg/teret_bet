@@ -100,5 +100,16 @@ Passed:
 
 ## Pending device checks
 
-- Complete TalkBack traversal and maximum Android display/text-size checks.
+- Complete parent listening review of Amharic TalkBack pronunciation.
 - Confirm the durable udev rule survives USB detach and reattach.
+
+## Accessibility validation — 2026-07-04
+
+- Discover and Settings passed visual inspection at 200 percent system font
+  scale without overflow or unreachable controls.
+- Active TalkBack hierarchy inspection confirmed localized story actions,
+  separate favourite actions, filters, story count, and primary navigation.
+- A redundant visible-title TalkBack stop was removed from each story card and
+  reverified on the exact signed release.
+- Font scale was restored to 1.0; TalkBack and Android accessibility were
+  restored to their original disabled state.

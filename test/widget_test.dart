@@ -1152,6 +1152,10 @@ void main() {
     expect(tester.takeException(), isNull);
     expect(find.text('ተረት ቤት'), findsOneWidget);
     expect(find.text('ቅንብሮች'), findsOneWidget);
+    expect(
+      find.bySemanticsLabel('የአሰሳ ታሪክ፣ ታሪኩን ክፈት'),
+      findsOneWidget,
+    );
     await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
     await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
 
