@@ -208,6 +208,12 @@ plus an illustration beat; owner wording changes are reconciled; and checksums
 bind incoming feedback to the exact reviewed wording. This is a review freeze,
 not text lock or catalogue integration approval.
 
+Five printable R1 reviewer PDFs now accompany the checksum-bound Markdown
+sources. They provide one page per bilingual story beat, private adult note
+space, a scorecard, and an observations sheet. All 71 rendered PDF pages passed
+visual inspection after isolating embedded font subsets per story page, and the
+reusable generator now verifies structure and required labels automatically.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

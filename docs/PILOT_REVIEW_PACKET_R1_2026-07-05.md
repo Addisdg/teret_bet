@@ -21,6 +21,21 @@ the private roster and raw scorecards outside Git.
 Structural check: 56 pages; each page has one Amharic text block, one complete
 English text block, and one illustration beat.
 
+## Printable reviewer copies
+
+- [The Rat Who Prepared Early PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_mouse_deer_prepared_early.pdf)
+- [The Rat King's Son PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_rat_kings_son.pdf)
+- [The Cub and the Kid PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_cub_and_kid.pdf)
+- [The Lion and the Mouse PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_lion_and_mouse.pdf)
+- [Stone Soup PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_stone_soup.pdf)
+
+Each PDF contains a privacy reminder, one uncluttered sheet per story page,
+illustration-beat context, page-specific note lines, a session scorecard, and an
+observations/recommendation sheet. Generate and verify them with the bundled PDF
+runtime using `tool/generate_pilot_review_pdfs.py`. The generator fails if page
+counts, repeated page labels, the scorecard, or the final observations sheet are
+missing. Markdown remains the authoritative text source.
+
 ## Integrity check
 
 The checksum file identifies the exact R1 wording:
