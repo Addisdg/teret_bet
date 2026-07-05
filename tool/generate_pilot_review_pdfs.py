@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 
 import reportlab
+from PIL import Image as PilImage
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.lib.pagesizes import A4
@@ -13,6 +14,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
     KeepTogether,
+    Image as ReviewImage,
     Flowable,
     PageBreak,
     Paragraph,
@@ -29,6 +31,8 @@ FONT_PATH = ROOT / "assets/fonts/NotoSansEthiopic-Variable.ttf"
 REPORTLAB_FONT_DIR = Path(reportlab.__file__).resolve().parent / "fonts"
 OUTPUT_DIR = ROOT / "output/pdf"
 PACKET_ID = "PILOT-FAMILY-R1-2026-07-05"
+IMAGE_ROOT = ROOT / "assets/images/pilot_review"
+PDF_IMAGE_CACHE = ROOT / "tmp/pdfs/pilot_images"
 
 STORIES = [
     ("mouse_deer_prepared_early", "The Rat Who Prepared Early"),
@@ -227,6 +231,32 @@ def blank_lines(count: int, width: float = 168 * mm) -> Table:
     return table
 
 
+def page_image_path(slug: str, page_number: int) -> Path:
+    story_dir = IMAGE_ROOT / slug
+    candidates = [
+        story_dir / f"page_{page_number:02d}_r1.png",
+        story_dir / f"page_{page_number:02d}.webp",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError(
+        f"Missing pilot image for {slug} page {page_number}: {candidates}"
+    )
+
+
+def pdf_image_path(slug: str, page_number: int) -> Path:
+    source = page_image_path(slug, page_number)
+    output_dir = PDF_IMAGE_CACHE / slug
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output = output_dir / f"page_{page_number:02d}.jpg"
+    with PilImage.open(source) as image:
+        image = image.convert("RGB")
+        image.thumbnail((1200, 900), PilImage.Resampling.LANCZOS)
+        image.save(output, "JPEG", quality=84, optimize=True, progressive=True)
+    return output
+
+
 def build_pdf(slug: str, english_title: str) -> Path:
     source = ROOT / "docs/pilot_drafts" / f"{slug}.md"
     story = parse_story(source)
@@ -282,7 +312,9 @@ def build_pdf(slug: str, english_title: str) -> Path:
                 style["note"],
             ),
             Paragraph(
-                "This copy is not text locked. Illustration beats are planning notes, not final artwork.",
+                "This copy is not text or image locked. The artwork is a review candidate. "
+                "Please mark visual mismatches, confusing details, cultural concerns, inconsistent "
+                "characters, emotional-safety concerns, or important content lost when cropped.",
                 style["note"],
             ),
             PageBreak(),
@@ -290,6 +322,7 @@ def build_pdf(slug: str, english_title: str) -> Path:
     )
 
     for page in story["pages"]:
+        image_path = pdf_image_path(slug, page["number"])
         page_suffix = f"{safe_slug}P{page['number']}"
         page_ethiopic_font = f"NotoEthiopic{page_suffix}"
         page_latin_font = f"ReviewLatin{page_suffix}"
@@ -306,6 +339,35 @@ def build_pdf(slug: str, english_title: str) -> Path:
             page_latin_font,
             page_latin_bold_font,
         )
+        image = ReviewImage(str(image_path), width=148 * mm, height=111 * mm)
+        image.hAlign = "CENTER"
+        bilingual_table = Table(
+            [
+                [
+                    Paragraph(
+                        f"<b>Amharic</b><br/>{page['amharic']}",
+                        page_style["amharic"],
+                    ),
+                    Paragraph(
+                        f"<b>English</b><br/>{page['english']}",
+                        page_style["body"],
+                    ),
+                ]
+            ],
+            colWidths=[82 * mm, 82 * mm],
+            style=TableStyle(
+                [
+                    ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                    ("BOX", (0, 0), (-1, -1), 0.5, colors.HexColor("#D8B9AA")),
+                    ("INNERGRID", (0, 0), (-1, -1), 0.4, colors.HexColor("#E7D2C8")),
+                    ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#FFFDFC")),
+                    ("LEFTPADDING", (0, 0), (-1, -1), 3 * mm),
+                    ("RIGHTPADDING", (0, 0), (-1, -1), 3 * mm),
+                    ("TOPPADDING", (0, 0), (-1, -1), 2.5 * mm),
+                    ("BOTTOMPADDING", (0, 0), (-1, -1), 1.5 * mm),
+                ]
+            ),
+        )
         story_page = [
                 FixedLabel(
                     f"Story page {page['number']}",
@@ -313,34 +375,29 @@ def build_pdf(slug: str, english_title: str) -> Path:
                     leading=25,
                     color=colors.HexColor("#6E3525"),
                     font_name=page_latin_bold_font,
-                    space_after=6 * mm,
+                    space_after=3 * mm,
+                ),
+                Table(
+                    [[image]],
+                    colWidths=[164 * mm],
+                    style=TableStyle(
+                        [
+                            ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+                            ("BOX", (0, 0), (-1, -1), 0.7, colors.HexColor("#C99E89")),
+                            ("LEFTPADDING", (0, 0), (-1, -1), 2 * mm),
+                            ("RIGHTPADDING", (0, 0), (-1, -1), 2 * mm),
+                            ("TOPPADDING", (0, 0), (-1, -1), 2 * mm),
+                            ("BOTTOMPADDING", (0, 0), (-1, -1), 2 * mm),
+                        ]
+                    ),
                 ),
                 Spacer(1, 3 * mm),
-                FixedLabel(
-                    "Amharic",
-                    font_size=11,
-                    leading=15,
-                    color=colors.HexColor("#9A5035"),
-                    font_name=page_latin_bold_font,
-                    space_after=2 * mm,
-                ),
-                Paragraph(page["amharic"], page_style["amharic"]),
-                Spacer(1, 3 * mm),
-                FixedLabel(
-                    "English",
-                    font_size=11,
-                    leading=15,
-                    color=colors.HexColor("#9A5035"),
-                    font_name=page_latin_bold_font,
-                    space_after=2 * mm,
-                ),
-                Paragraph(page["english"], page_style["body"]),
-                Spacer(1, 4 * mm),
+                bilingual_table,
+                Spacer(1, 2 * mm),
                 KeepTogether(
                     [
-                        Spacer(1, 3 * mm),
                         FixedLabel(
-                            "Illustration beat",
+                            "Image-text review",
                             font_size=11,
                             leading=15,
                             color=colors.HexColor("#9A5035"),
@@ -348,7 +405,13 @@ def build_pdf(slug: str, english_title: str) -> Path:
                             space_after=2 * mm,
                         ),
                         Table(
-                            [[Paragraph(page["illustration"], page_style["note"])]],
+                            [[Paragraph(
+                                f"Expected beat: {page['illustration']}<br/>"
+                                "Does the picture match both texts? Are characters, setting, clothing, "
+                                "objects, expressions and scale clear and consistent? Any cultural, "
+                                "safety, cropping or child-appeal concern?",
+                                page_style["note"],
+                            )]],
                             colWidths=[168 * mm],
                             style=TableStyle(
                                 [
@@ -363,17 +426,16 @@ def build_pdf(slug: str, english_title: str) -> Path:
                         ),
                     ]
                 ),
-                Spacer(1, 8 * mm),
-                Spacer(1, 3 * mm),
+                Spacer(1, 2 * mm),
                 FixedLabel(
-                    "Adult notes for this page",
+                    "Adult text and image notes",
                     font_size=11,
                     leading=15,
                     color=colors.HexColor("#9A5035"),
                     font_name=page_latin_bold_font,
                     space_after=2 * mm,
                 ),
-                blank_lines(3),
+                blank_lines(2),
             ]
         flow.extend([KeepTogether(story_page), PageBreak()])
 
@@ -404,10 +466,13 @@ def build_pdf(slug: str, english_title: str) -> Path:
                     ["Conflict felt emotionally safe", "", ""],
                     ["Ending felt clear and satisfying", "", ""],
                     ["Child remained interested", "", ""],
-                    ["Illustration beats support understanding", "", ""],
+                    ["Images match both language versions", "", ""],
+                    ["Characters remain visually consistent", "", ""],
+                    ["Culture and setting feel respectful", "", ""],
+                    ["Images remain clear when cropped", "", ""],
                 ],
                 colWidths=[86 * mm, 18 * mm, 64 * mm],
-                rowHeights=[9 * mm] * 9,
+                rowHeights=[8 * mm] * 12,
                 style=TableStyle(
                     [
                         ("FONTNAME", (0, 0), (-1, -1), latin_font),
@@ -459,13 +524,17 @@ def verify_pdf(path: Path, source: dict) -> None:
             f"Story page {story_page['number']}",
             "Amharic",
             "English",
-            "Illustration beat",
-            "Adult notes for this page",
+            "Image-text review",
+            "Adult text and image notes",
         ]
         missing = [label for label in required if label not in extracted]
         if missing:
             raise RuntimeError(
                 f"{path.name} page {index + 1}: missing labels {missing}"
+            )
+        if not reader.pages[index].images:
+            raise RuntimeError(
+                f"{path.name} page {index + 1}: embedded illustration is missing"
             )
 
     scorecard = reader.pages[-2].extract_text() or ""

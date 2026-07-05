@@ -209,10 +209,11 @@ bind incoming feedback to the exact reviewed wording. This is a review freeze,
 not text lock or catalogue integration approval.
 
 Five printable R1 reviewer PDFs now accompany the checksum-bound Markdown
-sources. They provide one page per bilingual story beat, private adult note
-space, a scorecard, and an observations sheet. All 71 rendered PDF pages passed
-visual inspection after isolating embedded font subsets per story page, and the
-reusable generator now verifies structure and required labels automatically.
+sources. Each of the 56 story sheets pairs its review illustration with Amharic,
+English, the expected visual beat, and focused image/text questions. The visual
+scorecard covers alignment, continuity, cultural respect, and cropping. All 71
+PDF pages were regenerated, structurally verified, rendered, and visually
+inspected; distribution copies remain approximately 2-4 MB each.
 
 ## Deferred until approved content exists
 

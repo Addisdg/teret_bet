@@ -1,7 +1,7 @@
 # Pilot Family Review Packet — R1
 
 Packet ID: `PILOT-FAMILY-R1-2026-07-05`  
-Status: **Ready to send for family and cultural review; not text locked**
+Status: **Ready for combined image/text family and cultural review; not locked**
 
 This index identifies the exact five drafts approved provisionally by the owner
 and prepared for external review. It contains no reviewer names or contact
@@ -19,7 +19,7 @@ the private roster and raw scorecards outside Git.
 | `PILOT-FAMILY-R1-2026-07-05-STONE-SOUP` | [Stone Soup](pilot_drafts/stone_soup.md) | 12 | Ages 3-4 and 5-6; traveller framing; food and setting coherence |
 
 Structural check: 56 pages; each page has one Amharic text block, one complete
-English text block, and one illustration beat.
+English text block, one embedded review illustration, and one illustration beat.
 
 ## Printable reviewer copies
 
@@ -29,12 +29,17 @@ English text block, and one illustration beat.
 - [The Lion and the Mouse PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_lion_and_mouse.pdf)
 - [Stone Soup PDF](../output/pdf/PILOT-FAMILY-R1-2026-07-05_stone_soup.pdf)
 
-Each PDF contains a privacy reminder, one uncluttered sheet per story page,
-illustration-beat context, page-specific note lines, a session scorecard, and an
-observations/recommendation sheet. Generate and verify them with the bundled PDF
-runtime using `tool/generate_pilot_review_pdfs.py`. The generator fails if page
-counts, repeated page labels, the scorecard, or the final observations sheet are
-missing. Markdown remains the authoritative text source.
+Each PDF contains a privacy reminder, one image-and-bilingual-text sheet per
+story page, the expected illustration beat, focused image/text review prompts,
+page-specific note lines, an expanded visual scorecard, and an observations
+sheet. Generate and verify them with `tool/generate_pilot_review_pdfs.py`. The
+generator fails when an illustration, page label, scorecard, observations sheet,
+or expected page is missing. Markdown remains the authoritative text source.
+
+The integrated set contains 56 embedded illustrations across 71 PDF pages. All
+71 pages were rendered and visually inspected on 2026-07-05. Distribution files
+are approximately 2-4 MB each; review-only JPEG derivatives are generated under
+`tmp/pdfs/` and do not replace the source artwork.
 
 ## Integrity check
 
@@ -79,6 +84,10 @@ Send only:
 3. A blank `PILOT_FAMILY_REVIEW_SCORECARD.md`.
 4. One anonymous session code.
 5. The owner's private feedback-return instructions.
+
+Ask the adult to comment on both story and artwork: whether each picture matches
+both languages, characters remain recognisable, cultural and setting details
+feel respectful, emotions feel safe, and the important action survives cropping.
 
 Do not ask one family to review all five in one sitting. Amharic and English
 should be separate sittings when practical.
