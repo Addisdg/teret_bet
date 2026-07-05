@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "packetId": "PILOT-FAMILY-R1-2026-07-05",
+  "note": "Exact revised prompts recovered from the Codex image-generation event log. Legacy copied WebP assets remain documented separately in docs/PILOT_ILLUSTRATION_PROVENANCE_R1_2026-07-05.md.",
+  "assets": [
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_01_r1.png",
+      "generationFile": "exec-248fae9c-53e2-4f4e-ad95-9ee0c0d1af7e.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, lush Ethiopian highland valley with a shallow river, warm natural detail, emotionally clear and safe for ages 3-6. Recurring characters: a young golden leopard cub with dark rosettes, rounded muzzle and amber eyes; a small cream-and-tan goat kid with short ears, tiny horn buds and a red woven neck ribbon; a blue-and-orange butterfly. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, clothing beyond kid ribbon, human hands, stereotypes, attack poses or frightening imagery. Page 1 of The Cub and the Kid: wide valley establishing shot, leopard cub on one grassy side of the shallow river and goat kid safely near a small goat herd on the other; families visible at a distance.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_02_r1.png",
+      "generationFile": "exec-f170e5df-df36-4d93-9998-cda33c039cfd.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, lush Ethiopian highland valley with a shallow river, warm natural detail, emotionally clear and safe for ages 3-6. Recurring characters: a young golden leopard cub with dark rosettes, rounded muzzle and amber eyes; a small cream-and-tan goat kid with short ears, tiny horn buds and a red woven neck ribbon; a blue-and-orange butterfly. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, clothing beyond kid ribbon, human hands, stereotypes, attack poses or frightening imagery. Page 2: leopard cub and goat kid notice each other near opposite edges of the shallow river as the butterfly floats between them; curious, cautious expressions and clear safe distance.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_03_r1.png",
+      "generationFile": "exec-4d37a628-353b-43cc-b3d0-bf7ac5158180.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, lush Ethiopian highland valley with a shallow river, warm natural detail, emotionally clear and safe for ages 3-6. Recurring characters: a young golden leopard cub with dark rosettes, rounded muzzle and amber eyes; a small cream-and-tan goat kid with short ears, tiny horn buds and a red woven neck ribbon; a blue-and-orange butterfly. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, clothing beyond kid ribbon, human hands, stereotypes, attack poses or frightening imagery. Page 3: cub and kid smile cautiously and agree to play, each remaining on their own side of the shallow water; welcoming body language.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_04_r1.png",
+      "generationFile": "exec-30235f00-c61a-4924-ad3e-5b1134f2b954.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, lush Ethiopian highland valley with a shallow river, warm natural detail, emotionally clear and safe for ages 3-6. Recurring characters: a young golden leopard cub with dark rosettes, rounded muzzle and amber eyes; a small cream-and-tan goat kid with short ears, tiny horn buds and a red woven neck ribbon; a blue-and-orange butterfly. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, clothing beyond kid ribbon, human hands, stereotypes, attack poses or frightening imagery. Page 4: joyful parallel play beside the river in late-afternoon light, cub pouncing on fallen leaves on one bank while kid skips on the other, butterfly overhead.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_05_r1.png",
+      "generationFile": "exec-6588f68b-9135-4741-a635-82ccea25aa72.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, Ethiopian highland valley and shallow river, safe for ages 3-6. Recurring young golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 5 of The Cub and the Kid: leopard cub speaks at a rocky den with his serious but caring mother leopard, who gives calm safety guidance; warm evening light, affectionate distance.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_06_r1.png",
+      "generationFile": "exec-2b91277c-0bc1-4836-93d3-e0d3efb969b2.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache matching existing Teret Bet catalogue, Ethiopian highland valley with shallow river, safe for ages 3-6. Recurring golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 6 of The Cub and the Kid: ONLY the caring adult mother goat and her attentive goat kid beside their calm goat herd; mother gives reassuring safety advice. Absolutely no leopard or cat anywhere in the image.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_07_r1.png",
+      "generationFile": "exec-5eeee58c-ea72-4abc-bc86-ac306a36818d.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, Ethiopian highland valley and shallow river, safe for ages 3-6. Recurring young golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 7: clear safe distance across the shallow river, cub seated on one bank and kid beside the herd on the other; both notice each other peacefully.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_08_r1.png",
+      "generationFile": "exec-adb53f38-48e9-4d62-ae85-5aa9aa3eb72d.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, Ethiopian highland valley and shallow river, safe for ages 3-6. Recurring young golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 8: goat kid speaks clearly from beside the herd while leopard cub listens attentively from across the shallow water; respectful expressions and visible boundary.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_09_r1.png",
+      "generationFile": "exec-2fa02bf3-13a9-45a5-94bb-0521840858e5.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache matching existing Teret Bet catalogue, Ethiopian highland valley with shallow river, safe for ages 3-6. Recurring golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 9: leopard cub sits down peacefully on his own riverbank, relaxed paws and gentle expression, deliberately leaving clear space across the water for the goat kid beside the herd.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_10_r1.png",
+      "generationFile": "exec-b1019fad-fd67-43a5-8a54-3ffc3d524ab0.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache matching existing Teret Bet catalogue, Ethiopian highland valley with shallow river, safe for ages 3-6. Recurring golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 10: parallel play along opposite riverbanks, cub rolls a leaf on one side while kid nudges a small round stone on the other; blue-and-orange butterfly overhead; safe distance clearly visible.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/cub_and_kid/page_11_r1.png",
+      "generationFile": "exec-599bc027-c17b-4b29-8c17-82b7891b32d6.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache matching existing Teret Bet catalogue, Ethiopian highland valley with shallow river, safe for ages 3-6. Recurring golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 11: sunset rest, cub lies peacefully beside mother leopard on one bank while kid rests beside mother goat and herd on the other; both young animals exchange a friendly look across the shallow river, families clearly nearby.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_09_r1.png",
+      "generationFile": "exec-be4306ef-deea-4de5-b823-532c5b022e42.png",
+      "prompt": "Use case: illustration-story. Teret Bet review illustration, 4:3 landscape. Page 9 of The Lion and the Mouse: in warm Ethiopian grassland beneath an acacia, a tiny gray-brown mouse stands proudly beside a small pile of loose separated cord pieces while a friendly golden lion with a full brown mane rises comfortably and freely; both are visibly relieved and smiling after solving the problem together. Warm polished painterly 3D children's picture-book style matching existing Teret Bet catalogue, gentle and safe for ages 3-6, no restraint, danger, injury, claws, people, text or watermark; central crop-safe composition.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_10_r1.png",
+      "generationFile": "exec-90bb2989-3712-47c0-aeeb-53e628cb1205.png",
+      "prompt": "Original hand-painted watercolor and gouache illustration, wide 4:3. An anatomically natural adult African lion and a small field mouse travel calmly in the same direction across an Ethiopian savanna at sunset, with generous space between them and friendly relaxed body language. Acacia trees and distant hills, warm muted earth colors, visible paper texture, quiet folktale atmosphere for ages 3-6. No resemblance to film characters, no exaggerated cartoon faces, no text, no watermark, no danger or conflict.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_01_r1.png",
+      "generationFile": "exec-a04c1f94-5e69-4c41-a2d4-b21a10269795.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet; preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, and warm watercolor-gouache house style.\nPrimary request: Illustrate page 1 of \"The Rat Who Prepared Early\": a small friendly rat steps out beside her modest grass-lined home and warms herself peacefully in the early morning sun.\nScene/backdrop: Ethiopian highland village edge, dry grasses, reeds, distant rounded mountains and acacia, simple culturally respectful rural home.\nComposition/framing: 4:3 landscape picture-book spread; rat is the clear focal point at safe center-left, home visible behind, generous breathing room, foreground and distance suitable for portrait and landscape cropping.\nLighting/mood: Soft golden morning light, calm, cosy, playful anticipation.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, expressive but anatomically recognizable rat.\nConstraints: Match the reference character exactly. Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, humanlike rat hands, squirrel tail, frightening elements.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_02_r1.png",
+      "generationFile": "exec-b47c1b5e-06a8-4786-adf8-cd2dcd203cb7.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet. Preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, shepherd, neighbouring animals, environment, palette, and watercolor-gouache house style.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, clear expressions, culturally respectful Ethiopian highland setting.\nComposition: 4:3 landscape, clear single story beat, generous breathing room and safe central subjects for portrait and landscape cropping.\nConstraints: Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, frightening elements, humanlike rat hands, or squirrel tail.\nPrimary request: Page 2: neighbouring rabbit, young goat and small bird are calmly mending their grass roofs while the small rat watches with open curiosity in warm dry-season daylight.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_03_r1.png",
+      "generationFile": "exec-2e4618b9-b59e-406c-bafb-34556d59c217.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Create page 3 of The Rat Who Prepared Early: friendly rabbit, young gray goat and small brown-and-cream bird explain why they repair homes before the rainy season, pointing toward one sturdy newly mended grass roof while a small warm-brown rat listens attentively. The rat has rounded ears, slim tail, cream belly and woven ochre scarf. Ethiopian highland village edge, round earth-and-thatch homes, distant mountains and acacia. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, rich natural detail, clear expressive faces, safe for ages 3-6. Single clear story beat, subjects centrally safe for portrait and landscape crops. No text, watermark, border, humanlike rat hands, squirrel tail, stereotypes or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_04_r1.png",
+      "generationFile": "exec-8c562b5c-f7cf-45ff-89cc-d0d2cfc832fe.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Create page 4 of The Rat Who Prepared Early: on an unmistakably hot sunny day, a small warm-brown rat playfully pretends to shiver in the cool shade of an acacia, hugging herself with a comic exaggerated expression. She has rounded ears, slim tail, cream belly and woven ochre scarf. Ethiopian highland village edge, round earth-and-thatch homes and dry grasses in the background. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, rich natural detail, clear gentle visual joke, safe for ages 3-6. Single clear story beat, rat centrally safe for portrait and landscape crops. No actual cold weather or rain, text, watermark, border, humanlike rat hands, squirrel tail, stereotypes or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_05_r1.png",
+      "generationFile": "exec-ec8c095f-4658-4b74-9751-97dad3f9c8d8.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet. Preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, shepherd, neighbouring animals, environment, palette, and watercolor-gouache house style.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, clear expressions, culturally respectful Ethiopian highland setting.\nComposition: 4:3 landscape, clear single story beat, generous breathing room and safe central subjects for portrait and landscape cropping.\nConstraints: Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, frightening elements, humanlike rat hands, or squirrel tail.\nPrimary request: Page 4: on a clearly hot sunny day, the small rat playfully pretends to shiver in cool shade, hugging herself with a comic expression; make the joke visually clear and gentle.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_06_r1.png",
+      "generationFile": "exec-48c5a6b0-6e2e-4578-9adb-0e8f9c015696.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet. Preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, shepherd, neighbouring animals, environment, palette, and watercolor-gouache house style.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, clear expressions, culturally respectful Ethiopian highland setting.\nComposition: 4:3 landscape, clear single story beat, generous breathing room and safe central subjects for portrait and landscape cropping.\nConstraints: Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, frightening elements, humanlike rat hands, or squirrel tail.\nPrimary request: Page 6: the small rat proudly explains her funny plan to the shepherd, gesturing toward herself and the sunny sky; shepherd listens with amused kindness.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_07_r1.png",
+      "generationFile": "exec-f6a25715-f73b-4066-bc7e-1b804b24dfe8.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Create page 7 of The Rat Who Prepared Early: a kind Ethiopian shepherd in simple cream woven rural clothing and green cap offers neat bundles of clean reeds and dry grass to a grateful small warm-brown rat so they can build a cosy home together. The rat has rounded ears, slim tail, cream belly and woven ochre scarf. Ethiopian highland village edge, round earth-and-thatch homes, acacia and distant mountains. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, rich natural detail, clear cooperative expressions, safe for ages 3-6. Single clear story beat, subjects centrally safe for portrait and landscape crops. No text, watermark, border, humanlike rat hands, squirrel tail, stereotypes or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_08_r1.png",
+      "generationFile": "exec-040bcf48-cf50-43a2-8ecd-abb047a98b8b.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet. Preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, shepherd, neighbouring animals, environment, palette, and watercolor-gouache house style.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, clear expressions, culturally respectful Ethiopian highland setting.\nComposition: 4:3 landscape, clear single story beat, generous breathing room and safe central subjects for portrait and landscape cropping.\nConstraints: Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, frightening elements, humanlike rat hands, or squirrel tail.\nPrimary request: Page 8: the rat, shepherd, rabbit, young goat and small bird work together building a warm grass-lined home; every helper has a clear safe task and joyful teamwork.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/page_09_r1.png",
+      "generationFile": "exec-075f892d-f449-43da-922c-247d29b9b3af.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story page illustration, 4:3 landscape\nInput image: character and setting reference sheet. Preserve the small brown rat's exact face, rounded ears, slim tail, ochre woven scarf, proportions, shepherd, neighbouring animals, environment, palette, and watercolor-gouache house style.\nStyle/medium: Warm hand-painted children's picture-book gouache and watercolor, soft paper texture, rounded shapes, clear expressions, culturally respectful Ethiopian highland setting.\nComposition: 4:3 landscape, clear single story beat, generous breathing room and safe central subjects for portrait and landscape cropping.\nConstraints: Suitable for ages 3-6. No text, letters, labels, signature, watermark, brand, border, speech bubble, frightening elements, humanlike rat hands, or squirrel tail.\nPrimary request: Page 9: soft rain falls outside at dusk while the small rat sits warm and dry inside her finished grass-lined home, cosy and grateful; show rain through the open doorway without danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/mouse_deer_prepared_early/reference_sheet_r1.png",
+      "generationFile": "exec-ec2f9267-94bd-4b4d-993a-d862c5a8ede9.png",
+      "prompt": "Use case: illustration-story\nAsset type: Teret Bet children's story visual-pilot character and setting reference sheet\nPrimary request: Create a polished reference sheet for the Ethiopian children's story \"The Rat Who Prepared Early\" to guide nine consistent 4:3 page illustrations.\nScene/backdrop: Warm Ethiopian highland village edge with dry grass, reeds, modest round grass homes, morning sun and a gentle rainy-season atmosphere sample.\nSubject: One small friendly Ethiopian grass rat, childlike but anatomically recognizable as a rat (not a squirrel), warm brown fur, rounded ears, slim tail, simple woven ochre scarf; a kind Ethiopian shepherd in modest age-neutral rural clothing; three friendly neighbouring small animals. Show the rat from front, side, and three-quarter views, plus happy, curious, playful-shivering, proud, and cosy expressions. Include scale relationships and the grass-lined home.\nStyle/medium: Warm calm hand-painted children's picture-book illustration, soft gouache and watercolor texture, rounded shapes, clear facial expressions, culturally respectful Ethiopian details, unified Teret Bet house style.\nComposition/framing: Organized visual reference sheet with clean separated poses and small setting/color swatches; no panel borders needed; generous padding.\nLighting/mood: Gentle, safe, optimistic, intimate read-aloud mood.\nColor palette: Sun-warmed ochre, terracotta, muted green, straw gold, soft rain blue.\nConstraints: Maintain identical character markings, scarf, proportions, and clothing in every pose. Suitable for ages 3-6. No danger, no stereotypes, no modern brands.\nAvoid: Embedded text, letters, labels, signatures, watermark, photorealism, Disney-like copyrighted character styling, humanlike hands on the rat, squirrel tail, frightening expressions.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_01_r1.png",
+      "generationFile": "exec-412ec5e2-fa74-45cf-9819-7563bd3fda14.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring characters: dignified warm-brown rat king wearing a small woven red-and-gold sash, his curious young prince with a blue woven neck scarf, and three gray-brown rat elders in simple distinct woven shawls. Rats have rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, crowns resembling European royalty, human hands, squirrel tails, stereotypes or frightening imagery. Page 1 of The Rat King's Son: establish a friendly rat community of small earth-and-stone burrow homes beneath an immense calm Ethiopian mountain; the rat king stands proudly beside the young prince while families gather warmly.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_02_r1.png",
+      "generationFile": "exec-c359883c-14f8-479a-8676-34f8c43cdc31.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring characters: dignified warm-brown rat king wearing a small woven red-and-gold sash, his curious young prince with a blue woven neck scarf, and three gray-brown rat elders in simple distinct woven shawls. Rats have rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, crowns resembling European royalty, human hands, squirrel tails, stereotypes or frightening imagery. Page 2: the rat king speaks thoughtfully to a circle of three rat elders near the community meeting stone; the prince listens beside him and the elders consider his request with kind serious expressions.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_03_r1.png",
+      "generationFile": "exec-99aa5963-f047-48cc-8333-46863feac312.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring characters: dignified warm-brown rat king wearing a small woven red-and-gold sash, his curious young prince with a blue woven neck scarf, and three gray-brown rat elders in simple distinct woven shawls. Rats have rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, crowns resembling European royalty, human hands, squirrel tails, stereotypes or frightening imagery. Page 3: the three travelling rat elders stand at the foot of the immense mountain and gaze upward, searching the wide sky for the greatest possible family; emphasize scale but keep the scene friendly and adventurous.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_04_r1.png",
+      "generationFile": "exec-5ca9c31a-2e42-4985-82d1-bbb6a0405860.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 4 of The Rat King's Son: a large gentle white cloud spreads broadly across the blue sky above the tiny travelling rat elders, who look up with hopeful wonder from a mountain path.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_05_r1.png",
+      "generationFile": "exec-3156b251-796b-482e-a64b-b7c1e2ce1c93.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 5: the three tiny rat elders stand directly beneath a soft low white cloud and politely ask it their question; the cloud feels friendly and immense, with warm sunlight at its edges.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_06_r1.png",
+      "generationFile": "exec-4439e0e7-bec2-448c-83f0-6e6d0e0ae272.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 6: a playful but gentle wind parts the cloud into soft wisps while the three rat elders hold their woven shawls close; show motion and surprise without fear.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_07_r1.png",
+      "generationFile": "exec-f6f04a8a-a8f4-48fe-baf5-979c178d3fcf.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 7 of The Rat King's Son: playful wind shown as curling pale ribbons moves around the three travelling rat elders as they continue along a mountain path, their shawls fluttering gently and their expressions curious rather than afraid.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_08_r1.png",
+      "generationFile": "exec-b2ef0810-d7cc-4367-9cb5-540c1015ecd8.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 8: strong but friendly wind bends slender trees and grasses while an immense Ethiopian mountain remains completely calm; the three rat elders observe the contrast from a safe rocky path.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_09_r1.png",
+      "generationFile": "exec-e86c7a34-fb90-49af-8db3-4e6f57a751da.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in simple distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 9: the three tiny rat elders stand respectfully before the immense but friendly mountain face, looking upward as if asking it a question; warm late-afternoon light emphasizes scale and calm.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_10_r1.png",
+      "generationFile": "exec-dfa44daf-cc13-4671-b402-d654ea510d47.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 10 of The Rat King's Son: a clear child-friendly cutaway view of a small ordinary brown bush rat steadily making a tunnel through soft earth at the mountain's base; the three elders watch from the entrance with wonder; safe, tidy and nontechnical.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_11_r1.png",
+      "generationFile": "exec-589b2cff-4e10-4086-b11f-34142e7708a1.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 11: beside the little tunnel entrance at the mountain base, the three rat elders exchange delighted surprised smiles after realizing the small bush rat can move through the mountain.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_12_r1.png",
+      "generationFile": "exec-404620f5-9f3d-409a-8a29-722046d31bff.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching the existing Teret Bet catalogue, Ethiopian mountain landscape, rich natural detail, gentle expressive characters, safe for ages 3-6. Recurring travellers: three gray-brown rat elders in distinct cream, rust and indigo woven shawls, rounded ears, slim tails and natural paws. Single clear story beat, central crop-safe composition. No text, watermark, border, human hands, squirrel tails, stereotypes or frightening imagery. Page 12: back in the warm rat community, the three elders recount their cloud-wind-mountain journey to the dignified warm-brown rat king in red-and-gold woven sash and the young prince in blue scarf; family listeners gather around.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_13_r1.png",
+      "generationFile": "exec-148855c9-16f6-47a6-9557-e6940c93a58e.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, cosy Ethiopian mountain rat community, rich natural detail, gentle expressions, safe for ages 3-6. Rat king is warm-brown with red-and-gold woven sash; prince wears blue woven scarf. Rats have rounded ears, slim tails and natural paws. Central crop-safe composition. No text, watermark, border, human hands, squirrel tails, European palace imagery, stereotypes or frightening imagery. Page 13 of The Rat King's Son: two friendly rat families share grains and fruit on woven mats while their two young rats play happily nearby; the king and elders watch with approving warmth, emphasizing community and family friendship.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/rat_kings_son/page_14_r1.png",
+      "generationFile": "exec-572031a0-daa0-4001-b311-9643ef959204.png",
+      "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, cosy Ethiopian mountain rat community, rich natural detail, gentle expressions, safe for ages 3-6. Rat king is warm-brown with red-and-gold woven sash; prince wears blue woven scarf. Rats have rounded ears, slim tails and natural paws. Central crop-safe composition. No text, watermark, border, human hands, squirrel tails, European palace imagery, stereotypes or frightening imagery. Page 14: years later, the two now-grown young rats stand together while both extended families celebrate warmly with shared food, flowers and woven decorations; the rat king smiles after understanding that greatness lives in the good already around them; child-friendly family celebration, no wedding ceremony symbols.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_11_r1.png",
+      "generationFile": "exec-a6b23511-20e3-4e40-88ed-efb67a32e8b0.png",
+      "prompt": "Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. In a warm Ethiopian highland village courtyard at dusk, a kind travelling adult in a simple cream woven cloak sits at a communal outdoor table with families and elders sharing colorful vegetable soup. One curious young child points toward the large clay cooking pot while everyone smiles. Culturally respectful earthen round homes, woven baskets, warm lantern glow, clear joyful community scene for ages 3-6. No text, watermark, brands or caricature.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_12_r1.png",
+      "generationFile": "exec-c294441c-67d3-407f-804d-12b2823607ab.png",
+      "prompt": "Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. After a shared meal in a warm Ethiopian highland village courtyard, one clean smooth round stone rests clearly beside a group of empty clay soup bowls on a woven mat. A kind travelling adult, children, elders and neighbours sit nearby smiling together in quiet understanding. Earthen round homes, woven baskets and soft lantern light create a cosy evening atmosphere. Culturally respectful, gentle for ages 3-6, central crop-safe composition. No text, watermark, brands or caricature.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    }
+  ]
+}

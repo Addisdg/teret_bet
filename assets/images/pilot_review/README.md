@@ -8,3 +8,7 @@ Source and provenance limitations are recorded in
 `docs/PILOT_ILLUSTRATION_PROVENANCE_R1_2026-07-05.md`. These assets may be used
 for review, but none may enter the release catalogue while its provenance or
 rights status remains unresolved.
+
+Exact revised prompts for the project-generated PNGs are mapped by asset path in
+`docs/pilot_illustration_prompts_r1.json`. The copied Lion/Mouse and Stone Soup
+WebPs retain the legacy provenance gap documented in the Markdown register.
