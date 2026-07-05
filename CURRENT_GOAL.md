@@ -223,6 +223,12 @@ newly generated, prompt-recorded review artwork instead of the preserved legacy
 WebP fallbacks.
 Distribution copies remain approximately 2-4 MB each.
 
+Five privacy-safe single-story reviewer bundles can now be generated with
+`tool/build_pilot_reviewer_bundles.py`. Each contains one illustrated PDF, the
+guide, blank scorecard, and placeholders for the owner's anonymous session code
+and private return route. The archives are generated locally and ignored by
+Git; their checksum manifest verifies the exact files being distributed.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

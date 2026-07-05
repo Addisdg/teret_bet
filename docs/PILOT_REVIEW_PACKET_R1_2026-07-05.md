@@ -92,6 +92,21 @@ feel respectful, emotions feel safe, and the important action survives cropping.
 Do not ask one family to review all five in one sitting. Amharic and English
 should be separate sittings when practical.
 
+### Per-story distribution bundles
+
+Run `python3 tool/build_pilot_reviewer_bundles.py` to create five separate ZIP
+files under `output/reviewer_bundles/`. Each archive contains only one story
+PDF, the review guide, the blank scorecard, and a session-instructions template.
+Before sending, the owner must fill the anonymous session code and private
+feedback-return route in the template or accompanying message. Never add names,
+contact details, or the private reviewer roster to Git.
+
+Verify the generated archives from their output directory with:
+
+```bash
+sha256sum -c SHA256SUMS
+```
+
 ## First-wave assignment board
 
 Fill codes only; do not add names or contact information.
