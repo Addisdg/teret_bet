@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packetId": "PILOT-FAMILY-R1-2026-07-05",
-  "note": "Exact revised prompts recovered from the Codex image-generation event log. Legacy copied WebP assets remain documented separately in docs/PILOT_ILLUSTRATION_PROVENANCE_R1_2026-07-05.md.",
+  "note": "Exact revised prompts recovered from the Codex image-generation event log. All PDF-selected pilot illustrations are project-generated PNG assets; legacy copied WebPs remain preserved as inactive reference fallbacks.",
   "assets": [
     {
       "assetPath": "assets/images/pilot_review/cub_and_kid/page_01_r1.png",
@@ -107,6 +107,86 @@
       "assetPath": "assets/images/pilot_review/cub_and_kid/page_11_r1.png",
       "generationFile": "exec-599bc027-c17b-4b29-8c17-82b7891b32d6.png",
       "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache matching existing Teret Bet catalogue, Ethiopian highland valley with shallow river, safe for ages 3-6. Recurring golden leopard cub with dark rosettes and amber eyes; cream-and-tan goat kid with tiny horn buds and red woven neck ribbon. Natural animal bodies, gentle faces, central crop-safe composition. No text, watermark, border, human hands, attack poses or frightening imagery. Page 11: sunset rest, cub lies peacefully beside mother leopard on one bank while kid rests beside mother goat and herd on the other; both young animals exchange a friendly look across the shallow river, families clearly nearby.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_01_r1.png",
+      "generationFile": "exec-8f665804-45f0-48ca-80b9-e2dae8687339.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. No resemblance to film characters, no exaggerated cartoon faces, no text, watermark, brands, injury or frightening imagery. Page 1 of The Lion and the Mouse: on a warm day the lion sleeps peacefully beneath a broad acacia tree; a soft breeze moves his mane and grasses; mouse not yet visible.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_02_r1.png",
+      "generationFile": "exec-e3e7ec68-f060-457e-beab-00ec52667f85.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. No resemblance to film characters, no exaggerated cartoon faces, no text, watermark, brands, injury or frightening imagery. Page 2: near the sleeping lion, the little mouse gathers pale grains; one single grain rolls toward the lion's relaxed front paw while the mouse hurries after it; clear safe distance.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_03_r1.png",
+      "generationFile": "exec-d44cba88-2f2a-4013-af90-1cc9ed04dcb5.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. No resemblance to film characters, no exaggerated cartoon faces, no text, watermark, brands, injury or frightening imagery. Page 3: the lion has just awakened with a surprised expression after the mouse accidentally stepped near his tail; one enormous relaxed paw rests across the path in front of the startled mouse without touching it; claws hidden, both safe.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_04_r1.png",
+      "generationFile": "exec-0583858d-f897-49b7-9d2e-3883a1bf50d4.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. The tiny mouse stands at a respectful distance beside the lion's large relaxed paw and speaks bravely, looking up with hopeful confidence; the lion is awake, calm, and listening with mild curiosity beneath the acacia tree. Claws hidden, no physical contact, warm reassuring body language. No resemblance to film characters, no exaggerated cartoon faces, no text, watermark, brands, injury or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_05_r1.png",
+      "generationFile": "exec-2c132739-0222-4e94-9d26-06432a49ced6.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. The lion gently lifts his large front paw from the path, claws hidden, giving the mouse room to leave; the tiny mouse walks away gratefully and glances back with a warm smile. The lion remains resting beneath the acacia, kind and amused. No resemblance to film characters, no exaggerated cartoon faces, no text, watermark, brands, injury or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_06_r1.png",
+      "generationFile": "exec-313ce7b2-0e57-4c95-bb99-d477d1dfec74.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna edge with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring character: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes. Keep markings and proportions consistent. The lion has stumbled into a harmless tangle of loose old cords and fallen leafy branches at the edge of the grassland. He lies safely on the ground, alert and mildly uncomfortable but not afraid; loops rest loosely around his legs and body without constriction. No hunters, traps, weapons, people, injury, struggle, exposed claws, or frightening imagery. No resemblance to film characters, no exaggerated cartoon face, no text, watermark or brands.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_07_r1.png",
+      "generationFile": "exec-943f972c-0e9a-4c58-aac1-d9b38942e7d2.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring character: a tiny gray-brown field mouse with round ears and slim tail, consistent proportions and markings. Show a wide sweep of sunlit grassland: soft curved ripples in the tall grass and a few tiny birds lifting into the air suggest the distant lion's call travelling across the field. In the foreground, the mouse pauses while gathering pale grains, raises its head, and listens with ears alert and a concerned but brave expression. The lion is not visible. No sound-effect lettering, symbols, text, watermark, brands, danger, injury or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/lion_and_mouse/page_08_r1.png",
+      "generationFile": "exec-be82a200-0997-46d2-a9a0-bfe7c97bc3bf.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. Ethiopian savanna edge with acacia trees, warm earth colors and visible paper texture, gentle folktale atmosphere for ages 3-6. Recurring characters: an anatomically natural adult African lion with a full dark-brown mane and calm amber eyes; a tiny gray-brown field mouse with round ears and slim tail. Keep markings and proportions consistent. The lion rests calmly among loose old cord loops and fallen leafy branches, safe and patient. The mouse has just arrived and works carefully at loosening one soft cord fiber near the lion's front paw with its tiny teeth, showing focused helpfulness. Cord stays well away from mouths and necks; lion is not distressed. No hunters, traps, weapons, people, injury, exposed claws, struggle, text, watermark, brands or frightening imagery.",
       "tool": "Codex built-in image generator",
       "generationDate": "2026-07-05",
       "references": [],
@@ -367,6 +447,106 @@
       "assetPath": "assets/images/pilot_review/rat_kings_son/page_14_r1.png",
       "generationFile": "exec-572031a0-daa0-4001-b311-9643ef959204.png",
       "prompt": "Use case: illustration-story. Asset: Teret Bet review illustration, 4:3 landscape. Warm polished children's picture-book art, soft painterly 3D-gouache look matching existing Teret Bet catalogue, cosy Ethiopian mountain rat community, rich natural detail, gentle expressions, safe for ages 3-6. Rat king is warm-brown with red-and-gold woven sash; prince wears blue woven scarf. Rats have rounded ears, slim tails and natural paws. Central crop-safe composition. No text, watermark, border, human hands, squirrel tails, European palace imagery, stereotypes or frightening imagery. Page 14: years later, the two now-grown young rats stand together while both extended families celebrate warmly with shared food, flowers and woven decorations; the rat king smiles after understanding that greatness lives in the good already around them; child-friendly family celebration, no wedding ceremony symbols.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_01_r1.png",
+      "generationFile": "exec-0a6383e5-2aa9-4152-9c04-ab7e82973da8.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Culturally respectful Ethiopian highland village with earth-and-thatch homes, woven baskets and warm sunset colors, gentle folktale atmosphere for ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, simple cream handwoven cloak with a narrow muted green border, ochre tunic, brown trousers, sandals, and a small cloth shoulder bag. Keep appearance consistent. The tired, hungry traveller walks the last stretch of a long path toward the quiet village at sunset, shoulders slightly weary but face hopeful; welcoming smoke rises from cooking fires in the distance. No text, watermark, brands, caricature, stereotype, modern vehicles or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_02_r1.png",
+      "generationFile": "exec-21a9408f-6215-4af8-bf2b-64cb7354297a.png",
+      "prompt": "Use case: illustration-story. Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village with earth-and-thatch homes and warm evening colors, gentle folktale mood for ages 3-6. Recurring traveller: kind Ethiopian adult, medium-brown skin, short dark curly hair, cream handwoven cloak with narrow muted green border, ochre tunic, brown trousers, sandals, small cloth shoulder bag. He stands politely at a doorway with open empty hands while several Ethiopian villagers of different ages answer cautiously but not harshly; their expressions show concern about having little food, not cruelty. Culturally respectful clothing and setting. No text, watermark, brands, caricature, stereotype or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_03_r1.png",
+      "generationFile": "exec-d1cff930-c9cb-42ce-9cf1-42e2dbbc48fc.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, paper texture. Ethiopian highland village with earth-and-thatch homes at evening, ages 3-6. Recurring traveller: kind Ethiopian adult, medium-brown skin, short dark curly hair, cream handwoven cloak with narrow muted green border, ochre tunic, brown trousers, sandals, cloth shoulder bag. Beside the village's stone-lined water well, the traveller smiles thoughtfully as a clever, friendly idea occurs to him; he holds one smooth clean stone and looks toward an empty clay cooking pot nearby. Curious villagers watch from a comfortable distance. Warm, reassuring, culturally respectful. No text, watermark, brands, caricature, stereotype or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_04_r1.png",
+      "generationFile": "exec-8e0b35be-f8e7-4620-a59e-a44ed12c5a03.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, paper texture. Ethiopian highland village courtyard with earth-and-thatch homes, ages 3-6. Recurring traveller: kind Ethiopian adult, medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border, ochre tunic, brown trousers, sandals. He carefully drops one smooth washed stone into a large clay pot filled with clear water over a small safely contained cooking fire; an adult villager supervises and children watch from several steps away. Warm evening light, culturally respectful, calm and safe. No text, watermark, brands, caricature, stereotype, burns, danger or frightening imagery.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_05_r1.png",
+      "generationFile": "exec-ca60bb93-fd72-4451-ac49-c8d93baed745.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, paper texture. Ethiopian highland village courtyard with earth-and-thatch homes, woven baskets and clay cooking pot, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border and ochre tunic. Several curious Ethiopian children peer safely into the steaming clay pot from behind a low boundary while the traveller kneels beside it and smiles, explaining his playful stone-soup idea. An adult stands nearby supervising. Warm, inviting, culturally respectful. No text, watermark, brands, caricature, stereotype, burns or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_06_r1.png",
+      "generationFile": "exec-66e4cd0f-9864-4ac9-ad5e-323bac293367.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, paper texture. Ethiopian highland village courtyard with clay soup pot, woven baskets and earth-and-thatch homes, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border and ochre tunic. An Ethiopian child and parent together offer a small woven basket of carrots to the traveller, the parent smiling with clear consent; the traveller receives it gratefully beside the safely tended pot. Other children watch warmly. Culturally respectful, cooperative, calm. No text, watermark, brands, caricature, stereotype or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_07_r1.png",
+      "generationFile": "exec-03841f06-8c53-4785-af30-9a62e65be814.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village courtyard with earth-and-thatch homes, woven baskets and a large clay soup pot, warm evening light, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with narrow muted green border, ochre tunic, brown trousers and sandals. Villagers from different generations arrive cheerfully with small contributions: one adult carries potatoes, another carries maize, and an elderly Ethiopian woman offers leafy herbs from her garden. The traveller welcomes each gift beside the safely tended pot. Culturally respectful, cooperative and calm. No text, watermark, brands, caricature, stereotype or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_08_r1.png",
+      "generationFile": "exec-af356417-831e-4097-8b01-e2f5a295f340.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village at dusk with earth-and-thatch homes and narrow footpaths, ages 3-6. Fragrant curls of pale steam drift invitingly from a large clay soup pot in the central courtyard and weave gently between nearby homes. Doors open and Ethiopian villagers of different ages step outside with curious, warming expressions, following the delicious aroma toward the courtyard. Recurring traveller in cream handwoven cloak is visible near the pot in the middle distance. Warm lamps, blue-gold dusk, culturally respectful and calm. No text, visible scent symbols, watermark, brands, caricature, stereotype or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_09_r1.png",
+      "generationFile": "exec-79916614-7c6f-4007-ad1e-fb8d88d5abe4.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village courtyard with earth-and-thatch homes, woven baskets and a large clay soup pot, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border and ochre tunic. A joyful mixed-age group shares the work: one adult gently stirs with a wooden spoon, another arranges bowls, children carry light baskets and napkins, and the traveller tends the small safe fire. Everyone has a clear useful role and warm cooperative expression. Culturally respectful, calm, no unsafe child near flames. No text, watermark, brands, caricature, stereotype or danger.",
+      "tool": "Codex built-in image generator",
+      "generationDate": "2026-07-05",
+      "references": [],
+      "humanEdits": "None; PDF derivatives are resized separately",
+      "reviewStatus": "Draft - family/cultural/visual review pending"
+    },
+    {
+      "assetPath": "assets/images/pilot_review/stone_soup/page_10_r1.png",
+      "generationFile": "exec-b9492ded-8bfc-43b2-8696-07ef6a3abeb9.png",
+      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village courtyard at warm dusk with earth-and-thatch homes, woven mats and bowls, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border and ochre tunic. The traveller holds up the smooth soup stone with a playful, gentle grin while seated villagers realize the friendly trick and laugh with relief. A steaming clay pot and shared bowls show that everyone contributed and will eat together. Expressions are warm, communal and never mocking. Culturally respectful. No text, watermark, brands, caricature, stereotype or danger.",
       "tool": "Codex built-in image generator",
       "generationDate": "2026-07-05",
       "references": [],

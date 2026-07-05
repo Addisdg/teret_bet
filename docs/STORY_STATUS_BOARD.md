@@ -26,9 +26,12 @@ The five exact provisional drafts are frozen for review as packet
 `PILOT-FAMILY-R1-2026-07-05`; see `PILOT_REVIEW_PACKET_R1_2026-07-05.md`.
 Freezing the review copy does not lock text or approve replacement/integration.
 The packet now includes 56 review-candidate illustrations embedded beside the
-matching bilingual page text. This supports combined family, cultural, and
-visual feedback; it does not advance any story to `Illustrated` or
-`Visual approved`.
+matching bilingual page text. All PDF-selected illustrations are newly
+generated PNG assets with exact prompts recorded; the 18 formerly selected
+legacy WebPs for The Lion and the Mouse and Stone Soup are retained only as
+inactive reference fallbacks. This supports combined family, cultural, and
+visual feedback; it does not advance any story to `Illustrated` or `Visual
+approved`.
 
 ## Catalogue summary
 

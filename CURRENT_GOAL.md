@@ -218,7 +218,10 @@ sources. Each of the 56 story sheets pairs its review illustration with Amharic,
 English, the expected visual beat, and focused image/text questions. The visual
 scorecard covers alignment, continuity, cultural respect, and cropping. All 71
 PDF pages were regenerated, structurally verified, rendered, and visually
-inspected; distribution copies remain approximately 2-4 MB each.
+inspected. The Lion and the Mouse pages 1-8 and Stone Soup pages 1-10 now use
+newly generated, prompt-recorded review artwork instead of the preserved legacy
+WebP fallbacks.
+Distribution copies remain approximately 2-4 MB each.
 
 ## Deferred until approved content exists
 
