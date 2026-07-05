@@ -1,5 +1,8 @@
 # ቀድማ የተዘጋጀችው አይጠ መጎጥ
 
+Review revision: `PILOT-FAMILY-R1-2026-07-05-MOUSE-RAT`
+Review status: family/cultural review copy; not text locked
+
 English review title: **The Rat Who Prepared Early**
 Origin basis: Wolayita story collected from Yisihak Aldade
 Draft audience: ages 3-4

@@ -22,6 +22,10 @@ JSON means technically available for review, not editorially approved.
 The three Ethiopian candidates are proposed replacements for `little_match_girl`,
 `steadfast_tin_soldier`, and `swineherd`. No manifest change is approved yet.
 
+The five exact provisional drafts are frozen for review as packet
+`PILOT-FAMILY-R1-2026-07-05`; see `PILOT_REVIEW_PACKET_R1_2026-07-05.md`.
+Freezing the review copy does not lock text or approve replacement/integration.
+
 ## Catalogue summary
 
 | Measure | Current | Release requirement |

@@ -1,5 +1,8 @@
 # የድንጋይ ሾርባ
 
+Review revision: `PILOT-FAMILY-R1-2026-07-05-STONE-SOUP`
+Review status: family read-aloud/setting review copy; not text locked
+
 English review title: **Stone Soup**
 Origin basis: European/international ATU 1548 tradition
 Draft audience: ages 3-6

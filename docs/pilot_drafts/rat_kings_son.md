@@ -1,5 +1,8 @@
 # የአይጦቹ ንጉሥ ልጅ
 
+Review revision: `PILOT-FAMILY-R1-2026-07-05-RAT-KING`
+Review status: family/cultural review copy; not text locked
+
 English review title: **The Rat King's Son**
 Origin basis: Oromia story narrated by Merga Debelo
 Draft audience: ages 5-6

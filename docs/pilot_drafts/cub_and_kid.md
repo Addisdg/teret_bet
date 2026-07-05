@@ -1,5 +1,8 @@
 # የነብር ግልገልና የፍየል ግልገል
 
+Review revision: `PILOT-FAMILY-R1-2026-07-05-CUB-KID`
+Review status: family/cultural/safety review copy; not text locked
+
 English review title: **The Cub and the Kid**
 Origin basis: Amhara story narrated by Magabi Enyew Gessesse
 Draft audience: ages 5-6

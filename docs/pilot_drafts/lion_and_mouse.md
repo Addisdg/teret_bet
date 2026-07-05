@@ -1,5 +1,8 @@
 # አንበሳውና አይጡ
 
+Review revision: `PILOT-FAMILY-R1-2026-07-05-LION-MOUSE`
+Review status: family read-aloud review copy; not text locked
+
 English review title: **The Lion and the Mouse**
 Origin basis: Aesopic public-domain tradition
 Draft audience: ages 3-6

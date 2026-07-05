@@ -202,6 +202,12 @@ targets; recruitment waves; privacy-safe evidence handling; and escalation
 rules. Actual reviewer contact and scheduling remain owner-controlled external
 work.
 
+The five provisional pilot drafts are now frozen as review packet
+`PILOT-FAMILY-R1-2026-07-05`. All 56 pages have paired Amharic and English text
+plus an illustration beat; owner wording changes are reconciled; and checksums
+bind incoming feedback to the exact reviewed wording. This is a review freeze,
+not text lock or catalogue integration approval.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
