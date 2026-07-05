@@ -2,9 +2,10 @@
 
 ## Purpose
 
-This review checks whether the five pilot stories sound natural, hold a young
-child's attention, feel emotionally safe, and have enough room for every story
-beat. It is not a test of the child or the adult reader.
+This review checks whether the five illustrated pilot stories sound natural,
+hold a young child's attention, feel emotionally safe, have enough room for
+every story beat, and use pictures that support both languages. It is not a test
+of the child or the adult reader.
 
 Do not record names, contact details, exact birth dates, photos, audio, video,
 medical information, or anything else that could identify a child. Use only an
@@ -21,7 +22,8 @@ escalation are defined in `REVIEWER_OPERATIONS.md`.
 4. The Lion and the Mouse — ages 3-4 and 5-6.
 5. Stone Soup — ages 3-4 and 5-6.
 
-Drafts are in `docs/pilot_drafts/`. Read the Amharic version first. Test the
+Use the versioned illustrated PDFs linked from
+`PILOT_REVIEW_PACKET_R1_2026-07-05.md`. Read the Amharic version first. Test the
 English version in a separate sitting when possible so switching languages does
 not distort attention or pacing.
 
@@ -59,6 +61,12 @@ The adult should mark the page number whenever:
 - a moment creates delight, prediction, repetition, or a request to continue;
 - conflict appears frightening, shaming, or unsafe;
 - the illustration beat would not explain or support the page.
+- the picture conflicts with either language version or omits the main action;
+- a recurring character, object, home, landscape, or clothing detail changes;
+- cultural or setting details feel inaccurate, generic, stereotyped, or out of
+  place;
+- an expression or composition makes the scene more frightening than the text;
+- the important action would become unclear in portrait or landscape cropping.
 
 Do not quiz the child. Natural comments and reactions are more useful than
 correct answers.
@@ -73,6 +81,11 @@ Ask no more than three gentle questions:
 
 For younger or quieter children, pointing, choosing an emotion face, or asking
 to hear a page again is valid feedback.
+
+The adult should also note spontaneous visual reactions: pointing, naming a
+character, laughing, asking what an object is, mistaking one character for
+another, or using the picture to predict the next event. Do not ask the child to
+rate artistic quality.
 
 ## Story-specific watch points
 
@@ -119,6 +132,8 @@ A story may advance to `Read-aloud approved` only when:
 - children can follow the main cause-and-effect sequence without coaching;
 - page breaks feel natural and no beat is cramped;
 - Amharic and English each work as complete tellings;
+- pictures support both tellings without unresolved mismatch, continuity,
+  cultural, safety, or crop concerns;
 - the owner explicitly approves the recorded evidence.
 
 Use `Revise` for fixable wording, pacing, or page-flow issues. Use `Replace` if

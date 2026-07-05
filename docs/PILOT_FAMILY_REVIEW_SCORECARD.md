@@ -27,7 +27,12 @@ Rate `1` (serious problem) to `5` (ready), or mark `N/A`.
 | Conflict felt emotionally safe | | |
 | Ending felt clear and satisfying | | |
 | Child remained interested | | |
-| Illustration beats would support understanding | | |
+| Images match both language versions | | |
+| Main action is visually clear | | |
+| Recurring characters remain recognisable | | |
+| Culture and setting feel respectful | | |
+| Expressions and composition feel emotionally safe | | |
+| Important content survives portrait/landscape cropping | | |
 
 ## Observations
 
@@ -41,6 +46,12 @@ Rate `1` (serious problem) to `5` (ready), or mark `N/A`.
 | Child's remembered part | |
 | Child's expressed feeling | |
 | Suggested wording or story change | |
+| Image-text mismatch or missing visual information | |
+| Character, object, clothing, or setting inconsistency | |
+| Cultural or representation concern | |
+| Visual fear, confusion, or unintended meaning | |
+| Cropping or composition concern | |
+| Child's spontaneous visual reaction | |
 
 ## Reviewer recommendation
 
@@ -50,6 +61,7 @@ Rate `1` (serious problem) to `5` (ready), or mark `N/A`.
 - [ ] Reconsider age band.
 - [ ] Cultural review needed.
 - [ ] Safety review needed.
+- [ ] Revise or regenerate one or more images.
 - [ ] Replace this candidate.
 
 Reviewer note:
@@ -66,6 +78,7 @@ Complete after all sessions for one story.
 | Independent adult reviewers | |
 | Material issues resolved | Yes / No |
 | Cultural review complete where required | Yes / No |
+| Visual findings resolved or accepted | Yes / No |
 | Recommended status | Revise / Replace / Read-aloud approved |
 | Owner decision and date | |
 

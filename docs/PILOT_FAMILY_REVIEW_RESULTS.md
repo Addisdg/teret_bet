@@ -13,6 +13,8 @@ Status: Awaiting family review
 - Age bands:
 - Language findings:
 - Flow/page findings:
+- Image-text and continuity findings:
+- Visual cultural/cropping findings:
 - Safety/cultural findings:
 - Required revisions:
 - Owner decision:
@@ -25,6 +27,8 @@ Status: Awaiting family review
 - Age bands:
 - Language findings:
 - Flow/page findings:
+- Image-text and continuity findings:
+- Visual cultural/cropping findings:
 - Trust/safety findings:
 - Required revisions or replacement decision:
 - Owner decision:
@@ -37,6 +41,8 @@ Status: Awaiting family review
 - Age bands:
 - Language findings:
 - Flow/page findings:
+- Image-text and continuity findings:
+- Visual cultural/cropping findings:
 - Family-frame/cultural findings:
 - Required revisions:
 - Owner decision:
@@ -49,6 +55,8 @@ Status: Awaiting family review
 - Age bands:
 - Language findings:
 - Flow/page findings:
+- Image-text and continuity findings:
+- Visual/cropping findings:
 - Safety findings:
 - Required revisions:
 - Owner decision:
@@ -61,6 +69,8 @@ Status: Awaiting family review
 - Age bands:
 - Language findings:
 - Flow/page findings:
+- Image-text and continuity findings:
+- Visual cultural/cropping findings:
 - Setting/cultural findings:
 - Required revisions:
 - Owner decision:

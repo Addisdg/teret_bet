@@ -27,7 +27,7 @@ owner-controlled location.
 
 - Has relevant language, community, regional, folklore, or cultural knowledge.
 - Reviews origin wording, cultural context, names, relationships, setting,
-  adaptation choices, and claims about the tradition.
+  adaptation choices, claims about the tradition, and visual representation.
 - May reject an attribution or candidate even when the story reads smoothly.
 - Is not presented as representing an entire community.
 
@@ -110,9 +110,10 @@ personal phone number or reviewer email into committed documents.
 
 Send only:
 
-- one versioned story draft;
+- one versioned illustrated story PDF;
 - `PILOT_FAMILY_REVIEW_GUIDE.md`;
-- a blank copy of `PILOT_FAMILY_REVIEW_SCORECARD.md`;
+- the scorecard embedded in the PDF (or a separate blank copy of
+  `PILOT_FAMILY_REVIEW_SCORECARD.md` when preferred);
 - the assigned anonymous session code; and
 - a private return route controlled by the owner.
 
@@ -131,6 +132,9 @@ the session record so later feedback can be matched to the wording reviewed.
    `replacement trigger`.
 6. Keep contradictory observations visible; do not average away a safety or
    cultural concern.
+7. Separate text, image-text alignment, character continuity, cultural/setting,
+   emotional-safety, and crop findings so a visual concern is not misfiled as a
+   wording problem.
 
 Example repository-safe finding:
 
@@ -162,6 +166,7 @@ personal event.`
 - [ ] At least five adult family reviewers available.
 - [ ] Both age bands can be represented.
 - [ ] Every outgoing draft has a revision date or ID.
+- [ ] Every outgoing PDF opens correctly and shows its page illustrations.
 - [ ] Reviewers receive the no-child-identity instruction.
 - [ ] Raw scorecards remain outside Git.
 - [ ] Owner has time reserved to triage findings between waves.

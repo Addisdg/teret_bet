@@ -208,6 +208,11 @@ plus an illustration beat; owner wording changes are reconciled; and checksums
 bind incoming feedback to the exact reviewed wording. This is a review freeze,
 not text lock or catalogue integration approval.
 
+Reviewer operations, the family guide, the reusable scorecard, and the
+de-identified results template now capture real visual evidence alongside text:
+image-text alignment, character continuity, cultural and setting fit, emotional
+safety, child response, and portrait/landscape cropping.
+
 Five printable R1 reviewer PDFs now accompany the checksum-bound Markdown
 sources. Each of the 56 story sheets pairs its review illustration with Amharic,
 English, the expected visual beat, and focused image/text questions. The visual
