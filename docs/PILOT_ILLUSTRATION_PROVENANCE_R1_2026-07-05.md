@@ -26,6 +26,12 @@ its generation event filename, tool, date, references, edits, and review status.
   reference fallbacks. The PDF generator selects the matching `_r1.png` first.
 - Generated images were not manually repainted. PDF-only JPEG derivatives are
   resized and encoded under `tmp/pdfs/`; they are not source assets.
+- On 2026-07-06, owner visual review triggered targeted model edits to
+  `lion_and_mouse/page_09_r1.png` for watercolor continuity,
+  `stone_soup/page_09_r1.png` to remove a duplicate traveller, and
+  `stone_soup/page_12_r1.png` to replace priest-like headwear with ordinary
+  uncovered traveller clothing. The manifest records the exact edit prompts
+  and prior asset paths used as edit targets.
 
 ## Review gate
 

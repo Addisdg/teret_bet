@@ -195,12 +195,14 @@
     },
     {
       "assetPath": "assets/images/pilot_review/lion_and_mouse/page_09_r1.png",
-      "generationFile": "exec-be4306ef-deea-4de5-b823-532c5b022e42.png",
-      "prompt": "Use case: illustration-story. Teret Bet review illustration, 4:3 landscape. Page 9 of The Lion and the Mouse: in warm Ethiopian grassland beneath an acacia, a tiny gray-brown mouse stands proudly beside a small pile of loose separated cord pieces while a friendly golden lion with a full brown mane rises comfortably and freely; both are visibly relieved and smiling after solving the problem together. Warm polished painterly 3D children's picture-book style matching existing Teret Bet catalogue, gentle and safe for ages 3-6, no restraint, danger, injury, claws, people, text or watermark; central crop-safe composition.",
+      "generationFile": "exec-f5008887-3c2b-4ccf-830c-4e67fa2d99ec.png",
+      "prompt": "Use case: style-transfer. Edit target: the supplied Lion and Mouse page 9 illustration. Repaint the entire scene as an original hand-painted watercolor and gouache children's picture-book illustration with visible paper texture, matching pages 1-8 of this sequence. Preserve the story beat and composition: the tiny gray-brown field mouse has just finished chewing through the rope, the freed adult African lion with full dark-brown mane looks grateful, and loose cut rope lies safely on the ground beneath an Ethiopian savanna acacia. Make both animals anatomically natural with gentle, restrained expressions and consistent proportions; remove the glossy 3D animated-film look, oversized eyes, humanlike grin, and exaggerated mouse ears. Warm earth colors, wide 4:3, calm and safe for ages 3-6. No text, watermark, brands, film-character resemblance, injury, frightening imagery, extra animals or people.",
       "tool": "Codex built-in image generator",
-      "generationDate": "2026-07-05",
-      "references": [],
-      "humanEdits": "None; PDF derivatives are resized separately",
+      "generationDate": "2026-07-06",
+      "references": [
+        "assets/images/pilot_review/lion_and_mouse/page_09_r1.png (edit target)"
+      ],
+      "humanEdits": "None; targeted model edit replaces the prior review candidate; PDF derivatives are resized separately",
       "reviewStatus": "Draft - family/cultural/visual review pending"
     },
     {
@@ -535,12 +537,14 @@
     },
     {
       "assetPath": "assets/images/pilot_review/stone_soup/page_09_r1.png",
-      "generationFile": "exec-79916614-7c6f-4007-ad1e-fb8d88d5abe4.png",
-      "prompt": "Use case: illustration-story. Hand-painted watercolor and gouache children's picture-book illustration, wide 4:3, visible paper texture. Ethiopian highland village courtyard with earth-and-thatch homes, woven baskets and a large clay soup pot, ages 3-6. Recurring traveller: kind Ethiopian adult with medium-brown skin, short dark curly hair, cream handwoven cloak with muted green border and ochre tunic. A joyful mixed-age group shares the work: one adult gently stirs with a wooden spoon, another arranges bowls, children carry light baskets and napkins, and the traveller tends the small safe fire. Everyone has a clear useful role and warm cooperative expression. Culturally respectful, calm, no unsafe child near flames. No text, watermark, brands, caricature, stereotype or danger.",
+      "generationFile": "exec-a0a327a9-68bc-4e1a-96e8-223e1a08b6c7.png",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied Stone Soup page 9 illustration. Preserve the watercolor-and-gouache medium, Ethiopian highland village courtyard, clay soup pot, all architecture, children, baskets, preparation actions, lighting, wide 4:3 composition, and the one recurring traveller seated behind the pot stirring it: medium-brown skin, short dark curly hair, cream handwoven cloak with narrow muted green border and ochre tunic. Change only the duplicate traveller kneeling in the lower-right foreground by the fire. Replace that duplicate with a clearly different middle-aged Ethiopian village woman wearing a modest muted blue-green ankle-length dress and a simple cream woven shawl over her shoulders, uncovered natural dark hair, calmly tending the small fire with a stick. She must not resemble the traveller and must have no turban, cap, religious robe, clerical headwear, or ceremonial clothing. Keep children safely away from flames. Natural varied faces, culturally respectful, ages 3-6. No text, watermark, brands, caricature, stereotypes or extra duplicated people.",
       "tool": "Codex built-in image generator",
-      "generationDate": "2026-07-05",
-      "references": [],
-      "humanEdits": "None; PDF derivatives are resized separately",
+      "generationDate": "2026-07-06",
+      "references": [
+        "assets/images/pilot_review/stone_soup/page_09_r1.png (edit target)"
+      ],
+      "humanEdits": "None; targeted model edit replaces the prior review candidate; PDF derivatives are resized separately",
       "reviewStatus": "Draft - family/cultural/visual review pending"
     },
     {
@@ -565,12 +569,14 @@
     },
     {
       "assetPath": "assets/images/pilot_review/stone_soup/page_12_r1.png",
-      "generationFile": "exec-c294441c-67d3-407f-804d-12b2823607ab.png",
-      "prompt": "Original hand-painted watercolor and gouache children's picture-book illustration, wide 4:3. After a shared meal in a warm Ethiopian highland village courtyard, one clean smooth round stone rests clearly beside a group of empty clay soup bowls on a woven mat. A kind travelling adult, children, elders and neighbours sit nearby smiling together in quiet understanding. Earthen round homes, woven baskets and soft lantern light create a cosy evening atmosphere. Culturally respectful, gentle for ages 3-6, central crop-safe composition. No text, watermark, brands or caricature.",
+      "generationFile": "exec-8e52539a-5214-4895-b3b2-f055a912bd15.png",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied Stone Soup page 12 illustration. Preserve the watercolor-and-gouache medium, Ethiopian highland village at dusk, seated community, children, elders, clay bowls, smooth stone on the woven mat, architecture, lanterns, expressions, lighting and wide 4:3 composition. Change the adult man seated on the far left so he is clearly the recurring traveller from earlier pages: medium-brown skin, short uncovered dark curly hair, neatly trimmed short beard, simple cream handwoven cloak with a narrow muted green border, ochre tunic and brown trousers. Remove his large white wrapped turban and any priest-like, clerical, religious, ceremonial or status headwear; do not replace it with any hat or head covering. Keep his ordinary traveller clothing simple and non-religious. Preserve all other people and details as much as possible. Natural varied faces, culturally respectful, calm for ages 3-6. No text, watermark, brands, caricature, stereotype or duplicated traveller.",
       "tool": "Codex built-in image generator",
-      "generationDate": "2026-07-05",
-      "references": [],
-      "humanEdits": "None; PDF derivatives are resized separately",
+      "generationDate": "2026-07-06",
+      "references": [
+        "assets/images/pilot_review/stone_soup/page_12_r1.png (edit target)"
+      ],
+      "humanEdits": "None; targeted model edit replaces the prior review candidate; PDF derivatives are resized separately",
       "reviewStatus": "Draft - family/cultural/visual review pending"
     }
   ]
