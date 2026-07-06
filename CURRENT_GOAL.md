@@ -239,6 +239,11 @@ The frozen R1 visual packet now has a tracked integrity manifest covering all
 checks the five text drafts, exact expected file coverage, hashes, and prompt
 provenance before any reviewer bundle is distributed.
 
+A privacy-safe session builder now creates one ready-to-send story archive from
+a validated anonymous code and an owner-controlled return-instructions file
+outside Git. It verifies the frozen packet first, writes only to an ignored
+output directory, and emits a checksum without printing the private route.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

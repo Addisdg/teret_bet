@@ -124,6 +124,11 @@ Verify the generated archives from their output directory with:
 sha256sum -c SHA256SUMS
 ```
 
+For an assigned session, prefer `tool/build_pilot_review_session.py` as
+documented in `REVIEWER_OPERATIONS.md`. It inserts the validated anonymous code
+and owner-controlled private return instructions into one ignored, story-only
+archive after the frozen packet integrity check passes.
+
 ## First-wave assignment board
 
 Fill codes only; do not add names or contact information.

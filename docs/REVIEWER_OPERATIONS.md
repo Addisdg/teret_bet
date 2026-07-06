@@ -120,6 +120,24 @@ Send only:
 Do not send unreconciled alternate drafts. Put the draft date or revision ID in
 the session record so later feedback can be matched to the wording reviewed.
 
+### Build a ready-to-send session archive
+
+Keep private return instructions in a plain-text file outside this repository,
+then build exactly one assigned session. For example:
+
+```bash
+python3 tool/build_pilot_review_session.py \
+  --story lion_and_mouse \
+  --session-code PILOT-LION-MOUSE-R01-A34-AM-01 \
+  --return-file /private/path/return-instructions.txt
+```
+
+The tool validates the story-specific anonymous-code format, verifies the
+frozen text-and-visual packet, and writes one ignored ZIP plus a SHA-256 sidecar
+under `output/reviewer_sessions/`. It does not print the private return route.
+Never place the return-instructions file, reviewer roster, or generated session
+archive in Git.
+
 ## Evidence handling
 
 1. Keep raw scorecards outside Git.

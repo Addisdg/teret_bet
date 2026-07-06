@@ -58,3 +58,4 @@ app.*.map.json
 /android/app/release
 # Generated reviewer delivery archives; rebuild from tracked PDFs and guides.
 output/reviewer_bundles/
+output/reviewer_sessions/

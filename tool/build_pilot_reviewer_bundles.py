@@ -36,13 +36,19 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def instructions(title: str, revision: str) -> str:
+def instructions(
+    title: str,
+    revision: str,
+    *,
+    session_code: str = "[OWNER ADDS BEFORE SENDING]",
+    return_instructions: str = "[OWNER ADDS BEFORE SENDING]",
+) -> str:
     return f"""# Teret Bet pilot review session
 
 Story: {title}
 Revision: {revision}
-Anonymous session code: [OWNER ADDS BEFORE SENDING]
-Private feedback return route: [OWNER ADDS BEFORE SENDING]
+Anonymous session code: {session_code}
+Private feedback return route: {return_instructions}
 
 Please read the included review guide before the session. Read this one story
 naturally with a child in the assigned broad age band. This reviews the story
