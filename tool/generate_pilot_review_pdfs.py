@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -12,6 +13,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import (
     KeepTogether,
     Image as ReviewImage,
@@ -41,6 +43,14 @@ STORIES = [
     ("lion_and_mouse", "The Lion and the Mouse"),
     ("stone_soup", "Stone Soup"),
 ]
+
+
+class InvariantCanvas(Canvas):
+    """Use stable PDF metadata and document IDs for reproducible builds."""
+
+    def __init__(self, *args, **kwargs) -> None:
+        kwargs["invariant"] = 1
+        super().__init__(*args, **kwargs)
 
 
 class FixedLabel(Flowable):
@@ -506,7 +516,12 @@ def build_pdf(slug: str, english_title: str) -> Path:
         ]
     )
 
-    doc.build(flow, onFirstPage=page_decor, onLaterPages=page_decor)
+    doc.build(
+        flow,
+        onFirstPage=page_decor,
+        onLaterPages=page_decor,
+        canvasmaker=InvariantCanvas,
+    )
     return output
 
 
@@ -545,10 +560,24 @@ def verify_pdf(path: Path, source: dict) -> None:
         raise RuntimeError(f"{path.name}: observations page is missing")
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate structurally verified pilot reviewer PDFs."
+    )
+    parser.add_argument(
+        "--story",
+        choices=[slug for slug, _ in STORIES],
+        help="Rebuild only one story PDF; omit to rebuild the complete packet.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    outputs = [build_pdf(slug, title) for slug, title in STORIES]
-    for (slug, _), output in zip(STORIES, outputs):
+    selected = [story for story in STORIES if not args.story or story[0] == args.story]
+    outputs = [build_pdf(slug, title) for slug, title in selected]
+    for (slug, _), output in zip(selected, outputs):
         source = parse_story(ROOT / "docs/pilot_drafts" / f"{slug}.md")
         verify_pdf(output, source)
         print(f"{output.relative_to(ROOT)}: verified")

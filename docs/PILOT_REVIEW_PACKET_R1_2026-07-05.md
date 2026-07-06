@@ -35,6 +35,10 @@ page-specific note lines, an expanded visual scorecard, and an observations
 sheet. Generate and verify them with `tool/generate_pilot_review_pdfs.py`. The
 generator fails when an illustration, page label, scorecard, observations sheet,
 or expected page is missing. Markdown remains the authoritative text source.
+PDF metadata and document IDs are invariant, so rebuilding unchanged inputs is
+byte-for-byte reproducible. Use `--story lion_and_mouse` (or another story
+slug) to rebuild and verify only one corrected packet; omit `--story` for all
+five.
 
 The integrated set contains 56 embedded illustrations across 71 PDF pages. All
 71 pages were rendered and visually inspected on 2026-07-05. Distribution files

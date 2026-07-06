@@ -229,6 +229,11 @@ guide, blank scorecard, and placeholders for the owner's anonymous session code
 and private return route. The archives are generated locally and ignored by
 Git; their checksum manifest verifies the exact files being distributed.
 
+Pilot PDF builds are now reproducible: invariant metadata and document IDs
+produce identical hashes for unchanged inputs. The generator also accepts a
+single `--story` slug, so a targeted illustration correction can rebuild and
+verify only its affected packet without rewriting unrelated PDFs.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.
