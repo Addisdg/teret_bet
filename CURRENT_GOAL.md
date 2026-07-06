@@ -234,6 +234,11 @@ produce identical hashes for unchanged inputs. The generator also accepts a
 single `--story` slug, so a targeted illustration correction can rebuild and
 verify only its affected packet without rewriting unrelated PDFs.
 
+The frozen R1 visual packet now has a tracked integrity manifest covering all
+56 selected illustrations and five reproducible PDFs. A combined verifier also
+checks the five text drafts, exact expected file coverage, hashes, and prompt
+provenance before any reviewer bundle is distributed.
+
 ## Deferred until approved content exists
 
 - Firestore production catalogue upload.

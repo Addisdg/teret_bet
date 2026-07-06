@@ -45,18 +45,31 @@ The integrated set contains 56 embedded illustrations across 71 PDF pages. All
 are approximately 2-4 MB each; review-only JPEG derivatives are generated under
 `tmp/pdfs/` and do not replace the source artwork.
 
-## Integrity check
+## Integrity checks
 
-The checksum file identifies the exact R1 wording:
+The text checksum identifies the exact R1 wording:
 
 ```bash
 sha256sum -c docs/pilot_drafts/PILOT_FAMILY_R1_2026-07-05.sha256
 ```
 
-If a draft changes, do not silently update the checksum while reviews are in
-progress. Create a new revision, record which findings caused the change, and
-route later sessions to that revision. Feedback is valid only for the revision
-the adult actually read.
+The visual checksum binds all 56 selected source illustrations and the five
+reproducible reviewer PDFs:
+
+```bash
+sha256sum -c docs/pilot_drafts/PILOT_FAMILY_R1_2026-07-05_VISUAL.sha256
+```
+
+The combined verifier also checks exact file coverage and prompt provenance:
+
+```bash
+python3 tool/verify_pilot_review_packet.py
+```
+
+If a draft, selected image, or PDF changes, do not silently update its checksum
+while reviews are in progress. Create a new revision, record which findings
+caused the change, and route later sessions to that revision. Feedback is valid
+only for the exact text-and-visual revision the adult actually reviewed.
 
 ## Owner-change reconciliation
 

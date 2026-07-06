@@ -2,6 +2,8 @@
 
 ## Every integrated story batch
 
+- [ ] Run `python3 tool/verify_pilot_review_packet.py` before distributing a
+      pilot review bundle; never refresh a frozen revision checksum silently.
 - [ ] Page numbers are sequential; length follows narrative flow.
 - [ ] Every page has natural Amharic and English text and accurate artwork.
 - [ ] Provenance, rights, review evidence, and image logs are complete.

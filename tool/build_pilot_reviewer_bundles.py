@@ -7,6 +7,8 @@ import hashlib
 import zipfile
 from pathlib import Path
 
+from verify_pilot_review_packet import main as verify_packet
+
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKET_ID = "PILOT-FAMILY-R1-2026-07-05"
@@ -75,6 +77,7 @@ def build_bundle(slug: str, title: str, revision_suffix: str) -> Path:
 
 
 def main() -> None:
+    verify_packet()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     bundles = [
         build_bundle(slug, title, revision_suffix)
