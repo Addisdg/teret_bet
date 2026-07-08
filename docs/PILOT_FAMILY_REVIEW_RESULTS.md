@@ -4,6 +4,8 @@ This file holds anonymous story-level summaries only. Keep individual scorecard
 copies outside Git if they contain free-form details that could accidentally
 identify a family. Transfer only de-identified findings needed for revision.
 Use the coding and evidence-handling rules in `REVIEWER_OPERATIONS.md`.
+Record individual material issues in `PILOT_REVIEW_FINDINGS_REGISTER.md` after
+following the privacy and severity rules in `PILOT_FEEDBACK_TRIAGE.md`.
 
 ## The Rat Who Prepared Early
 

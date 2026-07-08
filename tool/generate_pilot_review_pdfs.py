@@ -243,16 +243,10 @@ def blank_lines(count: int, width: float = 168 * mm) -> Table:
 
 def page_image_path(slug: str, page_number: int) -> Path:
     story_dir = IMAGE_ROOT / slug
-    candidates = [
-        story_dir / f"page_{page_number:02d}_r1.png",
-        story_dir / f"page_{page_number:02d}.webp",
-    ]
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    raise FileNotFoundError(
-        f"Missing pilot image for {slug} page {page_number}: {candidates}"
-    )
+    candidate = story_dir / f"page_{page_number:02d}_r1.png"
+    if candidate.exists():
+        return candidate
+    raise FileNotFoundError(f"Missing current pilot image: {candidate}")
 
 
 def pdf_image_path(slug: str, page_number: int) -> Path:

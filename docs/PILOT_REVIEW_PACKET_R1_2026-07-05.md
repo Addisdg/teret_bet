@@ -131,22 +131,28 @@ archive after the frozen packet integrity check passes.
 
 ## First-wave assignment board
 
-Fill codes only; do not add names or contact information.
+Codes and launch order are defined in `PILOT_FIRST_WAVE_LAUNCH_PLAN.md`. Do not
+add names or contact information here.
 
 | Story | Cultural/specialist code | Family session code(s) | State |
 | --- | --- | --- | --- |
-| The Rat Who Prepared Early | | | Unassigned |
-| The Cub and the Kid | | | Unassigned |
-| The Rat King's Son | | | Unassigned |
-| The Lion and the Mouse | N/A / language reviewer | | Unassigned |
-| Stone Soup | N/A / setting reviewer | | Unassigned |
+| The Rat Who Prepared Early | `C01` | `R01` | Prepared; awaiting private match |
+| The Cub and the Kid | `C02` | Second wave after specialist review | Prepared; awaiting private match |
+| The Rat King's Son | `C03` | `R02` | Prepared; awaiting private match |
+| The Lion and the Mouse | N/A / language reviewer | `R03` | Prepared; awaiting private match |
+| Stone Soup | N/A / setting reviewer | `R04` | Prepared; awaiting private match |
 
 ## Return and triage
 
 - Raw scorecards stay outside Git until de-identified.
-- Transfer page-specific findings to `PILOT_FAMILY_REVIEW_RESULTS.md`.
+- Transfer page-specific material findings to
+  `PILOT_REVIEW_FINDINGS_REGISTER.md`; keep
+  `PILOT_FAMILY_REVIEW_RESULTS.md` for story-level coverage and decisions.
+- Use `PILOT_FEEDBACK_TRIAGE.md` for category, severity, stop-finding, and R2
+  revision rules.
 - Mark each material finding `open`, `resolved`, `accepted`, or
-  `replacement trigger`.
+  `replacement trigger`; use `deferred` only for an explicit owner-approved
+  non-pilot item.
 - Pause further circulation of a draft after a cultural-attribution or
   child-safety concern until the owner triages it.
 - Do not advance any story beyond `Language reviewed; provisional` from this

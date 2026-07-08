@@ -208,6 +208,12 @@ plus an illustration beat; owner wording changes are reconciled; and checksums
 bind incoming feedback to the exact reviewed wording. This is a review freeze,
 not text lock or catalogue integration approval.
 
+Pilot feedback triage is now defined in `docs/PILOT_FEEDBACK_TRIAGE.md` and
+`docs/PILOT_REVIEW_FINDINGS_REGISTER.md`. Raw reviewer responses remain outside
+Git; only de-identified, page-specific findings enter the repository with
+category, severity, status, and owner decision. This prepares the R1-to-R2
+decision path while the owner gathers first-wave feedback.
+
 Reviewer operations, the family guide, the reusable scorecard, and the
 de-identified results template now capture real visual evidence alongside text:
 image-text alignment, character continuity, cultural and setting fit, emotional
@@ -219,8 +225,9 @@ English, the expected visual beat, and focused image/text questions. The visual
 scorecard covers alignment, continuity, cultural respect, and cropping. All 71
 PDF pages were regenerated, structurally verified, rendered, and visually
 inspected. The Lion and the Mouse pages 1-8 and Stone Soup pages 1-10 now use
-newly generated, prompt-recorded review artwork instead of the preserved legacy
-WebP fallbacks.
+newly generated, prompt-recorded review artwork. Superseded legacy WebP review
+copies were removed after the current PNG packet was checksum-verified; the
+catalogue originals and external original-image backup remain preserved.
 Distribution copies remain approximately 2-4 MB each.
 
 Five privacy-safe single-story reviewer bundles can now be generated with
@@ -243,6 +250,11 @@ A privacy-safe session builder now creates one ready-to-send story archive from
 a validated anonymous code and an owner-controlled return-instructions file
 outside Git. It verifies the frozen packet first, writes only to an ignored
 output directory, and emits a checksum without printing the private route.
+
+The first pilot review wave now has a seven-session launch plan with specialist-
+first sequencing, anonymous codes, Amharic and English invitation copy, pause
+rules, private owner actions, and a completion gate. Real reviewer matching,
+contact, consent, and the private feedback route remain owner-controlled.
 
 ## Deferred until approved content exists
 

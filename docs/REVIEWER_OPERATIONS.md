@@ -93,6 +93,9 @@ Recommended first wave:
 - The Lion and the Mouse and Stone Soup: one Amharic session each to establish
   the imported-story repair baseline.
 
+The prepared seven-session order, anonymous codes, invitation copy, and owner
+launch checklist are in `PILOT_FIRST_WAVE_LAUNCH_PLAN.md`.
+
 ## Adult invitation template
 
 > Teret Bet is preparing illustrated Amharic and English stories for families
@@ -146,13 +149,15 @@ archive in Git.
 3. Convert findings into page-specific, de-identified statements.
 4. Add only those statements and coverage totals to
    `PILOT_FAMILY_REVIEW_RESULTS.md`.
-5. Record every material finding as `open`, `resolved`, `accepted`, or
-   `replacement trigger`.
+5. Record every material finding in `PILOT_REVIEW_FINDINGS_REGISTER.md` as
+   `open`, `resolved`, `accepted`, `deferred`, or `replacement trigger`.
 6. Keep contradictory observations visible; do not average away a safety or
    cultural concern.
 7. Separate text, image-text alignment, character continuity, cultural/setting,
    emotional-safety, and crop findings so a visual concern is not misfiled as a
    wording problem.
+8. Use `PILOT_FEEDBACK_TRIAGE.md` to assign category, severity, stop-finding,
+   and R2 revision decisions.
 
 Example repository-safe finding:
 

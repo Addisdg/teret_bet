@@ -22,8 +22,10 @@ its generation event filename, tool, date, references, edits, and review status.
 
 - No third-party illustration was supplied as a generation reference.
 - The five draft Markdown files supplied the narrative and illustration beats.
-- Existing catalogue WebPs remain preserved non-destructively as inactive
-  reference fallbacks. The PDF generator selects the matching `_r1.png` first.
+- Superseded catalogue WebP copies were removed from the pilot-review folders
+  after every page had a verified, prompt-recorded `_r1.png`. Their originals
+  remain preserved in the bundled catalogue and external original-image backup.
+  The PDF generator now accepts only the current `_r1.png` review assets.
 - Generated images were not manually repainted. PDF-only JPEG derivatives are
   resized and encoded under `tmp/pdfs/`; they are not source assets.
 - On 2026-07-06, owner visual review triggered targeted model edits to

@@ -10,5 +10,7 @@ for review, but none may enter the release catalogue while its provenance or
 rights status remains unresolved.
 
 Exact revised prompts for the project-generated PNGs are mapped by asset path in
-`docs/pilot_illustration_prompts_r1.json`. The copied Lion/Mouse and Stone Soup
-WebPs retain the legacy provenance gap documented in the Markdown register.
+`docs/pilot_illustration_prompts_r1.json`. Only the current `_r1.png` review
+assets belong in these story folders. Superseded legacy WebP review copies were
+removed after corrected PNG coverage and packet checksums were verified; their
+catalogue originals and external original-image backup remain preserved.
