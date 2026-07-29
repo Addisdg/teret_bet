@@ -27,6 +27,18 @@ endings, and text-image mismatch. Add, remove, split, merge, or reorder pages
 as the narrative requires. Page count may increase at any stage before text
 lock, and artwork scope increases with it.
 
+## Story significance and batch selection
+
+Do not choose only the shortest or easiest stories merely to keep batches small.
+When a story is important to the product mission, cultural breadth, emotional
+range, Ethiopian visibility, or the balanced 50-story launch catalogue, include
+it even if it needs more pages, more review time, or more illustration work.
+
+Use page count as a planning and production estimate, not as a quality limit.
+If a significant story needs extra setup, transition, emotion, action, or
+resolution pages, expand it. If a story becomes too dense for young children,
+split the beats instead of shrinking the language or artwork.
+
 ## Batch definition of done
 
 All five stories reach the same board status; provenance and image logs are

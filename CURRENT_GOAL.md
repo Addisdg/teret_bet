@@ -214,6 +214,18 @@ Git; only de-identified, page-specific findings enter the repository with
 category, severity, status, and owner decision. This prepares the R1-to-R2
 decision path while the owner gathers first-wave feedback.
 
+Batch 2 content preparation is now opened as
+`BATCH2-AESOP-R1-DRAFT-2026-07-08` under `docs/batch2_drafts/`. It drafts five
+existing Aesop repairs — The Fox and the Grapes, The Tortoise and the Hare, The
+Crow and the Pitcher, The Dog and His Reflection, and The Goose That Laid the
+Golden Eggs — without touching live catalogue JSON, images, or the active pilot
+review packet. The next gate is owner Amharic/read-aloud review.
+
+Future content selection should not be biased toward only short stories. Use
+short Aesop stories to calibrate the read-aloud voice, then include the most
+mission-significant Ethiopian, African, and major world stories even when they
+need higher page counts and heavier illustration/review scope.
+
 Reviewer operations, the family guide, the reusable scorecard, and the
 de-identified results template now capture real visual evidence alongside text:
 image-text alignment, character continuity, cultural and setting fit, emotional

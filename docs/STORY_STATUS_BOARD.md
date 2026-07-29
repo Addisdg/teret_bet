@@ -50,3 +50,24 @@ Update this board after every owner approval and completed quality gate.
 Family-test instructions, scorecards, and de-identified results are maintained
 in `PILOT_FAMILY_REVIEW_GUIDE.md`, `PILOT_FAMILY_REVIEW_SCORECARD.md`, and
 `PILOT_FAMILY_REVIEW_RESULTS.md`.
+
+## Batch 2 draft lane
+
+Batch 2 is a parallel text/provenance preparation lane only. It does not change
+the live catalogue, story manifest, images, or first pilot review packet.
+This lower-risk Aesop batch is a voice-calibration batch, not a future selection
+constraint. Later content batches should include the most significant stories
+for the Teret Bet mission even when those stories require more pages, more
+review, and more illustration scope.
+
+| Slot | Story | Work type | Current status | Next evidence |
+| --- | --- | --- | --- | --- |
+| 1 | The Fox and the Grapes | Existing Aesop repair | Drafted; not owner-reviewed | Owner Amharic read-aloud and page-flow review |
+| 2 | The Tortoise and the Hare | Existing Aesop repair | Drafted; not owner-reviewed | Owner Amharic read-aloud and page-flow review |
+| 3 | The Crow and the Pitcher | Existing Aesop repair | Drafted; not owner-reviewed | Owner Amharic read-aloud and age-3-4 clarity review |
+| 4 | The Dog and His Reflection | Existing Aesop repair | Drafted; not owner-reviewed | Owner terminology review for `ጥላ` / reflection |
+| 5 | The Goose That Laid the Golden Eggs | Existing Aesop repair | Drafted; not owner-reviewed | Owner safety review of violence-free ending |
+
+The Batch 2 draft files are in `docs/batch2_drafts/` as
+`BATCH2-AESOP-R1-DRAFT-2026-07-08`. They are not text locked and are not
+release-ready.
