@@ -59,3 +59,15 @@ app.*.map.json
 # Generated reviewer delivery archives; rebuild from tracked PDFs and guides.
 output/reviewer_bundles/
 output/reviewer_sessions/
+
+venv/
+__pycache__/
+*.pyc
+*.safetensors
+*.pt
+*.bin
+output/
+*.wav
+*.mp3
+book.html
+.cache/
